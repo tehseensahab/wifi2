@@ -1,0 +1,39 @@
+baseURL = "https://wifiweekly.com/"
+languageCode = "en-us"
+title = "WiFi Weekly"
+enableRobotsTXT = true
+copyright = "WiFi Weekly"
+
+[pagination]
+  pagerSize = 9
+
+[params]
+  description = "Router reviews, mesh network guides, and home-connectivity news."
+  tagline = "Signal, sorted."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name = "Reviews"
+  url = "/categories/reviews/"
+  weight = 10
+
+[[menu.main]]
+  name = "News"
+  url = "/categories/news/"
+  weight = 20
+
+[[menu.main]]
+  name = "Guides"
+  url = "/categories/guides/"
+  weight = 30
+
+[[menu.main]]
+  name = "Deals"
+  url = "/categories/deals/"
+  weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 13C11 6 21 6 28 13" stroke="#1F8A94" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M9 18C13 14 19 14 23 18" stroke="#1F8A94" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="16" cy="24" r="2.6" fill="#E2A63B"/>
+      </svg>
+      <span>
+        <span class="brand-text">WiFi Weekly</span>
+        <span class="brand-tag">Signal, sorted</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
