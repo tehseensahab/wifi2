@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $posts := where .Site.RegularPages "Type" "posts" }}
+{{ $featured := index $posts 0 }}
+{{ $rest := after 1 $posts }}
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-eyebrow"><span class="eyebrow-dot"></span>{{ range $featured.Params.categories }}{{ . }}{{ end }}</div>
+      <h1><a href="{{ $featured.RelPermalink }}">{{ $featured.Title }}</a></h1>
+      <p class="dek">{{ $featured.Params.dek }}</p>
+      <p class="byline">{{ $featured.Date.Format "Jan 2, 2006" }} · {{ $featured.Params.readtime | default "5 min read" }}</p>
+    </div>
+    {{ partial "art.html" (dict "i" 0 "class" "hero-art") }}
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Latest</h2>
+    <a href="/categories/news/">All news →</a>
+  </div>
+  <div class="post-grid">
+    {{ range first 6 $rest }}
+    <article class="card">
+      {{ partial "art.html" (dict "i" (add .Weight 1)) }}
+      <div class="cat"><span class="cat-swatch" style="background:{{ if in .Params.categories "reviews" }}#1F8A94{{ else if in .Params.categories "guides" }}#E2A63B{{ else }}#16233A{{ end }}"></span>{{ range .Params.categories }}{{ . }}{{ end }}</div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p class="excerpt">{{ .Params.dek }}</p>
+      <p class="meta">{{ .Date.Format "Jan 2, 2006" }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Most read this month</h2>
+  </div>
+  <ul class="ranked-list">
+    {{ range $index, $p := first 5 $posts }}
+    <li>
+      <span class="rank-num">{{ add $index 1 }}</span>
+      <div>
+        <h4><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h4>
+        <span class="spec">{{ range $p.Params.categories }}{{ . }}{{ end }}</span>
+      </div>
+      <span class="spec">{{ $p.Params.readtime | default "5 min" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+<section class="wrap" style="padding-bottom: 60px;">
+  <div class="newsletter">
+    <div>
+      <h3>Get the weekly signal report</h3>
+      <p>New router tests, firmware alerts, and deal drops — every Thursday.</p>
+    </div>
+    <form>
+      <input type="email" placeholder="you@email.com">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+{{ end }}
