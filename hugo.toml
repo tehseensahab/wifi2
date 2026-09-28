@@ -10,6 +10,7 @@ copyright = "WiFi Weekly"
 [params]
   description = "Router reviews, mesh network guides, and home-connectivity news."
   tagline = "Signal, sorted."
+  favicon = "📶"
 
 [taxonomies]
   category = "categories"
@@ -37,3 +38,12 @@ copyright = "WiFi Weekly"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[outputFormats.LLMS]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "LLMS"]
