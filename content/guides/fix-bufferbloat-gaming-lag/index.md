@@ -6,7 +6,8 @@ authors: ["Marcus Reyes"]
 topics: ["gaming-streaming", "how-to-fixes"]
 tags: ["bufferbloat", "latency", "qos", "gaming"]
 summary: "Bufferbloat is the lag you get when a busy connection makes data wait in a long queue. Test it with a speed test that measures latency under load, then turn on your router's smart queue or SQM feature and set it a little below your real speed. Wiring your console or PC also removes WiFi from the equation."
-imageAlt: "Gaming console connected to a router with an Ethernet cable on a TV stand"
+imageAlt: "Two people holding game controllers while playing a soccer game on a TV"
+imageCredit: "Photo: JESHOOTS.COM / [Unsplash](https://unsplash.com/photos/eCktzGjC-iU)"
 sample: true
 faq:
   - q: "Is bufferbloat the same as a slow connection?"

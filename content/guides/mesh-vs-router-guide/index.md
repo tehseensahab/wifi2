@@ -5,7 +5,8 @@ description: "The square-footage number on the box is a lab measurement. Here's 
 authors: ["Dana Okafor"]
 topics: ["mesh-wifi", "routers"]
 summary: "The square footage on the box is measured in an open warehouse, so it overstates what you'll get in a real house. Homes under about 1,800 sq ft on one floor usually do fine with one router; multiple floors or several interior walls point to mesh."
-imageAlt: "Router in one room and a mesh node in another room of a two-story home"
+imageAlt: "Living room with a TV on a wooden shelving unit full of books and plants"
+imageCredit: "Photo: Jonas Leupe / [Unsplash](https://unsplash.com/photos/XE6PBDd7_FQ)"
 ---
 
 Manufacturers test coverage claims in an open warehouse with no interior walls. Real houses have plaster, plumbing, and — the biggest signal killer — mirrors and appliances.

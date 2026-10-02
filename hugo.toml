@@ -129,3 +129,10 @@ summaryLength = 30
 
 [outputs]
   home = ["HTML", "RSS", "LLMS", "SearchIndex"]
+
+# Don't publish the original cover.jpg files; only the resized versions are used.
+[[cascade]]
+  [cascade.build]
+    publishResources = false
+  [cascade._target]
+    kind = "page"

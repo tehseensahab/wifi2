@@ -5,7 +5,8 @@ description: "Wi-Fi 7 speeds that finally live up to the box, held back by setup
 authors: ["Dana Okafor"]
 topics: ["routers", "wifi-6e-7"]
 summary: "The Asus RT-BE92U is the fastest router we've tested this year on a real home network, holding median latency under 12 ms with 15 devices online. It's the one to beat if you have a gigabit-plus plan and Wi-Fi 7 devices; on a 300 Mbps plan, save your money. Its weak spot is a mobile app that buries the QoS controls."
-imageAlt: "Asus RT-BE92U Wi-Fi 7 router standing on a shelf in a home office"
+imageAlt: "Close-up of a black Wi-Fi router with several tall antennas"
+imageCredit: "Photo: dlxmedia.hu / [Unsplash](https://unsplash.com/photos/43ak6tfF4Ss)"
 brand: "Asus"
 product: "RT-BE92U"
 price: 399

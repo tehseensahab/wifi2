@@ -35,6 +35,7 @@ Cover images: see `COVER-IMAGES.md`.
 - Review the Privacy and Terms pages with a lawyer.
 - Read the How we test page and edit it so it matches exactly how you test.
 - Fill in `data/authors.yaml`.
+- The two review covers are generic router photos; replace them with photos of the actual products.
 - Posts marked `sample: true` (and review scores marked `PLACEHOLDER`) are sample content. Replace with your real test data.
 - Re-verify the source links in the sample posts.
 

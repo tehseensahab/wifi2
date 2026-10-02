@@ -6,7 +6,8 @@ authors: ["Tehseen Arbab"]
 topics: ["security-privacy", "routers"]
 tags: ["router-security", "wpa3", "firmware"]
 summary: "Most router attacks succeed because of weak admin passwords, old firmware, or services you never use. Change the admin password, turn on automatic updates, use WPA3 or WPA2 with AES, and put smart-home gear on a guest network. A VPN protects traffic on your device but does not secure your router."
-imageAlt: "Router admin settings page open on a laptop in a home office"
+imageAlt: "Network router with blue Ethernet cables plugged in and status lights on"
+imageCredit: "Photo: Albert Stoynov / [Unsplash](https://unsplash.com/photos/dyUp7WPu5q4)"
 sample: true
 faq:
   - q: "Does a VPN secure my home network?"

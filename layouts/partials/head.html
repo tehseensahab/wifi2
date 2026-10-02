@@ -4,7 +4,7 @@
 {{- $iso := "2006-01-02T15:04:05Z07:00" -}}
 {{- /* Share image: page cover, else optional site default. Always 1200x630. */ -}}
 {{- $img := "" -}}
-{{- with .Resources.GetMatch "cover.*" }}{{ $img = (.Fill "1200x630 webp q80").Permalink }}{{ end -}}
+{{- with .Resources.GetMatch "cover.*" }}{{ $img = (.Fill "1200x630 jpg q80").Permalink }}{{ end -}}
 {{- if and (not $img) (fileExists (printf "static/%s" site.Params.defaultOgImage)) }}{{ $img = absURL site.Params.defaultOgImage }}{{ end -}}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $m.description }}">

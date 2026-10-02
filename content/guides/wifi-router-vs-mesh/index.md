@@ -5,7 +5,8 @@ description: "A single router is enough for many homes. Here is how to tell if y
 authors: ["Tehseen Arbab"]
 topics: ["routers", "mesh-wifi"]
 summary: "You need mesh if a router placed in a central spot still can't reach the whole house. In a smaller, one-story or open-plan home, one router is cheaper, simpler and usually enough, and there are free fixes to try before you spend anything."
-imageAlt: "Single Wi-Fi router and a mesh node side by side on a wooden shelf"
+imageAlt: "White Wi-Fi router with a blue Ethernet cable plugged into the back"
+imageCredit: "Photo: Compare Fibre / [Unsplash](https://unsplash.com/photos/hXVVNB6Qctg)"
 takeaways:
   - "You need mesh if a router placed centrally still can't reach every part of the house; in a smaller one-story or open-plan home, a single router is cheaper and simpler."
   - "Tom's Guide puts the point where a regular router stops being enough at about 3,000 sq ft, and also points to multi-story and oddly shaped homes; TP-Link rates a single Deco BE63 at 2,500 sq ft."

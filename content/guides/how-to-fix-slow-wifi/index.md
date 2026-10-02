@@ -5,7 +5,8 @@ description: "Before you buy a new router, find out where the slowdown is. A wir
 authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes"]
 summary: "Start with a wired speed test. If a laptop plugged into the router is also slow, the problem is your plan, modem or ISP; if it's fast, the fix is usually router placement, the Wi-Fi band, interference or a single device. All of those are free to check before you buy anything."
-imageAlt: "Laptop connected to a router with an Ethernet cable running a speed test"
+imageAlt: "Phone screen showing speed test results for download, upload, and ping"
+imageCredit: "Photo: Mika Baumeister / [Unsplash](https://unsplash.com/photos/gwWkv06WYFY)"
 takeaways:
   - "Start with a wired speed test: plug a laptop into the router with an Ethernet cable. If that is slow, the problem is your plan, modem or ISP, not Wi-Fi."
   - "If the wired test is fine but Wi-Fi is slow, the fix is usually router placement, the Wi-Fi band, interference or one device, and each is free to check."

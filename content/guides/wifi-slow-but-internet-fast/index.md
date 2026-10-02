@@ -5,7 +5,8 @@ description: "Your internet speed is measured at the modem. Wi-Fi is a separate 
 authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes"]
 summary: "Your plan's speed applies at the modem; Wi-Fi is a separate wireless link to each device and is often much slower. Plug a laptop into the router: if that matches your plan, the slowdown is in the wireless path, usually distance, band, interference or one device."
-imageAlt: "Person on a couch checking Wi-Fi speed on a phone with a router visible in the background"
+imageAlt: "Person sitting on a couch at home working on a laptop"
+imageCredit: "Photo: Surface / [Unsplash](https://unsplash.com/photos/sR24zAyFgJE)"
 takeaways:
   - "Your plan's speed applies at the modem; Wi-Fi is a separate wireless link to each device, and it can be much slower because of distance, walls, the band in use, interference or the device itself."
   - "Plug a laptop into the router with Ethernet: if that matches your plan, your internet is fine and the slowdown is in the wireless path."

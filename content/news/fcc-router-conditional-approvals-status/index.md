@@ -6,7 +6,8 @@ authors: ["Marcus Reyes"]
 topics: ["routers", "wifi-6e-7"]
 tags: ["fcc", "routers", "regulation"]
 summary: "As of mid-September 2026, eero, Netgear, and ASUS hold FCC conditional approvals for new models, while TP-Link did not. Routers you already own and models authorized before March 23, 2026 are not banned, so there is no need to replace a working router."
-imageAlt: "Row of boxed home routers on a store shelf"
+imageAlt: "Shopper browsing shelves in a brightly lit electronics store"
+imageCredit: "Photo: Bhanu Singh / [Unsplash](https://unsplash.com/photos/bKDOZ7neVl4)"
 sample: true
 faq:
   - q: "Do I have to replace my router?"

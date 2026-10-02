@@ -5,7 +5,8 @@ description: "Whether you can run Ethernet between units matters more than the W
 authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi"]
 summary: "The best mesh system for a large house depends less on the Wi-Fi generation than on whether you can run Ethernet between units. With wiring, even a budget system performs well; without it, choose a tri-band system with a strong wireless link."
-imageAlt: "Mesh Wi-Fi node placed on a shelf in a large open living room"
+imageAlt: "Bright, open living room with a sofa, shelves, and a coffee table"
+imageCredit: "Photo: Filios Sazeides / [Unsplash](https://unsplash.com/photos/6qbtnk_GrfU)"
 takeaways:
   - "The biggest factor for a large house is whether you can run Ethernet between mesh units; a wired link removes the wireless hop that slows far rooms."
   - "In Tom's Guide's distance tests, rankings flip with range: the eero Pro 7 was fastest at 50 feet (994 Mbps) but slowest at 90 feet (20.8 Mbps), while the budget Deco BE23 led at 75 and 90 feet."

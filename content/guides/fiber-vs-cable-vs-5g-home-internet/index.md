@@ -6,7 +6,8 @@ authors: ["Marcus Reyes"]
 topics: ["internet-plans-isps"]
 tags: ["fiber", "cable", "5g-home", "isp"]
 summary: "If fiber is available at your address, choose it: it is the most consistent and the only type that routinely offers fast uploads. Cable is the safe second choice, and 5G home internet is a good fit when you want to skip long contracts or fiber and cable are not available. What you can buy depends on your address, so check before you compare plans."
-imageAlt: "Fiber optic cable being installed at the side of a suburban home"
+imageAlt: "Ends of fiber-optic strands glowing blue in the dark"
+imageCredit: "Photo: Compare Fibre / [Unsplash](https://unsplash.com/photos/INNsF0Zz_kQ)"
 sample: true
 faq:
   - q: "Is fiber always faster than cable?"

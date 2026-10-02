@@ -5,7 +5,8 @@ description: "The halfway rule is close enough for an open floor plan and wrong 
 authors: ["Marcus Reyes"]
 topics: ["how-to-fixes"]
 summary: "Don't put a Wi-Fi extender halfway to the dead zone. Walk toward the dead zone with a phone and place it where you still have two bars, which is often two-thirds of the way, and check the extender can hear the router on 5 GHz."
-imageAlt: "Wi-Fi extender plugged into a wall outlet in a hallway"
+imageAlt: "Plug-in Wi-Fi extender next to a small network switch with Ethernet cables"
+imageCredit: "Photo: User_Pascal / [Unsplash](https://unsplash.com/photos/oZgzVU_B3sE)"
 ---
 
 The common advice — place the extender halfway between your router and the dead zone — assumes uniform signal loss. Walls and floors don't lose signal evenly, so halfway by distance is often wrong by walls.

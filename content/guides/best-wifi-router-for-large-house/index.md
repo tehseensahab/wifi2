@@ -5,7 +5,8 @@ description: "For most large homes the answer is a mesh system, not one big rout
 authors: ["Tehseen Arbab"]
 topics: ["routers", "mesh-wifi"]
 summary: "For most large homes, a 2-3 unit mesh system beats one big router, because a single box can't fix signal lost to distance, floors and walls. New FCC rules change which brands are on shelves, but routers you already own are not banned."
-imageAlt: "Wi-Fi router on a shelf in a hallway of a large two-story house"
+imageAlt: "White Wi-Fi router with two antennas against a bright background"
+imageCredit: "Photo: Compare Fibre / [Unsplash](https://unsplash.com/photos/mhA3QOXME5M)"
 takeaways:
   - "Most large homes are better served by a 2-3 unit mesh system than by a single router, because a single box can't fix signal lost to distance, floors and walls."
   - "RTINGS ranks the TP-Link Deco 7 Pro BE63 first for large homes, but TP-Link had no FCC conditional approval for new models as of mid-September 2026; eero, Netgear and ASUS do."
