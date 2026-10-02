@@ -2,7 +2,7 @@
 title: "Router hardening checklist: 10 settings to change in 15 minutes"
 date: 2026-09-25
 description: "Ten changes that make your router harder to attack, in plain English and in order of importance."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["security-privacy", "routers"]
 tags: ["router-security", "wpa3", "firmware"]
 summary: "Most router attacks succeed because of weak admin passwords, old firmware, or services you never use. Change the admin password, turn on automatic updates, use WPA3 or WPA2 with AES, and put smart-home gear on a guest network. A VPN protects traffic on your device but does not secure your router."
@@ -23,7 +23,7 @@ sources:
     url: "https://www.cisa.gov/secure-our-world"
   - title: "Wi-Fi Security"
     publisher: "Wi-Fi Alliance"
-    url: "https://www.wi-fi.org/discover-wi-fi/security"
+    url: "https://www.wi-fi.org/security"
 ---
 
 Your router is the front door to your home network. These ten changes take about 15 minutes, and they are in order of importance. Settings names vary by brand, so look for the closest match in your router's app or admin page.

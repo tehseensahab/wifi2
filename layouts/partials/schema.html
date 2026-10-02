@@ -21,7 +21,11 @@
 
 {{- if and $p.IsPage (in (slice "reviews" "news" "guides" "deals") $p.Section) -}}
   {{- $author := $orgRef -}}
-  {{- with $p.Params.author }}{{ $author = dict "@type" "Person" "name" . }}{{ end -}}
+  {{- with partial "author.html" $p }}
+    {{- $author = dict "@type" "Person" "name" .name -}}
+    {{- with .permalink }}{{ $author = merge $author (dict "url" .) }}{{ end -}}
+    {{- with .sameAs }}{{ $author = merge $author (dict "sameAs" (slice .)) }}{{ end -}}
+  {{- end }}
   {{- $t := partial "primary-topic.html" $p -}}
   {{- $type := cond (eq $p.Section "news") "NewsArticle" "Article" -}}
   {{- $article := dict "@type" $type "@id" (printf "%s#article" $p.Permalink) "headline" $p.Title "description" $p.Description "url" $p.Permalink "mainEntityOfPage" $p.Permalink "datePublished" ($p.Date.Format $iso) "dateModified" ($p.Lastmod.Format $iso) "articleSection" $t.name "inLanguage" "en-US" "wordCount" $p.WordCount "author" $author "publisher" $org -}}
@@ -48,6 +52,12 @@
     {{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end -}}
     {{- $graph = $graph | append (dict "@type" "FAQPage" "mainEntity" $qs) -}}
   {{- end -}}
+{{- else if and (eq $p.Kind "term") (eq $p.Data.Plural "authors") -}}
+  {{- $a := index site.Data.authors $p.Title | default dict -}}
+  {{- $person := dict "@type" "Person" "name" $p.Title "url" $p.Permalink "worksFor" $orgRef -}}
+  {{- with $a.role }}{{ $person = merge $person (dict "jobTitle" .) }}{{ end -}}
+  {{- with $a.url }}{{ $person = merge $person (dict "sameAs" (slice .)) }}{{ end -}}
+  {{- $graph = $graph | append (dict "@type" "ProfilePage" "url" $p.Permalink "mainEntity" $person) -}}
 {{- else if eq $p.Kind "term" -}}
   {{- $graph = $graph | append (dict "@type" "CollectionPage" "name" $m.title "description" $m.description "url" $p.Permalink "isPartOf" (dict "@id" (printf "%s#website" $home))) -}}
 {{- end -}}

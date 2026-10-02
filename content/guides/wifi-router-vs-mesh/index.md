@@ -2,7 +2,7 @@
 title: "Wi-Fi Router vs. Mesh Wi-Fi: Which Do You Need?"
 date: 2026-10-02
 description: "A single router is enough for many homes. Here is how to tell if yours is one of them, and what to try before paying for mesh."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["routers", "mesh-wifi"]
 summary: "You need mesh if a router placed in a central spot still can't reach the whole house. In a smaller, one-story or open-plan home, one router is cheaper, simpler and usually enough, and there are free fixes to try before you spend anything."
 imageAlt: "Single Wi-Fi router and a mesh node side by side on a wooden shelf"

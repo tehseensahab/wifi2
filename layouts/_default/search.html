@@ -5,9 +5,10 @@
     <h1>Search</h1>
     <p class="page-dek">Find reviews, guides, news, and deals.</p>
   </header>
-  <form class="search-box" role="search" onsubmit="return false">
+  <form class="search-box" role="search" id="search-form" action="{{ "search/" | relURL }}" method="get">
     <label class="sr-only" for="q">Search WiFi Weekly</label>
-    <input id="q" type="search" placeholder="Try “mesh”, “bufferbloat”, or “Matter”" autocomplete="off" autofocus>
+    <input id="q" name="q" type="search" placeholder="Try “mesh”, “bufferbloat”, or “Matter”" autocomplete="off" autofocus>
+    <button class="btn btn--primary" type="submit">Search</button>
   </form>
   <p id="search-status" class="page-count" aria-live="polite"></p>
   <ul id="search-results" class="results"></ul>
@@ -27,7 +28,7 @@
       }
       return { d: d, s: score };
     }).filter(Boolean).sort(function (a, b) { return b.s - a.s; });
-    status.textContent = hits.length + (hits.length === 1 ? ' result' : ' results');
+    status.textContent = hits.length ? hits.length + (hits.length === 1 ? ' result' : ' results') : 'No results. Try a shorter word, like “mesh” or “router”.';
     out.innerHTML = hits.slice(0, 30).map(function (h) {
       var d = h.d;
       return '<li><p class="card-cat">' + esc(d.topic) + ' · ' + esc(d.type) + '</p><h2><a href="' + esc(d.url) + '">' + esc(d.title) + '</a></h2><p>' + esc(d.description) + '</p><p class="card-meta">' + esc(d.date) + '</p></li>';
@@ -35,8 +36,12 @@
   }
   fetch('{{ "index.json" | relURL }}').then(function (r) { return r.json(); }).then(function (j) {
     docs = j; var q = new URLSearchParams(location.search).get('q'); if (q) input.value = q; run();
-  });
+  }).catch(function () { status.textContent = 'Search is unavailable right now.'; });
   input.addEventListener('input', run);
+  document.getElementById('search-form').addEventListener('submit', function (e) {
+    e.preventDefault(); run();
+    var u = new URL(location.href); u.searchParams.set('q', input.value); history.replaceState(null, '', u);
+  });
 })();
 </script>
 {{ end }}

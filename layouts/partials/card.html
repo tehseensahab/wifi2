@@ -14,7 +14,7 @@
 <article class="card{{ with .variant }} card--{{ . }}{{ end }}{{ if $isReview }} card--review{{ end }}">
   <a class="card-media" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
     {{ partial "cover.html" (dict "page" $p "eager" .eager "sizes" $sizes) }}
-    {{- if $isReview }}<span class="score" aria-label="Score {{ $p.Params.score }} out of 10"><b>{{ printf "%.1f" $p.Params.score }}</b><small>/10</small></span>{{ end }}
+    {{- if $isReview }}<span class="score"><b>{{ printf "%.1f" $p.Params.score }}</b><small>/10</small></span>{{ end }}
   </a>
   <div class="card-body">
     <p class="card-cat"><a href="{{ $t.url }}">{{ $t.name }}</a></p>
@@ -25,6 +25,7 @@
       <time datetime="{{ $shown.Format "2006-01-02" }}">{{ if $updated }}Updated {{ end }}{{ $shown.Format "Jan 2, 2006" }}</time>
       <span aria-hidden="true">·</span>
       <span>{{ $p.Params.readTime | default $p.ReadingTime }} min read</span>
+      {{- if $isReview }}<span class="sr-only">Score: {{ printf "%.1f" $p.Params.score }} out of 10</span>{{ end }}
     </p>
   </div>
 </article>

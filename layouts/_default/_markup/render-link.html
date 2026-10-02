@@ -1,0 +1,18 @@
+{{- /*
+  Markdown links. Internal links to pages that aren't built yet (scheduled or
+  draft) render as plain text, so readers never hit a 404; they turn into
+  links automatically once the target page is published.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $internal := and (hasPrefix $dest "/") (not (hasPrefix $dest "//")) -}}
+{{- $ok := true -}}
+{{- if $internal -}}
+  {{- $path := index (split $dest "#") 0 -}}
+  {{- $path = strings.TrimSuffix "/" $path -}}
+  {{- if and $path (not (site.GetPage $path)) }}{{ $ok = false }}{{ end -}}
+{{- end -}}
+{{- if $ok -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if and (hasPrefix $dest "http") (not (hasPrefix $dest site.BaseURL)) }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- else -}}
+{{ .Text | safeHTML }}
+{{- end -}}

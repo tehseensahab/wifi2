@@ -2,7 +2,7 @@
 title: "Where to actually put a Wi-Fi extender (it's not halfway)"
 date: 2026-09-04
 description: "The halfway rule is close enough for an open floor plan and wrong for almost everything else."
-author: "Marcus Reyes"
+authors: ["Marcus Reyes"]
 topics: ["how-to-fixes"]
 summary: "Don't put a Wi-Fi extender halfway to the dead zone. Walk toward the dead zone with a phone and place it where you still have two bars, which is often two-thirds of the way, and check the extender can hear the router on 5 GHz."
 imageAlt: "Wi-Fi extender plugged into a wall outlet in a hallway"

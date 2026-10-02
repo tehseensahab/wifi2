@@ -2,7 +2,7 @@
 title: "Matter and Thread, explained: what to buy for a smart home"
 date: 2026-09-28
 description: "What Matter and Thread actually do, what you need to use them, and how they fit with your home WiFi."
-author: "Dana Okafor"
+authors: ["Dana Okafor"]
 topics: ["smart-home-iot", "wifi-6e-7"]
 tags: ["matter", "thread", "smart-home"]
 summary: "Matter is a shared language that lets smart-home devices work with Apple Home, Google Home, Amazon Alexa, and SmartThings. Thread is a low-power wireless network many Matter devices use, and it needs a Thread border router, which is built into some speakers, displays, and streaming boxes. You do not need a new WiFi router for either."

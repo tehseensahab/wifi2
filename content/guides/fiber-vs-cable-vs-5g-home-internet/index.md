@@ -2,7 +2,7 @@
 title: "Fiber vs. cable vs. 5G home internet: which should you choose?"
 date: 2026-10-01
 description: "How the three main home internet types differ on speed, reliability, and price, and how to check what you can actually get at your address."
-author: "Marcus Reyes"
+authors: ["Marcus Reyes"]
 topics: ["internet-plans-isps"]
 tags: ["fiber", "cable", "5g-home", "isp"]
 summary: "If fiber is available at your address, choose it: it is the most consistent and the only type that routinely offers fast uploads. Cable is the safe second choice, and 5G home internet is a good fit when you want to skip long contracts or fiber and cable are not available. What you can buy depends on your address, so check before you compare plans."

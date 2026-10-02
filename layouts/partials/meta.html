@@ -1,9 +1,10 @@
 {{- /* Display title and description for any page (topic pages come from data/topics.yaml). */ -}}
 {{- $title := .Title -}}
 {{- $desc := .Description -}}
-{{- if eq .Kind "term" -}}
+{{- if and (eq .Kind "term") (eq .Data.Plural "topics") -}}
   {{- $t := partial "topic.html" .Data.Term -}}
   {{- if $t }}{{ $title = $t.name }}{{ $desc = $t.desc }}{{ end -}}
 {{- end -}}
+{{- if and (eq .Kind "term") (eq .Data.Plural "authors") }}{{ $desc = printf "Reviews, guides, and news by %s at %s." .Title site.Title }}{{ end -}}
 {{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
 {{- return (dict "title" $title "description" $desc) -}}

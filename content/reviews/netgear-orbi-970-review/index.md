@@ -2,7 +2,7 @@
 title: "Netgear Orbi 970 review: enterprise speeds, consumer price tag"
 date: 2026-09-08
 description: "The fastest mesh kit we've tested, but the subscription paywall for advanced security is a real drawback."
-author: "Dana Okafor"
+authors: ["Dana Okafor"]
 topics: ["mesh-wifi", "wifi-6e-7"]
 summary: "The Orbi 970 is the fastest mesh kit we've tested, and it didn't visibly slow down under a 20-device stress test. It costs $1,199 for a 3-pack, and advanced security and parental controls need a $99/year subscription after the first year. Buy it if you want top speed and can live with that paywall."
 imageAlt: "Netgear Orbi 970 mesh node on a console table in a living room"

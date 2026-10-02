@@ -4,7 +4,7 @@
 {{- if .IsHome -}}
   {{- $c = slice -}}
 {{- else if eq .Kind "term" -}}
-  {{- $c = $c | append (dict "name" "Topics" "url" (absURL "topics/")) (dict "name" $m.title "url" .Permalink) -}}
+  {{- $c = $c | append (dict "name" .Parent.Title "url" .Parent.Permalink) (dict "name" $m.title "url" .Permalink) -}}
 {{- else if and (eq .Kind "page") (in (slice "reviews" "news" "guides" "deals") .Section) -}}
   {{- $sec := .CurrentSection -}}
   {{- $c = $c | append (dict "name" $sec.Title "url" $sec.Permalink) (dict "name" .Title "url" .Permalink) -}}

@@ -2,7 +2,7 @@
 title: "Best Mesh Wi-Fi for a Large House in 2026: Picks by Home Layout"
 date: 2026-10-01
 description: "Whether you can run Ethernet between units matters more than the Wi-Fi generation. Distance tests, wired vs. wireless backhaul, and picks by home type."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi"]
 summary: "The best mesh system for a large house depends less on the Wi-Fi generation than on whether you can run Ethernet between units. With wiring, even a budget system performs well; without it, choose a tri-band system with a strong wireless link."
 imageAlt: "Mesh Wi-Fi node placed on a shelf in a large open living room"

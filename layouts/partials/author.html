@@ -1,0 +1,11 @@
+{{- /* The page's first author: name, author-page URL, and optional data/authors.yaml details. */ -}}
+{{- $name := "" -}}
+{{- with .Params.authors }}{{ $name = index . 0 }}{{ else }}{{ with .Params.author }}{{ $name = . }}{{ end }}{{ end -}}
+{{- $out := dict -}}
+{{- if $name -}}
+  {{- $url := "" -}}{{- $abs := "" -}}
+  {{- with site.GetPage (printf "/authors/%s" (urlize $name)) }}{{ $url = .RelPermalink }}{{ $abs = .Permalink }}{{ end -}}
+  {{- $d := index site.Data.authors $name | default dict -}}
+  {{- $out = dict "name" $name "url" $url "permalink" $abs "role" ($d.role | default "") "bio" ($d.bio | default "") "sameAs" ($d.url | default "") -}}
+{{- end -}}
+{{- return $out -}}

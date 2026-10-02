@@ -4,7 +4,7 @@ date: {{ .Date }}
 # lastmod: {{ .Date }}   # set whenever the advice is updated
 draft: true
 description: ""
-author: ""
+authors: [""]        # e.g. ["Dana Okafor"]. Links to the author page
 topics: []
 tags: []
 summary: ""              # 2-3 sentences, answer first

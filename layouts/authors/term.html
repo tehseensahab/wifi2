@@ -1,0 +1,21 @@
+{{- /* Author page: /authors/<name>/ */ -}}
+{{ define "main" }}
+{{- $a := index site.Data.authors .Title | default dict -}}
+<div class="wrap">
+  <header class="page-head">
+    {{ partial "breadcrumbs.html" . }}
+    <div class="topic-title">
+      <span class="author-avatar" aria-hidden="true">{{ range first 2 (split .Title " ") }}{{ substr . 0 1 }}{{ end }}</span>
+      <div>
+        <h1>{{ .Title }}</h1>
+        {{ with $a.role }}<p class="page-count">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+    {{ with $a.bio }}<p class="page-dek">{{ . }}</p>{{ end }}
+    <p class="page-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}, newest first{{ with $a.url }} · <a href="{{ . }}" rel="me noopener">Profile</a>{{ end }}</p>
+  </header>
+  {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
+  {{ partial "grid.html" $pager.Pages }}
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

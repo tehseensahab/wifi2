@@ -2,7 +2,7 @@
 title: "Which router brands have FCC conditional approval? Where things stood in mid-September"
 date: 2026-10-01
 description: "A quick status check on the FCC's foreign-made router rule: who has conditional approval, and what it means for what you can buy."
-author: "Marcus Reyes"
+authors: ["Marcus Reyes"]
 topics: ["routers", "wifi-6e-7"]
 tags: ["fcc", "routers", "regulation"]
 summary: "As of mid-September 2026, eero, Netgear, and ASUS hold FCC conditional approvals for new models, while TP-Link did not. Routers you already own and models authorized before March 23, 2026 are not banned, so there is no need to replace a working router."

@@ -2,7 +2,7 @@
 title: "Best Wi-Fi Router for a Large House in 2026: What to Buy Now"
 date: 2026-09-30
 description: "For most large homes the answer is a mesh system, not one big router. Here is how to choose in 2026, and how the FCC's foreign-router rule changes what is on the shelf."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["routers", "mesh-wifi"]
 summary: "For most large homes, a 2-3 unit mesh system beats one big router, because a single box can't fix signal lost to distance, floors and walls. New FCC rules change which brands are on shelves, but routers you already own are not banned."
 imageAlt: "Wi-Fi router on a shelf in a hallway of a large two-story house"

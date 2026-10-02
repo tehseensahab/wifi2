@@ -2,7 +2,7 @@
 title: "Why Is My Wi-Fi Slow When My Internet Is Fast?"
 date: 2026-10-04
 description: "Your internet speed is measured at the modem. Wi-Fi is a separate link to each device, with its own limits. Here is how to find yours."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes"]
 summary: "Your plan's speed applies at the modem; Wi-Fi is a separate wireless link to each device and is often much slower. Plug a laptop into the router: if that matches your plan, the slowdown is in the wireless path, usually distance, band, interference or one device."
 imageAlt: "Person on a couch checking Wi-Fi speed on a phone with a router visible in the background"

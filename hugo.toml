@@ -23,6 +23,7 @@ summaryLength = 30
 
 [taxonomies]
   topic = "topics"
+  author = "authors"
 
 # Cards link to related reading; Hugo's related-content engine uses these weights.
 [related]
@@ -74,6 +75,14 @@ summaryLength = 30
   name = "Editorial policy"
   pageRef = "/editorial-policy"
   weight = 20
+[[menu.legal]]
+  name = "How we test"
+  pageRef = "/how-we-test"
+  weight = 15
+[[menu.legal]]
+  name = "Our writers"
+  pageRef = "/authors"
+  weight = 25
 [[menu.legal]]
   name = "Corrections"
   pageRef = "/corrections"

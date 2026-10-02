@@ -4,7 +4,7 @@ date: {{ .Date }}
 # lastmod: {{ .Date }}   # set when you retest or update. Shown as "Last updated"
 draft: true
 description: ""          # one line for cards, search, and meta description
-author: ""
+authors: [""]        # e.g. ["Dana Okafor"]. Links to the author page
 topics: []               # first topic is the card label. Slugs in data/topics.yaml
 tags: []
 summary: ""              # 2-3 sentences, answer first: verdict, who it is for, the catch

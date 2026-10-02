@@ -2,6 +2,7 @@
 {{ define "main" }}
 {{- $p := . -}}
 {{- $t := partial "primary-topic.html" . -}}
+{{- $a := partial "author.html" . -}}
 {{- $isReview := eq .Section "reviews" -}}
 {{- $updated := ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") -}}
 {{- $affiliate := or (and (in (slice "reviews" "deals") .Section) (ne .Params.affiliate false)) (eq .Params.affiliate true) -}}
@@ -12,7 +13,7 @@
     <h1>{{ .Title }}</h1>
     <p class="article-dek">{{ .Description }}</p>
     <p class="byline">
-      {{- with .Params.author }}<span>By <strong>{{ . }}</strong></span>{{ end }}
+      {{- with $a.name }}<span>By <a class="byline-author" href="{{ $a.url }}" rel="author">{{ . }}</a></span>{{ end }}
       <span>Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
       {{- if $updated }}<span class="byline-updated">Last updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time></span>{{ end }}
       {{- with .Params.testedOn }}<span class="byline-tested">Tested <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "Jan 2, 2006" . }}</time></span>{{ end }}
@@ -43,6 +44,7 @@
         {{- with $.Params.price }}<div><dt>Price</dt><dd>${{ lang.FormatNumber 0 . }}</dd></div>{{ end }}
         {{- with $.Params.testedOn }}<div><dt>Tested</dt><dd>{{ dateFormat "Jan 2, 2006" . }}</dd></div>{{ end }}
       </dl>
+      <p class="scorecard-note"><a href="{{ "how-we-test/" | relURL }}">How we test and score</a></p>
       {{- end }}
       {{- with $.Params.takeaways }}
       <ul class="takeaways">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul>
@@ -67,7 +69,7 @@
     {{- if and (ne .Params.toc false) (ge (len (findRE `<h[23] ` .Content)) 3) }}
     <details class="toc" open>
       <summary>On this page</summary>
-      {{ .TableOfContents }}
+      {{ replace .TableOfContents "<nav id=\"TableOfContents\">" "<nav id=\"TableOfContents\" aria-label=\"Table of contents\">" | safeHTML }}
     </details>
     {{- end }}
 
@@ -118,7 +120,7 @@
 
     {{- /* 7. Author + dates */ -}}
     <footer class="article-foot">
-      {{- with .Params.author }}<p>Written by <strong>{{ . }}</strong>. <a href="{{ "editorial-policy/" | relURL }}">How we work</a>.</p>{{ end }}
+      {{- with $a.name }}<p>Written by <a href="{{ $a.url }}" rel="author"><strong>{{ . }}</strong></a>{{ with $a.role }}, {{ . }}{{ end }}.{{ with $a.bio }} {{ . }}{{ end }} <a href="{{ "editorial-policy/" | relURL }}">How we work</a>.</p>{{ end }}
       <p>Published {{ .Date.Format "January 2, 2006" }}. <strong>Last updated {{ .Lastmod.Format "January 2, 2006" }}.</strong>{{ with .Params.testedOn }} Tested {{ dateFormat "January 2, 2006" . }}.{{ end }} See something wrong? <a href="{{ "corrections/" | relURL }}">Tell us</a>.</p>
     </footer>
   </div>

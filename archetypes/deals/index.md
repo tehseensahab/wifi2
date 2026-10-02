@@ -3,7 +3,7 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 draft: true
 description: ""
-author: ""
+authors: [""]        # e.g. ["Dana Okafor"]. Links to the author page
 topics: []
 summary: ""              # the price, whether it's a real low, who should buy
 imageAlt: ""

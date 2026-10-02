@@ -14,5 +14,5 @@
   <img class="cover" src="{{ $lg.RelPermalink }}" srcset="{{ $sm.RelPermalink }} 600w, {{ $lg.RelPermalink }} 1200w" sizes="{{ $sizes }}" width="1200" height="630" alt="{{ $alt }}" {{ if .eager }}loading="eager" fetchpriority="high"{{ else }}loading="lazy" decoding="async"{{ end }}>
 {{- else }}
   {{- $t := partial "primary-topic.html" $p }}
-  <span class="cover cover--empty" role="img" aria-label="{{ $alt | default $t.name }}">{{ partial "icon.html" ($t.icon | default "wifi") }}</span>
+  <span class="cover cover--empty" aria-hidden="true">{{ partial "icon.html" ($t.icon | default "wifi") }}</span>
 {{- end }}

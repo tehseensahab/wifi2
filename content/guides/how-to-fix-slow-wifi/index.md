@@ -2,7 +2,7 @@
 title: "How to Fix Slow Wi-Fi at Home: A Test-First Guide"
 date: 2026-10-03
 description: "Before you buy a new router, find out where the slowdown is. A wired speed test tells you whether to blame your plan, your Wi-Fi or one device."
-author: "Tehseen Arbab"
+authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes"]
 summary: "Start with a wired speed test. If a laptop plugged into the router is also slow, the problem is your plan, modem or ISP; if it's fast, the fix is usually router placement, the Wi-Fi band, interference or a single device. All of those are free to check before you buy anything."
 imageAlt: "Laptop connected to a router with an Ethernet cable running a speed test"
