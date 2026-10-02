@@ -1,32 +1,137 @@
+{{- /* Article page: reviews, news, guides, deals. */ -}}
 {{ define "main" }}
-<article>
-  <header class="post-head">
-    <span class="cat">{{ range .Params.categories }}{{ . }}{{ end }}</span>
+{{- $p := . -}}
+{{- $t := partial "primary-topic.html" . -}}
+{{- $a := partial "author.html" . -}}
+{{- $isReview := eq .Section "reviews" -}}
+{{- $updated := ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") -}}
+{{- $affiliate := or (and (in (slice "reviews" "deals") .Section) (ne .Params.affiliate false)) (eq .Params.affiliate true) -}}
+<article class="article">
+  <header class="article-head wrap-article">
+    {{ partial "breadcrumbs.html" . }}
+    <p class="eyebrow"><a href="{{ $t.url }}">{{ $t.name }}</a>{{ if $isReview }}<span class="eyebrow-type">Review</span>{{ else if eq .Section "deals" }}<span class="eyebrow-type">Deal</span>{{ else if eq .Section "news" }}<span class="eyebrow-type">News</span>{{ end }}</p>
     <h1>{{ .Title }}</h1>
-    {{ with .Params.dek }}<p class="post-dek">{{ . }}</p>{{ end }}
+    <p class="article-dek">{{ .Description }}</p>
     <p class="byline">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-      {{- if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }} · Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>{{ end }}
-      · {{ .Params.readtime | default "5 min read" }}{{ with .Params.author }} · by <span rel="author">{{ . }}</span>{{ end }}
+      {{- with $a.name }}<span>By <a class="byline-author" href="{{ $a.url }}" rel="author">{{ . }}</a></span>{{ end }}
+      <span>Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
+      {{- if $updated }}<span class="byline-updated">Last updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time></span>{{ end }}
+      {{- with .Params.testedOn }}<span class="byline-tested">Tested <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "Jan 2, 2006" . }}</time></span>{{ end }}
+      <span>{{ .Params.readTime | default .ReadingTime }} min read</span>
     </p>
+    {{- if $affiliate }}
+    <p class="disclosure"><strong>Disclosure:</strong> We may earn a commission if you buy through links on this page. It never changes our scores. <a href="{{ "affiliate-disclosure/" | relURL }}">Details</a>.</p>
+    {{- end }}
   </header>
-  <div class="post-body">
-    {{ with .Params.takeaways }}
-    <aside class="takeaways" aria-label="Key takeaways">
-      <h2>Key takeaways</h2>
-      <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+
+  {{- if .Resources.GetMatch "cover.*" }}
+  <figure class="article-cover wrap-article">
+    {{ partial "cover.html" (dict "page" . "eager" true "sizes" "(min-width: 900px) 860px, 100vw") }}
+    {{- with .Params.imageCredit }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+  {{- end }}
+
+  <div class="article-main wrap-article">
+    {{- /* 1. Answer-first summary */ -}}
+    {{- with .Params.summary }}
+    <aside class="summary" aria-labelledby="summary-title">
+      <h2 id="summary-title">{{ if $isReview }}The short answer{{ else }}Quick answer{{ end }}</h2>
+      <p>{{ . }}</p>
+      {{- if $isReview }}
+      <dl class="scorecard">
+        {{- with $.Params.score }}<div><dt>Score</dt><dd class="scorecard-score">{{ printf "%.1f" . }}<small>/10</small></dd></div>{{ end }}
+        {{- with $.Params.bestFor }}<div><dt>Best for</dt><dd>{{ . }}</dd></div>{{ end }}
+        {{- with $.Params.price }}<div><dt>Price</dt><dd>${{ lang.FormatNumber 0 . }}</dd></div>{{ end }}
+        {{- with $.Params.testedOn }}<div><dt>Tested</dt><dd>{{ dateFormat "Jan 2, 2006" . }}</dd></div>{{ end }}
+      </dl>
+      <p class="scorecard-note"><a href="{{ "how-we-test/" | relURL }}">How we test and score</a></p>
+      {{- end }}
+      {{- with $.Params.takeaways }}
+      <ul class="takeaways">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul>
+      {{- end }}
     </aside>
-    {{ end }}
-    {{ .Content }}
-    {{ with .Params.faq }}
-    <section class="faq">
-      <h2>Frequently asked questions</h2>
-      {{ range . }}
-      <h3>{{ .q }}</h3>
-      <p>{{ .a }}</p>
-      {{ end }}
+    {{- end }}
+
+    {{- /* Deal box */ -}}
+    {{- if and (eq .Section "deals") .Params.dealPrice }}
+    <aside class="deal-box" aria-label="Deal details">
+      <div class="deal-price"><strong>${{ lang.FormatNumber 0 .Params.dealPrice }}</strong>{{ with .Params.listPrice }}<s>${{ lang.FormatNumber 0 . }}</s>{{ end }}</div>
+      <p class="deal-meta">
+        {{- with .Params.retailer }}<span>At {{ . }}</span>{{ end }}
+        {{- with .Params.priceChecked }}<span>Price checked {{ dateFormat "Jan 2, 2006" . }}</span>{{ end }}
+        {{- with .Params.expires }}<span>Ends {{ dateFormat "Jan 2, 2006" . }}</span>{{ end }}
+      </p>
+      {{- with .Params.dealUrl }}<a class="btn btn--primary" href="{{ . }}" rel="sponsored nofollow noopener" target="_blank">Check current price</a>{{ end }}
+    </aside>
+    {{- end }}
+
+    {{- /* 2. Table of contents (only when there is enough to navigate) */ -}}
+    {{- if and (ne .Params.toc false) (ge (len (findRE `<h[23] ` .Content)) 3) }}
+    <details class="toc" open>
+      <summary>On this page</summary>
+      {{ replace .TableOfContents "<nav id=\"TableOfContents\">" "<nav id=\"TableOfContents\" aria-label=\"Table of contents\">" | safeHTML }}
+    </details>
+    {{- end }}
+
+    {{- /* 3. Spec table */ -}}
+    {{- with .Params.specs }}
+    <section class="specs" aria-labelledby="specs-title">
+      <h2 id="specs-title">Key specs</h2>
+      <table class="table">
+        <tbody>{{ range . }}<tr><th scope="row">{{ .k }}</th><td>{{ .v }}</td></tr>{{ end }}</tbody>
+      </table>
     </section>
-    {{ end }}
+    {{- end }}
+
+    {{- /* 4. Pros / cons */ -}}
+    {{- if or .Params.pros .Params.cons }}
+    <section class="proscons" aria-label="Pros and cons">
+      <div class="pros"><h2>What we like</h2><ul>{{ range .Params.pros }}<li>{{ . }}</li>{{ end }}</ul></div>
+      <div class="cons"><h2>What we don't</h2><ul>{{ range .Params.cons }}<li>{{ . }}</li>{{ end }}</ul></div>
+    </section>
+    {{- end }}
+
+    <div class="prose">{{ .Content }}</div>
+
+    {{- /* 5. FAQ */ -}}
+    {{- with .Params.faq }}
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Frequently asked questions</h2>
+      {{- range . }}
+      <details>
+        <summary>{{ .q }}</summary>
+        <p>{{ .a }}</p>
+      </details>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    {{- /* 6. Sources */ -}}
+    {{- with .Params.sources }}
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Sources</h2>
+      <ol>
+        {{- range . }}
+        <li>{{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}{{ with .publisher }}, {{ . }}{{ end }}{{ with .date }} ({{ dateFormat "Jan 2, 2006" . }}){{ end }}</li>
+        {{- end }}
+      </ol>
+    </section>
+    {{- end }}
+
+    {{- /* 7. Author + dates */ -}}
+    <footer class="article-foot">
+      {{- with $a.name }}<p>Written by <a href="{{ $a.url }}" rel="author"><strong>{{ . }}</strong></a>{{ with $a.role }}, {{ . }}{{ end }}.{{ with $a.bio }} {{ . }}{{ end }} <a href="{{ "editorial-policy/" | relURL }}">How we work</a>.</p>{{ end }}
+      <p>Published {{ .Date.Format "January 2, 2006" }}. <strong>Last updated {{ .Lastmod.Format "January 2, 2006" }}.</strong>{{ with .Params.testedOn }} Tested {{ dateFormat "January 2, 2006" . }}.{{ end }} See something wrong? <a href="{{ "corrections/" | relURL }}">Tell us</a>.</p>
+    </footer>
   </div>
 </article>
+
+{{- /* Internal links: related reviews, guides and news */ -}}
+{{- $related := first 3 (where (site.RegularPages.Related .) "Section" "in" (slice "reviews" "news" "guides" "deals")) }}
+{{- if $related }}
+<section class="section wrap">
+  <div class="section-head"><h2>Keep reading</h2></div>
+  {{ partial "grid.html" $related }}
+</section>
+{{- end }}
 {{ end }}

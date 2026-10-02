@@ -1,37 +1,57 @@
 # WiFi Weekly
 
-Hugo site for wifiweekly.com — router reviews, mesh guides, and connectivity news.
+Hugo site for wifiweekly.com: reviews, guides, news, and deals for US home-network readers.
 
 ## Local preview
 
 ```
-hugo server
+hugo server --buildFuture
 ```
-Visit http://localhost:1313
+Needs Hugo extended **v0.167.0 or newer** (webp image processing, `hugo.Data`).
+
+## Structure
+
+- **Content types** are sections: `content/reviews`, `news`, `guides`, `deals`. Each post is a folder (page bundle) with `index.md` and `cover.jpg`.
+- **Topics** (the nine categories) are a taxonomy: `topics: ["mesh-wifi", ...]` in front matter. The first topic is the card label. Names, icons, descriptions, and order live in `data/topics.yaml`. Topic pages are `/topics/<slug>/`; Deals is its own section at `/deals/`.
+- Static pages (About, Editorial policy, Corrections, Affiliate disclosure, Privacy, Terms, Contact) use `layout: static`.
+- Author pages live at `/authors/<name>/`. Add each writer's role, bio and profile link in `data/authors.yaml` (empty fields are hidden).
+- Other pages: How we test, WiFi glossary, a custom 404, and app icons (`static/favicon.svg`, `apple-touch-icon.png`, `site.webmanifest`).
+- Internal Markdown links to posts that aren't published yet (scheduled or draft) render as plain text until the post goes live, so readers never hit a 404.
+- Search is client-side: Hugo writes `/index.json` and `/search/` filters it. No build step needed.
+
+## AI and search optimization
+
+- `/llms.txt`: a guide for AI assistants: what the site is, how to cite it, every article with its date and Markdown link.
+- `/llms-full.txt`: full text of every article in one Markdown file.
+- `index.md` next to every page (for example `/guides/wifi-router-vs-mesh/index.md`): a clean Markdown copy with dates, author, score, specs, pros/cons, FAQ, and sources. Linked from each page with `rel="alternate"`.
+- `robots.txt` explicitly allows search and AI crawlers (OpenAI, Anthropic, Perplexity, Google, Apple, Amazon, Meta and others).
+- JSON-LD on every page: NewsMediaOrganization with policy links, WebSite, breadcrumbs, Article/NewsArticle with summary, topics, citations and speakable sections, Review with pros/cons and specs, FAQPage, CollectionPage lists, author ProfilePages, and a DefinedTermSet for the glossary.
+- RSS includes full article text.
+- Add your official social profiles to `params.sameAs` in `hugo.toml`.
 
 ## Add a post
 
 ```
-hugo new content posts/my-post-slug.md
+hugo new reviews/my-review      # or guides/, news/, deals/
 ```
-Front matter fields used by the templates:
-- `title`, `date`
-- `categories`: one of `reviews`, `news`, `guides`, `deals` (drives the nav + color swatch)
-- `dek`: one-sentence subhead shown on cards and the hero
-- `readtime`: e.g. `"6 min read"`
-- `author`
-- `weight`: any integer — only used to vary the card artwork pattern
+Add `cover.jpg` to the new folder. Front matter is documented in `archetypes/`. Key fields: `description` (one line for cards), `summary` (2-3 sentence answer-first box), `authors` (e.g. `["Dana Okafor"]`, links to their author page), `topics`, `imageAlt`, `faq`, `sources`. Reviews add `score`, `bestFor`, `testedOn`, `price`, `pros`, `cons`, `specs`. Set `lastmod` when you update an article; it shows as "Last updated".
+
+Cover images: see `COVER-IMAGES.md`.
+
+## Before launch
+
+- Newsletter: set `params.newsletter.action` in `hugo.toml` to your provider's form URL. Until then the form is disabled.
+- Confirm `params.contactEmail` (`hello@wifiweekly.com` is a placeholder).
+- Review the Privacy and Terms pages with a lawyer.
+- Read the How we test page and edit it so it matches exactly how you test.
+- Fill in `data/authors.yaml`.
+- The two review covers are generic router photos; replace them with photos of the actual products.
+- Posts marked `sample: true` (and review scores marked `PLACEHOLDER`) are sample content. Replace with your real test data.
+- Re-verify the source links in the sample posts.
 
 ## Deploy: GitHub + Cloudflare Pages
 
-1. Push this folder to a new GitHub repo (e.g. `wifiweekly`).
-2. In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git**, pick the repo.
-3. Build settings:
-   - Framework preset: **Hugo**
-   - Build command: `hugo --minify`
-   - Build output directory: `public`
-   - Environment variable: `HUGO_VERSION` = `0.123.7`
-4. Add the custom domain `wifiweekly.com` under the Pages project's **Custom domains** tab once the first deploy succeeds. If the domain is already on Cloudflare (as it should be, since you bought it there or added it as a zone), the DNS record is created automatically.
-5. Every push to `main` redeploys automatically.
-
-No GitHub Actions workflow is needed — Cloudflare Pages builds Hugo natively.
+- Framework preset: Hugo. Build command: `hugo --minify`. Output: `public`.
+- Environment variable: `HUGO_VERSION` = `0.167.0`.
+- `static/_redirects` 301s the old `/posts/...` and `/categories/...` URLs to the new ones.
+- `.github/workflows/daily-rebuild.yml` triggers a daily deploy hook so future-dated posts go live (needs the `CF_DEPLOY_HOOK` secret).

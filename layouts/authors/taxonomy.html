@@ -1,0 +1,19 @@
+{{- /* /authors/ */ -}}
+{{ define "main" }}
+<div class="wrap">
+  <header class="page-head">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-dek">{{ . }}</p>{{ end }}
+  </header>
+  <div class="topic-grid">
+    {{- range .Pages.ByTitle }}
+    {{- $a := index site.Data.authors .Title | default dict }}
+    <a class="topic-tile" href="{{ .RelPermalink }}">
+      <span class="author-avatar" aria-hidden="true">{{ range first 2 (split .Title " ") }}{{ substr . 0 1 }}{{ end }}</span>
+      <span class="topic-text"><strong>{{ .Title }}</strong><span>{{ with $a.role }}{{ . }}{{ else }}{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}{{ end }}</span></span>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

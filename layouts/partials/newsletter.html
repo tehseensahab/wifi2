@@ -1,0 +1,12 @@
+{{- $action := site.Params.newsletter.action -}}
+<section class="newsletter" aria-labelledby="nl-title">
+  <div class="newsletter-copy">
+    <h2 id="nl-title">The WiFi Weekly newsletter</h2>
+    <p>One email a week: new reviews, real price drops, and one fix worth knowing. No spam, unsubscribe anytime.</p>
+  </div>
+  <form class="newsletter-form" {{ if $action }}action="{{ $action }}" method="post"{{ end }}>
+    <label class="sr-only" for="nl-email">Email address</label>
+    <input id="nl-email" type="email" name="{{ site.Params.newsletter.emailField | default "email" }}" placeholder="you@example.com" autocomplete="email" required {{ if not $action }}disabled{{ end }}>
+    <button type="submit" class="btn btn--primary" {{ if not $action }}disabled title="Signup opens soon"{{ end }}>Subscribe</button>
+  </form>
+</section>

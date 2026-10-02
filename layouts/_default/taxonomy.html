@@ -1,0 +1,12 @@
+{{- /* Topics hub: /topics/ */ -}}
+{{ define "main" }}
+<div class="wrap">
+  <header class="page-head">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p class="page-dek">{{ .Description }}</p>
+  </header>
+  {{ partial "topic-grid.html" . }}
+</div>
+<div class="section wrap">{{ partial "newsletter.html" . }}</div>
+{{ end }}

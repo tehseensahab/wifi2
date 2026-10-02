@@ -1,10 +1,37 @@
-# {{ .Site.Title }}
+# {{ site.Title }}
 
-> {{ .Site.Params.description }}
+> {{ site.Params.description }}
 
-Every article opens with a one-sentence summary, key takeaways, and ends with an FAQ. Sitemap: {{ "sitemap.xml" | absURL }}
+{{ site.Title }} is an independent US publication about home WiFi: routers, mesh systems, WiFi 6E/7, internet providers, smart home, security, gaming, and troubleshooting. It is written for non-experts in plain English, with US prices and US internet providers.
 
-## Articles
-{{ range where .Site.RegularPages "Type" "posts" }}
-- [{{ .Title }}]({{ .Permalink }}): {{ .Params.dek }}
+How to read and cite this site:
+
+- Every article opens with a short, answer-first summary, then the full text, an FAQ, and sources.
+- Every article shows its publish date and last-updated date. Reviews also show the date tested, a 0-10 score, and a "best for" tag. Prices are US dollars on the date shown.
+- Every page has a clean Markdown copy: add `index.md` to the page URL (for example {{ "guides/wifi-router-vs-mesh/index.md" | absURL }}).
+- Full text of all articles in one file: {{ "llms-full.txt" | absURL }}
+- Please cite the article URL and its last-updated date.
+
+## Site policies
+
+- [How we test]({{ "how-we-test/" | absURL }}): testing method and how scores work
+- [Editorial policy]({{ "editorial-policy/" | absURL }}): independence, sourcing, and dates
+- [Affiliate disclosure]({{ "affiliate-disclosure/" | absURL }}): how the site earns money
+- [Corrections]({{ "corrections/" | absURL }}): how errors are fixed
+- [Our writers]({{ "authors/" | absURL }})
+
+## Topics
+{{ range site.Data.topics }}
+- [{{ .name }}]({{ .url | default (printf "/topics/%s/" .slug) | absURL }}): {{ .desc }}
 {{- end }}
+{{ range (slice "reviews" "guides" "news" "deals") }}
+## {{ . | title }}
+{{ range (where site.RegularPages "Section" .).ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}{{ with .Params.score }} Score {{ printf "%.1f" . }}/10.{{ end }} Updated {{ .Lastmod.Format "2006-01-02" }}. Markdown: {{ .Permalink }}index.md
+{{- end }}
+{{ end }}
+## Reference
+
+- [WiFi glossary]({{ "glossary/" | absURL }}): plain-English definitions of WiFi, router, and internet terms
+- [Sitemap]({{ "sitemap.xml" | absURL }})
+- [RSS feed]({{ "index.xml" | absURL }})

@@ -1,0 +1,140 @@
+{{- /*
+  JSON-LD for search engines and AI assistants. One @graph per page:
+  - every page: NewsMediaOrganization (with policy URLs), WebSite, WebPage-type node, BreadcrumbList
+  - articles: Article/NewsArticle (+ Review, FAQPage)
+  - lists, topics, authors: CollectionPage/ProfilePage + ItemList of articles
+  - glossary: DefinedTermSet
+*/ -}}
+{{- $p := .page -}}
+{{- $img := .img -}}
+{{- $home := site.Home.Permalink -}}
+{{- $iso := "2006-01-02T15:04:05Z07:00" -}}
+{{- $orgId := printf "%s#org" $home -}}
+{{- $siteId := printf "%s#website" $home -}}
+{{- $orgRef := dict "@id" $orgId -}}
+{{- $m := partial "meta.html" $p -}}
+{{- $isArticle := and $p.IsPage (in (slice "reviews" "news" "guides" "deals") $p.Section) -}}
+
+{{- /* Publisher, with the trust/policy pages AI systems look for */ -}}
+{{- $org := dict "@type" "NewsMediaOrganization" "@id" $orgId "name" site.Title "url" $home "description" site.Params.description
+    "logo" (dict "@type" "ImageObject" "url" (absURL "icon-512.png") "width" 512 "height" 512)
+    "email" site.Params.contactEmail
+    "publishingPrinciples" (absURL "editorial-policy/")
+    "ethicsPolicy" (absURL "editorial-policy/")
+    "correctionsPolicy" (absURL "corrections/")
+    "actionableFeedbackPolicy" (absURL "contact/")
+    "ownershipFundingInfo" (absURL "affiliate-disclosure/")
+    "masthead" (absURL "authors/")
+    "knowsAbout" (slice "WiFi routers" "Mesh WiFi" "WiFi 6E" "WiFi 7" "Home internet service" "Smart home networking" "Router security" "Network latency") -}}
+{{- with site.Params.sameAs }}{{ $org = merge $org (dict "sameAs" .) }}{{ end -}}
+{{- $search := dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%ssearch/?q={search_term_string}" $home)) "query-input" "required name=search_term_string" -}}
+{{- $website := dict "@type" "WebSite" "@id" $siteId "name" site.Title "url" $home "description" site.Params.description "inLanguage" "en-US" "publisher" $orgRef "potentialAction" $search -}}
+{{- $graph := slice $org $website -}}
+
+{{- /* Breadcrumbs */ -}}
+{{- $crumbs := slice -}}
+{{- range $i, $c := partial "breadcrumbs-data.html" $p -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) -}}
+{{- end -}}
+{{- $crumbId := printf "%s#breadcrumb" $p.Permalink -}}
+{{- if $crumbs }}{{ $graph = $graph | append (dict "@type" "BreadcrumbList" "@id" $crumbId "itemListElement" $crumbs) }}{{ end -}}
+
+{{- /* The page node */ -}}
+{{- $pageType := "WebPage" -}}
+{{- if eq $p.Kind "term" }}{{ $pageType = cond (eq $p.Data.Plural "authors") "ProfilePage" "CollectionPage" }}
+{{- else if in (slice "section" "taxonomy") $p.Kind }}{{ $pageType = "CollectionPage" }}
+{{- else if eq $p.RelPermalink "/about/" }}{{ $pageType = "AboutPage" }}
+{{- else if eq $p.RelPermalink "/contact/" }}{{ $pageType = "ContactPage" }}
+{{- else if eq $p.RelPermalink "/search/" }}{{ $pageType = "SearchResultsPage" }}{{ end -}}
+{{- $webpage := dict "@type" $pageType "@id" (printf "%s#webpage" $p.Permalink) "url" $p.Permalink "name" (cond $p.IsHome site.Title $m.title) "description" $m.description "inLanguage" "en-US" "isPartOf" (dict "@id" $siteId) -}}
+{{- if $crumbs }}{{ $webpage = merge $webpage (dict "breadcrumb" (dict "@id" $crumbId)) }}{{ end -}}
+{{- if $img }}{{ $webpage = merge $webpage (dict "primaryImageOfPage" (dict "@type" "ImageObject" "url" $img "width" 1200 "height" 630)) }}{{ end -}}
+{{- with $p.Params.updated }}{{ $webpage = merge $webpage (dict "dateModified" (dateFormat $iso .)) }}{{ end -}}
+
+{{- /* Lists of articles: home, sections, topics, authors */ -}}
+{{- $list := slice -}}
+{{- if $p.IsHome }}{{ $list = first 20 (where site.RegularPages "Section" "in" (slice "reviews" "news" "guides" "deals")).ByDate.Reverse }}
+{{- else if or (eq $p.Kind "term") (and (eq $p.Kind "section") (in (slice "reviews" "news" "guides" "deals") $p.Section)) }}{{ $list = first 50 $p.Pages.ByDate.Reverse }}{{ end -}}
+{{- if $list -}}
+  {{- $items := slice -}}
+  {{- range $i, $a := $list }}{{ $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $a.Permalink "name" $a.Title) }}{{ end -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@type" "ItemList" "numberOfItems" (len $items) "itemListElement" $items)) -}}
+{{- end -}}
+
+{{- /* Author profile */ -}}
+{{- if and (eq $p.Kind "term") (eq $p.Data.Plural "authors") -}}
+  {{- $a := index site.Data.authors $p.Title | default dict -}}
+  {{- $person := dict "@type" "Person" "@id" (printf "%s#person" $p.Permalink) "name" $p.Title "url" $p.Permalink "worksFor" $orgRef -}}
+  {{- with $a.role }}{{ $person = merge $person (dict "jobTitle" .) }}{{ end -}}
+  {{- with $a.bio }}{{ $person = merge $person (dict "description" .) }}{{ end -}}
+  {{- with $a.url }}{{ $person = merge $person (dict "sameAs" (slice .)) }}{{ end -}}
+  {{- $webpage = merge $webpage (dict "about" $person) -}}
+{{- end -}}
+
+{{- /* Glossary */ -}}
+{{- if eq $p.Layout "glossary" -}}
+  {{- $terms := slice -}}
+  {{- range site.Data.glossary }}{{ range .terms }}{{ $terms = $terms | append (dict "@type" "DefinedTerm" "name" .term "description" (.def | markdownify | plainify) "url" (printf "%s#%s" $p.Permalink (printf "term-%s" (replace .term "." "-" | anchorize)))) }}{{ end }}{{ end -}}
+  {{- $graph = $graph | append (dict "@type" "DefinedTermSet" "@id" (printf "%s#terms" $p.Permalink) "name" $p.Title "description" $p.Description "url" $p.Permalink "inLanguage" "en-US" "hasDefinedTerm" $terms) -}}
+{{- end -}}
+
+{{- if not $isArticle }}{{ $graph = $graph | append $webpage }}{{ end -}}
+
+{{- /* Articles */ -}}
+{{- if $isArticle -}}
+  {{- $au := partial "author.html" $p -}}
+  {{- $author := $orgRef -}}
+  {{- with $au.name }}
+    {{- $author = dict "@type" "Person" "name" . -}}
+    {{- with $au.permalink }}{{ $author = merge $author (dict "@id" (printf "%s#person" .) "url" .) }}{{ end -}}
+    {{- with $au.sameAs }}{{ $author = merge $author (dict "sameAs" (slice .)) }}{{ end -}}
+  {{- end }}
+  {{- $about := slice -}}
+  {{- $keywords := slice -}}
+  {{- range $p.Params.topics }}{{ with partial "topic.html" . }}{{ $about = $about | append (dict "@type" "Thing" "name" .name) }}{{ $keywords = $keywords | append .name }}{{ end }}{{ end -}}
+  {{- range $p.Params.tags }}{{ $keywords = $keywords | append . }}{{ end -}}
+  {{- $t := partial "primary-topic.html" $p -}}
+  {{- $type := cond (eq $p.Section "news") "NewsArticle" "Article" -}}
+  {{- $article := dict "@type" $type "@id" (printf "%s#article" $p.Permalink) "headline" $p.Title "description" $p.Description "url" $p.Permalink "mainEntityOfPage" (dict "@id" (printf "%s#webpage" $p.Permalink)) "isPartOf" (dict "@id" $siteId) "datePublished" ($p.Date.Format $iso) "dateModified" ($p.Lastmod.Format $iso) "articleSection" $t.name "inLanguage" "en-US" "wordCount" $p.WordCount "author" $author "publisher" $orgRef "isAccessibleForFree" true
+      "speakable" (dict "@type" "SpeakableSpecification" "cssSelector" (slice ".article-head h1" ".summary"))
+      "about" $about "keywords" (delimit $keywords ", ") -}}
+  {{- with $p.Params.summary }}{{ $article = merge $article (dict "abstract" .) }}{{ end -}}
+  {{- if $img }}{{ $article = merge $article (dict "image" (dict "@type" "ImageObject" "url" $img "width" 1200 "height" 630) "thumbnailUrl" $img) }}{{ end -}}
+  {{- with $p.Params.sources }}
+    {{- $cites := slice -}}
+    {{- range . }}{{ if .url }}{{ $c := dict "@type" "CreativeWork" "name" .title "url" .url }}{{ with .publisher }}{{ $c = merge $c (dict "publisher" (dict "@type" "Organization" "name" .)) }}{{ end }}{{ $cites = $cites | append $c }}{{ end }}{{ end -}}
+    {{- if $cites }}{{ $article = merge $article (dict "citation" $cites) }}{{ end -}}
+  {{- end }}
+  {{- $graph = $graph | append $webpage $article -}}
+
+  {{- if and (eq $p.Section "reviews") $p.Params.score -}}
+    {{- $product := dict "@type" "Product" "name" ($p.Params.product | default $p.Title) -}}
+    {{- with $p.Params.brand }}{{ $product = merge $product (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end -}}
+    {{- if $img }}{{ $product = merge $product (dict "image" $img) }}{{ end -}}
+    {{- with $p.Params.price }}{{ $product = merge $product (dict "offers" (dict "@type" "Offer" "priceCurrency" "USD" "price" .)) }}{{ end -}}
+    {{- with $p.Params.specs }}
+      {{- $props := slice -}}
+      {{- range . }}{{ $props = $props | append (dict "@type" "PropertyValue" "name" .k "value" .v) }}{{ end -}}
+      {{- $product = merge $product (dict "additionalProperty" $props) -}}
+    {{- end }}
+    {{- $rating := dict "@type" "Rating" "ratingValue" $p.Params.score "bestRating" 10 "worstRating" 0 -}}
+    {{- $review := dict "@type" "Review" "@id" (printf "%s#review" $p.Permalink) "name" $p.Title "reviewBody" ($p.Params.summary | default $p.Description) "url" $p.Permalink "datePublished" ($p.Date.Format $iso) "dateModified" ($p.Lastmod.Format $iso) "inLanguage" "en-US" "author" $author "publisher" $orgRef "reviewRating" $rating "itemReviewed" $product -}}
+    {{- with $p.Params.pros }}
+      {{- $l := slice }}{{ range $i, $x := . }}{{ $l = $l | append (dict "@type" "ListItem" "position" (add $i 1) "name" $x) }}{{ end -}}
+      {{- $review = merge $review (dict "positiveNotes" (dict "@type" "ItemList" "itemListElement" $l)) -}}
+    {{- end }}
+    {{- with $p.Params.cons }}
+      {{- $l := slice }}{{ range $i, $x := . }}{{ $l = $l | append (dict "@type" "ListItem" "position" (add $i 1) "name" $x) }}{{ end -}}
+      {{- $review = merge $review (dict "negativeNotes" (dict "@type" "ItemList" "itemListElement" $l)) -}}
+    {{- end }}
+    {{- $graph = $graph | append $review -}}
+  {{- end -}}
+
+  {{- with $p.Params.faq -}}
+    {{- $qs := slice -}}
+    {{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end -}}
+    {{- $graph = $graph | append (dict "@type" "FAQPage" "@id" (printf "%s#faq" $p.Permalink) "mainEntity" $qs) -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

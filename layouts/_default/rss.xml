@@ -1,0 +1,31 @@
+{{- /* RSS: articles only (no About/Privacy pages). Home feed = everything; section/topic feeds = their articles. */ -}}
+{{- $pages := .Pages -}}
+{{- if .IsHome }}{{ $pages = site.RegularPages }}{{ end -}}
+{{- $pages = where $pages "Section" "in" (slice "reviews" "news" "guides" "deals") -}}
+{{- $pages = first 30 $pages.ByDate.Reverse -}}
+{{- $m := partial "meta.html" . -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ $m.title }} | {{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ $m.description }}</description>
+    <language>en-us</language>
+    {{- with $pages }}<lastBuildDate>{{ (index . 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml"/>
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid>{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with (partial "author.html" .).name }}<dc:creator>{{ . }}</dc:creator>{{ end }}
+      <category>{{ (partial "primary-topic.html" .).name }}</category>
+      <description>{{ .Params.summary | default .Description }}</description>
+      <content:encoded>{{ printf "<![CDATA[%s%s]]>" (cond (isset .Params "summary") (printf "<p><strong>Short answer:</strong> %s</p>" (.Params.summary | htmlEscape)) "") .Content | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

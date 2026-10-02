@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="page-head">
+    <p class="eyebrow">Error 404</p>
+    <h1>We couldn't find that page.</h1>
+    <p class="page-dek">It may have moved, or the link may be mistyped. Try a search, or start from one of these.</p>
+  </header>
+  <form class="search-box" role="search" action="{{ "search/" | relURL }}" method="get">
+    <label class="sr-only" for="q404">Search WiFi Weekly</label>
+    <input id="q404" type="search" name="q" placeholder="Search reviews, guides, and news">
+    <button class="btn btn--primary" type="submit">Search</button>
+  </form>
+  <section class="section" aria-labelledby="nf-topics">
+    <div class="section-head"><h2 id="nf-topics">Browse by topic</h2></div>
+    {{ partial "topic-grid.html" . }}
+  </section>
+</div>
+{{ end }}

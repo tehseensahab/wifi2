@@ -1,0 +1,6 @@
+{{- $out := slice -}}
+{{- range where site.RegularPages "Section" "in" (slice "reviews" "news" "guides" "deals") -}}
+  {{- $t := partial "primary-topic.html" . -}}
+  {{- $out = $out | append (dict "title" .Title "description" .Description "url" .RelPermalink "topic" $t.name "type" (.Section | singularize | title) "date" (.Lastmod.Format "Jan 2, 2006")) -}}
+{{- end -}}
+{{- $out | jsonify -}}

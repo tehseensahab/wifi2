@@ -1,0 +1,14 @@
+{{- $crumbs := partial "breadcrumbs-data.html" . -}}
+{{- if gt (len $crumbs) 1 }}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {{- range $i, $c := $crumbs }}
+    {{- if eq (add $i 1) (len $crumbs) }}
+    <li aria-current="page">{{ $c.name | truncate 60 }}</li>
+    {{- else }}
+    <li><a href="{{ $c.url }}">{{ $c.name }}</a></li>
+    {{- end }}
+    {{- end }}
+  </ol>
+</nav>
+{{- end }}

@@ -1,0 +1,18 @@
+{{- /*
+  Cover image. Looks for cover.* (jpg/png/webp) in the page bundle.
+  Args: page (required), eager (bool, default lazy), sizes (optional).
+  Output is always 1200x630 webp q80 (plus a 600x315 variant for srcset);
+  CSS fixes the 1200/630 ratio with object-fit: cover.
+*/ -}}
+{{- $p := .page -}}
+{{- $res := $p.Resources.GetMatch "cover.*" -}}
+{{- $alt := $p.Params.imageAlt | default "" -}}
+{{- $sizes := .sizes | default "(min-width: 900px) 380px, 100vw" -}}
+{{- if $res }}
+  {{- $lg := $res.Fill "1200x630 webp q80" -}}
+  {{- $sm := $res.Fill "600x315 webp q80" -}}
+  <img class="cover" src="{{ $lg.RelPermalink }}" srcset="{{ $sm.RelPermalink }} 600w, {{ $lg.RelPermalink }} 1200w" sizes="{{ $sizes }}" width="1200" height="630" alt="{{ $alt }}" {{ if .eager }}loading="eager" fetchpriority="high"{{ else }}loading="lazy" decoding="async"{{ end }}>
+{{- else }}
+  {{- $t := partial "primary-topic.html" $p }}
+  <span class="cover cover--empty" aria-hidden="true">{{ partial "icon.html" ($t.icon | default "wifi") }}</span>
+{{- end }}
