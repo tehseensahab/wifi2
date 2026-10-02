@@ -1,0 +1,7 @@
+{{- /* The category label for a page: its first topic, else its section name. */ -}}
+{{- $t := dict -}}
+{{- with .Params.topics }}{{ $t = partial "topic.html" (index . 0) }}{{ end -}}
+{{- if not $t -}}
+  {{- $t = dict "slug" "" "name" (.CurrentSection.Title | default "WiFi Weekly") "icon" "wifi" "url" .CurrentSection.RelPermalink -}}
+{{- end -}}
+{{- return $t -}}

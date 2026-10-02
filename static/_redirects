@@ -1,0 +1,21 @@
+# Cloudflare Pages redirects. Old URLs from the previous site structure.
+/categories/reviews/ /reviews/ 301
+/categories/news/ /news/ 301
+/categories/guides/ /guides/ 301
+/categories/deals/ /deals/ 301
+/categories /topics/ 301
+/posts/ / 301
+
+/posts/eero-vs-tplink-deal/ /deals/eero-vs-tplink-deal/ 301
+/posts/test-tp-link-deco-mesh-deal/ /deals/test-tp-link-deco-mesh-deal/ 301
+/posts/best-mesh-wifi-for-large-house/ /guides/best-mesh-wifi-for-large-house/ 301
+/posts/best-wifi-router-for-large-house/ /guides/best-wifi-router-for-large-house/ 301
+/posts/how-to-fix-slow-wifi/ /guides/how-to-fix-slow-wifi/ 301
+/posts/mesh-vs-router-guide/ /guides/mesh-vs-router-guide/ 301
+/posts/wifi-extender-placement-guide/ /guides/wifi-extender-placement-guide/ 301
+/posts/wifi-router-vs-mesh/ /guides/wifi-router-vs-mesh/ 301
+/posts/wifi-slow-but-internet-fast/ /guides/wifi-slow-but-internet-fast/ 301
+/posts/fcc-6ghz-power-rules/ /news/fcc-6ghz-power-rules/ 301
+/posts/test-starlink-mesh-integration-news/ /news/test-starlink-mesh-integration-news/ 301
+/posts/asus-rt-be92u-review/ /reviews/asus-rt-be92u-review/ 301
+/posts/netgear-orbi-970-review/ /reviews/netgear-orbi-970-review/ 301

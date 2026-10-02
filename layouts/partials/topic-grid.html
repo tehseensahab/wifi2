@@ -1,0 +1,16 @@
+{{- /* Category tiles with icons, from data/topics.yaml. */ -}}
+<div class="topic-grid">
+  {{- range hugo.Data.topics }}
+  {{- $n := 0 -}}
+  {{- if eq .slug "deals" }}{{ with site.GetPage "/deals" }}{{ $n = len .Pages }}{{ end }}
+  {{- else }}{{ with site.GetPage (printf "/topics/%s" .slug) }}{{ $n = len .Pages }}{{ end }}{{ end }}
+  <a class="topic-tile" href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">
+    <span class="topic-icon">{{ partial "icon.html" .icon }}</span>
+    <span class="topic-text">
+      <strong>{{ .name }}</strong>
+      <span>{{ .desc }}</span>
+    </span>
+    <span class="topic-count">{{ $n }}</span>
+  </a>
+  {{- end }}
+</div>

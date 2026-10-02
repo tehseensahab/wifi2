@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="page-head">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>Search</h1>
+    <p class="page-dek">Find reviews, guides, news, and deals.</p>
+  </header>
+  <form class="search-box" role="search" onsubmit="return false">
+    <label class="sr-only" for="q">Search WiFi Weekly</label>
+    <input id="q" type="search" placeholder="Try “mesh”, “bufferbloat”, or “Matter”" autocomplete="off" autofocus>
+  </form>
+  <p id="search-status" class="page-count" aria-live="polite"></p>
+  <ul id="search-results" class="results"></ul>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('q'), out = document.getElementById('search-results'), status = document.getElementById('search-status'), docs = [];
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function run() {
+    var terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!terms.length) { out.innerHTML = ''; status.textContent = ''; return; }
+    var hits = docs.map(function (d) {
+      var hay = (d.title + ' ' + d.description + ' ' + d.topic + ' ' + d.type).toLowerCase(), score = 0;
+      for (var i = 0; i < terms.length; i++) {
+        if (hay.indexOf(terms[i]) < 0) return null;
+        score += d.title.toLowerCase().indexOf(terms[i]) > -1 ? 3 : 1;
+      }
+      return { d: d, s: score };
+    }).filter(Boolean).sort(function (a, b) { return b.s - a.s; });
+    status.textContent = hits.length + (hits.length === 1 ? ' result' : ' results');
+    out.innerHTML = hits.slice(0, 30).map(function (h) {
+      var d = h.d;
+      return '<li><p class="card-cat">' + esc(d.topic) + ' · ' + esc(d.type) + '</p><h2><a href="' + esc(d.url) + '">' + esc(d.title) + '</a></h2><p>' + esc(d.description) + '</p><p class="card-meta">' + esc(d.date) + '</p></li>';
+    }).join('');
+  }
+  fetch('{{ "index.json" | relURL }}').then(function (r) { return r.json(); }).then(function (j) {
+    docs = j; var q = new URLSearchParams(location.search).get('q'); if (q) input.value = q; run();
+  });
+  input.addEventListener('input', run);
+})();
+</script>
+{{ end }}

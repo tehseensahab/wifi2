@@ -1,0 +1,57 @@
+{{- /* JSON-LD: WebSite (home), BreadcrumbList, Article/NewsArticle, Review, FAQPage. */ -}}
+{{- $p := .page -}}
+{{- $img := .img -}}
+{{- $home := site.Home.Permalink -}}
+{{- $iso := "2006-01-02T15:04:05Z07:00" -}}
+{{- $orgRef := dict "@id" (printf "%s#org" $home) -}}
+{{- $org := dict "@type" "Organization" "@id" (printf "%s#org" $home) "name" site.Title "url" $home -}}
+{{- $graph := slice -}}
+{{- $m := partial "meta.html" $p -}}
+
+{{- if $p.IsHome -}}
+  {{- $search := dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%ssearch/?q={search_term_string}" $home)) "query-input" "required name=search_term_string" -}}
+  {{- $graph = $graph | append $org (dict "@type" "WebSite" "@id" (printf "%s#website" $home) "name" site.Title "url" $home "description" site.Params.description "inLanguage" "en-US" "publisher" $orgRef "potentialAction" $search) -}}
+{{- else -}}
+  {{- $items := slice -}}
+  {{- range $i, $c := partial "breadcrumbs-data.html" $p -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) -}}
+  {{- end -}}
+  {{- if $items }}{{ $graph = $graph | append (dict "@type" "BreadcrumbList" "itemListElement" $items) }}{{ end -}}
+{{- end -}}
+
+{{- if and $p.IsPage (in (slice "reviews" "news" "guides" "deals") $p.Section) -}}
+  {{- $author := $orgRef -}}
+  {{- with $p.Params.author }}{{ $author = dict "@type" "Person" "name" . }}{{ end -}}
+  {{- $t := partial "primary-topic.html" $p -}}
+  {{- $type := cond (eq $p.Section "news") "NewsArticle" "Article" -}}
+  {{- $article := dict "@type" $type "@id" (printf "%s#article" $p.Permalink) "headline" $p.Title "description" $p.Description "url" $p.Permalink "mainEntityOfPage" $p.Permalink "datePublished" ($p.Date.Format $iso) "dateModified" ($p.Lastmod.Format $iso) "articleSection" $t.name "inLanguage" "en-US" "wordCount" $p.WordCount "author" $author "publisher" $org -}}
+  {{- if $img }}{{ $article = merge $article (dict "image" (slice $img)) }}{{ end -}}
+  {{- with $p.Params.sources }}
+    {{- $cites := slice -}}
+    {{- range . }}{{ if .url }}{{ $cites = $cites | append (dict "@type" "CreativeWork" "name" .title "url" .url) }}{{ end }}{{ end -}}
+    {{- if $cites }}{{ $article = merge $article (dict "citation" $cites) }}{{ end -}}
+  {{- end }}
+  {{- $graph = $graph | append $article -}}
+
+  {{- if and (eq $p.Section "reviews") $p.Params.score -}}
+    {{- $product := dict "@type" "Product" "name" ($p.Params.product | default $p.Title) -}}
+    {{- with $p.Params.brand }}{{ $product = merge $product (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end -}}
+    {{- if $img }}{{ $product = merge $product (dict "image" $img) }}{{ end -}}
+    {{- with $p.Params.price }}{{ $product = merge $product (dict "offers" (dict "@type" "Offer" "priceCurrency" "USD" "price" .)) }}{{ end -}}
+    {{- $rating := dict "@type" "Rating" "ratingValue" $p.Params.score "bestRating" 10 "worstRating" 0 -}}
+    {{- $review := dict "@type" "Review" "@id" (printf "%s#review" $p.Permalink) "name" $p.Title "reviewBody" ($p.Params.summary | default $p.Description) "url" $p.Permalink "datePublished" ($p.Date.Format $iso) "dateModified" ($p.Lastmod.Format $iso) "inLanguage" "en-US" "author" $author "publisher" $org "reviewRating" $rating "itemReviewed" $product -}}
+    {{- $graph = $graph | append $review -}}
+  {{- end -}}
+
+  {{- with $p.Params.faq -}}
+    {{- $qs := slice -}}
+    {{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end -}}
+    {{- $graph = $graph | append (dict "@type" "FAQPage" "mainEntity" $qs) -}}
+  {{- end -}}
+{{- else if eq $p.Kind "term" -}}
+  {{- $graph = $graph | append (dict "@type" "CollectionPage" "name" $m.title "description" $m.description "url" $p.Permalink "isPartOf" (dict "@id" (printf "%s#website" $home))) -}}
+{{- end -}}
+
+{{- if $graph }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>
+{{- end }}

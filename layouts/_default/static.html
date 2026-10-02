@@ -1,0 +1,14 @@
+{{- /* Static pages: About, Editorial policy, Privacy, etc. (set `layout: static`). */ -}}
+{{ define "main" }}
+<article class="article">
+  <header class="article-head wrap-article">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="article-dek">{{ . }}</p>{{ end }}
+    {{ with .Params.updated }}<p class="byline"><span>Last updated <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "January 2, 2006" . }}</time></span></p>{{ end }}
+  </header>
+  <div class="article-main wrap-article">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</article>
+{{ end }}

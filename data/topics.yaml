@@ -1,0 +1,39 @@
+# Order and display data for the nine topics. The slug must match the
+# `topics` front matter value (Deals is a section, so its url is /deals/).
+- slug: routers
+  name: Routers
+  icon: router
+  desc: "Best picks, reviews, and setup help for home routers."
+- slug: mesh-wifi
+  name: Mesh WiFi
+  icon: mesh
+  desc: "Whole-home coverage systems, tested room by room."
+- slug: wifi-6e-7
+  name: WiFi 6E / WiFi 7
+  icon: wifi
+  desc: "The standards, the upgrades, and what is actually worth paying for."
+- slug: internet-plans-isps
+  name: Internet Plans & ISPs
+  icon: globe
+  desc: "Speeds, pricing, and fiber vs cable vs 5G home internet."
+- slug: smart-home-iot
+  name: Smart Home & IoT
+  icon: home
+  desc: "Devices, hubs, and what Matter and Thread mean for your network."
+- slug: security-privacy
+  name: Security & Privacy
+  icon: shield
+  desc: "VPNs, firewalls, and router hardening in plain English."
+- slug: gaming-streaming
+  name: Gaming & Streaming
+  icon: gamepad
+  desc: "Latency, QoS, and bufferbloat, explained and fixed."
+- slug: how-to-fixes
+  name: How-To & Fixes
+  icon: wrench
+  desc: "Troubleshooting, speed tests, and dead-zone fixes."
+- slug: deals
+  name: Deals
+  icon: tag
+  url: /deals/
+  desc: "Tracked discounts, with the date we last checked the price."

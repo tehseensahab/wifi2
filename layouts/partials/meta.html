@@ -1,0 +1,9 @@
+{{- /* Display title and description for any page (topic pages come from data/topics.yaml). */ -}}
+{{- $title := .Title -}}
+{{- $desc := .Description -}}
+{{- if eq .Kind "term" -}}
+  {{- $t := partial "topic.html" .Data.Term -}}
+  {{- if $t }}{{ $title = $t.name }}{{ $desc = $t.desc }}{{ end -}}
+{{- end -}}
+{{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
+{{- return (dict "title" $title "description" $desc) -}}

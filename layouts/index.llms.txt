@@ -1,10 +1,11 @@
-# {{ .Site.Title }}
+# {{ site.Title }}
 
-> {{ .Site.Params.description }}
+> {{ site.Params.description }}
 
-Every article opens with a one-sentence summary, key takeaways, and ends with an FAQ. Sitemap: {{ "sitemap.xml" | absURL }}
-
-## Articles
-{{ range where .Site.RegularPages "Type" "posts" }}
-- [{{ .Title }}]({{ .Permalink }}): {{ .Params.dek }}
+Every article opens with a short answer, shows when it was tested and last updated, and ends with an FAQ and sources. Sitemap: {{ "sitemap.xml" | absURL }}
+{{ range (slice "reviews" "guides" "news" "deals") }}
+## {{ . | title }}
+{{ range where site.RegularPages "Section" . }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
 {{- end }}
+{{ end }}

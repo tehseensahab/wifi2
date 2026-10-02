@@ -1,0 +1,6 @@
+{{- /* A responsive grid of cards. Arg: a page collection. */ -}}
+<div class="grid">
+  {{- range . }}
+  {{ partial "card.html" (dict "page" .) }}
+  {{- end }}
+</div>

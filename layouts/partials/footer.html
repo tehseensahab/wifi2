@@ -1,6 +1,32 @@
 <footer class="site-footer">
-  <div class="wrap">
-    <span>© {{ now.Format "2006" }} WiFi Weekly. Router and mesh-network coverage for people who just want the internet to work.</span>
-    <span>{{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>&nbsp;&nbsp;{{ end }}</span>
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <a href="{{ site.Home.RelPermalink }}" class="brand"><span class="brand-text">WiFi Weekly</span></a>
+      <p>Independent router, mesh, and home internet coverage for US readers. Tested in real homes, dated, and sourced.</p>
+      <p><a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a></p>
+    </div>
+    <nav aria-label="Footer: explore">
+      <h2>Explore</h2>
+      <ul>
+        {{- range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+        <li><a href="{{ "search/" | relURL }}">Search</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer: topics">
+      <h2>Topics</h2>
+      <ul>
+        {{- range hugo.Data.topics }}<li><a href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a></li>{{ end }}
+      </ul>
+    </nav>
+    <nav aria-label="Footer: about and legal">
+      <h2>About WiFi Weekly</h2>
+      <ul>
+        {{- range site.Menus.legal }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+        <li><a href="{{ "index.xml" | relURL }}">RSS feed</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap footer-base">
+    <p>© {{ now.Format "2006" }} WiFi Weekly. Some links are affiliate links; they never change our scores. <a href="{{ "affiliate-disclosure/" | relURL }}">How we make money</a>.</p>
   </div>
 </footer>

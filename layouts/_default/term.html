@@ -1,0 +1,23 @@
+{{- /* Category (topic) page: e.g. /topics/mesh-wifi/ */ -}}
+{{ define "main" }}
+{{- $t := partial "topic.html" .Data.Term -}}
+<div class="wrap">
+  <header class="page-head page-head--topic">
+    {{ partial "breadcrumbs.html" . }}
+    <div class="topic-title">
+      <span class="topic-icon">{{ partial "icon.html" ($t.icon | default "wifi") }}</span>
+      <h1>{{ $t.name | default .Title }}</h1>
+    </div>
+    <p class="page-dek">{{ $t.desc }}</p>
+    <p class="page-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}, newest first</p>
+  </header>
+  {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
+  {{ partial "grid.html" $pager.Pages }}
+  {{ template "_internal/pagination.html" . }}
+
+  <nav class="chips chips--more" aria-label="Other topics">
+    {{- range hugo.Data.topics }}{{ if ne .slug $.Data.Term }}<a class="chip" href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a>{{ end }}{{ end }}
+  </nav>
+</div>
+<div class="section wrap">{{ partial "newsletter.html" . }}</div>
+{{ end }}

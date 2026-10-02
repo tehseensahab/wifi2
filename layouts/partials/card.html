@@ -1,0 +1,30 @@
+{{- /*
+  The one article card, used everywhere.
+  Args: page (required), variant ("" | "large" | "compact"), eager (bool).
+  Cover, category label, title, one-line description, date, read time.
+  Reviews also get a score badge and a "Best for" tag.
+*/ -}}
+{{- $p := .page -}}
+{{- $t := partial "primary-topic.html" $p -}}
+{{- $isReview := and (eq $p.Section "reviews") $p.Params.score -}}
+{{- $updated := ne ($p.Lastmod.Format "2006-01-02") ($p.Date.Format "2006-01-02") -}}
+{{- $shown := cond $updated $p.Lastmod $p.Date -}}
+{{- $sizes := cond (eq .variant "large") "(min-width: 900px) 600px, 100vw" "(min-width: 900px) 380px, 100vw" -}}
+{{- if eq .variant "compact" }}{{ $sizes = "140px" }}{{ end }}
+<article class="card{{ with .variant }} card--{{ . }}{{ end }}{{ if $isReview }} card--review{{ end }}">
+  <a class="card-media" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+    {{ partial "cover.html" (dict "page" $p "eager" .eager "sizes" $sizes) }}
+    {{- if $isReview }}<span class="score" aria-label="Score {{ $p.Params.score }} out of 10"><b>{{ printf "%.1f" $p.Params.score }}</b><small>/10</small></span>{{ end }}
+  </a>
+  <div class="card-body">
+    <p class="card-cat"><a href="{{ $t.url }}">{{ $t.name }}</a></p>
+    <h3 class="card-title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+    <p class="card-desc">{{ $p.Description }}</p>
+    {{- if and $isReview $p.Params.bestFor }}<p class="best-for"><span>Best for</span> {{ $p.Params.bestFor }}</p>{{ end }}
+    <p class="card-meta">
+      <time datetime="{{ $shown.Format "2006-01-02" }}">{{ if $updated }}Updated {{ end }}{{ $shown.Format "Jan 2, 2006" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ $p.Params.readTime | default $p.ReadingTime }} min read</span>
+    </p>
+  </div>
+</article>

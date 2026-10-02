@@ -1,43 +1,110 @@
 baseURL = "https://wifiweekly.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "WiFi Weekly"
 enableRobotsTXT = true
 copyright = "WiFi Weekly"
+summaryLength = 30
 
 [pagination]
-  pagerSize = 9
+  pagerSize = 12
 
 [params]
-  description = "Router reviews, mesh network guides, and home-connectivity news."
-  tagline = "Signal, sorted."
-  favicon = "📶"
+  description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Tested in real homes, dated, and sourced."
+  tagline = "WiFi, without the guesswork."
+  contactEmail = "hello@wifiweekly.com"
+  twitter = ""
+  # Optional fallback share image (1200x630). Used only if the file exists.
+  defaultOgImage = "images/og-default.jpg"
+  # Newsletter: paste your provider's form action URL (Buttondown, ConvertKit, Mailchimp...).
+  # While empty, the signup form renders disabled so no one types an address into a dead form.
+  [params.newsletter]
+    action = ""
+    emailField = "email"
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  topic = "topics"
 
+# Cards link to related reading; Hugo's related-content engine uses these weights.
+[related]
+  includeNewer = true
+  threshold = 30
+  toLower = true
+  [[related.indices]]
+    name = "topics"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+# Primary navigation (header + footer)
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
 [[menu.main]]
   name = "Reviews"
-  url = "/categories/reviews/"
-  weight = 10
-
+  pageRef = "/reviews"
+  weight = 20
 [[menu.main]]
   name = "News"
-  url = "/categories/news/"
-  weight = 20
-
+  pageRef = "/news"
+  weight = 30
 [[menu.main]]
   name = "Guides"
-  url = "/categories/guides/"
-  weight = 30
-
-[[menu.main]]
-  name = "Deals"
-  url = "/categories/deals/"
+  pageRef = "/guides"
   weight = 40
+[[menu.main]]
+  name = "Topics"
+  pageRef = "/topics"
+  weight = 50
+[[menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 60
+
+# Footer: trust and legal pages
+[[menu.legal]]
+  name = "About"
+  pageRef = "/about"
+  weight = 10
+[[menu.legal]]
+  name = "Editorial policy"
+  pageRef = "/editorial-policy"
+  weight = 20
+[[menu.legal]]
+  name = "Corrections"
+  pageRef = "/corrections"
+  weight = 30
+[[menu.legal]]
+  name = "Affiliate disclosure"
+  pageRef = "/affiliate-disclosure"
+  weight = 40
+[[menu.legal]]
+  name = "Privacy"
+  pageRef = "/privacy"
+  weight = 50
+[[menu.legal]]
+  name = "Terms"
+  pageRef = "/terms"
+  weight = 60
+[[menu.legal]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 70
 
 [markup.goldmark.renderer]
   unsafe = true
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+  ordered = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 [outputFormats.LLMS]
   mediaType = "text/plain"
@@ -45,5 +112,11 @@ copyright = "WiFi Weekly"
   isPlainText = true
   notAlternative = true
 
+[outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS", "LLMS"]
+  home = ["HTML", "RSS", "LLMS", "SearchIndex"]

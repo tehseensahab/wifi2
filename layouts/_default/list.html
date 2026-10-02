@@ -1,19 +1,26 @@
+{{- /* Content-type pages: Reviews, News, Guides, Deals. */ -}}
 {{ define "main" }}
-<div class="wrap page-head">
-  <h1>{{ .Title }}</h1>
-  {{ if .Description }}<p class="dek">{{ .Description }}</p>{{ end }}
+<div class="wrap">
+  <header class="page-head">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-dek">{{ . }}</p>{{ end }}
+    {{ with .Content }}<div class="prose page-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{- if eq .Section "reviews" }}
+  <nav class="chips" aria-label="Filter by topic">
+    {{- range hugo.Data.topics }}{{ if ne .slug "deals" }}<a class="chip" href="{{ printf "/topics/%s/" .slug | relURL }}">{{ .name }}</a>{{ end }}{{ end }}
+  </nav>
+  {{- end }}
+
+  {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
+  {{- if $pager.Pages }}
+  {{ partial "grid.html" $pager.Pages }}
+  {{ template "_internal/pagination.html" . }}
+  {{- else }}
+  <p class="empty">Nothing here yet. Check back soon.</p>
+  {{- end }}
 </div>
-<section class="section wrap">
-  <div class="post-grid">
-    {{ range .Pages }}
-    <article class="card">
-      {{ partial "art.html" (dict "i" (add .Weight 2)) }}
-      <div class="cat"><span class="cat-swatch" style="background:#1F8A94"></span>{{ range .Params.categories }}{{ . }}{{ end }}</div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p class="excerpt">{{ .Params.dek | default .Summary }}</p>
-      <p class="meta">{{ .Date.Format "Jan 2, 2006" }}</p>
-    </article>
-    {{ end }}
-  </div>
-</section>
+<div class="section wrap">{{ partial "newsletter.html" . }}</div>
 {{ end }}

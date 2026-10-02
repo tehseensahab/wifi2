@@ -1,66 +1,66 @@
 {{ define "main" }}
-{{ $posts := where .Site.RegularPages "Type" "posts" }}
-{{ $featured := index $posts 0 }}
-{{ $rest := after 1 $posts }}
+{{- $all := where site.RegularPages "Section" "in" (slice "reviews" "news" "guides" "deals") -}}
+{{- $news := where site.RegularPages "Section" "news" -}}
+{{- $reviews := where site.RegularPages "Section" "reviews" -}}
+{{- $featuredPool := where $all "Params.featured" true -}}
+{{- if not $featuredPool }}{{ $featuredPool = where $all "Section" "in" (slice "reviews" "guides") }}{{ end -}}
+{{- $featured := index $featuredPool 0 -}}
 
 <section class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="hero-eyebrow"><span class="eyebrow-dot"></span>{{ range $featured.Params.categories }}{{ . }}{{ end }}</div>
-      <h1><a href="{{ $featured.RelPermalink }}">{{ $featured.Title }}</a></h1>
-      <p class="dek">{{ $featured.Params.dek }}</p>
-      <p class="byline">{{ $featured.Date.Format "Jan 2, 2006" }} · {{ $featured.Params.readtime | default "5 min read" }}</p>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Tested in real US homes</p>
+    <h1>WiFi, without the guesswork.</h1>
+    <p class="hero-sub">Honest router and mesh reviews, plain-English guides, and fixes that work. Every article shows when we tested it and when we last updated it.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="{{ "reviews/" | relURL }}">Read reviews</a>
+      <a class="btn btn--ghost" href="{{ "topics/how-to-fixes/" | relURL }}">Fix my WiFi</a>
     </div>
-    {{ partial "art.html" (dict "i" 0 "class" "hero-art") }}
   </div>
 </section>
 
-<section class="section wrap">
-  <div class="section-head">
-    <h2>Latest</h2>
-    <a href="/categories/news/">All news →</a>
-  </div>
-  <div class="post-grid">
-    {{ range first 6 $rest }}
-    <article class="card">
-      {{ partial "art.html" (dict "i" (add .Weight 1)) }}
-      <div class="cat"><span class="cat-swatch" style="background:{{ if in .Params.categories "reviews" }}#1F8A94{{ else if in .Params.categories "guides" }}#E2A63B{{ else }}#16233A{{ end }}"></span>{{ range .Params.categories }}{{ . }}{{ end }}</div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p class="excerpt">{{ .Params.dek }}</p>
-      <p class="meta">{{ .Date.Format "Jan 2, 2006" }}</p>
-    </article>
-    {{ end }}
-  </div>
-</section>
-
-<section class="section wrap">
-  <div class="section-head">
-    <h2>Most read this month</h2>
-  </div>
-  <ul class="ranked-list">
-    {{ range $index, $p := first 5 $posts }}
-    <li>
-      <span class="rank-num">{{ add $index 1 }}</span>
-      <div>
-        <h4><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h4>
-        <span class="spec">{{ range $p.Params.categories }}{{ . }}{{ end }}</span>
+<section class="section wrap" aria-labelledby="top-stories">
+  <div class="section-head"><h2 id="top-stories">Top stories</h2></div>
+  <div class="front">
+    {{- with $featured }}{{ partial "card.html" (dict "page" . "variant" "large" "eager" true) }}{{ end }}
+    <aside class="latest-news" aria-labelledby="latest-news-title">
+      <div class="section-head section-head--small">
+        <h3 id="latest-news-title">Latest news</h3>
+        <a href="{{ "news/" | relURL }}">All news {{ partial "icon.html" "arrow" }}</a>
       </div>
-      <span class="spec">{{ $p.Params.readtime | default "5 min" }}</span>
-    </li>
-    {{ end }}
-  </ul>
-</section>
-
-<section class="wrap" style="padding-bottom: 60px;">
-  <div class="newsletter">
-    <div>
-      <h3>Get the weekly signal report</h3>
-      <p>New router tests, firmware alerts, and deal drops — every Thursday.</p>
-    </div>
-    <form>
-      <input type="email" placeholder="you@email.com">
-      <button type="submit">Subscribe</button>
-    </form>
+      {{- range first 3 $news }}
+      {{ partial "card.html" (dict "page" . "variant" "compact") }}
+      {{- end }}
+    </aside>
   </div>
 </section>
+
+<section class="section wrap" aria-labelledby="latest-reviews">
+  <div class="section-head">
+    <h2 id="latest-reviews">Latest reviews</h2>
+    <a href="{{ "reviews/" | relURL }}">All reviews {{ partial "icon.html" "arrow" }}</a>
+  </div>
+  {{- $rest := where $reviews "Permalink" "ne" $featured.Permalink }}
+  {{ partial "grid.html" (first 6 $rest) }}
+</section>
+
+<section class="section wrap" aria-labelledby="by-topic">
+  <div class="section-head">
+    <h2 id="by-topic">Browse by topic</h2>
+    <a href="{{ "topics/" | relURL }}">All topics {{ partial "icon.html" "arrow" }}</a>
+  </div>
+  {{ partial "topic-grid.html" . }}
+</section>
+
+<section class="section wrap" aria-labelledby="how-we-test">
+  <div class="section-head"><h2 id="how-we-test">How we test</h2></div>
+  <ol class="steps">
+    <li><span class="step-n">1</span><h3>Real-home testing</h3><p>We test in lived-in US homes with real walls, real devices, and real ISPs, not an empty lab.</p></li>
+    <li><span class="step-n">2</span><h3>Dated results</h3><p>Every review shows when we tested it. When firmware or prices change, we retest and update the date.</p></li>
+    <li><span class="step-n">3</span><h3>Sources linked</h3><p>Specs, FCC filings, and outside data are linked at the bottom of each article so you can check us.</p></li>
+    <li><span class="step-n">4</span><h3>Affiliate disclosure</h3><p>Some links earn us a commission. That never changes a score or a pick. <a href="{{ "affiliate-disclosure/" | relURL }}">Read the policy</a>.</p></li>
+  </ol>
+  <p class="more-link"><a href="{{ "editorial-policy/" | relURL }}">Read our editorial policy {{ partial "icon.html" "arrow" }}</a></p>
+</section>
+
+<div class="section wrap">{{ partial "newsletter.html" . }}</div>
 {{ end }}
