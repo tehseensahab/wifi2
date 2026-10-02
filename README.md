@@ -19,6 +19,16 @@ Needs Hugo extended **v0.167.0 or newer** (webp image processing, `hugo.Data`).
 - Internal Markdown links to posts that aren't published yet (scheduled or draft) render as plain text until the post goes live, so readers never hit a 404.
 - Search is client-side: Hugo writes `/index.json` and `/search/` filters it. No build step needed.
 
+## AI and search optimization
+
+- `/llms.txt`: a guide for AI assistants: what the site is, how to cite it, every article with its date and Markdown link.
+- `/llms-full.txt`: full text of every article in one Markdown file.
+- `index.md` next to every page (for example `/guides/wifi-router-vs-mesh/index.md`): a clean Markdown copy with dates, author, score, specs, pros/cons, FAQ, and sources. Linked from each page with `rel="alternate"`.
+- `robots.txt` explicitly allows search and AI crawlers (OpenAI, Anthropic, Perplexity, Google, Apple, Amazon, Meta and others).
+- JSON-LD on every page: NewsMediaOrganization with policy links, WebSite, breadcrumbs, Article/NewsArticle with summary, topics, citations and speakable sections, Review with pros/cons and specs, FAQPage, CollectionPage lists, author ProfilePages, and a DefinedTermSet for the glossary.
+- RSS includes full article text.
+- Add your official social profiles to `params.sameAs` in `hugo.toml`.
+
 ## Add a post
 
 ```

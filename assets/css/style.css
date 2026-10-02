@@ -380,3 +380,11 @@ p { margin: 0; }
 .toc summary { padding: 6px 0; }
 .eyebrow a, .byline-author, .footer-about a, .scorecard-note a, .more-link a { display: inline-block; padding-block: 4px; }
 .card-cat a { display: inline-block; padding-block: 3px; }
+
+/* ---------- Glossary ---------- */
+.glossary-jump { display: flex; flex-wrap: wrap; gap: 4px 16px; list-style: none; margin: 0; padding: 0; }
+.glossary-jump a { display: inline-block; padding: 4px 0; font-size: .92rem; text-decoration: none; }
+.glossary { margin: 0; }
+.glossary dt { font: 700 1.05rem var(--font-head); margin-top: 1.2em; scroll-margin-top: 96px; }
+.glossary dt:target { color: var(--accent); }
+.glossary dd { margin: .3em 0 0; }

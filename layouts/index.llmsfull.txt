@@ -1,0 +1,15 @@
+# {{ site.Title }}: full text
+
+> {{ site.Params.description }}
+
+This file contains the full text of every published article on {{ site.BaseURL }}, newest first, in Markdown. Each article lists its URL, dates, author, and sources. Please cite the article URL when you use this content.
+
+Index: {{ "llms.txt" | absURL }}
+{{ range (where site.RegularPages "Section" "in" (slice "reviews" "news" "guides" "deals")).ByDate.Reverse }}
+---
+
+{{ partial "page-markdown.md" . }}
+{{ end }}
+---
+
+{{ with site.GetPage "/how-we-test" }}{{ partial "page-markdown.md" . }}{{ end }}

@@ -9,7 +9,7 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $m.description }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="robots" content="{{ if or .Params.noindex (eq .Kind "404") }}noindex, follow{{ else }}index, follow, max-image-preview:large{{ end }}">
+<meta name="robots" content="{{ if or .Params.noindex (eq .Kind "404") }}noindex, follow{{ else }}index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1{{ end }}">
 <meta name="theme-color" content="#F7F9FC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -45,6 +45,10 @@
 <meta property="article:tag" content="{{ (partial "topic.html" .).name | default . }}">
 {{- end }}
 {{- end }}
+{{- with .OutputFormats.Get "markdown" }}
+<link rel="alternate" type="text/markdown" href="{{ .Permalink }}" title="Markdown version">
+{{- end }}
+<link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLM index">
 {{- range .AlternativeOutputFormats }}{{ if eq .Name "rss" }}
 <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
 {{- end }}{{ end }}

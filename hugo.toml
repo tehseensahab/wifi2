@@ -13,6 +13,8 @@ summaryLength = 30
   tagline = "WiFi, without the guesswork."
   contactEmail = "hello@wifiweekly.com"
   twitter = ""
+  # Official profiles (LinkedIn, X, YouTube...). Used as schema.org sameAs so search engines and AI assistants can confirm who you are.
+  sameAs = []
   # Optional fallback share image (1200x630). Used only if the file exists.
   defaultOgImage = "images/og-default.jpg"
   # Newsletter: paste your provider's form action URL (Buttondown, ConvertKit, Mailchimp...).
@@ -115,6 +117,22 @@ summaryLength = 30
   changefreq = "weekly"
   priority = 0.5
 
+# Markdown copies of every page (for AI assistants and LLM crawlers).
+[mediaTypes."text/markdown"]
+  suffixes = ["md"]
+
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
+  baseName = "index"
+  isPlainText = true
+  rel = "alternate"
+
+[outputFormats.LLMSFull]
+  mediaType = "text/plain"
+  baseName = "llms-full"
+  isPlainText = true
+  notAlternative = true
+
 [outputFormats.LLMS]
   mediaType = "text/plain"
   baseName = "llms"
@@ -128,7 +146,8 @@ summaryLength = 30
   notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "LLMS", "SearchIndex"]
+  home = ["HTML", "RSS", "LLMS", "LLMSFull", "SearchIndex"]
+  page = ["HTML", "Markdown"]
 
 # Don't publish the original cover.jpg files; only the resized versions are used.
 [[cascade]]

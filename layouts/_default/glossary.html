@@ -1,0 +1,27 @@
+{{- /* WiFi glossary, from data/glossary.yaml. Each term gets an anchor: /glossary/#backhaul */ -}}
+{{ define "main" }}
+<article class="article">
+  <header class="article-head wrap-article">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="article-dek">{{ . }}</p>{{ end }}
+    {{ with .Params.updated }}<p class="byline"><span>Last updated <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "January 2, 2006" . }}</time></span></p>{{ end }}
+  </header>
+  <div class="article-main wrap-article">
+    <nav class="toc" aria-label="Glossary sections">
+      <ul class="glossary-jump">{{ range site.Data.glossary }}<li><a href="#{{ .section | anchorize }}">{{ .section }}</a></li>{{ end }}</ul>
+    </nav>
+    <div class="prose">
+      {{- range site.Data.glossary }}
+      <h2 id="{{ .section | anchorize }}">{{ .section }}</h2>
+      <dl class="glossary">
+        {{- range .terms }}
+        <dt id="{{ printf "term-%s" (replace .term "." "-" | anchorize) }}">{{ .term }}</dt>
+        <dd>{{ .def | markdownify }}</dd>
+        {{- end }}
+      </dl>
+      {{- end }}
+    </div>
+  </div>
+</article>
+{{ end }}
