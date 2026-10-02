@@ -374,3 +374,9 @@ p { margin: 0; }
 .search-box { display: flex; gap: 10px; max-width: 720px; }
 .search-box input { flex: 1; min-width: 0; }
 @media (max-width: 520px) { .search-box { flex-direction: column; } }
+
+/* ---------- Touch & legibility: min 12px text, ~24px+ tap targets ---------- */
+.card-cat, .eyebrow-type, .scorecard dt, .topic-count, .score small, .scorecard-score small { font-size: .75rem; }
+.toc summary { padding: 6px 0; }
+.eyebrow a, .byline-author, .footer-about a, .scorecard-note a, .more-link a { display: inline-block; padding-block: 4px; }
+.card-cat a { display: inline-block; padding-block: 3px; }
