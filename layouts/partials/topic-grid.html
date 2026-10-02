@@ -1,6 +1,6 @@
 {{- /* Category tiles with icons, from data/topics.yaml. */ -}}
 <div class="topic-grid">
-  {{- range hugo.Data.topics }}
+  {{- range site.Data.topics }}
   {{- $n := 0 -}}
   {{- if eq .slug "deals" }}{{ with site.GetPage "/deals" }}{{ $n = len .Pages }}{{ end }}
   {{- else }}{{ with site.GetPage (printf "/topics/%s" .slug) }}{{ $n = len .Pages }}{{ end }}{{ end }}

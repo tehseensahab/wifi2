@@ -1,5 +1,5 @@
 baseURL = "https://wifiweekly.com/"
-locale = "en-US"
+languageCode = "en-us"
 title = "WiFi Weekly"
 enableRobotsTXT = true
 copyright = "WiFi Weekly"

@@ -16,7 +16,7 @@
   {{ template "_internal/pagination.html" . }}
 
   <nav class="chips chips--more" aria-label="Other topics">
-    {{- range hugo.Data.topics }}{{ if ne .slug $.Data.Term }}<a class="chip" href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a>{{ end }}{{ end }}
+    {{- range site.Data.topics }}{{ if ne .slug $.Data.Term }}<a class="chip" href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a>{{ end }}{{ end }}
   </nav>
 </div>
 <div class="section wrap">{{ partial "newsletter.html" . }}</div>

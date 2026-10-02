@@ -15,7 +15,7 @@
     <nav aria-label="Footer: topics">
       <h2>Topics</h2>
       <ul>
-        {{- range hugo.Data.topics }}<li><a href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a></li>{{ end }}
+        {{- range site.Data.topics }}<li><a href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a></li>{{ end }}
       </ul>
     </nav>
     <nav aria-label="Footer: about and legal">

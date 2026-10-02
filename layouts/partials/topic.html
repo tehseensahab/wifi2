@@ -1,7 +1,7 @@
 {{- /* Look up a topic by slug in data/topics.yaml. Returns a dict (empty if unknown). */ -}}
 {{- $slug := . -}}
 {{- $out := dict -}}
-{{- range hugo.Data.topics -}}
+{{- range site.Data.topics -}}
   {{- if eq .slug $slug -}}
     {{- $out = dict "slug" .slug "name" .name "icon" .icon "desc" .desc "url" (.url | default (printf "/topics/%s/" .slug)) -}}
   {{- end -}}
