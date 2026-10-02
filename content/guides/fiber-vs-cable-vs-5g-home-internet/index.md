@@ -59,4 +59,4 @@ Cable is widely available and fast on download. If your household mostly streams
 
 ## Before you blame your provider
 
-If your speeds look low, test with a cable first. Our guide to [fixing slow WiFi]({{< relref "how-to-fix-slow-wifi" >}}) shows how to tell a provider problem from a WiFi problem.
+If your speeds look low, test with a cable first. Our guide to [fixing slow WiFi](/guides/how-to-fix-slow-wifi/) shows how to tell a provider problem from a WiFi problem.

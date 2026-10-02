@@ -41,7 +41,7 @@ Your router sends data to your internet provider through a connection with a fix
 2. Close other apps, then run a bufferbloat test such as Waveform's or Cloudflare's speed test.
 3. Look at latency under load, not just the download number. A big jump from your idle ping means bufferbloat.
 
-If you're not sure whether your slowdown is WiFi or your plan, see our [slow WiFi test guide]({{< relref "how-to-fix-slow-wifi" >}}).
+If you're not sure whether your slowdown is WiFi or your plan, see our [slow WiFi test guide](/guides/how-to-fix-slow-wifi/).
 
 ## How do you fix it?
 
@@ -56,4 +56,4 @@ Look for a router that lists smart queue management or SQM, or one that supports
 
 ## What if it's your WiFi?
 
-If the wired test is fine but WiFi spikes, the cause is probably distance, interference, or the band your device is using. Try the free fixes in our guide to [why WiFi is slow when your internet is fast]({{< relref "wifi-slow-but-internet-fast" >}}).
+If the wired test is fine but WiFi spikes, the cause is probably distance, interference, or the band your device is using. Try the free fixes in our guide to [why WiFi is slow when your internet is fast](/guides/wifi-slow-but-internet-fast/).
