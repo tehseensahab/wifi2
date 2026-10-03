@@ -6,6 +6,8 @@ authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "how-to-fixes"]
 tags: ["wifi-bands", "2-4-ghz", "5-ghz", "6-ghz", "wifi-6e"]
 summary: "Use 5 GHz for most phones, laptops and TVs. Use 6 GHz for newer devices that are close to the router. Leave 2.4 GHz for far rooms and for smart-home devices that support nothing else. In most homes the best setup is one network name for all bands, so each device picks for itself."
+imageAlt: "Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table"
+imageCredit: "Photo: User_Pascal / [Unsplash](https://unsplash.com/photos/mTm0YLorp1Y)"
 takeaways:
   - "2.4 GHz reaches farthest but is the slowest and most crowded band. 6 GHz is the fastest and reaches the least. 5 GHz sits in between."
   - "Only Wi-Fi 6E and newer devices can use 6 GHz. A Wi-Fi 6E or Wi-Fi 7 router does nothing for an older phone on that band."

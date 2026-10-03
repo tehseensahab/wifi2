@@ -6,6 +6,8 @@ authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "routers"]
 tags: ["wifi-8", "802.11bn", "fcc", "tp-link", "asus"]
 summary: "As of October 3, 2026, no Wi-Fi 8 router has a confirmed US price or on-sale date. TP-Link's Archer 8 Ultra is on pre-order in the UK, Germany, Australia and Canada, and TP-Link is not on the FCC's list of router makers cleared to get new models authorized. ASUS is on that list and says US launch details will follow. Wi-Fi 8 is still a draft standard aimed at reliability, not higher top speed, so most US households lose nothing by waiting."
+imageAlt: "White Wi-Fi router with four antennas lit in blue and pink light"
+imageCredit: "Generic router, not a Wi-Fi 8 model. Photo: Jakub Żerdzicki / [Unsplash](https://unsplash.com/photos/Wx6zqk5eUng)"
 takeaways:
   - "TP-Link opened pre-orders for the Archer 8 Ultra on September 30, 2026 in the UK, Germany, Australia and Canada. It has not announced a US date or US price."
   - "ASUS put its ROG Rapture GT-BN98 on sale in Canada on September 4, 2026 and said US launch details would follow."
