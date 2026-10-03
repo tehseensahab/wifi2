@@ -29,6 +29,8 @@ How covers are used:
 | `content/news/fcc-6ghz-power-rules/` | [White Wi-Fi access point mounted on a metal cable tray](https://unsplash.com/photos/e8_JJxiiydc) | Valentin Lacoste |
 | `content/news/test-starlink-mesh-integration-news/` | [Satellite dish mounted on the side of a building against the sky](https://unsplash.com/photos/-NWGWmcEwi4) | Rasta Gubaz |
 | `content/news/fcc-router-conditional-approvals-status/` | [Shopper browsing shelves in a brightly lit electronics store](https://unsplash.com/photos/bKDOZ7neVl4) | Bhanu Singh |
+| `content/news/wifi-8-routers-us-availability/` | [White Wi-Fi router with four antennas lit in blue and pink light](https://unsplash.com/photos/Wx6zqk5eUng) | Jakub Żerdzicki |
+| `content/guides/2-4-ghz-vs-5-ghz-vs-6-ghz-wifi/` | [Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table](https://unsplash.com/photos/mTm0YLorp1Y) | User_Pascal |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
