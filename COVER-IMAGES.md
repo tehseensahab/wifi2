@@ -31,6 +31,8 @@ How covers are used:
 | `content/news/fcc-router-conditional-approvals-status/` | [Shopper browsing shelves in a brightly lit electronics store](https://unsplash.com/photos/bKDOZ7neVl4) | Bhanu Singh |
 | `content/news/wifi-8-routers-us-availability/` | [White Wi-Fi router with four antennas lit in blue and pink light](https://unsplash.com/photos/Wx6zqk5eUng) | Jakub Żerdzicki |
 | `content/guides/2-4-ghz-vs-5-ghz-vs-6-ghz-wifi/` | [Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table](https://unsplash.com/photos/mTm0YLorp1Y) | User_Pascal |
+| `content/guides/wifi-6e-vs-wifi-7/` | [Small gray router with green Ethernet cables plugged in, on a yellow background](https://unsplash.com/photos/KzUCuqTTAVw) | User_Pascal |
+| `content/guides/wpa2-vs-wpa3/` | [Silver combination padlock resting on a white computer keyboard](https://unsplash.com/photos/QP7RBa5r8HM) | Sasun Bughdaryan |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 

@@ -135,7 +135,7 @@ Two things to know:
 
 The 6 GHz band is the newest and by far the largest. The FCC opened 1,200 MHz of it, from 5.925 to 7.125 GHz, to unlicensed use in rules adopted on April 23, 2020 that took effect on July 27, 2020. Cisco describes that as more than twice the Wi-Fi bandwidth of the 5 GHz band.
 
-That room is what makes it fast. The Wi-Fi Alliance says the band has space for up to seven 160 MHz channels. Wi-Fi 7 adds 320 MHz channels, and three of those fit in 1,200 MHz (1,200 ÷ 320 = 3.75, so three that don't overlap).
+That room is what makes it fast. The Wi-Fi Alliance says the band has space for up to seven 160 MHz channels. Wi-Fi 7 adds 320 MHz channels, and three of those fit in 1,200 MHz (1,200 ÷ 320 = 3.75, so three that don't overlap). For the buying decision, see [Wi-Fi 6E vs. Wi-Fi 7]({{< relref "/guides/wifi-6e-vs-wifi-7" >}}).
 
 It is also uncrowded for a simple reason: only Wi-Fi 6E and newer devices are allowed there. There are no old, slow devices taking up airtime.
 
@@ -143,7 +143,7 @@ The limits:
 
 - **Shortest reach.** Netgear ranks 6 GHz as providing the least coverage of the three bands. Part of the reason is regulatory. FCC rules cap the power density of indoor 6 GHz access points at 5 dBm per MHz, and client devices such as phones at −1 dBm per MHz. Expect 6 GHz to be most useful close to the router.
 - **Device support.** Your device needs a Wi-Fi 6E or Wi-Fi 7 radio. Apple's list, for example, starts at iPhone 15 Pro, MacBook Pro models from 2023 and MacBook Air models from 2024. Check your own device's specifications.
-- **Newer security.** Cisco notes that the Wi-Fi Alliance made WPA3 security mandatory for Wi-Fi 6E devices. If your router's 6 GHz network isn't appearing, check that WPA3 is enabled.
+- **Newer security.** Cisco notes that the Wi-Fi Alliance made WPA3 security mandatory for Wi-Fi 6E devices. If your router's 6 GHz network isn't appearing, check that WPA3 is enabled. See [WPA2 vs. WPA3]({{< relref "/guides/wpa2-vs-wpa3" >}}).
 
 Some mesh systems use 6 GHz in a second way: as the wireless link between units. Our [mesh guide for large houses]({{< relref "/guides/best-mesh-wifi-for-large-house" >}}) covers that.
 

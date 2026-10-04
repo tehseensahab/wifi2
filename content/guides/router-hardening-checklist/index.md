@@ -33,7 +33,7 @@ Your router is the front door to your home network. These ten changes take about
 
 1. **Change the router admin password.** This is separate from your WiFi password. Use a long, unique password and store it in a password manager.
 2. **Install updates and turn on automatic updates.** Firmware updates fix security problems. If your router no longer receives updates, replace it.
-3. **Use WPA3, or WPA2 with AES.** Avoid the older WEP and WPA settings, and avoid "TKIP." If a device can't connect on WPA3, a mixed WPA2/WPA3 mode is a reasonable compromise.
+3. **Use WPA3, or WPA2 with AES.** Avoid the older WEP and WPA settings, and avoid "TKIP." If a device can't connect on WPA3, a mixed WPA2/WPA3 mode is a reasonable compromise. Our [WPA2 vs. WPA3 guide]({{< relref "/guides/wpa2-vs-wpa3" >}}) explains the difference.
 4. **Set a long WiFi password.** A passphrase of several random words is easy to type and hard to guess.
 5. **Turn off WPS.** The push-button and PIN setup feature is convenient and a known weak spot.
 6. **Turn off remote management.** Unless you deliberately use it, you don't need to reach your router's admin page from the internet.
