@@ -106,7 +106,7 @@ The general steps are the same across brands. Then check the brand-specific rule
 1. **Confirm your units have Ethernet ports.** Some don't. Eero says its Beacons and eero 6 Extenders have no Ethernet ports, and Google says Nest Wifi points "don't have Ethernet ports and can't be hardwired."
 2. **Update the firmware on every unit.** Netgear tells Orbi owners to do this before setting up Ethernet backhaul. ASUS's Ethernet Backhaul Mode needs firmware version 386 or later.
 3. **Set the system up wirelessly first, if your brand says so.** TP-Link's instructions are to add all Deco units in the app first, then connect the cables.
-4. **Run the cable.** Connect the main router to each unit, directly or through a switch. Eero specifies Cat5e, Cat6 or Cat6a cable.
+4. **Run the cable.** Connect the main router to each unit, directly or through a switch. Eero specifies Cat5e, Cat6 or Cat6a cable; our [Ethernet cable guide]({{< relref "/guides/ethernet-cable-cat5e-vs-cat6-vs-cat6a" >}}) explains which to buy.
 5. **Let the system switch over.** On Deco, TP-Link says no extra app configuration is needed, and the Wi-Fi backhaul between cabled units "disconnects automatically." ASUS has you turn on Ethernet Backhaul Mode, and warns that every node must be cabled first or a node "might lose its uplink connection."
 6. **Check the result in the app.** Most mesh apps show how each unit is connected. Confirm it says wired or Ethernet before you tidy the cables away.
 

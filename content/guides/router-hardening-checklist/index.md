@@ -37,7 +37,7 @@ Your router is the front door to your home network. These ten changes take about
 4. **Set a long WiFi password.** A passphrase of several random words is easy to type and hard to guess.
 5. **Turn off WPS.** The push-button and PIN setup feature is convenient and a known weak spot.
 6. **Turn off remote management.** Unless you deliberately use it, you don't need to reach your router's admin page from the internet.
-7. **Use a guest network for visitors and smart-home gear.** This keeps cameras, plugs, and TVs away from the laptops and phones that hold your private data.
+7. **Use a guest network for visitors and smart-home gear.** This keeps cameras, plugs, and TVs away from the laptops and phones that hold your private data. See [whether smart home devices belong on a guest network]({{< relref "/guides/guest-wifi-network-smart-home-devices" >}}).
 8. **Review connected devices.** Remove anything you don't recognize and change your WiFi password if something looks wrong.
 9. **Check for risky services you don't use.** UPnP, port forwarding, and remote file sharing should be off unless you need them.
 10. **Consider DNS filtering.** Many routers let you choose a DNS service that blocks known malicious sites.
