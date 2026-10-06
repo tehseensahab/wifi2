@@ -91,7 +91,7 @@ Work from the cheapest fix up:
 
 If only one device is slow, fix that device first. If every device is slow in the same room, it's coverage. If everything is slow, even next to the router, look at the router, its settings and your neighbors' networks.
 
-A faster internet plan won't help a Wi-Fi problem. Fix the wireless link before you pay for more speed.
+A faster internet plan won't help a Wi-Fi problem. Fix the wireless link before you pay for more speed. To check whether your plan is big enough in the first place, see [how much internet speed you need]({{< relref "/guides/how-much-internet-speed-do-i-need" >}}).
 
 ## Bottom line
 

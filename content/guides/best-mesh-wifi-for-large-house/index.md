@@ -71,7 +71,7 @@ Third, a big house is really a placement problem. Most systems here delivered se
 
 ## Wired or wireless backhaul: which matters more?
 
-Wired, and it isn't close. A cable between units gives each one a dedicated path to the router, so the far end of the house isn't competing with your phone for airtime.
+Wired, and it isn't close. A cable between units gives each one a dedicated path to the router, so the far end of the house isn't competing with your phone for airtime. Our [backhaul guide]({{< relref "/guides/mesh-wifi-wired-vs-wireless-backhaul" >}}) covers how to cable each brand.
 
 If your house already has Ethernet jacks in the walls, use them. If it doesn't, coax outlets may offer another route: MoCA adapters carry Ethernet over the coax cable already in many U.S. homes. Check whether your cable provider's TV equipment already uses that coax before adding adapters.
 

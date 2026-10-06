@@ -33,6 +33,10 @@ How covers are used:
 | `content/guides/2-4-ghz-vs-5-ghz-vs-6-ghz-wifi/` | [Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table](https://unsplash.com/photos/mTm0YLorp1Y) | User_Pascal |
 | `content/guides/wifi-6e-vs-wifi-7/` | [Small gray router with green Ethernet cables plugged in, on a yellow background](https://unsplash.com/photos/KzUCuqTTAVw) | User_Pascal |
 | `content/guides/wpa2-vs-wpa3/` | [Silver combination padlock resting on a white computer keyboard](https://unsplash.com/photos/QP7RBa5r8HM) | Sasun Bughdaryan |
+| `content/guides/mesh-wifi-wired-vs-wireless-backhaul/` | [Ethernet cables plugged into the ports of a network switch on a wooden desk](https://unsplash.com/photos/SwVkmowt7qA) | Jonathan |
+| `content/guides/how-much-internet-speed-do-i-need/` | [Bright living room with a TV showing an underwater scene](https://unsplash.com/photos/Wx23XPAlseI) | Howard Bouchevereau |
+| `content/guides/ethernet-cable-cat5e-vs-cat6-vs-cat6a/` | [Yellow Ethernet cable with an RJ45 plug on a blue background](https://unsplash.com/photos/uBcgQA7fwEA) | Markus Spiske |
+| `content/guides/guest-wifi-network-smart-home-devices/` | [Round smart thermostat on a white wall showing 63 degrees](https://unsplash.com/photos/RFAHj4tI37Y) | Dan LeFebvre |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
