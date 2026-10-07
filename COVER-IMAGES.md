@@ -37,6 +37,8 @@ How covers are used:
 | `content/guides/how-much-internet-speed-do-i-need/` | [Bright living room with a TV showing an underwater scene](https://unsplash.com/photos/Wx23XPAlseI) | Howard Bouchevereau |
 | `content/guides/ethernet-cable-cat5e-vs-cat6-vs-cat6a/` | [Yellow Ethernet cable with an RJ45 plug on a blue background](https://unsplash.com/photos/uBcgQA7fwEA) | Markus Spiske |
 | `content/guides/guest-wifi-network-smart-home-devices/` | [Round smart thermostat on a white wall showing 63 degrees](https://unsplash.com/photos/RFAHj4tI37Y) | Dan LeFebvre |
+| `content/guides/what-is-moca-ethernet-over-coax/` | [Hand holding a coaxial TV cable connector near the back of a device](https://unsplash.com/photos/YAmlr-6eDMg) | Zulfugar Karimov |
+| `content/guides/should-you-disable-wps-and-upnp/` | [Hands holding a game controller in front of a monitor showing a game](https://unsplash.com/photos/X6QffKLwyoQ) | Sam Pak |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 

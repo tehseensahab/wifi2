@@ -35,7 +35,7 @@ Your router is the front door to your home network. These ten changes take about
 2. **Install updates and turn on automatic updates.** Firmware updates fix security problems. If your router no longer receives updates, replace it.
 3. **Use WPA3, or WPA2 with AES.** Avoid the older WEP and WPA settings, and avoid "TKIP." If a device can't connect on WPA3, a mixed WPA2/WPA3 mode is a reasonable compromise. Our [WPA2 vs. WPA3 guide]({{< relref "/guides/wpa2-vs-wpa3" >}}) explains the difference.
 4. **Set a long WiFi password.** A passphrase of several random words is easy to type and hard to guess.
-5. **Turn off WPS.** The push-button and PIN setup feature is convenient and a known weak spot.
+5. **Turn off WPS.** The push-button and PIN setup feature is convenient and a known weak spot. See [whether to turn off WPS and UPnP]({{< relref "/guides/should-you-disable-wps-and-upnp" >}}).
 6. **Turn off remote management.** Unless you deliberately use it, you don't need to reach your router's admin page from the internet.
 7. **Use a guest network for visitors and smart-home gear.** This keeps cameras, plugs, and TVs away from the laptops and phones that hold your private data. See [whether smart home devices belong on a guest network]({{< relref "/guides/guest-wifi-network-smart-home-devices" >}}).
 8. **Review connected devices.** Remove anything you don't recognize and change your WiFi password if something looks wrong.
