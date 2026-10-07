@@ -137,7 +137,7 @@ Google's rule catches people out. The order has to be modem, then the main Wifi 
 
 ## What if I can't run Ethernet?
 
-**Use the coax already in the walls.** Many US homes have coaxial cable outlets from cable TV. MoCA (Multimedia over Coax Alliance) adapters send network traffic over that cable, with one adapter at the router and one at each mesh unit. The MoCA Alliance says the technology "delivers real world home networking speeds up to 2.5 Gbps." That figure is the alliance's own claim; results depend on the adapters and the condition of your wiring. From the mesh system's point of view, a MoCA link is an Ethernet connection.
+**Use the coax already in the walls.** Our [MoCA guide]({{< relref "/guides/what-is-moca-ethernet-over-coax" >}}) covers this in full. Many US homes have coaxial cable outlets from cable TV. MoCA (Multimedia over Coax Alliance) adapters send network traffic over that cable, with one adapter at the router and one at each mesh unit. The MoCA Alliance says the technology "delivers real world home networking speeds up to 2.5 Gbps." That figure is the alliance's own claim; results depend on the adapters and the condition of your wiring. From the mesh system's point of view, a MoCA link is an Ethernet connection.
 
 **Improve the wireless backhaul.** If cabling isn't possible:
 
