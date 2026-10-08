@@ -165,7 +165,7 @@ In most homes, yes. Apple's router guidance recommends a single network name (SS
 
 Separate names make sense in two cases:
 
-1. **Setting up a 2.4 GHz-only smart device.** Some setup apps can fail when the phone is on 5 GHz. A temporary 2.4 GHz-only name, or a router's "IoT network" option, gets around that.
+1. **Setting up a 2.4 GHz-only smart device.** Some setup apps can fail when the phone is on 5 GHz. A temporary 2.4 GHz-only name, or a router's "IoT network" option, gets around that. Our [step-by-step guide for 2.4 GHz smart devices]({{< relref "/guides/smart-home-device-wont-connect-2-4-ghz" >}}) covers each router brand.
 2. **Troubleshooting.** Forcing a device onto one band is a quick way to test whether the band is the cause of a problem.
 
 If you do split them, expect to manage the choice yourself. A phone that joined the 2.4 GHz name will stay on it even when it is standing next to the router.
