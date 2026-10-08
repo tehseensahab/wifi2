@@ -39,6 +39,8 @@ How covers are used:
 | `content/guides/guest-wifi-network-smart-home-devices/` | [Round smart thermostat on a white wall showing 63 degrees](https://unsplash.com/photos/RFAHj4tI37Y) | Dan LeFebvre |
 | `content/guides/what-is-moca-ethernet-over-coax/` | [Hand holding a coaxial TV cable connector near the back of a device](https://unsplash.com/photos/YAmlr-6eDMg) | Zulfugar Karimov |
 | `content/guides/should-you-disable-wps-and-upnp/` | [Hands holding a game controller in front of a monitor showing a game](https://unsplash.com/photos/X6QffKLwyoQ) | Sam Pak |
+| `content/guides/is-my-router-too-old-end-of-life/` | [Close-up of a router's front panel with green status lights, antennas behind and a blurred green felt tree in front](https://unsplash.com/photos/syCXK9WndqQ) | Misha Feshchak |
+| `content/guides/how-to-change-dns-server-on-router/` | [Laptop showing a code editor on a desk with phones and a monitor around it](https://unsplash.com/photos/laptop-screen-displays-code-with-surrounding-tech-devices-LIVNlRn1a0s) | Mahmudul Hasan |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
