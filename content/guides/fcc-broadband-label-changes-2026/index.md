@@ -6,8 +6,8 @@ authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps"]
 tags: ["fcc", "broadband-labels", "internet-plans", "isp-fees", "consumer-rights"]
 summary: "The FCC adopted an order on July 22, 2026 that lets internet providers show a link or icon instead of the full plan label, describe the label by phone instead of reading it out, and show location-based fees as a total or an \"up to\" figure. Only the order's new definitions took effect on September 14, 2026. The display changes in 47 CFR 8.1(a) are delayed indefinitely, so for now the 2022 label rules still apply. This is a regulatory explainer based on the FCC order and the Federal Register notice."
-imageAlt: "A black D-Link router with two antennas next to a white TP-Link Deco mesh unit on a wooden table"
-imageCredit: "Photo: TechieTech Tech / [Unsplash](https://unsplash.com/photos/a-couple-of-routers-sitting-on-top-of-a-table-6ZXP-5-jJts)"
+imageAlt: "Front panel of a router with green Power, System, LAN and WLAN status lights, and a blurred green decorative tree in the foreground"
+imageCredit: "Photo: Misha Feshchak / [Unsplash](https://unsplash.com/photos/white-and-black-modem-router-with-four-lights-syCXK9WndqQ)"
 takeaways:
   - "The FCC adopted the order (FCC 26-48) on July 22, 2026 and released it on July 23, 2026. The Federal Register published it on August 13, 2026."
   - "The notice says it is effective September 14, 2026, except for the changes to 47 CFR 8.1(a), which are \"delayed indefinitely\". Those are the changes to how labels are displayed, described by phone and itemized."
