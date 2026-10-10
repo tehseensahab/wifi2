@@ -41,6 +41,7 @@ How covers are used:
 | `content/guides/should-you-disable-wps-and-upnp/` | [Hands holding a game controller in front of a monitor showing a game](https://unsplash.com/photos/X6QffKLwyoQ) | Sam Pak |
 | `content/guides/do-you-need-a-gaming-router/` | [Gaming desk with a curved monitor, keyboard and purple and blue lighting](https://unsplash.com/photos/mHm1ASYNC0I) | Joshua Kettle |
 | `content/guides/smart-home-device-wont-connect-2-4-ghz/` | [Smart speaker and smartphone charging on a white table, plugged into a power strip below a wall outlet](https://unsplash.com/photos/_CyM94V3Ydc) | Thomas Kolnowski |
+| `content/guides/is-my-router-end-of-life/` | [Gray Ethernet port with green status lights on a small network adapter on a dark desk](https://unsplash.com/photos/a-close-up-of-a-router-on-a-table-o-qB6ikmn8w) | Jesse Ayegba |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
