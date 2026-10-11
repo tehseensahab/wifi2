@@ -58,6 +58,10 @@ Cable is widely available and fast on download. If your household mostly streams
 3. Read the broadband label for the plan. It lists the monthly price, any introductory pricing, and typical speeds.
 4. Ask neighbors which provider works well on your street.
 
+## Should you rent the provider's equipment?
+
+Check your bill for an equipment charge first. Our guide to [buying your own router vs. using your provider's]({{< relref "/guides/buy-your-own-router-vs-isp-equipment" >}}) explains what the law says about equipment fees and what to check before you buy.
+
 ## Before you blame your provider
 
 If your speeds look low, test with a cable first. Our guide to [fixing slow WiFi](/guides/how-to-fix-slow-wifi/) shows how to tell a provider problem from a WiFi problem.
