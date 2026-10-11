@@ -40,7 +40,7 @@ Your router is the front door to your home network. These ten changes take about
 7. **Use a guest network for visitors and smart-home gear.** This keeps cameras, plugs, and TVs away from the laptops and phones that hold your private data. See [whether smart home devices belong on a guest network]({{< relref "/guides/guest-wifi-network-smart-home-devices" >}}).
 8. **Review connected devices.** Remove anything you don't recognize and change your WiFi password if something looks wrong.
 9. **Check for risky services you don't use.** UPnP, port forwarding, and remote file sharing should be off unless you need them.
-10. **Consider DNS filtering.** Many routers let you choose a DNS service that blocks known malicious sites.
+10. **Consider DNS filtering.** Many routers let you choose a DNS service that blocks known malicious sites. See [how to change your router's DNS]({{< relref "/guides/change-router-dns-settings" >}}).
 
 ## What does a VPN do?
 

@@ -41,6 +41,8 @@ How covers are used:
 | `content/guides/should-you-disable-wps-and-upnp/` | [Hands holding a game controller in front of a monitor showing a game](https://unsplash.com/photos/X6QffKLwyoQ) | Sam Pak |
 | `content/guides/do-you-need-a-gaming-router/` | [Gaming desk with a curved monitor, keyboard and purple and blue lighting](https://unsplash.com/photos/mHm1ASYNC0I) | Joshua Kettle |
 | `content/guides/smart-home-device-wont-connect-2-4-ghz/` | [Smart speaker and smartphone charging on a white table, plugged into a power strip below a wall outlet](https://unsplash.com/photos/_CyM94V3Ydc) | Thomas Kolnowski |
+| `content/guides/buy-your-own-router-vs-isp-equipment/` | [Person reading a printed bill at a table beside a phone](https://unsplash.com/photos/vkvHBK8n_gs) | Chanhee Lee |
+| `content/guides/change-router-dns-settings/` | [Server racks with orange and blue network cables and green status lights](https://unsplash.com/photos/M5tzZtFCOfs) | Taylor Vick |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
