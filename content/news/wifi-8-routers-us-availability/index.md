@@ -1,6 +1,7 @@
 ---
 title: "Wi-Fi 8 Routers Are Here, but Not in the US: Buy or Wait?"
 date: 2026-10-03
+lastmod: 2026-10-12
 description: "TP-Link and ASUS are selling Wi-Fi 8 routers outside the US. An FCC rule decides which can launch here, and the standard itself is still a draft."
 authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "routers"]
@@ -186,6 +187,10 @@ If coverage is the real problem, start with [whether you need a router or a mesh
 | Wi-Fi 8 keeps Wi-Fi 7's 320 MHz maximum channel width and peak rate | [PCWorld, December 26, 2024, citing MediaTek](https://www.pcworld.com/article/2518469/meet-wi-fi-8-which-will-trade-speed-for-a-more-reliable-experience.html) | Qualified: based on a draft, reported by a secondary source |
 | Wi-Fi Alliance certification for Wi-Fi 8 expected January 2028 | [Wi-Fi NOW, June 16, 2026](https://wifinowglobal.com/news-blog/wi-fi-8-standard-on-track-for-completion-in-1h2028-with-certification-scheduled-for-january-2028/) | Qualified: industry reporting, not a Wi-Fi Alliance announcement |
 | UK pre-order price of £669.99 | [TechRadar, September 30, 2026](https://www.techradar.com/computing/wi-fi-broadband/tp-link-archer-8-ultra-is-now-out-but-this-cutting-edge-wi-fi-8-router-is-seriously-pricey) | Qualified: press report of an overseas price; not a US price |
+
+## Update, October 12, 2026
+
+Five US states have now sued TP-Link over its security and China-ties claims, and TP-Link was still not on the FCC's router Conditional Approval list as of its October 9 update. See [TP-Link sued by five states: what it means if you own one]({{< relref "/news/tp-link-state-lawsuits-what-owners-should-know" >}}).
 
 ## Bottom line
 
