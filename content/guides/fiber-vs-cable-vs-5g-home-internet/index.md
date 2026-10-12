@@ -62,6 +62,8 @@ Cable is widely available and fast on download. If your household mostly streams
 
 Check your bill for an equipment charge first. Our guide to [buying your own router vs. using your provider's]({{< relref "/guides/buy-your-own-router-vs-isp-equipment" >}}) explains what the law says about equipment fees and what to check before you buy.
 
+Before you pick a plan, read its FCC broadband label. Our guide to [reading the broadband label]({{< relref "/guides/how-to-read-broadband-label" >}}) explains the fields and how to compare total cost.
+
 ## Before you blame your provider
 
 If your speeds look low, test with a cable first. Our guide to [fixing slow WiFi](/guides/how-to-fix-slow-wifi/) shows how to tell a provider problem from a WiFi problem.
