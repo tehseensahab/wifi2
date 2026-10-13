@@ -76,7 +76,7 @@ This is a research-based comparison. It draws on the IEEE standard, Wi-Fi Allian
 
 ## What is the difference between Wi-Fi 6E and Wi-Fi 7?
 
-**Wi-Fi 6E** is Wi-Fi 6 extended into the 6 GHz band. The Wi-Fi Alliance, the industry group that certifies Wi-Fi products, opened its Wi-Fi 6E certification program on January 7, 2021. The underlying technology is the same as Wi-Fi 6: channels up to 160 MHz wide and a data-encoding scheme called 1024 QAM. What changed was the extra spectrum.
+**Wi-Fi 6E** is Wi-Fi 6 extended into the 6 GHz band. The Wi-Fi Alliance, the industry group that certifies Wi-Fi products, opened its Wi-Fi 6E certification program on January 7, 2021. The underlying technology is the same as Wi-Fi 6 (see [Wi-Fi 6 vs. Wi-Fi 6E]({{< relref "/guides/wifi-6-vs-wifi-6e" >}})): channels up to 160 MHz wide and a data-encoding scheme called 1024 QAM. What changed was the extra spectrum.
 
 **Wi-Fi 7** is the consumer name for IEEE 802.11be. The Wi-Fi Alliance began certifying Wi-Fi 7 products on January 8, 2024. The IEEE approved the standard on September 26, 2024 and published it on July 22, 2025. It works on the 2.4 GHz, 5 GHz and 6 GHz bands and adds new features on top.
 
@@ -146,7 +146,7 @@ If your problem is a dead zone, a Wi-Fi 7 logo is not the fix. Start with [wheth
 
 | Your situation | Reasonable choice | Why |
 |---|---|---|
-| You own a working Wi-Fi 6E router that still gets updates | Keep it | It already has 6 GHz. Wi-Fi 7's additions only help Wi-Fi 7 devices |
+| You own a working Wi-Fi 6E router that still gets updates ([how to check]({{< relref "/guides/is-my-router-still-getting-security-updates" >}})) | Keep it | It already has 6 GHz. Wi-Fi 7's additions only help Wi-Fi 7 devices |
 | You are replacing an older router and own, or plan to buy, Wi-Fi 7 devices | Tri-band Wi-Fi 7 | You get 320 MHz channels and MLO for those devices |
 | You are replacing an older router and have no Wi-Fi 7 devices | Tri-band Wi-Fi 6E or tri-band Wi-Fi 7, whichever fits your budget | Both give 6 GHz devices a clear band. Wi-Fi 7 is the longer-lived choice if the price is close |
 | You are choosing between a dual-band Wi-Fi 7 router and a tri-band Wi-Fi 6E router | Depends on your devices | The Wi-Fi 6E router has 6 GHz. The dual-band Wi-Fi 7 router has MLO and 4K QAM but no 6 GHz |
