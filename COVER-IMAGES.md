@@ -47,6 +47,8 @@ How covers are used:
 | `content/guides/bridge-mode-double-nat-own-router/` | [Gray Ethernet cable with an RJ45 plug on a light gray background](https://unsplash.com/photos/w0aMCZIW6Qc) | Claudio Schwarz |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
+| `content/guides/how-long-do-routers-get-security-updates/` | [Black Elecom WRC-300FEBK router with coiled power cable and adapter](https://commons.wikimedia.org/wiki/File:ELECOM_WRC-300FEBK_WPS_WiFi_router_2.jpg) (Wikimedia Commons, CC0) | Syced |
+| `content/guides/how-to-update-router-firmware/` | [Back of a black router showing Ethernet ports, WAN port and WPS button](https://commons.wikimedia.org/wiki/File:ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg) (Wikimedia Commons, CC0) | Syced |
 
 ## Adding a cover for a new post
 
