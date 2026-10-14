@@ -131,7 +131,7 @@ These ranges are our reading of the figures above. They are not an FCC recommend
 
 Upload is what you send: your camera on a video call, files to cloud storage, footage from a security camera, a live stream.
 
-Zoom lists 3.8 Mbps of upload for a 1080p group call. Two people on calls at once need about 7.6 Mbps. That fits within a 20 Mbps upload speed, but it would crowd a plan with 10 Mbps of upload once backups and cameras are added.
+Zoom lists 3.8 Mbps of upload for a 1080p group call. Two people on calls at once need about 7.6 Mbps. That fits within a 20 Mbps upload speed, but it would crowd a plan with 10 Mbps of upload once backups and cameras are added. For the router settings that keep calls steady, see our guide to [router settings for Zoom and Teams calls]({{< relref "/guides/router-settings-for-video-calls" >}}).
 
 Plans are usually named for their download speed, so look for the upload figure too. Some connection types offer upload speeds far lower than their download speeds, while fiber plans often offer the same speed both ways. Our [fiber vs. cable vs. 5G home internet guide]({{< relref "/guides/fiber-vs-cable-vs-5g-home-internet" >}}) covers the differences.
 

@@ -61,7 +61,7 @@ The 2.4 GHz band also reaches farther. TP-Link's Kasa support notes that it "typ
 
 ## Why does setup fail on a modern router?
 
-Most current routers broadcast one network name (SSID) for all bands and decide which band each device uses. This is called band steering. Netgear and TP-Link call their version Smart Connect, and eero and Google work this way by default.
+Most current routers broadcast one network name (SSID) for all bands and decide which band each device uses. This is called band steering. Netgear and TP-Link call their version Smart Connect, and eero and Google work this way by default. Our [band steering explainer]({{< relref "/guides/what-is-band-steering" >}}) covers how it works and when to turn it off.
 
 For everyday use that is helpful. Setup is where it can go wrong, because your phone may sit on 5 GHz while the device can only use 2.4 GHz. Google says you "may need to connect your phone to the 2.4 GHz band manually" to set up a 2.4 GHz-only device.
 
