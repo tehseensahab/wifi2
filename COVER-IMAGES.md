@@ -47,6 +47,8 @@ How covers are used:
 | `content/guides/bridge-mode-double-nat-own-router/` | [Gray Ethernet cable with an RJ45 plug on a light gray background](https://unsplash.com/photos/w0aMCZIW6Qc) | Claudio Schwarz |
 | `content/guides/wifi-6-vs-wifi-6e/` | [Modern apartment buildings with balconies in warm evening light](https://unsplash.com/photos/s34TlUTPIf4) | Isaac Quesada |
 | `content/guides/is-my-router-still-getting-security-updates/` | [Laptop screen showing a system update in progress on a desk](https://unsplash.com/photos/-jCY4oEMA3o) | Clint Patterson |
+| `content/guides/lifeline-program-discount-home-internet/` | [Woman and young girl on a sofa smiling at a laptop](https://unsplash.com/photos/QIhcMKkrDAw) | Vitaly Gariev |
+| `content/news/fcc-router-firmware-update-waiver-2029/` | [Screen showing a software updater icon with refresh arrows](https://unsplash.com/photos/R0zzIyQh5pk) | Zulfugar Karimov |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
