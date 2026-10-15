@@ -86,6 +86,10 @@ summaryLength = 30
   pageRef = "/authors"
   weight = 25
 [[menu.legal]]
+  name = "Write for us"
+  pageRef = "/write-for-us"
+  weight = 65
+[[menu.legal]]
   name = "Corrections"
   pageRef = "/corrections"
   weight = 30
