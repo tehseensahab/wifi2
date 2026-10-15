@@ -49,6 +49,8 @@ How covers are used:
 | `content/guides/is-my-router-still-getting-security-updates/` | [Laptop screen showing a system update in progress on a desk](https://unsplash.com/photos/-jCY4oEMA3o) | Clint Patterson |
 | `content/guides/router-settings-for-video-calls/` | [Man on a video call at a laptop on a home desk](https://unsplash.com/photos/6ie6OjshvWg) | LinkedIn Sales Solutions |
 | `content/guides/what-is-band-steering/` | [Back of a white Wi-Fi router with two antennas and an Ethernet cable plugged in](https://unsplash.com/photos/hXVVNB6Qctg) | Compare Fibre |
+| `content/guides/are-powerline-adapters-worth-it/` | [Plug being inserted into a US electrical wall outlet](https://unsplash.com/photos/exfrR9KkzlE) | Clint Patterson |
+| `content/guides/find-and-fix-wifi-dead-zones/` | [Bright hallway with open doors leading to a room with a plant](https://unsplash.com/photos/wKrfpXTN07Q) | Clay Banks |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 

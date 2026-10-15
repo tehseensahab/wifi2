@@ -71,7 +71,7 @@ For most homes this is academic. A plan of 1 Gbps or less fits comfortably insid
 
 ## Will MoCA work in my home?
 
-Check four things before buying.
+Check four things before buying. If you have no usable coax, see whether [powerline adapters are worth it]({{< relref "/guides/are-powerline-adapters-worth-it" >}}) instead.
 
 | Question | What to look for | Why |
 |---|---|---|
