@@ -11,7 +11,7 @@ summaryLength = 30
 [params]
   description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Tested in real homes, dated, and sourced."
   tagline = "WiFi, without the guesswork."
-  contactEmail = "hello@wifiweekly.com"
+  contactEmail = "editorial@wifiweekly.com"
   twitter = ""
   # Official profiles (LinkedIn, X, YouTube...). Used as schema.org sameAs so search engines and AI assistants can confirm who you are.
   sameAs = []
