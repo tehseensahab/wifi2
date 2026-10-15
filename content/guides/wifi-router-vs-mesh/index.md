@@ -54,7 +54,7 @@ Tom's Guide tested several mesh kits in a multi-story home with brick walls. Its
 
 ## What should I try before buying mesh?
 
-These cost nothing or very little, and any of them can fix a problem that looks like a coverage problem.
+These cost nothing or very little, and any of them can fix a problem that looks like a coverage problem. Our guide to [finding and fixing Wi-Fi dead zones]({{< relref "/guides/find-and-fix-wifi-dead-zones" >}}) shows how to map weak rooms first.
 
 1. **Move the router.** The FCC recommends a central location. Get it out of cabinets and away from large metal objects and thick walls.
 2. **Check the band.** The FCC notes that 2.4 GHz is shared with many household devices, while the 5 GHz band is faster and may be less crowded by neighbors' networks.
