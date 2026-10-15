@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ partial "head.html" . }}
+  {{ if hugo.IsProduction }}{{ template "_internal/google_analytics.html" . }}{{ end }}
 </head>
 <body class="page-{{ .Kind }}{{ with .Section }} section-{{ . }}{{ end }}">
   <a class="skip-link" href="#main">Skip to content</a>

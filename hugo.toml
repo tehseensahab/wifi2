@@ -5,6 +5,9 @@ enableRobotsTXT = true
 copyright = "WiFi Weekly"
 summaryLength = 30
 
+[services.googleAnalytics]
+  id = "G-HVKBR3LGYG"
+
 [pagination]
   pagerSize = 12
 
