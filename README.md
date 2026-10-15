@@ -41,7 +41,7 @@ Cover images: see `COVER-IMAGES.md`.
 ## Before launch
 
 - Newsletter: set `params.newsletter.action` in `hugo.toml` to your provider's form URL. Until then the form is disabled.
-- Confirm `params.contactEmail` (`hello@wifiweekly.com` is a placeholder).
+- `params.contactEmail` is `editorial@wifiweekly.com` (the only inbox that receives mail).
 - Review the Privacy and Terms pages with a lawyer.
 - Read the How we test page and edit it so it matches exactly how you test.
 - Fill in `data/authors.yaml`.
