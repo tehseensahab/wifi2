@@ -1,31 +1,53 @@
 ---
 title: "Editorial policy"
-description: "How we test, score, source, and update what we publish."
+description: "How WiFi Weekly researches, labels, sources, corrects and pays for what we publish, including sponsored posts."
 layout: static
-updated: 2026-10-02
+updated: 2026-10-15
 ---
-## How we test
+WiFi Weekly helps people choose, set up and fix their home networks. Every article should answer a real question, be accurate, and show where its facts come from.
 
-We test routers and mesh systems in real homes, with real device mixes and real US ISP connections. Where we have not tested a product ourselves, the article says so and names the outside source for any performance figures.
+## How each article is labeled
 
-Where we measure, we say how: the connection speed, the distance, the number of walls, and the date. Results from a single home are a guide, not a guarantee, and we say that too.
+We label every product article by how it was made, near the top of the page.
 
-## Scores
+- **Research-based.** Built from manufacturer specifications and documentation, standards bodies such as the Wi-Fi Alliance and the IEEE, FCC records, and named outside test results. We say plainly that we did not test the product ourselves.
+- **Explainer.** Explains a technology, feature or setting, without judging a specific product's performance.
+- **Tested.** Used only when one of our named writers has physically tested the product. Tested reviews follow our [testing method]({{< relref "how-we-test" >}}) and record the hardware version, firmware, test date, location and conditions.
 
-Review scores run from 0 to 10 and reflect performance, features, ease of use, and value at the price on the test date. A score is a snapshot. When firmware or pricing changes enough to matter, we retest and update the date.
+We never invent speed, range or latency results, testing experiences, prices or specifications. A product we haven't tested does not get a numerical score.
 
-## Dates
+## Sources and fact-checking
 
-Every article shows when it was published and when it was last updated. Reviews also show the date tested. Deals show the date we last checked the price.
+- We go to primary sources first: standards bodies, the FCC, manufacturer specification and support pages, and internet providers' own documentation.
+- We check model numbers, hardware versions and regional differences, because products with similar names can have different specifications.
+- Every article ends with a Sources list. Most also include a **Fact-check notes** table showing the key claims, where each came from, and whether it was verified or qualified.
+- If we can't verify a claim, we leave it out or say clearly that it's unconfirmed. We don't present rumors as news.
+- We quote prices only when they are current and checked, and we show the date.
 
-## Sources
+## Dates and updates
 
-We link to the manufacturer spec page, FCC filings, or outside test data we rely on, in a Sources section at the bottom of the article.
+Every article shows when it was published. When we change the substance of an article, we update the date and, for significant changes, add a note saying what changed.
 
 ## Independence
 
-Advertisers and manufacturers do not see or approve our reviews. Affiliate commissions never change a score or a pick. See our [affiliate disclosure]({{< relref "affiliate-disclosure" >}}).
+Manufacturers, retailers and advertisers do not see, approve or edit our articles before publication. We buy or borrow products on our own terms, and a free review unit does not buy coverage or a recommendation.
 
-## Mistakes
+## How we make money
 
-If we get something wrong, we fix it and note the change. See [corrections]({{< relref "corrections" >}}).
+WiFi Weekly is paid for by display advertising, affiliate links and clearly labeled sponsored posts.
+
+- **Affiliate links.** If you buy through some links, we may earn a commission at no extra cost to you. Commissions never decide what we recommend. See our [affiliate disclosure]({{< relref "affiliate-disclosure" >}}).
+- **Advertising.** Ads are separate from editorial content, and advertisers have no say in our coverage.
+- **Sponsored posts.** We accept sponsored posts. Every one is labeled "Sponsored" at the top of the article and names the sponsor. Sponsored posts must still be accurate and useful to readers, and we don't sell editorial reviews, rankings or recommendations.
+
+## Contributors and guest posts
+
+We publish articles from outside writers when they meet the same standards as our own work. See [write for us]({{< relref "write-for-us" >}}). Every article names its writer, and we don't use invented names or credentials.
+
+## Corrections
+
+If we get something wrong, we fix it as soon as we confirm the error, and log significant corrections publicly. See [corrections]({{< relref "corrections" >}}).
+
+## Contact
+
+Editorial questions and pitches: [editorial@wifiweekly.com](mailto:editorial@wifiweekly.com).
