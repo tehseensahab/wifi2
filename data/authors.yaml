@@ -1,6 +1,14 @@
 # Optional author details, keyed by the name used in `authors:` front matter.
 # Fill these in with real information; empty fields are simply not shown.
 # url can be a LinkedIn, Mastodon or personal site (used in schema "sameAs").
+"John Marshall":
+  role: ""
+  bio: ""
+  url: ""
+"Craig Leslie":
+  role: ""
+  bio: ""
+  url: ""
 "Dana Okafor":
   role: ""
   bio: ""

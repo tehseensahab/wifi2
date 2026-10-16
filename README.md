@@ -34,7 +34,7 @@ Needs Hugo extended **v0.167.0 or newer** (webp image processing, `hugo.Data`).
 ```
 hugo new reviews/my-review      # or guides/, news/, deals/
 ```
-Add `cover.jpg` to the new folder. Front matter is documented in `archetypes/`. Key fields: `description` (one line for cards), `summary` (2-3 sentence answer-first box), `authors` (e.g. `["Dana Okafor"]`, links to their author page), `topics`, `imageAlt`, `faq`, `sources`. Reviews add `score`, `bestFor`, `testedOn`, `price`, `pros`, `cons`, `specs`. Set `lastmod` when you update an article; it shows as "Last updated".
+Add `cover.jpg` to the new folder. Front matter is documented in `archetypes/`. Key fields: `description` (one line for cards), `summary` (2-3 sentence answer-first box), `authors` (`["John Marshall"]` or `["Craig Leslie"]`, links to their author page), `topics`, `imageAlt`, `faq`, `sources`. Reviews add `score`, `bestFor`, `testedOn`, `price`, `pros`, `cons`, `specs`. Set `lastmod` when you update an article; it shows as "Last updated".
 
 Cover images: see `COVER-IMAGES.md`.
 
@@ -55,3 +55,8 @@ Cover images: see `COVER-IMAGES.md`.
 - Environment variable: `HUGO_VERSION` = `0.167.0`.
 - `static/_redirects` 301s the old `/posts/...` and `/categories/...` URLs to the new ones.
 - `.github/workflows/daily-rebuild.yml` triggers a daily deploy hook so future-dated posts go live (needs the `CF_DEPLOY_HOOK` secret).
+
+
+## Writers
+
+New articles are bylined **John Marshall** or **Craig Leslie** (they write for all three publications: WiFi Weekly, Solar Examiner and FirewallSync). Pick whichever of the two wrote the piece. Existing articles keep their current bylines.

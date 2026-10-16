@@ -17,7 +17,7 @@ We write reviews, buying guides, how-to fixes, and news in plain English. Every 
 
 ## Who writes it
 
-Our writers include Dana Okafor, Marcus Reyes, and Tehseen Arbab.
+Our writers include John Marshall, Craig Leslie, Dana Okafor, Marcus Reyes, and Tehseen Arbab.
 
 ## Get in touch
 
