@@ -153,7 +153,7 @@ summaryLength = 30
   notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "LLMS", "LLMSFull", "SearchIndex"]
+  home = ["HTML", "RSS", "LLMS", "LLMSFull", "SearchIndex", "GoogleNews"]
   page = ["HTML", "Markdown"]
 
 # Don't publish the original cover.jpg files; only the resized versions are used.
@@ -162,3 +162,10 @@ summaryLength = 30
     publishResources = false
   [cascade._target]
     kind = "page"
+
+# Google News sitemap (/news-sitemap.xml): last 2 days of articles. Listed in robots.txt.
+[outputFormats.GoogleNews]
+  mediaType = "application/xml"
+  baseName = "news-sitemap"
+  isPlainText = true
+  notAlternative = true
