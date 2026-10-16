@@ -53,6 +53,8 @@ How covers are used:
 | `content/guides/find-and-fix-wifi-dead-zones/` | [Bright hallway with open doors leading to a room with a plant](https://unsplash.com/photos/wKrfpXTN07Q) | Clay Banks |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
+| `content/news/fcc-broadband-label-rules-what-changed/` | [Person reading a printed bill at a table beside a phone](https://unsplash.com/photos/vkvHBK8n_gs) (same photo as the ISP equipment guide) | Chanhee Lee |
+| `content/guides/wifi-channel-width-20-40-80-160-mhz/` | [Close-up of a black Wi-Fi router with several tall antennas](https://unsplash.com/photos/43ak6tfF4Ss) (same photo as the Asus review) | dlxmedia.hu |
 
 ## Adding a cover for a new post
 
