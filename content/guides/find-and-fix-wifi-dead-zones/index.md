@@ -86,7 +86,7 @@ Eero adds that older homes with plaster, lath or chicken wire in the walls are "
 
 Interference can turn a weak area into a dead one. Apple lists microwave ovens, cordless phones, fluorescent lights, wireless video cameras and power cables as common sources. Its suggestions:
 
-- **Change the Wi-Fi channel,** or let the router scan for the least congested one.
+- **Change the Wi-Fi channel,** or let the router scan for the least congested one. Our [Wi-Fi channel guide]({{< relref "/guides/how-to-change-wifi-channel" >}}) has the steps.
 - **Move devices to 5 GHz** where the router supports it, which takes them off the busier 2.4 GHz band.
 - **Reduce the number of active devices** on the same band.
 

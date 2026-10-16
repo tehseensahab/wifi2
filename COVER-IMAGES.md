@@ -51,6 +51,8 @@ How covers are used:
 | `content/guides/what-is-band-steering/` | [Back of a white Wi-Fi router with two antennas and an Ethernet cable plugged in](https://unsplash.com/photos/hXVVNB6Qctg) | Compare Fibre |
 | `content/guides/are-powerline-adapters-worth-it/` | [Plug being inserted into a US electrical wall outlet](https://unsplash.com/photos/exfrR9KkzlE) | Clint Patterson |
 | `content/guides/find-and-fix-wifi-dead-zones/` | [Bright hallway with open doors leading to a room with a plant](https://unsplash.com/photos/wKrfpXTN07Q) | Clay Banks |
+| `content/guides/do-you-need-a-multi-gig-router/` | [Hand plugging an Ethernet cable into a wall network jack](https://unsplash.com/photos/HAWbM1VDBQI) | 2H Media |
+| `content/guides/how-to-change-wifi-channel/` | [Smartphone showing a Wi-Fi symbol on a yellow background](https://unsplash.com/photos/CAX85x-DdBk) | Franck |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 

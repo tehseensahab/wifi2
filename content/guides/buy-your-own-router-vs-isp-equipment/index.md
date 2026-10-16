@@ -81,7 +81,7 @@ The middle option is often the easiest upgrade. You keep the provider's equipmen
 
 **Compatibility.** A cable modem or gateway has to work with your provider's network and support your speed tier. Xfinity says: "Your modem must work with Xfinity and support your internet speed," and directs customers to a compatibility lookup called My Device Info. It adds that unsupported devices won't work. Check your own provider's list if you are not with Xfinity. A Wi-Fi router plugged in behind the provider's equipment doesn't need this check.
 
-**Speed.** Match the modem and router ports to your plan. A plan faster than 1 Gbps needs multi-gigabit ports. See [how much internet speed you need]({{< relref "/guides/how-much-internet-speed-do-i-need" >}}) and our [Ethernet cable guide]({{< relref "/guides/ethernet-cable-cat5e-vs-cat6-vs-cat6a" >}}).
+**Speed.** Match the modem and router ports to your plan. A plan faster than 1 Gbps needs multi-gigabit ports; see [do you need a multi-gig router]({{< relref "/guides/do-you-need-a-multi-gig-router" >}}). See [how much internet speed you need]({{< relref "/guides/how-much-internet-speed-do-i-need" >}}) and our [Ethernet cable guide]({{< relref "/guides/ethernet-cable-cat5e-vs-cat6-vs-cat6a" >}}).
 
 **Responsibility.** Xfinity says that with your own equipment you are responsible for "keeping your device updated and secure," "troubleshooting problems with your device" and "setting up and managing your WiFi security." Our [router hardening checklist]({{< relref "/guides/router-hardening-checklist" >}}) covers the security side.
 
