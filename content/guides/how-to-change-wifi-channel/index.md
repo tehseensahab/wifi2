@@ -1,7 +1,7 @@
 ---
 title: "How to Change Your Wi-Fi Channel, and When It Helps"
 date: 2026-10-16
-description: "Changing the Wi-Fi channel fixes interference, not weak coverage. When to try it, which 2.4 GHz channels to use, DFS on 5 GHz, and steps for Netgear and ASUS."
+description: "Changing the Wi-Fi channel fixes interference, not weak coverage. When to try it, which 2.4 GHz channels to use, DFS on 5 GHz, and steps by brand."
 authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes", "routers"]
 tags: ["wifi-channel", "interference", "dfs", "2-4-ghz", "channel-width", "netgear", "asus", "eero"]

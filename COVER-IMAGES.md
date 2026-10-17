@@ -53,6 +53,8 @@ How covers are used:
 | `content/guides/find-and-fix-wifi-dead-zones/` | [Bright hallway with open doors leading to a room with a plant](https://unsplash.com/photos/wKrfpXTN07Q) | Clay Banks |
 | `content/guides/do-you-need-a-multi-gig-router/` | [Hand plugging an Ethernet cable into a wall network jack](https://unsplash.com/photos/HAWbM1VDBQI) | 2H Media |
 | `content/guides/how-to-change-wifi-channel/` | [Smartphone showing a Wi-Fi symbol on a yellow background](https://unsplash.com/photos/CAX85x-DdBk) | Franck |
+| `content/guides/docsis-3-0-vs-3-1-vs-4-0-cable-modem/` | [Back of a white home internet router showing its ports and power switch](https://unsplash.com/photos/udc7-Aw6I_o) | Compare Fibre |
+| `content/guides/see-who-is-connected-to-my-wifi/` | [Person using a smartphone](https://unsplash.com/photos/70ku6P7kgmc) | Christian Wiediger |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 
