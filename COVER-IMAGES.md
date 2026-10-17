@@ -55,6 +55,8 @@ How covers are used:
 | `content/guides/how-to-change-wifi-channel/` | [Smartphone showing a Wi-Fi symbol on a yellow background](https://unsplash.com/photos/CAX85x-DdBk) | Franck |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
+| `content/guides/find-router-ip-address-and-log-in/` | [MacBook on a wooden laptop stand on a desk with a keyboard and trackpad](https://unsplash.com/photos/tRjfyx6KKKw) | Workperch |
+| `content/guides/dhcp-reservation-static-ip-for-devices/` | [TP-Link five-port gigabit desktop switch with yellow and red Ethernet cables](https://unsplash.com/photos/vE5AKQRUs7c) | User_Pascal |
 
 ## Adding a cover for a new post
 
