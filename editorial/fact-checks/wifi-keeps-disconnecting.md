@@ -46,4 +46,4 @@ Changes applied after review:
 - Softened: "Most routers" -> "Many"; private-address default; Netgear schedule limited to Nighthawk; DFS "minute or so" -> "short time"; takeaway "weak" -> "slow or unstable"; "Router makers disagree" -> Apple/Google/ASUS give different advice; FAQ "every few minutes" reworded.
 - Ping interpretation now follows Microsoft's wording; Netgear 5-minute modem wait and ASUS 160 MHz step added; Pixel framing clarified (Google says turn on; off-to-test is our advice).
 - Fixed five source titles and added missing sources (ASUS 1012132/1045936/1042500, TP-Link 722, Xfinity overheating, Netgear 19755/24102, Intel).
-Cover: reused in-repo Unsplash photo LR_wX_klOPM (Stephen Phillips); this run's sandbox could not download from unsplash.com.
+Cover: replaced 2026-10-18 with a new free Unsplash photo (see COVER-IMAGES.md); originally reused an in-repo photo because Unsplash downloads were blocked during the first run.

@@ -53,4 +53,4 @@ Changes applied after review:
 - NOT VERIFIED "uses ASUS's standard router software and app" -> rewritten to ASUS spec wording (ASUSWRT web interface, ASUS Router app).
 - Added Pillsbury date and Beryl 7 launch blog to sources; FCC grant rows labeled as fccid.io mirror.
 Fast-changing facts rechecked 2026-10-18: Slate 7 Pro still "currently unavailable in the U.S."; Slate 7 sold out at GL.iNet US store.
-Cover: reused in-repo Unsplash photo mTm0YLorp1Y (User_Pascal); this run's sandbox could not download from unsplash.com.
+Cover: replaced 2026-10-18 with a new free Unsplash photo (see COVER-IMAGES.md); originally reused an in-repo photo because Unsplash downloads were blocked during the first run.

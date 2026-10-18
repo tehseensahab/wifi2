@@ -6,8 +6,8 @@ authors: ["Craig Leslie"]
 topics: ["how-to-fixes", "routers"]
 tags: ["wifi-disconnecting", "troubleshooting", "dfs", "band-steering", "windows", "iphone", "android"]
 summary: "Wi-Fi that keeps dropping has three possible sources: one device, your router, or your internet connection. If only one device drops, check its power-saving, driver and network settings. If every device drops, look at the router: signal, band steering, DFS channels, firmware and heat. If the router stays up but the internet goes down, check for a provider outage."
-imageAlt: "Close-up of a white router's status lights, with Wi-Fi and Online lit green"
-imageCredit: "Photo: Stephen Phillips - Hostreviews.co.uk / [Unsplash](https://unsplash.com/photos/LR_wX_klOPM)"
+imageAlt: "Front of a black wireless router with its Power, System, LAN and WLAN status lights glowing green, behind a blurred felt decoration"
+imageCredit: "Photo: Misha Feshchak / [Unsplash](https://unsplash.com/photos/syCXK9WndqQ)"
 takeaways:
   - "Start by working out whether one device, every device, or the internet connection is dropping. Microsoft, Google and Apple all suggest testing another device on the same network."
   - "On 5 GHz DFS channels, FCC rules require a router that detects radar to stop transmitting on that channel within 10 seconds and stay off it for at least 30 minutes, which can drop connected devices."

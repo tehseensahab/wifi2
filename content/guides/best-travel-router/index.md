@@ -6,8 +6,8 @@ authors: ["John Marshall"]
 topics: ["routers", "security-privacy"]
 tags: ["travel-router", "gl-inet", "asus", "hotel-wifi", "vpn", "fcc", "buying-guide"]
 summary: "For most travelers, a compact model like the GL.iNet Beryl AX or Beryl 7 covers hotel Wi-Fi and VPN use; the Beryl 7 is the pick if VPN speed matters. Choose the Mudi 7 only if you need built-in 5G, and the ASUS RT-BE58 Go if you already run ASUS at home. Buy models already sold in the US: the FCC's March 2026 rule blocks new foreign-made router models from authorization unless they have Conditional Approval, and doesn't pull models already authorized."
-imageAlt: "Small gray Wi-Fi 6 router with two flip-up antennas and a cable plugged in, on a wooden table"
-imageCredit: "Photo: User_Pascal / [Unsplash](https://unsplash.com/photos/mTm0YLorp1Y)"
+imageAlt: "Man working on a laptop while sitting on a hotel bed, with a suitcase at the foot of the bed and a woman writing at a desk behind him"
+imageCredit: "Photo: Vitaly Gariev / [Unsplash](https://unsplash.com/photos/vvOC6V-Qo_4)"
 takeaways:
   - "A travel router joins the hotel or rental Wi-Fi once, then shares that connection with all your devices on your own private network."
   - "Its Wi-Fi rating is a maximum link rate. Your real speed is capped by the hotel's connection, which you don't control."
