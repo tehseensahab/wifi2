@@ -57,8 +57,8 @@ How covers are used:
 | `content/guides/see-who-is-connected-to-my-wifi/` | [Person using a smartphone](https://unsplash.com/photos/70ku6P7kgmc) | Christian Wiediger |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
-| `content/guides/best-travel-router/` | [Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table](https://unsplash.com/photos/mTm0YLorp1Y) | User_Pascal |
-| `content/guides/wifi-keeps-disconnecting/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
+| `content/guides/best-travel-router/` | [Man working on a laptop on a hotel bed beside a suitcase](https://unsplash.com/photos/vvOC6V-Qo_4) | Vitaly Gariev |
+| `content/guides/wifi-keeps-disconnecting/` | [Black wireless router with green Power, System, LAN and WLAN status lights](https://unsplash.com/photos/syCXK9WndqQ) | Misha Feshchak |
 
 ## Adding a cover for a new post
 
