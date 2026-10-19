@@ -59,6 +59,8 @@ How covers are used:
 | `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 | `content/guides/best-travel-router/` | [Man working on a laptop on a hotel bed beside a suitcase](https://unsplash.com/photos/vvOC6V-Qo_4) | Vitaly Gariev |
 | `content/guides/wifi-keeps-disconnecting/` | [Black wireless router with green Power, System, LAN and WLAN status lights](https://unsplash.com/photos/syCXK9WndqQ) | Misha Feshchak |
+| `content/guides/eero-7-vs-eero-pro-7-vs-eero-max-7/` | [Two-level living room with an open staircase and kitchen](https://unsplash.com/photos/OuiohmAG9x8) | Lotus Design N Print |
+| `content/guides/why-is-my-upload-speed-slow/` | [Smartphone on a tripod showing a live-streaming app](https://unsplash.com/photos/5MRJkV_la-w) | Detail .co |
 
 ## Adding a cover for a new post
 
