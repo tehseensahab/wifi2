@@ -43,6 +43,17 @@
   {{ partial "grid.html" (first 6 $rest) }}
 </section>
 
+{{- $guides := where site.RegularPages "Section" "guides" }}
+{{- if $guides }}
+<section class="section wrap" aria-labelledby="latest-guides">
+  <div class="section-head">
+    <h2 id="latest-guides">Latest guides</h2>
+    <a href="{{ "guides/" | relURL }}">All guides {{ partial "icon.html" "arrow" }}</a>
+  </div>
+  {{ partial "grid.html" (first 9 $guides) }}
+</section>
+{{- end }}
+
 <section class="section wrap" aria-labelledby="by-topic">
   <div class="section-head">
     <h2 id="by-topic">Browse by topic</h2>
