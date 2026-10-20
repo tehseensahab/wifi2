@@ -61,6 +61,8 @@ How covers are used:
 | `content/guides/wifi-keeps-disconnecting/` | [Black wireless router with green Power, System, LAN and WLAN status lights](https://unsplash.com/photos/syCXK9WndqQ) | Misha Feshchak |
 | `content/guides/eero-7-vs-eero-pro-7-vs-eero-max-7/` | [Two-level living room with an open staircase and kitchen](https://unsplash.com/photos/OuiohmAG9x8) | Lotus Design N Print |
 | `content/guides/why-is-my-upload-speed-slow/` | [Smartphone on a tripod showing a live-streaming app](https://unsplash.com/photos/5MRJkV_la-w) | Detail .co |
+| `content/guides/most-durable-mesh-wifi/` | [The back of a white router with two antennas and Ethernet cables plugged in, next to a computer monitor](https://unsplash.com/photos/white-and-black-corded-electronic-device-I7C7Bi-BEwY) | Boitumelo |
+| `content/guides/wifi-7-mlo/` | [A white Wi-Fi router with four tall antennas lit by blue and pink light](https://unsplash.com/photos/a-white-laptop-computer-sitting-on-top-of-a-table-4kdGXUOKwcI) | Jakub Żerdzicki |
 
 ## Adding a cover for a new post
 

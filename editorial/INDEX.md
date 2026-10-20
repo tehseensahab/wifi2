@@ -44,6 +44,8 @@ One row per post. Update with every daily run.
 | guides/wifi-slow-but-internet-fast | Why Is My Wi-Fi Slow When My Internet Is Fast? | 2026-10-04 | how-to-fixes |  |
 | guides/wpa2-vs-wpa3 | WPA2 vs. WPA3: Which Wi-Fi Security Setting Should You Use? | 2026-10-04 | security-privacy, how-to-fixes | wpa3 |
 | guides/eero-7-vs-eero-pro-7-vs-eero-max-7 | eero 7 vs. eero Pro 7 vs. eero Max 7: Which eero Should You Buy? | 2026-10-19 | mesh-wifi, wifi-6e-7 | eero 7 vs eero pro 7 vs eero max 7 |
+| guides/most-durable-mesh-wifi | Most Durable Mesh Wi-Fi in 2026: Warranties and Updates | 2026-10-20 | mesh-wifi, security-privacy | most durable mesh wifi |
+| guides/wifi-7-mlo | Wi-Fi 7 MLO Explained: Should You Turn It On? | 2026-10-20 | wifi-6e-7, how-to-fixes | wifi 7 mlo |
 | guides/why-is-my-upload-speed-slow | Why Is My Upload Speed So Slow? Causes and Fixes | 2026-10-19 | internet-plans-isps, how-to-fixes | why is my upload speed so slow |
 | news/fcc-6ghz-power-rules | FCC quietly raises outdoor power limits on 6GHz — here's what changes | 2026-09-18 | wifi-6e-7 |  |
 | news/fcc-router-conditional-approvals-status | Which router brands have FCC conditional approval? Where things stood in mid-September | 2026-10-01 | routers, wifi-6e-7 | fcc |
