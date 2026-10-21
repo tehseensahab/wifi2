@@ -63,6 +63,8 @@ How covers are used:
 | `content/guides/why-is-my-upload-speed-slow/` | [Smartphone on a tripod showing a live-streaming app](https://unsplash.com/photos/5MRJkV_la-w) | Detail .co |
 | `content/guides/most-durable-mesh-wifi/` | [The back of a white router with two antennas and Ethernet cables plugged in, next to a computer monitor](https://unsplash.com/photos/white-and-black-corded-electronic-device-I7C7Bi-BEwY) | Boitumelo |
 | `content/guides/wifi-7-mlo/` | [A white Wi-Fi router with four tall antennas lit by blue and pink light](https://unsplash.com/photos/a-white-laptop-computer-sitting-on-top-of-a-table-4kdGXUOKwcI) | Jakub Żerdzicki |
+| `content/guides/best-wifi-extenders/` | [Two-story stucco house with a red tile roof and palm trees](https://unsplash.com/photos/beige-painted-2-storey-house-jUyNP55873k) | James Day |
+| `content/guides/high-ping-on-wifi/` | [Man in a headset playing a game at a desktop PC in purple light](https://unsplash.com/photos/a-man-sitting-in-front-of-a-computer-monitor-W5KtfcB7kw4) | Amine mouzaoui |
 
 ## Adding a cover for a new post
 
