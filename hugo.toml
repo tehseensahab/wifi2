@@ -12,9 +12,11 @@ summaryLength = 30
   pagerSize = 12
 
 [params]
-  description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Tested in real homes, dated, and sourced."
+  description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Every article is dated, sourced, and labeled as tested, research-based, or an explainer."
   tagline = "WiFi, without the guesswork."
   contactEmail = "editorial@wifiweekly.com"
+  # Google AdSense publisher ID. Loads the AdSense site-connection script in production only.
+  adsensePublisherID = "ca-pub-5209287926548228"
   twitter = ""
   # Official profiles (LinkedIn, X, YouTube...). Used as schema.org sameAs so search engines and AI assistants can confirm who you are.
   sameAs = []

@@ -2,9 +2,9 @@
 title: "Terms of use"
 description: "The rules for using WiFi Weekly."
 layout: static
-updated: 2026-10-02
+updated: 2026-10-22
 ---
-These terms are a plain-English starting point. Have them reviewed by a lawyer before you rely on them.
+These terms apply to your use of WiFi Weekly (wifiweekly.com).
 
 ## Information, not professional advice
 
@@ -14,9 +14,9 @@ WiFi Weekly provides general information about home networking. Test results com
 
 Prices and availability change quickly. The price shown in an article is the price on the date we checked it.
 
-## Links
+## Advertising and links
 
-We link to other sites and are not responsible for their content or policies.
+The site shows ads and affiliate links. We link to other sites and are not responsible for their content or policies. See our [privacy policy]({{< relref "privacy" >}}) for how ads use cookies.
 
 ## Our content
 

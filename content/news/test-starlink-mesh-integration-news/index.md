@@ -7,6 +7,7 @@ topics: ["internet-plans-isps", "mesh-wifi"]
 summary: "A Starlink firmware update lets bypass mode work with a third-party mesh system without the old DHCP-conflict workarounds. Early reports say the problem is gone; we'll update this once we've tested it on our own Starlink connection."
 imageAlt: "Satellite dish mounted on the side of a building against the sky"
 imageCredit: "Photo: Rasta Gubaz / [Unsplash](https://unsplash.com/photos/-NWGWmcEwi4)"
+noindex: true
 ---
 
 Starlink pushed a firmware update this week that changes how its router handles bypass mode when a third-party mesh system is chained behind it. Previously, users reported intermittent DHCP conflicts that required manual static IP workarounds.

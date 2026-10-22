@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ partial "head.html" . }}
   {{ if hugo.IsProduction }}{{ template "_internal/google_analytics.html" . }}{{ end }}
+  {{- with site.Params.adsensePublisherID }}{{ if and hugo.IsProduction (not $.Params.noindex) (ne $.Kind "404") }}
+  <script async src="https://pagead2.googleapis.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+  {{- end }}{{ end }}
 </head>
 <body class="page-{{ .Kind }}{{ with .Section }} section-{{ . }}{{ end }}">
   <a class="skip-link" href="#main">Skip to content</a>

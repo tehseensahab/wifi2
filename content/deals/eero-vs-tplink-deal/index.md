@@ -9,6 +9,7 @@ imageAlt: "Close-up of a white router's status lights"
 imageCredit: "Photo: Stephen Phillips - Hostreviews.co.uk / [Unsplash](https://unsplash.com/photos/LR_wX_klOPM)"
 dealPrice: 189
 priceChecked: 2026-09-12
+noindex: true
 ---
 
 We checked the price history: this is the lowest the Eero Pro 6E 2-pack has been since launch, not an inflated "was" price. At $189 it undercuts the Wi-Fi 7 version by nearly $140.
