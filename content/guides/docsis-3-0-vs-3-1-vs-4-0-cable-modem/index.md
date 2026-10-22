@@ -2,7 +2,7 @@
 title: "DOCSIS 3.0 vs. 3.1 vs. 4.0: Which Cable Modem Do You Need?"
 date: 2026-10-17
 description: "What DOCSIS 3.0, 3.1 and 4.0 cable modems support, which one your internet plan needs, and how to check your provider's approved modem list first."
-authors: ["John Marshall"]
+authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "routers"]
 tags: ["docsis", "cable-modem", "docsis-3-1", "docsis-4-0", "xfinity", "modem-buying"]
 summary: "For most cable plans bought today, a DOCSIS 3.1 modem is the safe choice: Netgear lists DOCSIS 3.0 at a 1 Gbps download maximum and 3.1 at 10 Gbps, and 3.1 modems also work on slower plans. DOCSIS 4.0 matters only where your provider has upgraded its network and offers 4.0 plans. Whatever you buy, check that it is on your provider's approved list and supports your speed tier."

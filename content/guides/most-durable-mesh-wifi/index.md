@@ -2,7 +2,7 @@
 title: "Most Durable Mesh Wi-Fi in 2026: Warranties and Updates"
 date: 2026-10-20T05:30:00Z
 description: "The most durable mesh Wi-Fi is the one with the longest written support. We compare warranties and update promises from eero, ASUS, TP-Link, Google and Netgear."
-authors: ["John Marshall"]
+authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "security-privacy"]
 tags: ["mesh-wifi", "durability", "warranty", "firmware-updates", "eero", "tp-link-deco", "nest-wifi-pro", "netgear-orbi", "asus-zenwifi", "buying-guide"]
 summary: "We found no published failure rates for consumer mesh systems, so the best evidence of a durable mesh system is how long the company promises to fix it and keep it patched. On that measure, eero's Wi-Fi 7 line leads: a three-year warranty and security updates guaranteed until at least October 31, 2031. Google's Nest Wifi Pro is the weakest new buy, with a one-year warranty and updates guaranteed only until October 27, 2027."

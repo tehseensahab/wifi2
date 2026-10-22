@@ -10,14 +10,14 @@ We write reviews, buying guides, how-to fixes, and news in plain English. Every 
 
 ## What you can expect
 
-- **Real-home testing.** We test in lived-in homes with real walls, real devices, and real US internet providers. See [how we test]({{< relref "editorial-policy" >}}).
-- **Dates on everything.** Reviews show when we tested. Guides and deals show when we last updated or checked the price.
+- **Honest labels.** Every product article says whether it was physically tested, built from manufacturer specs and outside test results, or is an explainer. See our [editorial policy]({{< relref "editorial-policy" >}}) and [how we test]({{< relref "how-we-test" >}}).
+- **Dates on everything.** Articles show when they were published and updated. Tested reviews also show the test date.
 - **Sources you can check.** Specs, FCC filings, and outside data are linked at the bottom of each article.
-- **Honest money.** Some links are affiliate links. They never change a score. Read the [affiliate disclosure]({{< relref "affiliate-disclosure" >}}).
+- **Honest money.** The site is paid for by display ads (Google AdSense) and affiliate links. Neither changes a score or a pick. Read the [affiliate disclosure]({{< relref "affiliate-disclosure" >}}).
 
 ## Who writes it
 
-Our writers include John Marshall, Craig Leslie, Dana Okafor, Marcus Reyes, and Tehseen Arbab.
+WiFi Weekly is written and edited by [Tehseen Arbab](/authors/tehseen-arbab/), who is also its publisher.
 
 ## Get in touch
 

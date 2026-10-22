@@ -2,7 +2,7 @@
 title: "Mesh system or single router? A decision guide for houses over 1,800 sq ft"
 date: 2026-09-15
 description: "The square-footage number on the box is a lab measurement. Here's how to translate it to your actual walls."
-authors: ["Dana Okafor"]
+authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "routers"]
 summary: "The square footage on the box is measured in an open warehouse, so it overstates what you'll get in a real house. Homes under about 1,800 sq ft on one floor usually do fine with one router; multiple floors or several interior walls point to mesh."
 imageAlt: "Living room with a TV on a wooden shelving unit full of books and plants"

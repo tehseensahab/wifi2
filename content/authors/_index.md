@@ -1,4 +1,4 @@
 ---
-title: "Our writers"
-description: "The people who test, write, and update WiFi Weekly."
+title: "Our writer"
+description: "Meet the publisher and writer behind WiFi Weekly."
 ---

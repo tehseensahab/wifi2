@@ -2,7 +2,7 @@
 title: "Why Is My Upload Speed So Slow? Causes and Fixes"
 date: 2026-10-19
 description: "Slow upload is often built into your plan, especially on cable and 5G home internet. Here's how to check, how to test properly, and what to fix at home."
-authors: ["Craig Leslie"]
+authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "how-to-fixes"]
 tags: ["upload-speed", "speed-test", "cable-internet", "fiber", "5g-home-internet", "troubleshooting"]
 summary: "Upload speed is usually slow because the plan was built that way: many cable and 5G home internet plans send far less than they receive, while fiber plans such as AT&T Fiber are symmetrical. Check your plan's upload figure first, then run a wired speed test with any VPN off. If a wired test matches the plan but Wi-Fi doesn't, the problem is in your home; if both fall well short, contact your provider."

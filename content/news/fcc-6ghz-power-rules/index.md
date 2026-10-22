@@ -2,7 +2,7 @@
 title: "FCC quietly raises outdoor power limits on 6GHz — here's what changes"
 date: 2026-09-18
 description: "The ruling clears the way for longer-range 6GHz mesh backhaul, starting with next year's hardware."
-authors: ["Marcus Reyes"]
+authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7"]
 summary: "The FCC has raised permitted power for standard-power 6 GHz outdoor access points, closing a gap that kept the band mostly indoor-only in the US. It should allow longer-range 6 GHz mesh backhaul, starting with next year's hardware."
 imageAlt: "White Wi-Fi access point mounted on a metal cable tray"

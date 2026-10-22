@@ -2,7 +2,7 @@
 title: "High Ping on Wi-Fi but Not Ethernet? Causes and Fixes"
 date: 2026-10-21T05:00:00Z
 description: "High ping on Wi-Fi but not Ethernet usually means the delay is in the wireless link, not your internet. How to confirm it and fix signal and channel causes."
-authors: ["John Marshall"]
+authors: ["Tehseen Arbab"]
 topics: ["gaming-streaming", "how-to-fixes"]
 tags: ["ping", "latency", "jitter", "gaming", "wifi-troubleshooting", "intel-wifi", "channel-width"]
 summary: "If your ping is low on Ethernet but high or spiky on Wi-Fi, the extra delay is usually being added between your device and your router, not by your internet provider. The usual causes are a weak signal that forces retransmissions, a crowded channel where devices wait their turn, interference, and laptop adapter settings that scan or save power. Test by pinging your router, then fix signal, channel and adapter settings, or use a cable for gaming."

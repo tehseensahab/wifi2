@@ -2,7 +2,7 @@
 title: "Access Point vs. Extender vs. Mesh: Which Should You Buy?"
 date: 2026-10-22T05:00:00Z
 description: "Access point vs. extender vs. mesh: buy an access point if you can run Ethernet, mesh for whole-home coverage, and an extender only to rescue one weak room."
-authors: ["John Marshall"]
+authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "routers"]
 tags: ["access-point", "wifi-extender", "mesh-wifi", "ethernet-backhaul", "easymesh", "aimesh", "buying-guide", "poe"]
 summary: "If you can run an Ethernet cable to where you need Wi-Fi, an access point (or a mesh node or extender used in access point mode) is the best fix, because nothing is relayed over the air. If you can't, a mesh system is the better buy for several weak rooms, and a plain extender is the cheap fix for one."

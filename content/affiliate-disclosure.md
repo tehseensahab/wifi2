@@ -1,8 +1,8 @@
 ---
 title: "Affiliate disclosure"
-description: "How WiFi Weekly makes money, and why it doesn't change what we recommend."
+description: "How WiFi Weekly makes money through ads and affiliate links, and why it doesn't change what we recommend."
 layout: static
-updated: 2026-10-02
+updated: 2026-10-22
 ---
 Some links on WiFi Weekly are affiliate links. If you click one and buy, we may earn a commission from the retailer at no extra cost to you.
 
@@ -12,6 +12,10 @@ Some links on WiFi Weekly are affiliate links. If you click one and buy, we may 
 - We recommend products that fit the reader, including cheaper ones and ones with no affiliate program.
 - Affiliate links are marked `sponsored` for search engines.
 - Articles with affiliate links say so near the top.
+
+## Advertising
+
+WiFi Weekly also shows display ads, served by Google AdSense. Advertisers do not review, edit or influence our articles, and ads are never written or placed to look like editorial content. Sponsored posts are always labeled. See our [editorial policy]({{< relref "editorial-policy" >}}) and [privacy policy]({{< relref "privacy" >}}).
 
 ## Deals
 

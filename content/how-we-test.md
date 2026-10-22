@@ -4,7 +4,7 @@ description: "Our testing method for routers, mesh systems, and home internet ge
 layout: static
 updated: 2026-10-02
 ---
-We test in real US homes, not empty labs, because walls, floors, neighbors' networks, and the devices you own are what decide how good your WiFi feels. Every review shows the date we tested, and we retest when firmware or prices change enough to matter.
+This is the method we follow whenever one of our named writers physically tests a product. Articles that are not physically tested are labeled research-based or explainer instead; see our [editorial policy]({{< relref "editorial-policy" >}}). We test in real US homes, not empty labs, because walls, floors, neighbors' networks, and the devices you own decide how good your WiFi feels. Tested reviews show the test date.
 
 ## What we measure
 

@@ -2,7 +2,7 @@
 title: "Best Travel Routers in 2026: Picks by How You Travel"
 date: 2026-10-18
 description: "A research-based guide to five travel routers sold in the US, matched to hotel Wi-Fi, VPN use, cellular backup and ASUS home networks, with what the FCC's router rule means for buyers."
-authors: ["John Marshall"]
+authors: ["Tehseen Arbab"]
 topics: ["routers", "security-privacy"]
 tags: ["travel-router", "gl-inet", "asus", "hotel-wifi", "vpn", "fcc", "buying-guide"]
 summary: "For most travelers, a compact model like the GL.iNet Beryl AX or Beryl 7 covers hotel Wi-Fi and VPN use; the Beryl 7 is the pick if VPN speed matters. Choose the Mudi 7 only if you need built-in 5G, and the ASUS RT-BE58 Go if you already run ASUS at home. Buy models already sold in the US: the FCC's March 2026 rule blocks new foreign-made router models from authorization unless they have Conditional Approval, and doesn't pull models already authorized."

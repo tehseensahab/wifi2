@@ -1,22 +1,6 @@
 # Optional author details, keyed by the name used in `authors:` front matter.
 # Fill these in with real information; empty fields are simply not shown.
 # url can be a LinkedIn, Mastodon or personal site (used in schema "sameAs").
-"John Marshall":
-  role: "Researcher and writer"
-  bio: "John Marshall researches and writes about routers, mesh Wi-Fi and home internet for WiFi Weekly. He works from standards documents, FCC filings and manufacturer documentation, and lists his sources at the end of every article."
-  url: ""
-"Craig Leslie":
-  role: "Researcher and writer"
-  bio: "Craig Leslie researches and writes about Wi-Fi standards, network security and troubleshooting for WiFi Weekly. He checks each claim against its original source before publication and says plainly when information is incomplete or still changing."
-  url: ""
-"Dana Okafor":
-  role: ""
-  bio: ""
-  url: ""
-"Marcus Reyes":
-  role: ""
-  bio: ""
-  url: ""
 "Tehseen Arbab":
   role: "Digital publisher"
   bio: "Tehseen Arbab is a digital publisher and technology enthusiast with a background in software and digital marketing. Through WiFi Weekly, he focuses on making Wi-Fi, home networking, internet connectivity, and wireless technology easier to understand. His work aims to help readers make informed decisions about networking equipment, troubleshoot connectivity issues, and get more out of their internet connections."
