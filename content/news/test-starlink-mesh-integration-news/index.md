@@ -2,7 +2,7 @@
 title: "Starlink's router now plays nicer with third-party mesh systems"
 date: 2026-09-30
 description: "A firmware update finally lets bypass mode coexist with mesh backhaul without the workarounds users have relied on for two years."
-authors: ["Dana Okafor"]
+authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "mesh-wifi"]
 summary: "A Starlink firmware update lets bypass mode work with a third-party mesh system without the old DHCP-conflict workarounds. Early reports say the problem is gone; we'll update this once we've tested it on our own Starlink connection."
 imageAlt: "Satellite dish mounted on the side of a building against the sky"

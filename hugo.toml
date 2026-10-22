@@ -87,7 +87,7 @@ summaryLength = 30
   pageRef = "/how-we-test"
   weight = 15
 [[menu.legal]]
-  name = "Our writers"
+  name = "Our writer"
   pageRef = "/authors"
   weight = 25
 [[menu.legal]]

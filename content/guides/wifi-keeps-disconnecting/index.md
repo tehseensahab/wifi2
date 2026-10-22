@@ -2,7 +2,7 @@
 title: "Why Does My Wi-Fi Keep Disconnecting? How to Find the Cause"
 date: 2026-10-18
 description: "Wi-Fi that keeps dropping usually comes down to one device, the router or the internet line. Here's how to tell which, and the fixes Apple, Microsoft, Google and router makers recommend."
-authors: ["Craig Leslie"]
+authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes", "routers"]
 tags: ["wifi-disconnecting", "troubleshooting", "dfs", "band-steering", "windows", "iphone", "android"]
 summary: "Wi-Fi that keeps dropping has three possible sources: one device, your router, or your internet connection. If only one device drops, check its power-saving, driver and network settings. If every device drops, look at the router: signal, band steering, DFS channels, firmware and heat. If the router stays up but the internet goes down, check for a provider outage."

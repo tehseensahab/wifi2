@@ -2,7 +2,7 @@
 title: "How to See Who's Connected to Your Wi-Fi (and Block Them)"
 date: 2026-10-17
 description: "Find the device list in your router's app, identify unknown entries and block what you don't recognize. Steps for eero, Google, Netgear and ASUS."
-authors: ["Craig Leslie"]
+authors: ["Tehseen Arbab"]
 topics: ["security-privacy", "how-to-fixes"]
 tags: ["connected-devices", "wifi-security", "block-device", "mac-address", "eero", "google-nest-wifi", "netgear", "asus"]
 summary: "Your router keeps a list of every device on your network. Open it in the router's app or admin page, match each entry to a device you own, and block anything you can't identify. Unfamiliar entries are often your own phones and laptops using private Wi-Fi addresses, so check those first. If a stranger really is on your network, block them and change your Wi-Fi password."

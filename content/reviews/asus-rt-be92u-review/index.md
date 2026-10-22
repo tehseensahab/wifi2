@@ -2,7 +2,7 @@
 title: "Asus RT-BE92U review: fast, but the app still gets in the way"
 date: 2026-09-20
 description: "Wi-Fi 7 speeds that finally live up to the box, held back by setup software that hasn't caught up."
-authors: ["Dana Okafor"]
+authors: ["Tehseen Arbab"]
 topics: ["routers", "wifi-6e-7"]
 summary: "The Asus RT-BE92U is the fastest router we've tested this year on a real home network, holding median latency under 12 ms with 15 devices online. It's the one to beat if you have a gigabit-plus plan and Wi-Fi 7 devices; on a 300 Mbps plan, save your money. Its weak spot is a mobile app that buries the QoS controls."
 imageAlt: "Close-up of a black Wi-Fi router with several tall antennas"
@@ -27,6 +27,7 @@ specs:
   - {k: "Max link rate", v: "Up to 19 Gbps combined"}
   - {k: "Ports", v: "1x 10GbE WAN, 4x 2.5GbE LAN"}
   - {k: "Street price", v: "$399"}
+noindex: true
 ---
 
 Asus's RT-BE92U is the fastest router we've tested this year on a real home network, not just a lab bench. Over a 15-device household with two 4K streams, a cloud backup job, and a kid mid-raid on a console, median latency stayed under 12ms.

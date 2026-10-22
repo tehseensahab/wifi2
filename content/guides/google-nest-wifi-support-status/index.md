@@ -2,7 +2,7 @@
 title: "Is Google Nest Wifi Still Supported? Updates by Model"
 date: 2026-10-22T05:00:00Z
 description: "Google Nest Wifi is still supported: Google lists Nest Wifi Pro, Nest Wifi and Google Wifi as getting critical security updates. Dates and next steps here."
-authors: ["Craig Leslie"]
+authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "security-privacy"]
 tags: ["google-nest-wifi", "nest-wifi-pro", "google-wifi", "firmware-updates", "end-of-life", "thread", "mesh-wifi"]
 summary: "Yes, for now. As of October 22, 2026, Google's security-update table says Nest Wifi Pro, Nest Wifi and the original Google Wifi are all still receiving critical security updates. Only Nest Wifi Pro is still inside its guaranteed window, which runs until at least October 27, 2027; the older two passed their guarantee dates in 2024 and 2021."
