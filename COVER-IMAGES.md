@@ -65,6 +65,8 @@ How covers are used:
 | `content/guides/wifi-7-mlo/` | [A white Wi-Fi router with four tall antennas lit by blue and pink light](https://unsplash.com/photos/a-white-laptop-computer-sitting-on-top-of-a-table-4kdGXUOKwcI) | Jakub Żerdzicki |
 | `content/guides/best-wifi-extenders/` | [Two-story stucco house with a red tile roof and palm trees](https://unsplash.com/photos/beige-painted-2-storey-house-jUyNP55873k) | James Day |
 | `content/guides/high-ping-on-wifi/` | [Man in a headset playing a game at a desktop PC in purple light](https://unsplash.com/photos/a-man-sitting-in-front-of-a-computer-monitor-W5KtfcB7kw4) | Amine mouzaoui |
+| `content/guides/google-nest-wifi-support-status/` | [Top-down view of a round white Google Wi-Fi unit on a wooden surface](https://unsplash.com/photos/white-google-wifi-system-YoM7sOGo4sU) | Andres Urena |
+| `content/guides/access-point-vs-extender-vs-mesh/` | [White network box on a wire cable tray below a concrete ceiling](https://unsplash.com/photos/cables-pipes-and-a-white-box-on-a-utility-ceiling-8dxZfuDeQf8) | Valentin Lacoste |
 
 ## Adding a cover for a new post
 
