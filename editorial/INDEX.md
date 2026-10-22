@@ -49,6 +49,8 @@ One row per post. Update with every daily run.
 | guides/why-is-my-upload-speed-slow | Why Is My Upload Speed So Slow? Causes and Fixes | 2026-10-19 | internet-plans-isps, how-to-fixes | why is my upload speed so slow |
 | guides/best-wifi-extenders | Best Wi-Fi Extenders in 2026: Picks by Home and Budget | 2026-10-21 | mesh-wifi, routers | best wifi extenders |
 | guides/high-ping-on-wifi | High Ping on Wi-Fi but Not Ethernet? Causes and Fixes | 2026-10-21 | gaming-streaming, how-to-fixes | high ping on wifi |
+| guides/google-nest-wifi-support-status | Is Google Nest Wifi Still Supported? Updates by Model | 2026-10-22 | mesh-wifi, security-privacy | google nest wifi support |
+| guides/access-point-vs-extender-vs-mesh | Access Point vs. Extender vs. Mesh: Which Should You Buy? | 2026-10-22 | mesh-wifi, routers | access point vs extender |
 | news/fcc-6ghz-power-rules | FCC quietly raises outdoor power limits on 6GHz — here's what changes | 2026-09-18 | wifi-6e-7 |  |
 | news/fcc-router-conditional-approvals-status | Which router brands have FCC conditional approval? Where things stood in mid-September | 2026-10-01 | routers, wifi-6e-7 | fcc |
 | news/test-starlink-mesh-integration-news | Starlink's router now plays nicer with third-party mesh systems | 2026-09-30 | internet-plans-isps, mesh-wifi |  |
