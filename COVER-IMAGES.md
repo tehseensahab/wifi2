@@ -67,6 +67,8 @@ How covers are used:
 | `content/guides/high-ping-on-wifi/` | [Man in a headset playing a game at a desktop PC in purple light](https://unsplash.com/photos/a-man-sitting-in-front-of-a-computer-monitor-W5KtfcB7kw4) | Amine mouzaoui |
 | `content/guides/google-nest-wifi-support-status/` | [Top-down view of a round white Google Wi-Fi unit on a wooden surface](https://unsplash.com/photos/white-google-wifi-system-YoM7sOGo4sU) | Andres Urena |
 | `content/guides/access-point-vs-extender-vs-mesh/` | [White network box on a wire cable tray below a concrete ceiling](https://unsplash.com/photos/cables-pipes-and-a-white-box-on-a-utility-ceiling-8dxZfuDeQf8) | Valentin Lacoste |
+| `content/guides/use-old-router-as-access-point/` | [Black Ethernet cables plugged into lit ports on a gray network device](https://unsplash.com/photos/ethernet-cables-connected-to-the-back-of-a-network-device-y4GHs9GEFdM) | Manuel Luikenga |
+| `content/guides/google-nest-wifi-replacement/` | [Google Nest Hub Max showing Google Home controls on a kitchen counter](https://unsplash.com/photos/a-white-tablet-with-a-screen-nz7z0rNdvyI) | James Yarema |
 
 ## Adding a cover for a new post
 
