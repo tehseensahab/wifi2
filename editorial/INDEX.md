@@ -53,6 +53,8 @@ One row per post. Update with every daily run.
 | guides/access-point-vs-extender-vs-mesh | Access Point vs. Extender vs. Mesh: Which Should You Buy? | 2026-10-22 | mesh-wifi, routers | access point vs extender |
 | guides/use-old-router-as-access-point | How to Use an Old Router as an Access Point | 2026-10-23 | how-to-fixes, routers | old router as access point |
 | guides/google-nest-wifi-replacement | Nest Wifi Replacement: What to Buy in 2026 | 2026-10-23 | mesh-wifi, smart-home-iot | nest wifi replacement |
+| guides/best-mesh-wifi-for-gigabit-internet | Best Mesh Wi-Fi for Gigabit Internet in 2026 | 2026-10-24 | mesh-wifi, internet-plans-isps | best mesh wifi for gigabit internet |
+| guides/should-you-enable-ipv6 | Should You Enable IPv6 on Your Router? | 2026-10-24 | routers, how-to-fixes | enable ipv6 on router |
 | news/fcc-6ghz-power-rules | FCC quietly raises outdoor power limits on 6GHz — here's what changes | 2026-09-18 | wifi-6e-7 |  |
 | news/fcc-router-conditional-approvals-status | Which router brands have FCC conditional approval? Where things stood in mid-September | 2026-10-01 | routers, wifi-6e-7 | fcc |
 | news/test-starlink-mesh-integration-news | Starlink's router now plays nicer with third-party mesh systems | 2026-09-30 | internet-plans-isps, mesh-wifi |  |

@@ -69,6 +69,8 @@ How covers are used:
 | `content/guides/access-point-vs-extender-vs-mesh/` | [White network box on a wire cable tray below a concrete ceiling](https://unsplash.com/photos/cables-pipes-and-a-white-box-on-a-utility-ceiling-8dxZfuDeQf8) | Valentin Lacoste |
 | `content/guides/use-old-router-as-access-point/` | [Black Ethernet cables plugged into lit ports on a gray network device](https://unsplash.com/photos/ethernet-cables-connected-to-the-back-of-a-network-device-y4GHs9GEFdM) | Manuel Luikenga |
 | `content/guides/google-nest-wifi-replacement/` | [Google Nest Hub Max showing Google Home controls on a kitchen counter](https://unsplash.com/photos/a-white-tablet-with-a-screen-nz7z0rNdvyI) | James Yarema |
+| `content/guides/best-mesh-wifi-for-gigabit-internet/` | [TP-Link five-port gigabit switch with yellow and red Ethernet cables on a wooden table](https://unsplash.com/photos/a-network-switch-with-ethernet-cables-connected-vE5AKQRUs7c) | User_Pascal |
+| `content/guides/should-you-enable-ipv6/` | [Terminal on a dark screen listing DNS, local IP and public IP addresses](https://unsplash.com/photos/terminal-window-with-system-statistics-0lMetL4QQ0c) | Cong Long Vu |
 
 ## Adding a cover for a new post
 
