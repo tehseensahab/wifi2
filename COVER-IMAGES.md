@@ -71,6 +71,8 @@ How covers are used:
 | `content/guides/google-nest-wifi-replacement/` | [Google Nest Hub Max showing Google Home controls on a kitchen counter](https://unsplash.com/photos/a-white-tablet-with-a-screen-nz7z0rNdvyI) | James Yarema |
 | `content/guides/best-mesh-wifi-for-gigabit-internet/` | [TP-Link five-port gigabit switch with yellow and red Ethernet cables on a wooden table](https://unsplash.com/photos/a-network-switch-with-ethernet-cables-connected-vE5AKQRUs7c) | User_Pascal |
 | `content/guides/should-you-enable-ipv6/` | [Terminal on a dark screen listing DNS, local IP and public IP addresses](https://unsplash.com/photos/terminal-window-with-system-statistics-0lMetL4QQ0c) | Cong Long Vu |
+| `content/guides/best-mesh-wifi-for-starlink/` | [Rectangular satellite internet dish on a tripod mount against a blue sky](https://unsplash.com/photos/mjKt6ReBB-I) | Evgeny Opanasenko |
+| `content/guides/what-is-cgnat/` | [Numbered patch panel with blue and gray Ethernet cables](https://unsplash.com/photos/40XgDxBfYXM) | Jordan Harrison |
 
 ## Adding a cover for a new post
 
