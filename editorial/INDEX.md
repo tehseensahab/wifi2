@@ -64,3 +64,5 @@ One row per post. Update with every daily run.
 | news/wifi-8-routers-us-availability | Wi-Fi 8 Routers Are Here, but Not in the US: Buy or Wait? | 2026-10-03 | wifi-6e-7, routers | wifi-8 |
 | deals/eero-vs-tplink-deal | Eero Pro 6E drops to $189 for the 2-pack — is it worth buying over the newer 7? | 2026-09-12 | mesh-wifi |  |
 | deals/test-tp-link-deco-mesh-deal | TP-Link Deco X50 mesh kit drops to $149 for Prime members | 2026-09-29 | mesh-wifi |  |
+| guides/how-to-set-up-port-forwarding | How to Set Up Port Forwarding on Your Router | 2026-10-26 | how-to-fixes, routers | how to set up port forwarding |
+| guides/best-router-for-5g-home-internet | Best Router for 5G Home Internet in 2026 | 2026-10-26 | routers, internet-plans-isps | best router for 5g home internet |
