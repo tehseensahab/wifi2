@@ -73,6 +73,8 @@ How covers are used:
 | `content/guides/should-you-enable-ipv6/` | [Terminal on a dark screen listing DNS, local IP and public IP addresses](https://unsplash.com/photos/terminal-window-with-system-statistics-0lMetL4QQ0c) | Cong Long Vu |
 | `content/guides/best-mesh-wifi-for-starlink/` | [Rectangular satellite internet dish on a tripod mount against a blue sky](https://unsplash.com/photos/mjKt6ReBB-I) | Evgeny Opanasenko |
 | `content/guides/what-is-cgnat/` | [Numbered patch panel with blue and gray Ethernet cables](https://unsplash.com/photos/40XgDxBfYXM) | Jordan Harrison |
+| `content/guides/how-to-set-up-port-forwarding/` | [Rows of blue Ethernet cables with labels plugged into network switches](https://unsplash.com/photos/PSpf_XgOM5w) | Scott Rodgerson |
+| `content/guides/best-router-for-5g-home-internet/` | [Top of a cellular tower with panel antennas against an overcast sky](https://unsplash.com/photos/xjBjvEiVN8c) | Chirag Haldar |
 
 ## Adding a cover for a new post
 
