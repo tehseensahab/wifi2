@@ -66,3 +66,5 @@ One row per post. Update with every daily run.
 | deals/test-tp-link-deco-mesh-deal | TP-Link Deco X50 mesh kit drops to $149 for Prime members | 2026-09-29 | mesh-wifi |  |
 | guides/how-to-set-up-port-forwarding | How to Set Up Port Forwarding on Your Router | 2026-10-26 | how-to-fixes, routers | how to set up port forwarding |
 | guides/best-router-for-5g-home-internet | Best Router for 5G Home Internet in 2026 | 2026-10-26 | routers, internet-plans-isps | best router for 5g home internet |
+| guides/best-modem-for-xfinity | Best Modem for Xfinity in 2026: Picks by Plan | 2026-10-27 | internet-plans-isps, routers | best modem for xfinity |
+| guides/thread-border-router | Thread Border Router: Do You Need One, and What Has One? | 2026-10-27 | smart-home-iot, mesh-wifi | thread border router |

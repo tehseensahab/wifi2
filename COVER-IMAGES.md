@@ -75,6 +75,8 @@ How covers are used:
 | `content/guides/what-is-cgnat/` | [Numbered patch panel with blue and gray Ethernet cables](https://unsplash.com/photos/40XgDxBfYXM) | Jordan Harrison |
 | `content/guides/how-to-set-up-port-forwarding/` | [Rows of blue Ethernet cables with labels plugged into network switches](https://unsplash.com/photos/PSpf_XgOM5w) | Scott Rodgerson |
 | `content/guides/best-router-for-5g-home-internet/` | [Top of a cellular tower with panel antennas against an overcast sky](https://unsplash.com/photos/xjBjvEiVN8c) | Chirag Haldar |
+| `content/guides/best-modem-for-xfinity/` | [Blue cables with yellow numbered labels running into a green circuit board in a telecom frame](https://unsplash.com/photos/blue-lan-cable-plugged-in-green-and-black-router-uWaRsN-CqY0) | Franck V. |
+| `content/guides/thread-border-router/` | [Dark gray HomePod mini on a wooden table](https://unsplash.com/photos/a-speaker-sitting-on-top-of-a-wooden-table-eqKBsh9qgrQ) | Michael Soledad |
 
 ## Adding a cover for a new post
 
