@@ -33,6 +33,15 @@ Read before research; update at the end of every daily run. One line per source:
 - developer.amazon.com/docs/alexaplus/smarthome/thread-support | works; Echo/eero border-router list with Thread versions | none | 2026-10-27
 - threadgroup.org/newsroom/newsletters/* and developer.espressif.com/blog | works | Espressif = Qualified (chipmaker) | 2026-10-27
 - unsplash.com/trends/<term> and /pt-br/s/fotografias/<term> | works when from WebSearch; few modem photos not already used | try localized search pages | 2026-10-27
+- support.apple.com/<cc>/102509 (private Wi-Fi addresses) and support.apple.com/guide/platform-support/* | works; shows Published Date | none | 2026-10-28
+- source.android.com/docs/core/connect/* | works; shows last-updated date | none | 2026-10-28
+- support.microsoft.com/windows/<guid> | works | none | 2026-10-28
+- eero.com/support/articles/* (MAC randomization, product comparison) | works; no dates | none | 2026-10-28
+- asus.com/us/support/FAQ/<id> and asus.com/ca-en/.../techspec | works; US techspec didn't come back in search | cite Canadian spec page, note it | 2026-10-28
+- support.linksys.com/kb/article/<id> | works; some articles render in Dutch (e.g. 1524) | prefer articles that come back in English | 2026-10-28
+- tp-link.com/en/products/details/<model>.html and tp-link.com/us/support/faq/<id> | works; global page doesn't state US hardware version | note it | 2026-10-28
+- netgear.com/home/wifi/routers/<model>/ (US) | works; price only in metadata; shows stock status | don't cite metadata price | 2026-10-28
+- cox.com/llms.txt | works; lists Cox URLs | but linked pages need their own search result | 2026-10-28
 
 ## Fails (don't fetch)
 - starlink.com/support/article/* | fails: renders empty (JavaScript) | use satellitephonestore reseller copy or Starlink PDFs on api.starlink.com | 2026-10-25
@@ -42,6 +51,11 @@ Read before research; update at the end of every daily run. One line per source:
 - curl to wifiweekly.com live pages | blocked in run on 2026-10-25 | use the PR's Cloudflare Pages check run + one WebFetch per URL | 2026-10-25
 - bestbuy.com product pages | renders without visible price (metadata only) | leave prices out | 2026-10-27
 - community.surfboard.com threads | fail: 302 redirect to surfboard.com | don't rely on forum claims | 2026-10-27
+- URLs carried over from IDEAS.md without a fresh search result (support.google.com/googlehome/answer/6274660, kb.netgear.com/25722) | fail: PROVENANCE_REQUIRED approval timeout | always re-search so the URL comes back in today's results | 2026-10-28
+- cox.com/modems | renders metadata only | Cox residential certified-modem page doesn't surface in search; Cox modem topic dropped | 2026-10-28
+- community.verizon.com/kb/* | fails: 302 to verizon.com/support (community sunset) | no Verizon primary for Fios own-router found | 2026-10-28
+- rtings.com router reviews | renders metadata only (no results) | don't rely on RTINGS for measurements | 2026-10-28
+- wi-fi.org/system/files/*.pdf | fails: redirects to login | use FCC or internal band guide | 2026-10-28
 
 ## No official answer found
 - T-Mobile / Verizon 5G Home Internet: CGNAT, public IP, IPv6 | no official page found | don't make carrier-specific CGNAT claims | 2026-10-26
@@ -49,3 +63,5 @@ Read before research; update at the end of every daily run. One line per source:
 - Verizon IP Passthrough | official KB 301824 covers "Verizon Internet Gateway" without listing models | cite as Qualified | 2026-10-26
 - eero / Google Nest Wifi Starlink setup | no official article found | describe generic Ethernet setup only | 2026-10-25
 - Xfinity: which retail modems are certified for upgraded (mid-split) upload by address | only via My Device Info (sign-in/address) | tell readers to check My Device Info | 2026-10-27
+- Cox residential certified modems list | page exists (cox.com/residential/support/cox-certified-cable-modems.html per cox.com/llms.txt) but never returned in WebSearch | retry search with new phrasing; otherwise skip Cox | 2026-10-28
+- Verizon Fios using your own router | no fetchable Verizon page found | skip | 2026-10-28

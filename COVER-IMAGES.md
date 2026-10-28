@@ -77,6 +77,8 @@ How covers are used:
 | `content/guides/best-router-for-5g-home-internet/` | [Top of a cellular tower with panel antennas against an overcast sky](https://unsplash.com/photos/xjBjvEiVN8c) | Chirag Haldar |
 | `content/guides/best-modem-for-xfinity/` | [Blue cables with yellow numbered labels running into a green circuit board in a telecom frame](https://unsplash.com/photos/blue-lan-cable-plugged-in-green-and-black-router-uWaRsN-CqY0) | Franck V. |
 | `content/guides/thread-border-router/` | [Dark gray HomePod mini on a wooden table](https://unsplash.com/photos/a-speaker-sitting-on-top-of-a-wooden-table-eqKBsh9qgrQ) | Michael Soledad |
+| `content/guides/best-router-for-apartment/` | [Sunlit apartment living room with a desk, monitor, TV and gray sofa](https://unsplash.com/photos/home-office-living-room-workspace-xtDpXi_a-YQ) | Med Badr Chemmaoui |
+| `content/guides/private-wifi-address/` | [Hand holding an iPhone on a busy city street](https://unsplash.com/photos/a-person-holding-an-iphone-in-their-hand-y67dwfB2AiM) | Frederik Lipfert |
 
 ## Adding a cover for a new post
 

@@ -68,3 +68,5 @@ One row per post. Update with every daily run.
 | guides/best-router-for-5g-home-internet | Best Router for 5G Home Internet in 2026 | 2026-10-26 | routers, internet-plans-isps | best router for 5g home internet |
 | guides/best-modem-for-xfinity | Best Modem for Xfinity in 2026: Picks by Plan | 2026-10-27 | internet-plans-isps, routers | best modem for xfinity |
 | guides/thread-border-router | Thread Border Router: Do You Need One, and What Has One? | 2026-10-27 | smart-home-iot, mesh-wifi | thread border router |
+| guides/best-router-for-apartment | Best Router for an Apartment in 2026: Picks by Need | 2026-10-28 | routers, wifi-6e-7 | best router for apartment |
+| guides/private-wifi-address | Private Wi-Fi Address: Should You Turn It Off? | 2026-10-28 | security-privacy, how-to-fixes | private wifi address |
