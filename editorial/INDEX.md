@@ -70,3 +70,5 @@ One row per post. Update with every daily run.
 | guides/thread-border-router | Thread Border Router: Do You Need One, and What Has One? | 2026-10-27 | smart-home-iot, mesh-wifi | thread border router |
 | guides/best-router-for-apartment | Best Router for an Apartment in 2026: Picks by Need | 2026-10-28 | routers, wifi-6e-7 | best router for apartment |
 | guides/private-wifi-address | Private Wi-Fi Address: Should You Turn It Off? | 2026-10-28 | security-privacy, how-to-fixes | private wifi address |
+| guides/dhcp-reservation-vs-static-ip | DHCP Reservation vs. Static IP: Which Should You Use? | 2026-10-29 | how-to-fixes, routers | dhcp reservation vs static ip |
+| guides/netgear-rs100-vs-rs200-vs-rs300 | NETGEAR RS100 vs. RS200 vs. RS300: Which Should You Buy? | 2026-10-29 | routers, wifi-6e-7 | netgear rs100 vs rs200 vs rs300 |

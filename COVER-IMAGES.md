@@ -79,6 +79,8 @@ How covers are used:
 | `content/guides/thread-border-router/` | [Dark gray HomePod mini on a wooden table](https://unsplash.com/photos/a-speaker-sitting-on-top-of-a-wooden-table-eqKBsh9qgrQ) | Michael Soledad |
 | `content/guides/best-router-for-apartment/` | [Sunlit apartment living room with a desk, monitor, TV and gray sofa](https://unsplash.com/photos/home-office-living-room-workspace-xtDpXi_a-YQ) | Med Badr Chemmaoui |
 | `content/guides/private-wifi-address/` | [Hand holding an iPhone on a busy city street](https://unsplash.com/photos/a-person-holding-an-iphone-in-their-hand-y67dwfB2AiM) | Frederik Lipfert |
+| `content/guides/dhcp-reservation-vs-static-ip/` | [Black Epson inkjet printer on a metal shelf](https://unsplash.com/photos/a-printer-sitting-on-top-of-a-table-I8sWaXL5ezo) | Emiliano Vittoriosi |
+| `content/guides/netgear-rs100-vs-rs200-vs-rs300/` | [Green signal bars and Wi-Fi symbol lit on a dark router](https://unsplash.com/photos/green-and-black-digital-device-yqLrqIsl294) | Praveen kumar Mathivanan |
 
 ## Adding a cover for a new post
 

@@ -10,7 +10,6 @@ Read before research; update at the end of every daily run. One line per source:
 - asus.com/us/support/FAQ | works; shows "Last Update" date | none | 2026-10-25
 - vigi.com/<cc>/support/faq and omadanetworks.com/<cc>/support/faq (TP-Link KB mirrors) | works; shows "Last updated" | use when tp-link.com FAQ doesn't come back in search | 2026-10-25
 - api.starlink.com/public-files/*.pdf (Starlink setup guides) | works | none | 2026-10-25
-- support.satellitephonestore.com (reseller copies of Starlink help text) | works | cite as Qualified (reseller copy) | 2026-10-25
 - dishytech.com | works; third-party Starlink reporting | cite as Qualified | 2026-10-25
 - telecompetitor.com | works; reports Ookla figures | none | 2026-10-25
 - support.google.com/wifi, eero.com/support (also eero.com/support/articles/*), learn.microsoft.com, pulse.internetsociety.org, xfinity.com/support | works | none | 2026-10-24
@@ -32,7 +31,6 @@ Read before research; update at the end of every daily run. One line per source:
 - support.google.com/googlenest/answer/9249088 and support.google.com/android/answer/16335330 | works | none | 2026-10-27
 - developer.amazon.com/docs/alexaplus/smarthome/thread-support | works; Echo/eero border-router list with Thread versions | none | 2026-10-27
 - threadgroup.org/newsroom/newsletters/* and developer.espressif.com/blog | works | Espressif = Qualified (chipmaker) | 2026-10-27
-- unsplash.com/trends/<term> and /pt-br/s/fotografias/<term> | works when from WebSearch; few modem photos not already used | try localized search pages | 2026-10-27
 - support.apple.com/<cc>/102509 (private Wi-Fi addresses) and support.apple.com/guide/platform-support/* | works; shows Published Date | none | 2026-10-28
 - source.android.com/docs/core/connect/* | works; shows last-updated date | none | 2026-10-28
 - support.microsoft.com/windows/<guid> | works | none | 2026-10-28
@@ -41,10 +39,22 @@ Read before research; update at the end of every daily run. One line per source:
 - support.linksys.com/kb/article/<id> | works; some articles render in Dutch (e.g. 1524) | prefer articles that come back in English | 2026-10-28
 - tp-link.com/en/products/details/<model>.html and tp-link.com/us/support/faq/<id> | works; global page doesn't state US hardware version | note it | 2026-10-28
 - netgear.com/home/wifi/routers/<model>/ (US) | works; price only in metadata; shows stock status | don't cite metadata price | 2026-10-28
-- cox.com/llms.txt | works; lists Cox URLs | but linked pages need their own search result | 2026-10-28
+
+- learn.microsoft.com/<locale>/troubleshoot/windows-server/networking/change-ip-address-network-adapter | works; English body on ar-sa locale; old Control Panel steps | cite as Qualified | 2026-10-29
+- support.apple.com/guide/mac-help/mchlp2718/mac | works | none | 2026-10-29
+- omadanetworks.com/us/support/faq/182 (TP-Link address reservation) and asus.com/us/support/FAQ/1000906 | works; dated | none | 2026-10-29
+- eero.com/support/articles/what-features-do-i-lose-if-i-put-my-eeros-in-bridge-mode, /what-advanced-features-does-eero-support | works | none | 2026-10-29
+- doctorengenius.engeniustech.com/en/articles/* | works; dated vendor FAQ | cite as Qualified | 2026-10-29
+- netgear.com/home/wifi/routers/rs100 (no trailing slash) | works; US RS100 page only came back with this exact search phrasing; no per-band rates | search "netgear.com home wifi routers rs100 Nighthawk WiFi 7 Router RS100 3.6Gbps" | 2026-10-29
+- businesswire.com/news/home/* | works; text has no date (date only in URL) | note date as inferred | 2026-10-29
+- notebookcheck.net | works; launch prices with dates | MSRP is not a current price | 2026-10-29
+- bhphotovideo.com RS100 page | works; price + stock | none | 2026-10-29
+- adorama.com product pages | works; price, stock, per-band specs | retailer specs = Qualified | 2026-10-29
+- pcrichard.com product pages | works; price but "enter email to reveal" and no stock | note it | 2026-10-29
+- unsplash.com/s/photos/wifi-router, /s/photos/router, /id/s/foto/router | works from WebSearch; nearly all router photos already used | search non-router subjects (printer, desk, cables) | 2026-10-29
 
 ## Fails (don't fetch)
-- starlink.com/support/article/* | fails: renders empty (JavaScript) | use satellitephonestore reseller copy or Starlink PDFs on api.starlink.com | 2026-10-25
+- starlink.com/support/article/* | fails: renders empty (JavaScript) | use reseller copies (support.satellitephonestore.com, cite Qualified) or Starlink PDFs on api.starlink.com | 2026-10-25
 - netgear.com/<cc>/hub/* | fails: redirects to auhub.netgear.com, which asks for approval | use kb.netgear.com | 2026-10-25
 - unsplash.com search pages typed from the prompt (router, internet-router) | fails: approval request times out | WebSearch for the page first | 2026-10-25
 - gsc-wizard connector | fails: payment_required | not used by daily runs | 2026-10-25
@@ -57,11 +67,16 @@ Read before research; update at the end of every daily run. One line per source:
 - rtings.com router reviews | renders metadata only (no results) | don't rely on RTINGS for measurements | 2026-10-28
 - wi-fi.org/system/files/*.pdf | fails: redirects to login | use FCC or internal band guide | 2026-10-28
 
+- bhphotovideo.com RS200 pages (1861250-REG) | fail: client_error | use another retailer or leave price out | 2026-10-29
+- electronicexpress.com product pages | render without price or stock | leave price out | 2026-10-29
+- community.netgear.com/kb/nighthawk-firmware-releases/* | fail: client_error | use kb.netgear.com firmware pages | 2026-10-29
+
 ## No official answer found
 - T-Mobile / Verizon 5G Home Internet: CGNAT, public IP, IPv6 | no official page found | don't make carrier-specific CGNAT claims | 2026-10-26
 - T-Mobile bridge mode and port forwarding | official answer exists: t-mobile.com/support/home-internet/connect says gateways can't do either | use that page | 2026-10-26
 - Verizon IP Passthrough | official KB 301824 covers "Verizon Internet Gateway" without listing models | cite as Qualified | 2026-10-26
 - eero / Google Nest Wifi Starlink setup | no official article found | describe generic Ethernet setup only | 2026-10-25
 - Xfinity: which retail modems are certified for upgraded (mid-split) upload by address | only via My Device Info (sign-in/address) | tell readers to check My Device Info | 2026-10-27
+- NETGEAR RS-series MLO support | not stated on US product pages or RS100 firmware note | describe as "not mentioned" | 2026-10-29
 - Cox residential certified modems list | page exists (cox.com/residential/support/cox-certified-cable-modems.html per cox.com/llms.txt) but never returned in WebSearch | retry search with new phrasing; otherwise skip Cox | 2026-10-28
 - Verizon Fios using your own router | no fetchable Verizon page found | skip | 2026-10-28
