@@ -72,3 +72,5 @@ One row per post. Update with every daily run.
 | guides/private-wifi-address | Private Wi-Fi Address: Should You Turn It Off? | 2026-10-28 | security-privacy, how-to-fixes | private wifi address |
 | guides/dhcp-reservation-vs-static-ip | DHCP Reservation vs. Static IP: Which Should You Use? | 2026-10-29 | how-to-fixes, routers | dhcp reservation vs static ip |
 | guides/netgear-rs100-vs-rs200-vs-rs300 | NETGEAR RS100 vs. RS200 vs. RS300: Which Should You Buy? | 2026-10-29 | routers, wifi-6e-7 | netgear rs100 vs rs200 vs rs300 |
+| guides/best-router-for-parental-controls | Best Router for Parental Controls in 2026: Picks by Need | 2026-10-30 | security-privacy, routers | best router for parental controls |
+| guides/what-is-a-subnet-mask | What Is a Subnet Mask? Home Network Basics Explained | 2026-10-30 | how-to-fixes, routers | what is a subnet mask |
