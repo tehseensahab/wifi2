@@ -74,3 +74,5 @@ One row per post. Update with every daily run.
 | guides/netgear-rs100-vs-rs200-vs-rs300 | NETGEAR RS100 vs. RS200 vs. RS300: Which Should You Buy? | 2026-10-29 | routers, wifi-6e-7 | netgear rs100 vs rs200 vs rs300 |
 | guides/best-router-for-parental-controls | Best Router for Parental Controls in 2026: Picks by Need | 2026-10-30 | security-privacy, routers | best router for parental controls |
 | guides/what-is-a-subnet-mask | What Is a Subnet Mask? Home Network Basics Explained | 2026-10-30 | how-to-fixes, routers | what is a subnet mask |
+| guides/dual-band-wifi-7 | Dual-Band Wi-Fi 7: What You Lose Without 6 GHz | 2026-10-31 | wifi-6e-7, routers | dual-band wifi 7 |
+| guides/is-eero-plus-worth-it | Is eero Plus Worth It? What You Get in 2026 | 2026-10-31 | mesh-wifi, security-privacy | is eero plus worth it |

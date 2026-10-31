@@ -29,27 +29,31 @@ Read before research; update at the end of every daily run. One line per source:
 - tp-link.com/en/products/details/<model>.html and tp-link.com/us/support/faq/<id> | works; global page doesn't state US hardware version | note it | 2026-10-28
 - netgear.com/home/wifi/routers/<model>/ (US) | works; price only in metadata; shows stock status | don't cite metadata price | 2026-10-28
 
-- learn.microsoft.com/<locale>/troubleshoot/windows-server/networking/change-ip-address-network-adapter | works; English body on ar-sa locale; old Control Panel steps | cite as Qualified | 2026-10-29
-- doctorengenius.engeniustech.com/en/articles/* | works; dated vendor FAQ | cite as Qualified | 2026-10-29
 - netgear.com/home/wifi/routers/rs100 (no trailing slash) | works; US RS100 page only came back with this exact search phrasing; no per-band rates | search "netgear.com home wifi routers rs100 Nighthawk WiFi 7 Router RS100 3.6Gbps" | 2026-10-29
 - businesswire.com/news/home/* | works; text has no date (date only in URL) | note date as inferred | 2026-10-29
 - notebookcheck.net | works; launch prices with dates | MSRP is not a current price | 2026-10-29
 - bhphotovideo.com RS100 page | works; price + stock | none | 2026-10-29
 - adorama.com product pages | works; price, stock, per-band specs | retailer specs = Qualified | 2026-10-29
-- pcrichard.com product pages | works; price but "enter email to reveal" and no stock | note it | 2026-10-29
 - unsplash.com/s/photos/wifi-router, /s/photos/router, /id/s/foto/router | works from WebSearch; nearly all router photos already used | search non-router subjects (printer, desk, cables) | 2026-10-29
-- rfc-editor.org/rfc/rfc1122.html | works; long page, use offset=100000 for sec 3.3 | none | 2026-10-30
 - eero.com/blog/articles/* and support.eero.com/hc/articles/115002904283 (eero Plus price) and prod.eero.com/eero-plus | works | none | 2026-10-30
 - eero.com/support/articles/what-are-the-advanced-networking-settings | works only when it came back in search (support.eero.com/hc 302s to it) | search the eero.com title | 2026-10-30
 - omadanetworks.com/en/support/faq/3007 (HomeShield prices, US) and /faq/2996 (HomeShield features) | works; dated | none | 2026-10-30
 - asus.com/uk/Content/AiProtection | works; "subscription-free" claim; no US equivalent found | cite as Qualified (UK) | 2026-10-30
 - support.google.com/googlenest/answer/7571856 (custom LAN IP) | works | none | 2026-10-30
-- support.ksu.edu (Windows ipconfig) | works; university IT | cite as Qualified | 2026-10-30
 - adorama.com/asrtbe58u.html | works; price + stock | none | 2026-10-30
+
+- wi-fi.org/news-events/newsroom/* | works; dated press releases | none | 2026-10-31
+- fcc.gov/document/* (6 GHz order) | works; title only, no date or detail | pair with techblog.comsoc.org for the date | 2026-10-31
+- techblog.comsoc.org | works; dated IEEE ComSoc reporting | cite as secondary | 2026-10-31
+- arubanetworking.hpe.com/techdocs/* (Wi-Fi 7 features) | works; undated | none | 2026-10-31
+- tp-link.com/us/blog/<id>/ and netgear.com/hub/network/* | works; dated | none | 2026-10-31
+- eero.com/eero-plus, eero.com/support/articles/* (eero-7, what-is-eero-plus, eero-signal, Guardian VPN, 1Password), eero.com/shop/eero-signal/buy | works; US prices on shop/plus pages; no page dates | links listed inside eero.com/support/sections/* must be re-searched before fetching | 2026-10-31
+- bhphotovideo.com RT-BE58U (1859883-REG) | works; stock only, no price shown | leave price out | 2026-10-31
+- unsplash.com/s/photos/online-privacy, /s/photos/wifi-network | works from WebSearch | none | 2026-10-31
 
 ## Fails (don't fetch)
 - starlink.com/support/article/* | fails: renders empty (JavaScript) | use reseller copies (support.satellitephonestore.com, cite Qualified) or Starlink PDFs on api.starlink.com | 2026-10-25
-- netgear.com/<cc>/hub/* | fails: redirects to auhub.netgear.com, which asks for approval | use kb.netgear.com | 2026-10-25
+- netgear.com/<cc>/hub/* | fails: redirects to auhub.netgear.com, which asks for approval | use kb.netgear.com, or www.netgear.com/hub/network/* (no country code), which works | 2026-10-31
 - unsplash.com search pages typed from the prompt (router, internet-router) | fails: approval request times out | WebSearch for the page first | 2026-10-25
 - gsc-wizard connector | fails: payment_required | not used by daily runs | 2026-10-25
 - curl to wifiweekly.com live pages | blocked in run on 2026-10-25 | use the PR's Cloudflare Pages check run + one WebFetch per URL | 2026-10-25
@@ -60,11 +64,11 @@ Read before research; update at the end of every daily run. One line per source:
 - wi-fi.org/system/files/*.pdf | fails: redirects to login | use FCC or internal band guide | 2026-10-28
 
 - bhphotovideo.com RS200 pages (1861250-REG) | fail: client_error | use another retailer or leave price out | 2026-10-29
-- electronicexpress.com product pages | render without price or stock | leave price out | 2026-10-29
 - community.netgear.com/kb/nighthawk-firmware-releases/* | fail: client_error | use kb.netgear.com firmware pages | 2026-10-29
 - learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting (also via support.microsoft.com/kb/164015 redirect) | fails: PROVENANCE_REQUIRED approval timeout | use RFC 1122/4632 | 2026-10-30
-- technet.microsoft.com ipconfig pages | redirect to learn.microsoft.com previous-versions (not fetched) | use support.ksu.edu | 2026-10-30
-- unsplash.com/photos/a-young-boy-...-9LqVKYoG75w | Unsplash+ (premium) | check license before download | 2026-10-30
+
+- blog.eero.com/* | 302 redirect to eero.com/blog/articles/* | search the eero.com/blog/articles title | 2026-10-31
+- unsplash.com/photos/...-8_u0uDD8qEM (Wi-Fi 7 USB adapter) | looks like a 3D render, not a photo | don't use | 2026-10-31
 
 ## No official answer found
 - T-Mobile / Verizon 5G Home Internet: CGNAT, public IP, IPv6 | no official page found | don't make carrier-specific CGNAT claims | 2026-10-26

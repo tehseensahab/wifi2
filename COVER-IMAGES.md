@@ -83,6 +83,8 @@ How covers are used:
 | `content/guides/netgear-rs100-vs-rs200-vs-rs300/` | [Green signal bars and Wi-Fi symbol lit on a dark router](https://unsplash.com/photos/green-and-black-digital-device-yqLrqIsl294) | Praveen kumar Mathivanan |
 | `content/guides/best-router-for-parental-controls/` | [Young child tapping a white tablet on a dark wooden table](https://unsplash.com/photos/tQPgM1k6EbQ) | Kelly Sikkema |
 | `content/guides/what-is-a-subnet-mask/` | [Black-and-white back of a network chassis with fan modules and cables](https://unsplash.com/photos/photo-of-computer-cables-oZPwn40zCK4) | Kvistholt Photography |
+| `content/guides/dual-band-wifi-7/` | [Dense apartment blocks at dusk with lit windows and bamboo scaffolding](https://unsplash.com/photos/densely-packed-urban-buildings-with-many-lit-windows-at-night-G2CSVs4xXn8) | Raymond Yeung |
+| `content/guides/is-eero-plus-worth-it/` | [Smartphone showing a padlock "Secured" screen on a wooden desk](https://unsplash.com/photos/smartphone-with-security-lock-icon-ah-HeguOe9k) | Dan Nelson |
 
 ## Adding a cover for a new post
 
