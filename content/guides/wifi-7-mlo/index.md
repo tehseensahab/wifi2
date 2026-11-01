@@ -1,7 +1,7 @@
 ---
-title: "Wi-Fi 7 MLO Explained: Should You Turn It On?"
+title: "Wi-Fi 7 MLO Explained: On or Off? (eero, ASUS)"
 date: 2026-10-20T05:30:00Z
-description: "Wi-Fi 7 MLO links a device to your router over more than one band, if both support it. What it does, which modes exist, what it breaks and when to turn it on."
+description: "Should MLO be on or off? Wi-Fi 7 MLO links a device over more than one band. What it does, what it can break, and when to turn it on, incl. eero and ASUS."
 authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "how-to-fixes"]
 tags: ["wifi-7", "mlo", "multi-link-operation", "802.11be", "wpa3", "eero", "asus", "router-settings"]

@@ -1,7 +1,7 @@
 ---
-title: "What Is Band Steering, and Should You Turn It Off?"
+title: "Band Steering: Should It Be On or Off?"
 date: 2026-10-14
-description: "Band steering puts all your Wi-Fi bands under one name and nudges devices to the best one. When to leave it on, when to turn it off, and how on each brand."
+description: "Should band steering be on or off? Most homes should leave it on. When turning it off helps, and how to do it on ASUS, NETGEAR, TP-Link and eero."
 authors: ["Tehseen Arbab"]
 topics: ["routers", "how-to-fixes"]
 tags: ["band-steering", "smart-connect", "wifi-bands", "netgear", "asus", "tp-link", "eero"]
