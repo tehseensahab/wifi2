@@ -76,3 +76,5 @@ One row per post. Update with every daily run.
 | guides/what-is-a-subnet-mask | What Is a Subnet Mask? Home Network Basics Explained | 2026-10-30 | how-to-fixes, routers | what is a subnet mask |
 | guides/dual-band-wifi-7 | Dual-Band Wi-Fi 7: What You Lose Without 6 GHz | 2026-10-31 | wifi-6e-7, routers | dual-band wifi 7 |
 | guides/is-eero-plus-worth-it | Is eero Plus Worth It? What You Get in 2026 | 2026-10-31 | mesh-wifi, security-privacy | is eero plus worth it |
+| guides/eero-signal-4g-vs-5g | eero Signal 4G vs. 5G: Which Backup Should You Buy? | 2026-11-01 | mesh-wifi, internet-plans-isps | eero signal 4g vs 5g |
+| guides/block-website-on-router | How to Block a Website on Your Router, Brand by Brand | 2026-11-01 | security-privacy, how-to-fixes | how to block a website on router |

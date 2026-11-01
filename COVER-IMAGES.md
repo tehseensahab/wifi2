@@ -85,6 +85,8 @@ How covers are used:
 | `content/guides/what-is-a-subnet-mask/` | [Black-and-white back of a network chassis with fan modules and cables](https://unsplash.com/photos/photo-of-computer-cables-oZPwn40zCK4) | Kvistholt Photography |
 | `content/guides/dual-band-wifi-7/` | [Dense apartment blocks at dusk with lit windows and bamboo scaffolding](https://unsplash.com/photos/densely-packed-urban-buildings-with-many-lit-windows-at-night-G2CSVs4xXn8) | Raymond Yeung |
 | `content/guides/is-eero-plus-worth-it/` | [Smartphone showing a padlock "Secured" screen on a wooden desk](https://unsplash.com/photos/smartphone-with-security-lock-icon-ah-HeguOe9k) | Dan Nelson |
+| `content/guides/eero-signal-4g-vs-5g/` | [Lattice communications tower with dish antennas against a blue sky](https://unsplash.com/photos/a-cell-phone-tower-with-three-antennas-on-top-of-it-SSXCiGKYQQE) | Keriliwi |
+| `content/guides/block-website-on-router/` | [Open combination padlock on a white keyboard](https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk) | Sasun Bughdaryan |
 
 ## Adding a cover for a new post
 

@@ -21,27 +21,21 @@ Read before research; update at the end of every daily run. One line per source:
 - tp-link.com/ca/home-networking/deco/* | works for specs and working modes | note it's the Canada page | 2026-10-26
 - xfinity.com/support/internet/list-of-approved-cable-modems and /support/articles/upgraded-areas-leased-equipment-required-for-upload-speeds | works; modified dates in metadata; no model lists | use My Device Info wording, don't claim model certification | 2026-10-27
 - surfboard.com/products/cable-modems/<model>/ (US pages) | works; specs, warranty, ISP qualification text | none | 2026-10-27
-- prnewswire.com news releases | works; launch MSRP and dates | MSRP is not a current price | 2026-10-27
 - support.apple.com/<cc>/102509 (private Wi-Fi addresses) and support.apple.com/guide/platform-support/* | works; shows Published Date | none | 2026-10-28
 - source.android.com/docs/core/connect/* | works; shows last-updated date | none | 2026-10-28
 - support.microsoft.com/windows/<guid> | works | none | 2026-10-28
 - support.linksys.com/kb/article/<id> | works; some articles render in Dutch (e.g. 1524) | prefer articles that come back in English | 2026-10-28
 - tp-link.com/en/products/details/<model>.html and tp-link.com/us/support/faq/<id> | works; global page doesn't state US hardware version | note it | 2026-10-28
 - netgear.com/home/wifi/routers/<model>/ (US) | works; price only in metadata; shows stock status | don't cite metadata price | 2026-10-28
-
-- netgear.com/home/wifi/routers/rs100 (no trailing slash) | works; US RS100 page only came back with this exact search phrasing; no per-band rates | search "netgear.com home wifi routers rs100 Nighthawk WiFi 7 Router RS100 3.6Gbps" | 2026-10-29
 - businesswire.com/news/home/* | works; text has no date (date only in URL) | note date as inferred | 2026-10-29
-- notebookcheck.net | works; launch prices with dates | MSRP is not a current price | 2026-10-29
-- bhphotovideo.com RS100 page | works; price + stock | none | 2026-10-29
+- notebookcheck.net, prnewswire.com | works; launch prices with dates | MSRP is not a current price | 2026-10-29
 - adorama.com product pages | works; price, stock, per-band specs | retailer specs = Qualified | 2026-10-29
 - unsplash.com/s/photos/wifi-router, /s/photos/router, /id/s/foto/router | works from WebSearch; nearly all router photos already used | search non-router subjects (printer, desk, cables) | 2026-10-29
-- eero.com/blog/articles/* and support.eero.com/hc/articles/115002904283 (eero Plus price) and prod.eero.com/eero-plus | works | none | 2026-10-30
+- eero.com/blog/articles/*, support.eero.com/hc/articles/115002904283 (eero Plus price), prod.eero.com/eero-plus | works | none | 2026-10-30
 - eero.com/support/articles/what-are-the-advanced-networking-settings | works only when it came back in search (support.eero.com/hc 302s to it) | search the eero.com title | 2026-10-30
 - omadanetworks.com/en/support/faq/3007 (HomeShield prices, US) and /faq/2996 (HomeShield features) | works; dated | none | 2026-10-30
 - asus.com/uk/Content/AiProtection | works; "subscription-free" claim; no US equivalent found | cite as Qualified (UK) | 2026-10-30
 - support.google.com/googlenest/answer/7571856 (custom LAN IP) | works | none | 2026-10-30
-- adorama.com/asrtbe58u.html | works; price + stock | none | 2026-10-30
-
 - wi-fi.org/news-events/newsroom/* | works; dated press releases | none | 2026-10-31
 - fcc.gov/document/* (6 GHz order) | works; title only, no date or detail | pair with techblog.comsoc.org for the date | 2026-10-31
 - techblog.comsoc.org | works; dated IEEE ComSoc reporting | cite as secondary | 2026-10-31
@@ -49,7 +43,13 @@ Read before research; update at the end of every daily run. One line per source:
 - tp-link.com/us/blog/<id>/ and netgear.com/hub/network/* | works; dated | none | 2026-10-31
 - eero.com/eero-plus, eero.com/support/articles/* (eero-7, what-is-eero-plus, eero-signal, Guardian VPN, 1Password), eero.com/shop/eero-signal/buy | works; US prices on shop/plus pages; no page dates | links listed inside eero.com/support/sections/* must be re-searched before fetching | 2026-10-31
 - bhphotovideo.com RT-BE58U (1859883-REG) | works; stock only, no price shown | leave price out | 2026-10-31
-- unsplash.com/s/photos/online-privacy, /s/photos/wifi-network | works from WebSearch | none | 2026-10-31
+- unsplash.com/s/photos/online-privacy, /wifi-network, /signal, /website-security | works from WebSearch; /signal has cell towers, /website-security has padlock-on-keyboard shots | none | 2026-11-01
+
+- eero.com/support/articles/what-is-block-and-allow-sites, /what-is-eero-hotspot-backup, /how-do-i-troubleshoot-eero-signal; eero.com/shop/eero-signal (plan prices only, no device prices on 2026-11-01); eero.com/legal/network-management-statement (Signal speed/data labels; body text has typos, use Broadband Facts labels) | works | none | 2026-11-01
+- kb.netgear.com/24053 (Block Sites) and /000062159 (Smart Parental Controls site blocking) | works; dated | none | 2026-11-01
+- asus.com/us/support/FAQ/1037946 (URL Filter) and vigi.com/baltic/support/faq/1124 (TP-Link Archer parental controls), tp-link.com/us/support/faq/2643 (Deco troubleshooting) | works; dated | tp-link.com/support/faq/1008 is modem routers only | 2026-11-01
+- support.mozilla.org/en-US/kb/configuring-networks-disable-dns-over-https/revision/* | works | none | 2026-11-01
+- press.aboutamazon.com/devices/2025/9/* (eero Signal launch), 3gpp.org/news-events/partner-news/redcap-gsa-article01 (RedCap rates) | works | launch prices are not current prices | 2026-11-01
 
 ## Fails (don't fetch)
 - starlink.com/support/article/* | fails: renders empty (JavaScript) | use reseller copies (support.satellitephonestore.com, cite Qualified) or Starlink PDFs on api.starlink.com | 2026-10-25
@@ -62,12 +62,11 @@ Read before research; update at the end of every daily run. One line per source:
 - URLs carried over from IDEAS.md without a fresh search result (support.google.com/googlehome/answer/6274660, kb.netgear.com/25722) | fail: PROVENANCE_REQUIRED approval timeout | always re-search so the URL comes back in today's results | 2026-10-28
 - rtings.com router reviews | renders metadata only (no results) | don't rely on RTINGS for measurements | 2026-10-28
 - wi-fi.org/system/files/*.pdf | fails: redirects to login | use FCC or internal band guide | 2026-10-28
-
 - bhphotovideo.com RS200 pages (1861250-REG) | fail: client_error | use another retailer or leave price out | 2026-10-29
 - community.netgear.com/kb/nighthawk-firmware-releases/* | fail: client_error | use kb.netgear.com firmware pages | 2026-10-29
 - learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting (also via support.microsoft.com/kb/164015 redirect) | fails: PROVENANCE_REQUIRED approval timeout | use RFC 1122/4632 | 2026-10-30
-
 - blog.eero.com/* | 302 redirect to eero.com/blog/articles/* | search the eero.com/blog/articles title | 2026-10-31
+- eero.com/shop/eero-signal/buy | fails 2026-11-01: PROVENANCE_REQUIRED approval timeout (worked 2026-10-31) | use eero.com/shop/eero-signal for plan prices; leave device prices out | 2026-11-01
 - unsplash.com/photos/...-8_u0uDD8qEM (Wi-Fi 7 USB adapter) | looks like a 3D render, not a photo | don't use | 2026-10-31
 
 ## No official answer found
@@ -81,3 +80,4 @@ Read before research; update at the end of every daily run. One line per source:
 - Spectrum approved/compliant modem list | spectrum.net page never returned in WebSearch (only Hitron/third-party) | Spectrum modem topic dropped | 2026-10-30
 - AT&T Fiber own router / IP Passthrough | no att.com support page returned (forums only) | topic dropped | 2026-10-30
 - NETGEAR Smart Parental Controls US price | KB says price shown in app only | don't quote a price | 2026-10-30
+- eero Signal device prices at a retailer | Amazon listing never returned in search | leave prices out | 2026-11-01
