@@ -78,3 +78,5 @@ One row per post. Update with every daily run.
 | guides/is-eero-plus-worth-it | Is eero Plus Worth It? What You Get in 2026 | 2026-10-31 | mesh-wifi, security-privacy | is eero plus worth it |
 | guides/eero-signal-4g-vs-5g | eero Signal 4G vs. 5G: Which Backup Should You Buy? | 2026-11-01 | mesh-wifi, internet-plans-isps | eero signal 4g vs 5g |
 | guides/block-website-on-router | How to Block a Website on Your Router, Brand by Brand | 2026-11-01 | security-privacy, how-to-fixes | how to block a website on router |
+| guides/best-dual-wan-router | Best Dual WAN Router for Failover in 2026 | 2026-11-02 | routers, internet-plans-isps | best dual wan router |
+| guides/check-6ghz-wifi-support | Does My Device Support 6 GHz Wi-Fi? How to Check | 2026-11-02 | wifi-6e-7, how-to-fixes | does my device support 6 ghz wifi |
