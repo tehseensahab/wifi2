@@ -87,6 +87,8 @@ How covers are used:
 | `content/guides/is-eero-plus-worth-it/` | [Smartphone showing a padlock "Secured" screen on a wooden desk](https://unsplash.com/photos/smartphone-with-security-lock-icon-ah-HeguOe9k) | Dan Nelson |
 | `content/guides/eero-signal-4g-vs-5g/` | [Lattice communications tower with dish antennas against a blue sky](https://unsplash.com/photos/a-cell-phone-tower-with-three-antennas-on-top-of-it-SSXCiGKYQQE) | Keriliwi |
 | `content/guides/block-website-on-router/` | [Open combination padlock on a white keyboard](https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk) | Sasun Bughdaryan |
+| `content/guides/best-dual-wan-router/` | [Blue Ethernet patch cables plugged into three stacked rack-mounted network switches](https://unsplash.com/photos/a-blue-and-black-machine-_MauPmUJJ08) | U. Storsberg |
+| `content/guides/check-6ghz-wifi-support/` | [Laptop on a stand, monitor, tablet and smartphone with blank screens on a white desk](https://unsplash.com/photos/a-desk-with-two-laptops-and-a-phone-on-it-z0xdapnPMJ8) | Jakub Żerdzicki |
 
 ## Adding a cover for a new post
 
