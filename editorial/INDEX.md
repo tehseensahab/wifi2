@@ -80,3 +80,5 @@ One row per post. Update with every daily run.
 | guides/block-website-on-router | How to Block a Website on Your Router, Brand by Brand | 2026-11-01 | security-privacy, how-to-fixes | how to block a website on router |
 | guides/best-dual-wan-router | Best Dual WAN Router for Failover in 2026 | 2026-11-02 | routers, internet-plans-isps | best dual wan router |
 | guides/check-6ghz-wifi-support | Does My Device Support 6 GHz Wi-Fi? How to Check | 2026-11-02 | wifi-6e-7, how-to-fixes | does my device support 6 ghz wifi |
+| guides/6ghz-wifi-not-showing | 6 GHz Wi-Fi Not Showing Up? How to Fix It | 2026-11-03 | wifi-6e-7, how-to-fixes | 6 ghz wifi not showing up |
+| guides/best-ups-for-router | Best UPS for Router and Modem in 2026 | 2026-11-03 | routers, internet-plans-isps | best ups for router and modem |

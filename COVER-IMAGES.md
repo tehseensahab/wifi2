@@ -89,6 +89,8 @@ How covers are used:
 | `content/guides/block-website-on-router/` | [Open combination padlock on a white keyboard](https://unsplash.com/photos/a-combination-lock-rests-on-a-computer-keyboard-WUJmdr8pNwk) | Sasun Bughdaryan |
 | `content/guides/best-dual-wan-router/` | [Blue Ethernet patch cables plugged into three stacked rack-mounted network switches](https://unsplash.com/photos/a-blue-and-black-machine-_MauPmUJJ08) | U. Storsberg |
 | `content/guides/check-6ghz-wifi-support/` | [Laptop on a stand, monitor, tablet and smartphone with blank screens on a white desk](https://unsplash.com/photos/a-desk-with-two-laptops-and-a-phone-on-it-z0xdapnPMJ8) | Jakub Żerdzicki |
+| `content/guides/6ghz-wifi-not-showing/` | [Open silver laptop on a sunlit wooden desk with a smartphone and tablet case](https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk--orfe0w1tvs) | Jakub Żerdzicki |
+| `content/guides/best-ups-for-router/` | [Single lit candle flame against a dark background](https://unsplash.com/photos/a-single-candle-is-lit-in-the-dark-XrNZx4gfrbY) | khampha phimmachak |
 
 ## Adding a cover for a new post
 
