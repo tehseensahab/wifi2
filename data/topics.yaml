@@ -3,11 +3,11 @@
 - slug: routers
   name: Routers
   icon: router
-  desc: "Best picks, reviews, and setup help for home routers."
+  desc: "Buying guides and setup help for home routers."
 - slug: mesh-wifi
   name: Mesh WiFi
   icon: mesh
-  desc: "Whole-home coverage systems, tested room by room."
+  desc: "Whole-home coverage systems, explained by need."
 - slug: wifi-6e-7
   name: WiFi 6E / WiFi 7
   icon: wifi

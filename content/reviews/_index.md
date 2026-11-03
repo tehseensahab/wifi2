@@ -1,4 +1,5 @@
 ---
 title: "Reviews"
-description: "Routers, mesh systems, and smart-home gear tested in real US homes, with the test date on every score."
+description: "Research-based product coverage from WiFi Weekly. Physically tested reviews will appear here only when real test records exist."
+noindex: true
 ---

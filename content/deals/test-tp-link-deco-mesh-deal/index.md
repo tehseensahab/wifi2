@@ -11,6 +11,7 @@ dealPrice: 149
 retailer: "Amazon"
 priceChecked: 2026-09-29
 noindex: true
+draft: true
 ---
 
 We checked the price history on this one: $149 for the 3-pack is a genuine low, not a markup-then-markdown trick. It undercuts the Eero equivalent by about $40 at this tier.
