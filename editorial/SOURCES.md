@@ -36,11 +36,17 @@ Read before research; update at the end of every daily run. One line per source:
 - bhphotovideo.com APC BE600M1 (1259544-REG) | works; price and stock | none | 2026-11-03
 - xfinity.com/support/articles/power-outages-and-digital-voice-service | works; published/modified dates | none | 2026-11-03
 - govinfo.gov/link/fr/80/62485 (FCC 2015 backup power order, Federal Register) | works; 115k chars, use offset | none | 2026-11-03
-- images.unsplash.com (curl, append ?fm=jpg&q=85&w=2400&fit=max); unsplash.com/s/photos/<term> and /photos/<slug> work ONLY when returned by WebSearch (router, wifi-network, signal, online-privacy, website-security, internet-cable, disconnect, wireless used); most router/cable shots already used, many Unsplash+ | check COVER-IMAGES.md; search non-router subjects | 2026-11-03
+- images.unsplash.com (curl, append ?fm=jpg&q=85&w=2400&fit=max); unsplash.com/s/photos/<term> and /photos/<slug> work ONLY when returned by WebSearch (router, wifi-network, signal, online-privacy, website-security, internet-cable, disconnect, wireless, backyard-patio, power-button used); most router/cable shots already used, many Unsplash+ | check COVER-IMAGES.md; search non-router subjects | 2026-11-03
 - eero.com/support/articles/* (Wi-Fi 6E, WPA3, MAC randomization, bridge mode, eero Plus, Signal, Hotspot Backup, block sites, advanced settings), eero.com/eero-plus, eero.com/shop (US prices, no page dates), eero.com/legal/network-management-statement; support.google.com/wifi, /googlenest, /googlehome | works | links inside eero.com/support/sections/* must be re-searched; support.eero.com/hc 302s to eero.com | 2026-11-03
 - support.apple.com/102285 (Wi-Fi 6E list, 2026-10-27), /102766 (router settings, 2026-07-14), /102509 (private address), support.apple.com/guide/platform-support/* and /guide/deployment/* | works; Published Date shown | none | 2026-11-03
 - support.microsoft.com/windows/<guid>, /topic/26177a28-38ed-1a8e-7eca-66f24dc63f09 (netsh, Network band); learn.microsoft.com (most pages) | works | see Fails for subnetting page | 2026-11-02
 - tp-link.com/us|ca|uk|en (product pages, /support/faq/<id> incl. 2643, 3092; /us/blog/<id>/; Canada Deco pages), vigi.com/<cc>/support/faq, omadanetworks.com/<cc>/support/faq (incl. 3007/2996 HomeShield), asus.com/us/support/FAQ/1037946 | works; dated; global pages don't state US hardware version | note region | 2026-11-02
+- eero.com/shop/eero-outdoor-7, eero.com/support/articles/eero-outdoor-7(-frequently-asked-questions), /is-eero-waterproof-or-water-resistant, /215473703-How-do-I-reboot-or-reset-my-eero | works; US price, no stock text; spec page and shop disagree on adapter wattage (27W vs 30W) | don't cite adapter wattage | 2026-11-04
+- tp-link.com/us/deco-mesh-wifi/product-family/deco-be25-outdoor/ and /deco-x50-outdoor/, tp-link.com/us/support/faq/3611/ (X50-Outdoor FAQ), /faq/497/ (factory reset, Apr 17 2026) | works; no US price on product pages | leave Deco prices out unless a US retailer page comes back | 2026-11-04
+- store.ui.com/us/en/products/u7-outdoor | works; price + surcharge, no specs/stock | pair with ui.com/wifi/outdoor (spec columns unlabeled: cite Qualified) and help.ui.com/hc/en-us/articles/360012622613 (adoption) | 2026-11-04
+- kb.netgear.com/9665 (factory reset), /000061793 (power cycle), /000038536 (cable modem reset) | works; Last Updated 07/07/2025 | none | 2026-11-04
+- asus.com/us/support/faq/1000925/ (reset, Last Update 2026/02/23); xfinity.com/support/articles/troubleshooting-your-cable-modem and /factory-reset-xfinity-gateway (XB2/XB3 only) | works; dated | none | 2026-11-04
+- github.com/gohugoio/hugo/releases (curl hugo_extended_0.167.0_linux-amd64.tar.gz) | works; hugo not preinstalled in sandbox | install at start of run | 2026-11-04
 
 ## Fails (don't fetch)
 - starlink.com/support/article/* | fails: renders empty (JavaScript) | use reseller copies (support.satellitephonestore.com, cite Qualified) or Starlink PDFs on api.starlink.com | 2026-10-25
@@ -62,6 +68,8 @@ Read before research; update at the end of every daily run. One line per source:
 - omadanetworks.com/<cc>/support/faq/2303 | works but is about Wi-Fi 6 detection on old Intel cards, not 6 GHz | don't cite for 6 GHz | 2026-11-03
 
 ## No official answer found
+- TP-Link Deco outdoor US prices | no US retailer page returned (only intl. retailers, slickdeals, camelcamelcamel) | leave out | 2026-11-04
+- techspecs.ui.com U7 Outdoor | returned in search but robots_disallowed (see Fails) | use ui.com/wifi/outdoor, Qualified | 2026-11-04
 - T-Mobile / Verizon 5G Home Internet: CGNAT, public IP, IPv6 | no official page found | don't make carrier-specific CGNAT claims | 2026-10-26
 - T-Mobile bridge mode and port forwarding | official answer exists: t-mobile.com/support/home-internet/connect says gateways can't do either | use that page | 2026-10-26
 - Verizon IP Passthrough | official KB 301824 covers "Verizon Internet Gateway" without listing models | cite as Qualified | 2026-10-26

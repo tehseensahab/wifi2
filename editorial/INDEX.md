@@ -82,3 +82,5 @@ One row per post. Update with every daily run.
 | guides/check-6ghz-wifi-support | Does My Device Support 6 GHz Wi-Fi? How to Check | 2026-11-02 | wifi-6e-7, how-to-fixes | does my device support 6 ghz wifi |
 | guides/6ghz-wifi-not-showing | 6 GHz Wi-Fi Not Showing Up? How to Fix It | 2026-11-03 | wifi-6e-7, how-to-fixes | 6 ghz wifi not showing up |
 | guides/best-ups-for-router | Best UPS for Router and Modem in 2026 | 2026-11-03 | routers, internet-plans-isps | best ups for router and modem |
+| guides/best-outdoor-mesh-wifi | Best Outdoor Mesh Wi-Fi in 2026: Picks by System | 2026-11-04 | mesh-wifi, routers | best outdoor mesh wifi |
+| guides/reset-router | How to Reset a Router: Reboot vs. Factory Reset | 2026-11-04 | how-to-fixes, routers | how to reset router |
