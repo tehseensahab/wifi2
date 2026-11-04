@@ -91,6 +91,8 @@ How covers are used:
 | `content/guides/check-6ghz-wifi-support/` | [Laptop on a stand, monitor, tablet and smartphone with blank screens on a white desk](https://unsplash.com/photos/a-desk-with-two-laptops-and-a-phone-on-it-z0xdapnPMJ8) | Jakub Żerdzicki |
 | `content/guides/6ghz-wifi-not-showing/` | [Open silver laptop on a sunlit wooden desk with a smartphone and tablet case](https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk--orfe0w1tvs) | Jakub Żerdzicki |
 | `content/guides/best-ups-for-router/` | [Single lit candle flame against a dark background](https://unsplash.com/photos/a-single-candle-is-lit-in-the-dark-XrNZx4gfrbY) | khampha phimmachak |
+| `content/guides/best-outdoor-mesh-wifi/` | [Adirondack chairs around a fire pit on a backyard patio](https://unsplash.com/photos/backyard-patio-with-adirondack-chairs-fire-pit-and-flowers-0Dw2xI3GLbI) | Julia A. Keirns |
+| `content/guides/reset-router/` | [Green on and red off push buttons, close-up (cropped to landscape)](https://unsplash.com/photos/white-red-and-black-device-Uwecr7Su3dU) | Justus Menke |
 
 ## Adding a cover for a new post
 
