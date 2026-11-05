@@ -93,6 +93,8 @@ How covers are used:
 | `content/guides/best-ups-for-router/` | [Single lit candle flame against a dark background](https://unsplash.com/photos/a-single-candle-is-lit-in-the-dark-XrNZx4gfrbY) | khampha phimmachak |
 | `content/guides/best-outdoor-mesh-wifi/` | [Adirondack chairs around a fire pit on a backyard patio](https://unsplash.com/photos/backyard-patio-with-adirondack-chairs-fire-pit-and-flowers-0Dw2xI3GLbI) | Julia A. Keirns |
 | `content/guides/reset-router/` | [Green on and red off push buttons, close-up (cropped to landscape)](https://unsplash.com/photos/white-red-and-black-device-Uwecr7Su3dU) | Justus Menke |
+| `content/guides/best-wifi-7-adapter/` | [Desktop PC tower with mesh front panel on a dark desk](https://unsplash.com/photos/a-computer-tower-with-a-monitor-CiNJwZaDXI4) | Anthony Roberts |
+| `content/guides/mix-mesh-wifi-brands/` | [Two hands holding jigsaw puzzle pieces against trees](https://unsplash.com/photos/a-person-holding-two-pieces-of-a-puzzle-JzE1dHEaAew) | Vardan Papikyan |
 
 ## Adding a cover for a new post
 

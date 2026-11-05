@@ -4,10 +4,9 @@ Read before research; update at the end of every daily run. One line per source:
 
 ## Works (fetch via WebSearch result, no approval)
 - rfc-editor.org (RFCs), blog.apnic.net, tailscale.com/docs (.md pages) | works | none | 2026-10-25
-- kb.netgear.com (incl. 24053 Block Sites, 000062159, 000064414 Windows 6 GHz) | works; shows "Last Updated" date | none | 2026-11-02
-- asus.com/us/support/FAQ/<id> (and /support/FAQ/<id>, /ca-en techspec) | works; shows "Last Update"; US techspec rarely returned | cite Canadian spec page, note it | 2026-10-30
+- kb.netgear.com/<id> (24053 Block Sites, 000062159, 000064414/000064415/000064272 6 GHz, 9665 reset, 000061793 power cycle, 000038536 modem reset) | works; Last Updated shown (most 07/07/2025) | none | 2026-11-04
+- asus.com/us/support/FAQ/<id> (incl. 1000925 reset, 1044308 AiMesh brands, 1015009 AP mode, 1037946) and /ca-en techspec | works; shows Last Update; US techspec rarely returned | cite Canadian spec page, note it | 2026-11-05
 - api.starlink.com/public-files/*.pdf (Starlink setup guides) | works | none | 2026-10-25
-- dishytech.com (third-party Starlink, cite Qualified), telecompetitor.com (Ookla figures) | works | none | 2026-10-25
 - t-mobile.com/support/home-internet/* and t-mobile.com/home-internet/policies/* | works; no last-updated date shown | none | 2026-10-26
 - verizon.com/support/knowledge-base-* and verizon.com/support/broadband-services | works; KB pages don't list covered models | cite model scope as Qualified | 2026-10-26
 - support.google.com/googlehome (port forwarding, DHCP reservation) and /googlenest/answer/7571856 (custom LAN IP) | works | none | 2026-10-30
@@ -27,26 +26,25 @@ Read before research; update at the end of every daily run. One line per source:
 - help.ui.com/hc/en-us/articles/360052548713 (UniFi WAN failover) and store.ui.com/us/en/products/* | works; store shows price, surcharge and stock | none | 2026-11-02
 - memoryexpress.com product pages | works; retailer specs | cite as Qualified | 2026-11-02
 - bhphotovideo.com RT-BE58U (1859883-REG) | works; band list, stock, no price | leave price out | 2026-11-02
-- kb.netgear.com/000064415 (6 GHz detection: WPA3, SSID, PSC) and /000064272 (6 GHz reconnect) | works; Last Updated 07/07/2025 | none | 2026-11-03
 - dlink.com/en/support/faq/aquilaproai/* (Wi-Fi 7 6 GHz FAQ) | works; undated; fetch summary paraphrased a quote (exact: "the SSID security must use WPA3 through all bands") | ask WebFetch for exact sentence | 2026-11-03
 - community.tp-link.com/us/smart-home/kb/detail/412544 (official KB on community site) | works; dated 2023 | none | 2026-11-03
-- mouser.com/datasheet/* (Schneider/APC data sheets), images.salsify.com APC brochure PDF (Back-UPS runtime chart), cdn.blueally.com/apcguard/datasheets/* | works | none | 2026-11-03
-- cyberpowersystems.com/product/ups/* | works; specs, half/full-load runtime, MSRP (not a current price) | none | 2026-11-03
-- apcguard.com/<model>.asp | works; shows "no longer available" | use to check APC discontinuations | 2026-11-03
-- bhphotovideo.com APC BE600M1 (1259544-REG) | works; price and stock | none | 2026-11-03
-- xfinity.com/support/articles/power-outages-and-digital-voice-service | works; published/modified dates | none | 2026-11-03
-- govinfo.gov/link/fr/80/62485 (FCC 2015 backup power order, Federal Register) | works; 115k chars, use offset | none | 2026-11-03
-- images.unsplash.com (curl, append ?fm=jpg&q=85&w=2400&fit=max); unsplash.com/s/photos/<term> and /photos/<slug> work ONLY when returned by WebSearch (router, wifi-network, signal, online-privacy, website-security, internet-cable, disconnect, wireless, backyard-patio, power-button used); most router/cable shots already used, many Unsplash+ | check COVER-IMAGES.md; search non-router subjects | 2026-11-03
+- APC/CyberPower UPS: mouser.com/datasheet/*, images.salsify.com APC brochure, cdn.blueally.com/apcguard/datasheets/*, cyberpowersystems.com/product/ups/* (MSRP only), apcguard.com/<model>.asp (shows discontinued), bhphotovideo.com BE600M1 (price+stock) | works | none | 2026-11-03
+- xfinity.com/support/articles/power-outages-and-digital-voice-service, govinfo.gov/link/fr/80/62485 (FCC 2015 backup power order; 115k chars, use offset) | works; dated | none | 2026-11-03
+- images.unsplash.com (curl, append ?fm=jpg&q=85&w=2400&fit=max); unsplash.com/s/photos/<term>, /trends/<term> and /photos/<slug> work ONLY when returned by WebSearch; most router/cable/AP shots already used, many Unsplash+, some 'photos' are 3D renders (e.g. Wi-Fi 7 USB adapter Dk6ukIRBrWE) | check COVER-IMAGES.md; try PC, concept (puzzle), or non-router subjects | 2026-11-05
 - eero.com/support/articles/* (Wi-Fi 6E, WPA3, MAC randomization, bridge mode, eero Plus, Signal, Hotspot Backup, block sites, advanced settings), eero.com/eero-plus, eero.com/shop (US prices, no page dates), eero.com/legal/network-management-statement; support.google.com/wifi, /googlenest, /googlehome | works | links inside eero.com/support/sections/* must be re-searched; support.eero.com/hc 302s to eero.com | 2026-11-03
 - support.apple.com/102285 (Wi-Fi 6E list, 2026-10-27), /102766 (router settings, 2026-07-14), /102509 (private address), support.apple.com/guide/platform-support/* and /guide/deployment/* | works; Published Date shown | none | 2026-11-03
 - support.microsoft.com/windows/<guid>, /topic/26177a28-38ed-1a8e-7eca-66f24dc63f09 (netsh, Network band); learn.microsoft.com (most pages) | works | see Fails for subnetting page | 2026-11-02
 - tp-link.com/us|ca|uk|en (product pages, /support/faq/<id> incl. 2643, 3092; /us/blog/<id>/; Canada Deco pages), vigi.com/<cc>/support/faq, omadanetworks.com/<cc>/support/faq (incl. 3007/2996 HomeShield), asus.com/us/support/FAQ/1037946 | works; dated; global pages don't state US hardware version | note region | 2026-11-02
-- eero.com/shop/eero-outdoor-7, eero.com/support/articles/eero-outdoor-7(-frequently-asked-questions), /is-eero-waterproof-or-water-resistant, /215473703-How-do-I-reboot-or-reset-my-eero | works; US price, no stock text; spec page and shop disagree on adapter wattage (27W vs 30W) | don't cite adapter wattage | 2026-11-04
 - tp-link.com/us/deco-mesh-wifi/product-family/deco-be25-outdoor/ and /deco-x50-outdoor/, tp-link.com/us/support/faq/3611/ (X50-Outdoor FAQ), /faq/497/ (factory reset, Apr 17 2026) | works; no US price on product pages | leave Deco prices out unless a US retailer page comes back | 2026-11-04
 - store.ui.com/us/en/products/u7-outdoor | works; price + surcharge, no specs/stock | pair with ui.com/wifi/outdoor (spec columns unlabeled: cite Qualified) and help.ui.com/hc/en-us/articles/360012622613 (adoption) | 2026-11-04
-- kb.netgear.com/9665 (factory reset), /000061793 (power cycle), /000038536 (cable modem reset) | works; Last Updated 07/07/2025 | none | 2026-11-04
-- asus.com/us/support/faq/1000925/ (reset, Last Update 2026/02/23); xfinity.com/support/articles/troubleshooting-your-cable-modem and /factory-reset-xfinity-gateway (XB2/XB3 only) | works; dated | none | 2026-11-04
 - github.com/gohugoio/hugo/releases (curl hugo_extended_0.167.0_linux-amd64.tar.gz) | works; hugo not preinstalled in sandbox | install at start of run | 2026-11-04
+
+- support.microsoft.com/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09 | works; Wi-Fi 7 from Win 11 24H2, netsh 802.11be check, MLO check; updated 2026-10-08 in metadata; does NOT state Wi-Fi 7 unavailable on Win 10 (fetch summary claimed it) | quote only the 24H2 sentence | 2026-11-05
+- netgear.com/home/wifi/adapters/a9000/ (US price, no stock) + downloads.netgear.com/files/GDC/A9000/A9000_TS.pdf | works | product page and data sheet differ on 320 MHz; cite each | 2026-11-05
+- tp-link.com/us/products/details/archer-tbe6500u.html, tp-link.com/us/home-networking/pci-adapter/ (US lineup, no prices), vigi.com/us/home-networking/pci-adapter/archer-tbe550e/ (TP-Link US page on vigi domain) | works; no prices | leave TP-Link adapter prices out | 2026-11-05
+- tp-link.com/us/faq-2248.html (mix Deco models, updated 2026-11-03), tp-link.com/support/faq/3529 (EasyMesh, 2022), omadanetworks.com/us/support/faq/3611 | works | none | 2026-11-05
+- eero.com/support/articles/can-i-use-an-eero-beacon-or-eero-6-extender-with-a-non-eero-router, /does-eero-replace-my-current-router, eero-outdoor-7(-frequently-asked-questions), /is-eero-waterproof-or-water-resistant, /215473703-How-do-I-reboot-or-reset-my-eero, eero.com/shop/eero-outdoor-7 | works; undated; shop and spec page disagree on Outdoor 7 adapter wattage | don't cite adapter wattage | 2026-11-05
+- support.google.com/googlenest/answer/12353201 (Nest Wifi Pro mesh compatibility), wi-fi.org/node/35426 (EasyMesh 2018 release) | works | none | 2026-11-05
 
 ## Fails (don't fetch)
 - starlink.com/support/article/* | fails: renders empty (JavaScript) | use reseller copies (support.satellitephonestore.com, cite Qualified) or Starlink PDFs on api.starlink.com | 2026-10-25
@@ -54,7 +52,6 @@ Read before research; update at the end of every daily run. One line per source:
 - gsc-wizard connector | fails: payment_required | not used by daily runs | 2026-10-25
 - curl to wifiweekly.com live pages | blocked in run on 2026-10-25 | use the PR's Cloudflare Pages check run + one WebFetch per URL | 2026-10-25
 - bestbuy.com product pages | renders without visible price (metadata only) | leave prices out | 2026-10-27
-- community.surfboard.com threads | fail: 302 redirect to surfboard.com | don't rely on forum claims | 2026-10-27
 - URLs carried over from IDEAS.md without a fresh search result (support.google.com/googlehome/answer/6274660, kb.netgear.com/25722) | fail: PROVENANCE_REQUIRED approval timeout | always re-search so the URL comes back in today's results | 2026-10-28
 - rtings.com router reviews | renders metadata only (no results) | don't rely on RTINGS for measurements | 2026-10-28
 - wi-fi.org/system/files/*.pdf | fails: redirects to login | use FCC or internal band guide | 2026-10-28
@@ -68,6 +65,8 @@ Read before research; update at the end of every daily run. One line per source:
 - omadanetworks.com/<cc>/support/faq/2303 | works but is about Wi-Fi 6 detection on old Intel cards, not 6 GHz | don't cite for 6 GHz | 2026-11-03
 
 ## No official answer found
+- NETGEAR Orbi with other brands | only community.netgear.com threads returned | omit Orbi cross-brand claims | 2026-11-05
+- Micro Center ASUS PCE-BE92BT | price renders garbled ("$6999"), in-store only | don't cite | 2026-11-05
 - TP-Link Deco outdoor US prices | no US retailer page returned (only intl. retailers, slickdeals, camelcamelcamel) | leave out | 2026-11-04
 - techspecs.ui.com U7 Outdoor | returned in search but robots_disallowed (see Fails) | use ui.com/wifi/outdoor, Qualified | 2026-11-04
 - T-Mobile / Verizon 5G Home Internet: CGNAT, public IP, IPv6 | no official page found | don't make carrier-specific CGNAT claims | 2026-10-26
