@@ -95,6 +95,8 @@ How covers are used:
 | `content/guides/reset-router/` | [Green on and red off push buttons, close-up (cropped to landscape)](https://unsplash.com/photos/white-red-and-black-device-Uwecr7Su3dU) | Justus Menke |
 | `content/guides/best-wifi-7-adapter/` | [Desktop PC tower with mesh front panel on a dark desk](https://unsplash.com/photos/a-computer-tower-with-a-monitor-CiNJwZaDXI4) | Anthony Roberts |
 | `content/guides/mix-mesh-wifi-brands/` | [Two hands holding jigsaw puzzle pieces against trees](https://unsplash.com/photos/a-person-holding-two-pieces-of-a-puzzle-JzE1dHEaAew) | Vardan Papikyan |
+| `content/guides/wifi-7-not-working-windows-11/` | [Laptop in a dark room with a glowing blue abstract wallpaper](https://unsplash.com/photos/laptop-screen-with-blue-abstract-waves-NK-cB-l1cv0) | Sunrise King |
+| `content/guides/best-modem-router-combo/` | [Living room corner with wall-mounted TV over a wooden media console](https://unsplash.com/photos/living-room-with-wooden-furniture-j1e_8-0FTE8) | Salvador Godoy |
 
 ## Adding a cover for a new post
 

@@ -86,3 +86,5 @@ One row per post. Update with every daily run.
 | guides/reset-router | How to Reset a Router: Reboot vs. Factory Reset | 2026-11-04 | how-to-fixes, routers | how to reset router |
 | guides/best-wifi-7-adapter | Best Wi-Fi 7 Adapter for PC in 2026: USB and PCIe Picks | 2026-11-05 | wifi-6e-7, routers | best wifi 7 adapter for pc |
 | guides/mix-mesh-wifi-brands | Can You Mix Mesh Wi-Fi Brands? What Works and What Doesn't | 2026-11-05 | mesh-wifi, routers | can you mix mesh wifi brands |
+| guides/wifi-7-not-working-windows-11 | Wi-Fi 7 Not Working on Windows 11? How to Fix It | 2026-11-06 | wifi-6e-7, how-to-fixes | wifi 7 not working windows 11 |
+| guides/best-modem-router-combo | Best Modem Router Combo in 2026: Picks by Plan | 2026-11-06 | routers, internet-plans-isps | best modem router combo |
