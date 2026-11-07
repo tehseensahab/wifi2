@@ -88,3 +88,5 @@ One row per post. Update with every daily run.
 | guides/mix-mesh-wifi-brands | Can You Mix Mesh Wi-Fi Brands? What Works and What Doesn't | 2026-11-05 | mesh-wifi, routers | can you mix mesh wifi brands |
 | guides/wifi-7-not-working-windows-11 | Wi-Fi 7 Not Working on Windows 11? How to Fix It | 2026-11-06 | wifi-6e-7, how-to-fixes | wifi 7 not working windows 11 |
 | guides/best-modem-router-combo | Best Modem Router Combo in 2026: Picks by Plan | 2026-11-06 | routers, internet-plans-isps | best modem router combo |
+| guides/best-moca-adapter | Best MoCA Adapter in 2026: Picks by Need | 2026-11-07 | mesh-wifi, how-to-fixes | best moca adapter |
+| guides/modem-vs-router-vs-gateway | Modem vs. Router vs. Gateway: What's the Difference? | 2026-11-07 | routers, internet-plans-isps | modem vs router vs gateway |

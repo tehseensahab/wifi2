@@ -97,6 +97,8 @@ How covers are used:
 | `content/guides/mix-mesh-wifi-brands/` | [Two hands holding jigsaw puzzle pieces against trees](https://unsplash.com/photos/a-person-holding-two-pieces-of-a-puzzle-JzE1dHEaAew) | Vardan Papikyan |
 | `content/guides/wifi-7-not-working-windows-11/` | [Laptop in a dark room with a glowing blue abstract wallpaper](https://unsplash.com/photos/laptop-screen-with-blue-abstract-waves-NK-cB-l1cv0) | Sunrise King |
 | `content/guides/best-modem-router-combo/` | [Living room corner with wall-mounted TV over a wooden media console](https://unsplash.com/photos/living-room-with-wooden-furniture-j1e_8-0FTE8) | Salvador Godoy |
+| `content/guides/best-moca-adapter/` | [Bundle of gray cables twisted together on a dark teal background](https://unsplash.com/photos/gray-and-white-rolled-cable-hokONTrHIAQ) | Steve A Johnson |
+| `content/guides/modem-vs-router-vs-gateway/` | [Orange fiber patch cables in network equipment with status lights](https://unsplash.com/photos/yellow-and-white-electric-wires-YEoF12PgTtQ) | Patrick Turner |
 
 ## Adding a cover for a new post
 
