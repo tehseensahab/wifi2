@@ -9,7 +9,7 @@
       <h2>Explore</h2>
       <ul>
         {{- range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
-        <li><a href="{{ "deals/" | relURL }}">Deals</a></li>
+        {{- with site.GetPage "/deals" }}{{ if .Pages }}<li><a href="{{ "deals/" | relURL }}">Deals</a></li>{{ end }}{{ end }}
         <li><a href="{{ "glossary/" | relURL }}">WiFi glossary</a></li>
         <li><a href="{{ "search/" | relURL }}">Search</a></li>
       </ul>
@@ -17,7 +17,7 @@
     <nav aria-label="Footer: topics">
       <h2>Topics</h2>
       <ul>
-        {{- range site.Data.topics }}<li><a href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a></li>{{ end }}
+        {{- range site.Data.topics }}{{ $show := true }}{{ if eq .slug "deals" }}{{ $show = false }}{{ with site.GetPage "/deals" }}{{ if .Pages }}{{ $show = true }}{{ end }}{{ end }}{{ end }}{{ if $show }}<li><a href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">{{ .name }}</a></li>{{ end }}{{ end }}
       </ul>
     </nav>
     <nav aria-label="Footer: about and legal">

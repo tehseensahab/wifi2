@@ -4,7 +4,7 @@ description: "Our testing method for routers, mesh systems, and home internet ge
 layout: static
 updated: 2026-10-02
 ---
-This is the method we follow whenever one of our named writers physically tests a product. Articles that are not physically tested are labeled research-based or explainer instead; see our [editorial policy]({{< relref "editorial-policy" >}}). We test in real US homes, not empty labs, because walls, floors, neighbors' networks, and the devices you own decide how good your WiFi feels. Tested reviews show the test date.
+This is the method we follow whenever one of our named writers physically tests a product. Articles that are not physically tested are labeled research-based or explainer instead; see our [editorial policy]({{< relref "editorial-policy" >}}). When we do test, we test in a real home, not an empty lab, because walls, floors, neighbors' networks, and the devices you own decide how good your WiFi feels. Tested reviews show the test date. At the time of writing, our guides are research-based or explainers, and no physically tested review is published.
 
 ## What we measure
 
@@ -34,7 +34,7 @@ Sometimes a guide includes products we haven't tested ourselves. When that happe
 
 ## Prices and deals
 
-Prices in reviews are US street prices on the test date. Deal posts show the date we last checked the price, and we compare against the price history so a "sale" isn't just a raised list price.
+Prices appear only when we have checked them on an official page, and we show the date we checked. Deal posts, when we publish them, name the retailer and the date of the price check.
 
 ## Independence
 

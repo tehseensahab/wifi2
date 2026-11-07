@@ -1,4 +1,5 @@
 ---
 title: "Deals"
-description: "Tracked discounts, with the date we last checked the price. We skip fake \"was\" prices."
+description: "Verified networking deals, with the date and source of every price. None are listed right now."
+noindex: true
 ---

@@ -12,7 +12,7 @@ summaryLength = 30
   pagerSize = 12
 
 [params]
-  description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Every article is dated, sourced, and labeled as tested, research-based, or an explainer."
+  description = "Router and mesh WiFi guides, and home internet news for US readers. Every article is dated, sourced, and labeled as tested, research-based, or an explainer."
   tagline = "WiFi, without the guesswork."
   contactEmail = "editorial@wifiweekly.com"
   # Google AdSense publisher ID. Loads the AdSense site-connection script in production only.
@@ -52,10 +52,6 @@ summaryLength = 30
   name = "Home"
   pageRef = "/"
   weight = 10
-[[menu.main]]
-  name = "Reviews"
-  pageRef = "/reviews"
-  weight = 20
 [[menu.main]]
   name = "News"
   pageRef = "/news"

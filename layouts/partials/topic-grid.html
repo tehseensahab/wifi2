@@ -4,6 +4,7 @@
   {{- $n := 0 -}}
   {{- if eq .slug "deals" }}{{ with site.GetPage "/deals" }}{{ $n = len .Pages }}{{ end }}
   {{- else }}{{ with site.GetPage (printf "/topics/%s" .slug) }}{{ $n = len .Pages }}{{ end }}{{ end }}
+  {{- if or (ne .slug "deals") (gt $n 0) }}
   <a class="topic-tile" href="{{ .url | default (printf "/topics/%s/" .slug) | relURL }}">
     <span class="topic-icon">{{ partial "icon.html" .icon }}</span>
     <span class="topic-text">
@@ -12,5 +13,6 @@
     </span>
     <span class="topic-count">{{ $n }}</span>
   </a>
+  {{- end }}
   {{- end }}
 </div>
