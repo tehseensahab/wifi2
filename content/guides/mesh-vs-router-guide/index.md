@@ -1,7 +1,7 @@
 ---
-title: "Mesh system or single router? A decision guide for houses over 1,800 sq ft"
+title: "Mesh vs Router for a Large House: Is One Router Enough?"
 date: 2026-09-15
-description: "The square-footage number on the box is a lab measurement. Here's how to translate it to your actual walls."
+description: "Homes over 1,800 sq ft: the box's square footage is a lab number. How to tell whether one router or a mesh system fits your walls and floors."
 authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "routers"]
 summary: "The square footage on the box is measured in an open warehouse, so it overstates what you'll get in a real house. Homes under about 1,800 sq ft on one floor usually do fine with one router; multiple floors or several interior walls point to mesh."
@@ -22,3 +22,7 @@ Multiple floors, a detached garage, or more than two interior walls between your
 ## The setup most people get wrong
 
 Placing the second node too far from the first is the most common mistake — each hop should stay within about 30 feet of open-air line of sight, or the mesh backhaul degrades faster than the coverage gain is worth.
+
+## Which should you buy?
+
+For the one-router-versus-mesh decision in general, see [Wi-Fi router vs. mesh: which do you need?]({{< relref "wifi-router-vs-mesh" >}}). **Next step:** if your home is large, compare options by documented specs in our [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) and [best Wi-Fi router for a large house]({{< relref "best-wifi-router-for-large-house" >}}) guides.

@@ -1,7 +1,7 @@
 ---
-title: "Which router brands have FCC conditional approval? Where things stood in mid-September"
+title: "FCC Router Conditional Approval: Which Brands Have It?"
 date: 2026-10-01
-description: "A quick status check on the FCC's foreign-made router rule: who has conditional approval, and what it means for what you can buy."
+description: "Which router brands have FCC conditional approval under the foreign-made router rule, as of mid-September 2026, and what it means for what you can buy."
 authors: ["Tehseen Arbab"]
 topics: ["routers", "wifi-6e-7"]
 tags: ["fcc", "routers", "regulation"]

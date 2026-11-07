@@ -123,6 +123,8 @@ MLO works between your router and your devices. It can't make your internet plan
 - **eero:** in the eero app, go to Settings > Advanced networking > Wireless > Multi-link operation. eero lists app version 6.50 and recent firmware as requirements.
 - **ASUS:** in the web interface or ASUS Router app, open Network > Main network profile > Advanced Settings and turn on Multi-Link Operation (MLO). ASUS also lets you create a separate MLO network, which keeps older devices on your main network untouched.
 
+**Choosing a Wi-Fi 7 system?** See [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) for mesh options, and [Wi-Fi 6E vs Wi-Fi 7]({{< relref "wifi-6e-vs-wifi-7" >}}) to decide whether you need Wi-Fi 7 at all.
+
 ## Bottom line
 
 MLO is one of Wi-Fi 7's headline features, but it only pays off when both ends support it. PCWorld reports that most MLO devices today use the band-switching mode rather than combining bands. If your devices are Wi-Fi 7, turn it on and watch for anything that drops off. If you rely on older gear, leaving it off, or giving MLO its own network, costs you little.

@@ -92,6 +92,8 @@ Now picture a 2,400 sq ft two-story house with the router downstairs and a bedro
 
 And a 4,000 sq ft brick ranch with the router at one end is a mesh case even though it's one floor, because the walls and distance both work against you.
 
+**Large house?** See the [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) and [best Wi-Fi router for a large house]({{< relref "best-wifi-router-for-large-house" >}}) guides, or our [mesh vs router decision guide for homes over 1,800 sq ft]({{< relref "mesh-vs-router-guide" >}}).
+
 ## Bottom line
 
 Test first, try the free fixes, and buy mesh only if the far rooms still struggle. If you do, two units are a reasonable start, and an Ethernet cable between them is the best upgrade you can give the system.

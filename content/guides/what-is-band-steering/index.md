@@ -120,6 +120,8 @@ Once the bands have separate names, each device stays on the band you choose. Th
 | Microsoft recommends band steering to move dual-band devices to 5 GHz for Teams | [Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/prepare-network) | Verified; written for organizations |
 | Wi-Fi Agile Multiband supports information exchange between access points and devices for band and channel decisions | [Wi-Fi Alliance](https://www.wi-fi.org/discover-wi-fi/wi-fi-agile-multiband) | Verified; the page does not list which routers support it |
 
+**Shopping for a mesh system?** Band steering behavior varies by brand; our [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) guide compares systems by documented features.
+
 ## Bottom line
 
 Band steering is the right default for most homes. Leave it on, keep your router's firmware current, and switch it off only long enough to fix a specific device problem, such as a 2.4 GHz-only smart plug that won't set up.
