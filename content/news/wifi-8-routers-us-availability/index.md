@@ -1,8 +1,8 @@
 ---
-title: "Wi-Fi 8 Routers Are Here, but Not in the US: Buy or Wait?"
+title: "Wi-Fi 8 Routers in the US: Can You Buy One Yet?"
 date: 2026-10-03
 lastmod: 2026-10-12
-description: "TP-Link and ASUS are selling Wi-Fi 8 routers outside the US. An FCC rule decides which can launch here, and the standard itself is still a draft."
+description: "TP-Link and ASUS sell Wi-Fi 8 routers outside the US. The FCC rule that decides what can launch here, and why the standard is still a draft."
 authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "routers"]
 tags: ["wifi-8", "802.11bn", "fcc", "tp-link", "asus"]

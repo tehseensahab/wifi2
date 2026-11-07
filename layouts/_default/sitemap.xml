@@ -1,7 +1,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{- range where .Pages "Params.noindex" "!=" true }}
-  {{- if and .Permalink (ne .Kind "404") (not (and .Params.sitemap .Params.sitemap.disable)) }}
+  {{- if and .Permalink (ne .Kind "404") (not (and (eq .Kind "taxonomy") (eq .Data.Plural "authors"))) (not (and .Params.sitemap .Params.sitemap.disable)) }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- if not .Lastmod.IsZero }}

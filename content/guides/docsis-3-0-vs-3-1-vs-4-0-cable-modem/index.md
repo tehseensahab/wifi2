@@ -1,7 +1,7 @@
 ---
-title: "DOCSIS 3.0 vs. 3.1 vs. 4.0: Which Cable Modem Do You Need?"
+title: "DOCSIS 3.0 vs 3.1 vs 4.0: Which Cable Modem Do You Need?"
 date: 2026-10-17
-description: "What DOCSIS 3.0, 3.1 and 4.0 cable modems support, which one your internet plan needs, and how to check your provider's approved modem list first."
+description: "DOCSIS 3.0 vs 3.1 vs 4.0: max speeds, which modem your plan needs, and how to check your provider's approved list. 3.1 is the safe buy today."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "routers"]
 tags: ["docsis", "cable-modem", "docsis-3-1", "docsis-4-0", "xfinity", "modem-buying"]

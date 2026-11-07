@@ -1,7 +1,7 @@
 ---
-title: "Should You Turn Off WPS and UPnP on Your Router?"
+title: "Should You Disable WPS and UPnP? Short Answer for Your Router"
 date: 2026-10-07
-description: "WPS and UPnP make setup easier, and both have known security weaknesses. Here is what each does, the official advice, and what breaks without them."
+description: "Disable WPS; disable UPnP unless something needs it. What each does, the NSA's advice, what breaks (game consoles), and safer alternatives."
 authors: ["Tehseen Arbab"]
 topics: ["security-privacy", "gaming-streaming"]
 tags: ["wps", "upnp", "router-security", "nat-type", "port-forwarding", "gaming"]

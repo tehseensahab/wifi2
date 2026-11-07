@@ -1,7 +1,7 @@
 ---
-title: "What Is Band Steering, and Should You Turn It Off?"
+title: "Band Steering: Should It Be On or Off?"
 date: 2026-10-14
-description: "Band steering puts all your Wi-Fi bands under one name and nudges devices to the best one. When to leave it on, when to turn it off, and how on each brand."
+description: "Should band steering be on or off? Most homes should leave it on. When turning it off helps, and how to do it on ASUS, NETGEAR, TP-Link and eero."
 authors: ["Tehseen Arbab"]
 topics: ["routers", "how-to-fixes"]
 tags: ["band-steering", "smart-connect", "wifi-bands", "netgear", "asus", "tp-link", "eero"]
@@ -119,6 +119,8 @@ Once the bands have separate names, each device stays on the band you choose. Th
 | Apple recommends one name for all bands and warns that separate names may cause unreliable connections | [Apple Support, July 14, 2026](https://support.apple.com/en-us/102766) | Verified as of October 14, 2026 |
 | Microsoft recommends band steering to move dual-band devices to 5 GHz for Teams | [Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/prepare-network) | Verified; written for organizations |
 | Wi-Fi Agile Multiband supports information exchange between access points and devices for band and channel decisions | [Wi-Fi Alliance](https://www.wi-fi.org/discover-wi-fi/wi-fi-agile-multiband) | Verified; the page does not list which routers support it |
+
+**Shopping for a mesh system?** Band steering behavior varies by brand; our [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) guide compares systems by documented features.
 
 ## Bottom line
 
