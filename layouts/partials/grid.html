@@ -1,6 +1,9 @@
-{{- /* A responsive grid of cards. Arg: a page collection. */ -}}
+{{- /* A responsive grid of cards. Arg: a page collection, or dict "pages" (collection) and "tag" (card heading element, default h3). */ -}}
+{{- $pages := . -}}
+{{- $tag := "h3" -}}
+{{- if reflect.IsMap . }}{{ $pages = .pages }}{{ $tag = .tag | default "h3" }}{{ end -}}
 <div class="grid">
-  {{- range . }}
-  {{ partial "card.html" (dict "page" .) }}
+  {{- range $pages }}
+  {{ partial "card.html" (dict "page" . "tag" $tag) }}
   {{- end }}
 </div>

@@ -16,7 +16,7 @@
 
   {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
   {{- if $pager.Pages }}
-  {{ partial "grid.html" $pager.Pages }}
+  {{ partial "grid.html" (dict "pages" $pager.Pages "tag" "h2") }}
   {{ template "_internal/pagination.html" . }}
   {{- else }}
   <p class="empty">Nothing here yet. Check back soon.</p>

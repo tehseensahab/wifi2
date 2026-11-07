@@ -12,7 +12,7 @@
     <p class="page-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}, newest first</p>
   </header>
   {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
-  {{ partial "grid.html" $pager.Pages }}
+  {{ partial "grid.html" (dict "pages" $pager.Pages "tag" "h2") }}
   {{ template "_internal/pagination.html" . }}
 
   <nav class="chips chips--more" aria-label="Other topics">
