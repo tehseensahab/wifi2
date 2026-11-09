@@ -99,6 +99,8 @@ How covers are used:
 | `content/guides/best-modem-router-combo/` | [Living room corner with wall-mounted TV over a wooden media console](https://unsplash.com/photos/living-room-with-wooden-furniture-j1e_8-0FTE8) | Salvador Godoy |
 | `content/guides/best-moca-adapter/` | [Bundle of gray cables twisted together on a dark teal background](https://unsplash.com/photos/gray-and-white-rolled-cable-hokONTrHIAQ) | Steve A Johnson |
 | `content/guides/modem-vs-router-vs-gateway/` | [Orange fiber patch cables in network equipment with status lights](https://unsplash.com/photos/yellow-and-white-electric-wires-YEoF12PgTtQ) | Patrick Turner |
+| `content/guides/orbi-770-vs-870-vs-970/` | [Orange Wi-Fi symbol on a dark vehicle window](https://unsplash.com/photos/a-close-up-of-the-wifi-logo-on-the-side-of-a-bus-sOdVYQQo4UU) | Dreamlike Street |
+| `content/guides/use-phone-as-backup-internet/` | [Hand holding an iPhone with a USB-C accessory plugged in (cropped to landscape)](https://unsplash.com/photos/BNecSx2aUq8) | Matúš Gocman |
 
 ## Adding a cover for a new post
 
