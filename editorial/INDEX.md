@@ -90,3 +90,5 @@ One row per post. Update with every daily run.
 | guides/best-modem-router-combo | Best Modem Router Combo in 2026: Picks by Plan | 2026-11-06 | routers, internet-plans-isps | best modem router combo |
 | guides/best-moca-adapter | Best MoCA Adapter in 2026: Picks by Need | 2026-11-07 | mesh-wifi, how-to-fixes | best moca adapter |
 | guides/modem-vs-router-vs-gateway | Modem vs. Router vs. Gateway: What's the Difference? | 2026-11-07 | routers, internet-plans-isps | modem vs router vs gateway |
+| guides/orbi-770-vs-870-vs-970 | Orbi 770 vs. 870 vs. 970: Which Should You Buy? | 2026-11-08 | mesh-wifi, wifi-6e-7 | orbi 770 vs 870 vs 970 |
+| guides/phone-backup-internet-router | How to Use Your Phone as Backup Internet for Your Router | 2026-11-08 | how-to-fixes, internet-plans-isps | use phone as backup internet for router |
