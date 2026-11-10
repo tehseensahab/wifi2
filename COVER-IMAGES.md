@@ -101,6 +101,8 @@ How covers are used:
 | `content/guides/modem-vs-router-vs-gateway/` | [Orange fiber patch cables in network equipment with status lights](https://unsplash.com/photos/yellow-and-white-electric-wires-YEoF12PgTtQ) | Patrick Turner |
 | `content/guides/orbi-770-vs-870-vs-970/` | [Large white three-story house with slate roof behind hedges and trees](https://unsplash.com/photos/a-white-house-surrounded-by-green-trees--k5t7-_ajyI) | Alexander David |
 | `content/guides/phone-backup-internet-router/` | [Stack of coiled white USB cables with USB-A, USB-C and Lightning plugs](https://unsplash.com/photos/white-usb-cable-on-white-table-115YGe1M28I) | Solen Feyissa |
+| `content/guides/eero-vs-orbi/` | [Person in a gray cardigan on a yellow armchair holding a smartphone sideways](https://unsplash.com/photos/person-holding-smartphone-sitting-on-couch-uoGzuJQeWmo) | LinkedIn Sales Solutions |
+| `content/guides/internet-power-outage/` | [Utility pole with two transformers and overhead power lines against blue sky](https://unsplash.com/photos/power-lines-and-transformers-on-a-utility-pole-88Chc9OJ3sg) | Alivia Alva |
 
 ## Adding a cover for a new post
 
