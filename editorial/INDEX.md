@@ -92,5 +92,7 @@ One row per post. Update with every daily run.
 | guides/modem-vs-router-vs-gateway | Modem vs. Router vs. Gateway: What's the Difference? | 2026-11-07 | routers, internet-plans-isps | modem vs router vs gateway |
 | guides/orbi-770-vs-870-vs-970 | Orbi 770 vs. 870 vs. 970: Which Should You Buy? | 2026-11-08 | mesh-wifi, wifi-6e-7 | orbi 770 vs 870 vs 970 |
 | guides/phone-backup-internet-router | How to Use Your Phone as Backup Internet for Your Router | 2026-11-08 | how-to-fixes, internet-plans-isps | use phone as backup internet for router |
- guides/eero-vs-orbi | eero vs. Orbi: Which Mesh Wi-Fi System Should You Buy? | 2026-11-10 | mesh-wifi, wifi-6e-7 | eero vs orbi 
- guides/internet-power-outage | Does Internet Work in a Power Outage? Cable, Fiber and 5G | 2026-11-10 | internet-plans-isps, how-to-fixes | does internet work in a power outage 
+| guides/eero-vs-orbi | eero vs. Orbi: Which Mesh Wi-Fi System Should You Buy? | 2026-11-10 | mesh-wifi, wifi-6e-7 | eero vs orbi |
+| guides/internet-power-outage | Does Internet Work in a Power Outage? Cable, Fiber and 5G | 2026-11-10 | internet-plans-isps, how-to-fixes | does internet work in a power outage |
+| guides/xfinity-storm-ready-wifi | Xfinity Storm-Ready WiFi in 2026: Is Xfinity Pro Worth It? | 2026-11-11 | internet-plans-isps, mesh-wifi | xfinity storm ready wifi |
+| guides/tri-band-vs-dual-band-mesh | Tri-Band vs. Dual-Band Mesh: Do You Need a Dedicated Band? | 2026-11-11 | mesh-wifi, wifi-6e-7 | tri-band vs dual-band mesh |
