@@ -96,3 +96,5 @@ One row per post. Update with every daily run.
 | guides/internet-power-outage | Does Internet Work in a Power Outage? Cable, Fiber and 5G | 2026-11-10 | internet-plans-isps, how-to-fixes | does internet work in a power outage |
 | guides/xfinity-storm-ready-wifi | Xfinity Storm-Ready WiFi in 2026: Is Xfinity Pro Worth It? | 2026-11-11 | internet-plans-isps, mesh-wifi | xfinity storm ready wifi |
 | guides/tri-band-vs-dual-band-mesh | Tri-Band vs. Dual-Band Mesh: Do You Need a Dedicated Band? | 2026-11-11 | mesh-wifi, wifi-6e-7 | tri-band vs dual-band mesh |
+| guides/xfinity-xb10-vs-xb8 | Xfinity XB10 vs. XB8 (and XB9): Which Gateway Fits You? | 2026-11-12 | internet-plans-isps, wifi-6e-7, routers | xfinity xb10 vs xb8 |
+| guides/eero-truemesh | eero TrueMesh Explained: Should You Wire Your eeros? | 2026-11-12 | mesh-wifi, how-to-fixes | eero truemesh |
