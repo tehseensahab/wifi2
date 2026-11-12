@@ -1,0 +1,57 @@
+# Research log 2026-11-12
+
+Format: claim | verbatim quote | source URL | page date / effective date | geography | qualifications.
+Quotes are as returned by WebFetch (125-character quote limit on some sites, so long sentences are split into fragments).
+
+## Article A: guides/xfinity-xb10-vs-xb8
+
+A1. XB10 combines DOCSIS 4.0 and Wi-Fi 7 | "is the first Xfinity device to combine Unified DOCSIS 4.0 technology with the WiFi 7 (802.11be) standard" | https://www.xfinity.com/support/articles/about-the-wireless-gateway (also /broadband-gateways-userguides?linkId=173413300, same "Overview of Xfinity WiFi Gateways and Routers" article) | published 2026-10-28, modified 2026-10-29 | US (Xfinity) | none
+A2. XB10 model numbers | "Model numbers: SG417DBCT, CGM601TCOM, CGM601TCM" | same | same | US | none
+A3. XB10 Wi-Fi 7, tri-band | "WiFi Standard (802.11): WiFi 7" ; "Tri-band WiFi option: Yes" | same | same | US | none
+A4. XB10 ports: 4 Ethernet, two 10 Gbps and two 1 Gbps | "Gb Ethernet ports: 4" ; comparison table "(2) 10 Gbps" and "(2) 1 Gbps" | same (userguides URL fetch) | same | US | table vs spec list format differ; spec list only says 4
+A5. XB10 max throughput | "Maximum data throughput: 10 Gbps" | same | same | US | device rating, not a plan speed
+A6. XB10 phone port / battery | "Total telephone ports: 1" ; "Battery Backup capability (Xfinity Voice Only): No" | same | same | US | none
+A7. XB9 DOCSIS 3.1 Wi-Fi 7, eligible households | "a DOCSIS 3.1 WiFi 7 gateway designed for eligible households" | same | same | US | eligibility not defined
+A8. XB9 model, ports, bandwidth | "Model number: CWA438TCOM" ; "Gb Ethernet ports: 3 total — one 5 Gbps LAN port and two 1 Gbps LAN ports" ; "Current network bandwidth: Up to 2 Gbps downstream and 300 Mbps upstream" | same | same | US | none
+A9. XB9 no Voice | "The XB9 Gateway cannot be used with Xfinity Voice because it does not have a phone port." ; "Members with Xfinity Voice should receive an XB8 or XB10 Gateway." ; "Total telephone ports: 0" | same | same | US | none
+A10. XB9 TV box limitation | page says XB9 is not compatible with TV service when all TV boxes in the home are XiD or Xi3 models (paraphrase from fetch; no verbatim quote) | same | same | US | NO VERBATIM QUOTE: use only as attributed paraphrase or drop
+A11. XB8 model, Wi-Fi 6E, tri-band, ports, throughput | "Model numbers: CGM4981COM" ; "WiFi Standard (802.11): WiFi 6E" ; "Tri-band WiFi option: Yes" ; "Gb Ethernet ports: 4" ; "Maximum data throughput: 2.5 Gbps" | same | same | US | page does not state XB8 DOCSIS version
+A12. XB8 phone ports, battery | "Two total telephone ports: Yes (separate Alarm Port)" ; "Battery Backup capability (Xfinity Voice Only): Yes" | same | same | US | none
+A13. How to identify your gateway | "Review the equipment’s bottom panel, visit your Devices page on xfinity.com or use the Xfinity app." | https://www.xfinity.com/support/articles/about-the-wireless-gateway | 2026-10-29 | US | none
+A14. XB10 6 GHz, multi-gig symmetrical, 300 devices | "The XB10, Xfinity's most powerful gateway yet, delivers multi-gig symmetrical speeds over WiFi." ; "The WiFi 7 and DOCSIS 4.0-enabled device leverages the latest connectivity technology" ; "give customers access to the 6 GHz band, unlocking access to a new level of performance" ; "simultaneously powering up to 300 connected devices in the home." | https://corporate.comcast.com/wifi | published 2024-09-24, modified 2026-10-23 | US | Comcast marketing claims
+A15. Upgrade path for renters | "If you rent one of Xfinity's devices and wonder whether it's time to update to a newer model, visit xfinity.com/equipmentupdate." | https://www.xfinity.com/support/internet/why-rent-wireless-gateway/ | published 2026-10-13 | US | none
+A16. Renting gives hotspot access; xFi not for third-party | "if you rent an Xfinity Gateway, you'll have access to millions of Xfinity WiFi hotspots while away from home." ; "xFi is not compatible with third-party equipment." | same | same | US | none
+A17. xFi Complete Tech Upgrade terms | "Eligible Xfinity Internet customers who subscribed to xFi Complete prior to December 31, 2024." ; "provides a newer gateway three years after subscribing to xFi Complete" ; "The upgraded Gateway will not necessarily be an upgrade to our then most advanced Gateway." ; XB8-or-newer "will not be upgraded" (fragment) | https://www.xfinity.com/support/articles/xfi-complete-tech-upgrade | 2026-10-20 | US | "will not be upgraded" is a fragment; fact-checker to confirm full sentence
+A18. Pro WiFi Extender gateway compatibility | "The Xfinity Pro WiFi Extender works with Xfinity Gateways XB8, XB9, and XB10 devices." ; "Customers who subscribe to Xfinity Pro will receive a compatible gateway based on their network type and internet speed." | https://www.xfinity.com/support/articles/storm-ready-faqs | published 2026-10-22, modified 2026-11-10 | US | none
+A19. DOCSIS 4.0 announced for multi-gig symmetrical | "multi-gigabit symmetrical speeds to customers over the connections that already exist" ; "X-300 Mbps, X-500 Mbps, X-1 Gbps and X-2 Gbps upload and download speeds" | https://www.businesswire.com/news/home/20231012700897/en | 2023-10-12 (URL date) | US | context only
+Not found: monthly gateway rental price (no page fetched states it); XB8 DOCSIS version; XB10 availability by address (forum threads only). Leave out.
+
+## Article B: guides/eero-truemesh
+
+B1. TrueMesh definition / patented | "At the core of every eero product is TrueMesh, our patented mesh networking technology." | https://eero.com/blog/articles/truemesh-trueroam-truechannel | byline 2025-06-29 (metadata 2026-06-17) | global | none
+B2. Finds ideal path | "dynamically finds the ideal path for data" | https://eero.com/support/articles/what-is-eero-truemesh | undated | global | none
+B3. Path factors | "TrueMesh does this by automatically choosing the fastest path for network traffic" ; "based on a variety of factors like a network’s layout, interference from neighboring networks, and connected devices." | https://eero.com/blog/articles/truemesh-is-faster-than-ever-before | page date 2026-06-04 (as shown) | global | none
+B4. eeros connect wirelessly to every eero in range | "With TrueMesh, eero devices connect wirelessly to every other eero device within range of your network," | same | same | global | none
+B5. Per-device backhaul band on Pro 6/Pro 6E/Max 7/Pro 7 | "on eero Pro 6, eero Pro 6E, eero Max 7, and eero Pro 7" ; "picks the ideal mesh backhaul radio band dynamically per connected device" | https://eero.com/support/articles/what-is-eero-truemesh | undated | global | none
+B6. No hub-and-spoke | "without reliance on "hub and spoke" nodes that slow down the network" | same | undated | global | none
+B7. Offline eero rerouting | "If an eero device drops offline, eero TrueMesh technology determines the ideal path among your eero devices" | same | undated | global | none
+B8. Update in eero OS v6.14.0; old vs new | "our recently released eero OS v6.14.0 (which nearly all customers have already been upgraded to) included a major update to our patented TrueMesh technology." ; "While our original TrueMesh looked at the links between a customer’s eero devices" ; "evaluate the links between all of the connected devices and eero devices on a network." | https://eero.com/blog/articles/truemesh-is-faster-than-ever-before | as above | global | none
+B9. Up to 50% throughput / 20% latency claim, conditions | "could see up to a 50% increase in throughput and up to a 20% reduction in network/mesh latency." ; "Assumes at least a 1 Gbps internet connection and a multi-eero network topology" | same | same | global | maker claim, "up to"
+B10. TrueRoam / TrueChannel | "TrueRoam's benefit is simple—it connects you to the best available eero as you move between floors, rooms, and buildings." ; "TrueChannel is a collection of software features that learn and navigate the available channels" ; "automatically chooses the channel that delivers the best connection." | https://eero.com/blog/articles/truemesh-trueroam-truechannel | 2025-06-29 | global | none
+B11. eeros can use Ethernet backhaul or wireless | "Yes. eeros can be connected together via Ethernet backhaul, or they can connect wirelessly." | https://eero.com/support/articles/can-i-connect-my-eeros-with-ethernet | undated | global | none
+B12. Cable | "use a Cat5e, Cat6, or Cat6a Ethernet cable." | same | undated | global | blog (B16) recommends "Cat6 or higher"
+B13. Switch or daisy chain | "via an Ethernet switch" ; "Or daisy chain them by connecting each eero to the next." | same | undated | global | none
+B14. Beacon / eero 6 Extender no Ethernet; mixed networks | "don't have any Ethernet ports" ; "can, however, be part of a mixed network of wired and wireless eeros." ; "are designed to find the best path to transmit wifi throughout your home." | same | undated | global | none
+B15. Distance | "eeros should be no more than 50 feet from another eero." ; "Depending on your home, this can vary." ; "the eero App will take you through best placement procedures" | https://eero.com/support/articles/how-much-distance-should-there-be-between-eeros | undated | global | none
+B16. Ethernet backhaul benefits per eero | "frees up bandwidth and improves speed, stability, and latency." ; "eero maximizes the outcome in either scenario, automatically routing traffic for the best possible connection." ; "eero's TrueMesh technology means your wifi works great either way—wirelessly or wired." ; "Cat6 or higher" | https://eero.com/blog/articles/ethernet-backhaul-mesh-wifi | 2026-05-19 | global | no measured numbers
+B17. MLO on eero: models, firmware, client-only description | supported: eero PoE 7, eero Max 7, eero Pro 7, eero 7, eero Outdoor 7 ; "eero Max 7: v7.7.1" ; "eero Outdoor 7, eero 7, eero Pro 7: v7.7.3" ; "MLO requires that you have a Wi-Fi 7 router and Wi-Fi 7 device." ; "the device chooses where it wants to connect" | https://eero.com/support/articles/what-is-multi-link-operation-mlo | undated | global | page doesn't say MLO is used between eeros
+B18. Check eeroOS version | steps: "Home" tab, eero nickname, "Software updates", "Current version", "Install now", "Preferred update time" | https://eero.com/support/articles/how-do-i-check-my-eeroos-version | undated | global | none
+B19. Updates roll out | "on a rolling basis" ; "automatically update overnight" | https://eero.com/support/articles/how-do-eeroos-updates-work | undated | global | none
+
+## Added after independent fact-check re-fetches (2026-11-12)
+- A4 confirmed: comparison-table cell "Yes<br>(2) 10 Gbps<br>(2) 1 Gbps" (XB10); spec list "Gb Ethernet ports: 4".
+- A10 now verbatim: "The XB9 Gateway is also not compatible with Xfinity TV service when all TV Boxes in the home are XiD or Xi3 models."
+- A8 add: XB9 "Tri-band WiFi option: Yes".
+- A17 full: "If you're eligible for an upgrade and your then current Gateway is Comcast's XB8 model or newer," … "the Gateway will not be upgraded."
+- B9 scope: sentence begins "eero Pro 6E and eero Pro 6 owners running multiple connected devices"; footnote (summarized) says benefits assessed at the extender only and results vary. Page date shown: Jun 4, 2026.
+- B15 full: "For the best experience when wireless, eeros should be no more than 50 feet from another eero." ; "If your eeros are all wired together through Ethernet, spacing between eeros is more flexible."

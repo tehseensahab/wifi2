@@ -105,6 +105,8 @@ How covers are used:
 | `content/guides/internet-power-outage/` | [Utility pole with two transformers and overhead power lines against blue sky](https://unsplash.com/photos/power-lines-and-transformers-on-a-utility-pole-88Chc9OJ3sg) | Alivia Alva |
 | `content/guides/xfinity-storm-ready-wifi/` | [White house with lit windows under dark storm clouds at dusk](https://unsplash.com/photos/cloudy-sky-over-lighted-house-AAHL8DtvBcg) | Dorin Vancea |
 | `content/guides/tri-band-vs-dual-band-mesh/` | [Wood-paneled entryway with slate floor and staircase with iron railings](https://unsplash.com/photos/wooden-entryway-with-staircase-and-slate-Gsb1OKFCGWw) | Clay Banks |
+| `content/guides/xfinity-xb10-vs-xb8/` | [Hand holding a smartphone showing a speed test result against city buildings](https://unsplash.com/fr/photos/une-personne-tenant-un-telephone-cellulaire-a-la-main-exv1JefGzTU) | Frederik Lipfert |
+| `content/guides/eero-truemesh/` | [Blue Cat 6 Ethernet cable plugged into a small lime-green device](https://unsplash.com/photos/white-and-blue-electric-cable-IPApn5olGLk) | Gavin Allanwood |
 
 ## Adding a cover for a new post
 
