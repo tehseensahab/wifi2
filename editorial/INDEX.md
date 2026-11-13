@@ -98,3 +98,5 @@ One row per post. Update with every daily run.
 | guides/tri-band-vs-dual-band-mesh | Tri-Band vs. Dual-Band Mesh: Do You Need a Dedicated Band? | 2026-11-11 | mesh-wifi, wifi-6e-7 | tri-band vs dual-band mesh |
 | guides/xfinity-xb10-vs-xb8 | Xfinity XB10 vs. XB8 (and XB9): Which Gateway Fits You? | 2026-11-12 | internet-plans-isps, wifi-6e-7, routers | xfinity xb10 vs xb8 |
 | guides/eero-truemesh | eero TrueMesh Explained: Should You Wire Your eeros? | 2026-11-12 | mesh-wifi, how-to-fixes | eero truemesh |
+| guides/is-netgear-armor-worth-it | Is NETGEAR Armor Worth It? What You Get in 2026 | 2026-11-13 | security-privacy, routers | is netgear armor worth it |
+| guides/device-not-connecting-to-closest-eero | Device Not Connecting to the Closest eero? How to Fix It | 2026-11-13 | mesh-wifi, how-to-fixes | device not connecting to closest eero |

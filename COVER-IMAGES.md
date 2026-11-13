@@ -107,6 +107,8 @@ How covers are used:
 | `content/guides/tri-band-vs-dual-band-mesh/` | [Wood-paneled entryway with slate floor and staircase with iron railings](https://unsplash.com/photos/wooden-entryway-with-staircase-and-slate-Gsb1OKFCGWw) | Clay Banks |
 | `content/guides/xfinity-xb10-vs-xb8/` | [Hand holding a smartphone showing a speed test result against city buildings](https://unsplash.com/fr/photos/une-personne-tenant-un-telephone-cellulaire-a-la-main-exv1JefGzTU) | Frederik Lipfert |
 | `content/guides/eero-truemesh/` | [Blue Cat 6 Ethernet cable plugged into a small lime-green device](https://unsplash.com/photos/white-and-blue-electric-cable-IPApn5olGLk) | Gavin Allanwood |
+| `content/guides/is-netgear-armor-worth-it/` | [Laptop screen with a Windows Security threats-found notification](https://unsplash.com/photos/the-screen-of-a-laptop-with-the-windows-security-button-highlighted-Y5PSyMm8nMk) | Ed Hardie |
+| `content/guides/device-not-connecting-to-closest-eero/` | [Silhouette of a man holding a phone in an orange-lit hallway](https://unsplash.com/photos/a-man-standing-in-a-hallway-using-a-cell-phone-3hsXEkXlfjU) | Aurelien Thomas |
 
 ## Adding a cover for a new post
 
