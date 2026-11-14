@@ -18,7 +18,6 @@ How covers are used:
 | `content/guides/best-mesh-wifi-for-large-house/` | [Bright, open living room with a sofa, shelves, and a coffee table](https://unsplash.com/photos/6qbtnk_GrfU) | Filios Sazeides |
 | `content/guides/best-wifi-router-for-large-house/` | [White Wi-Fi router with two antennas against a bright background](https://unsplash.com/photos/mhA3QOXME5M) | Compare Fibre |
 | `content/guides/how-to-fix-slow-wifi/` | [Phone screen showing speed test results for download, upload, and ping](https://unsplash.com/photos/gwWkv06WYFY) | Mika Baumeister |
-| `content/guides/mesh-vs-router-guide/` | [Living room with a TV on a wooden shelving unit full of books and plants](https://unsplash.com/photos/XE6PBDd7_FQ) | Jonas Leupe |
 | `content/guides/wifi-extender-placement-guide/` | [Plug-in Wi-Fi extender next to a small network switch with Ethernet cables](https://unsplash.com/photos/oZgzVU_B3sE) | User_Pascal |
 | `content/guides/wifi-router-vs-mesh/` | [White Wi-Fi router with a blue Ethernet cable plugged into the back](https://unsplash.com/photos/hXVVNB6Qctg) | Compare Fibre |
 | `content/guides/wifi-slow-but-internet-fast/` | [Person sitting on a couch at home working on a laptop](https://unsplash.com/photos/sR24zAyFgJE) | Surface |
@@ -27,7 +26,7 @@ How covers are used:
 | `content/guides/router-hardening-checklist/` | [Network router with blue Ethernet cables plugged in and status lights on](https://unsplash.com/photos/dyUp7WPu5q4) | Albert Stoynov |
 | `content/guides/fix-bufferbloat-gaming-lag/` | [Two people holding game controllers while playing a soccer game on a TV](https://unsplash.com/photos/eCktzGjC-iU) | JESHOOTS.COM |
 | `content/news/fcc-6ghz-power-rules/` | [White Wi-Fi access point mounted on a metal cable tray](https://unsplash.com/photos/e8_JJxiiydc) | Valentin Lacoste |
-| `content/news/test-starlink-mesh-integration-news/` | [Satellite dish mounted on the side of a building against the sky](https://unsplash.com/photos/-NWGWmcEwi4) | Rasta Gubaz |
+| `content/guides/starlink-bypass-mode/` | [Satellite dish mounted on the side of a building against the sky](https://unsplash.com/photos/-NWGWmcEwi4) | Rasta Gubaz |
 | `content/news/fcc-router-conditional-approvals-status/` | [Shopper browsing shelves in a brightly lit electronics store](https://unsplash.com/photos/bKDOZ7neVl4) | Bhanu Singh |
 | `content/news/wifi-8-routers-us-availability/` | [White Wi-Fi router with four antennas lit in blue and pink light](https://unsplash.com/photos/Wx6zqk5eUng) | Jakub Żerdzicki |
 | `content/guides/2-4-ghz-vs-5-ghz-vs-6-ghz-wifi/` | [Small gray Wi-Fi 6 router with two flip-up antennas on a wooden table](https://unsplash.com/photos/mTm0YLorp1Y) | User_Pascal |
@@ -56,7 +55,7 @@ How covers are used:
 | `content/guides/docsis-3-0-vs-3-1-vs-4-0-cable-modem/` | [Back of a white home internet router showing its ports and power switch](https://unsplash.com/photos/udc7-Aw6I_o) | Compare Fibre |
 | `content/guides/see-who-is-connected-to-my-wifi/` | [Person using a smartphone](https://unsplash.com/photos/70ku6P7kgmc) | Christian Wiediger |
 | `content/deals/eero-vs-tplink-deal/` | [Close-up of a white router's status lights](https://unsplash.com/photos/LR_wX_klOPM) | Stephen Phillips - Hostreviews.co.uk |
-| `content/deals/test-tp-link-deco-mesh-deal/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
+| `content/deals/tp-link-deco-x50-price-check/` | [Black Wi-Fi router next to a white TP-Link Deco mesh unit on a table](https://unsplash.com/photos/6ZXP-5-jJts) | TechieTech Tech |
 | `content/guides/best-travel-router/` | [Man working on a laptop on a hotel bed beside a suitcase](https://unsplash.com/photos/vvOC6V-Qo_4) | Vitaly Gariev |
 | `content/guides/wifi-keeps-disconnecting/` | [Black wireless router with green Power, System, LAN and WLAN status lights](https://unsplash.com/photos/syCXK9WndqQ) | Misha Feshchak |
 | `content/guides/eero-7-vs-eero-pro-7-vs-eero-max-7/` | [Two-level living room with an open staircase and kitchen](https://unsplash.com/photos/OuiohmAG9x8) | Lotus Design N Print |

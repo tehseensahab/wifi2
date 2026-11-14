@@ -55,7 +55,7 @@ If you're not sure whether your slowdown is WiFi or your plan, see our [slow WiF
 
 If you are deciding whether a gaming-branded router is worth it, see [do you need a gaming router]({{< relref "/guides/do-you-need-a-gaming-router" >}}).
 
-Look for a router that lists smart queue management or SQM, or one that supports third-party firmware such as OpenWrt. When we review routers like the [Asus RT-BE92U]({{< relref "asus-rt-be92u-review" >}}), we check where the QoS controls live and how easy they are to find.
+Look for a router that lists smart queue management or SQM, or one that supports third-party firmware such as OpenWrt. Before you buy, check the maker's manual or support pages for where the QoS controls live; our research-based look at the [ASUS RT-BE92U]({{< relref "asus-rt-be92u-review" >}}) lists what ASUS documents for that model.
 
 ## What if it's your WiFi?
 
