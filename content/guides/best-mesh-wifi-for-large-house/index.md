@@ -1,7 +1,8 @@
 ---
 title: "Best Mesh Wi-Fi for a Large House in 2026: Picks by Home Layout"
 date: 2026-10-01
-description: "Whether you can run Ethernet between units matters more than the Wi-Fi generation. Distance tests, wired vs. wireless backhaul, and picks by home type."
+lastmod: 2026-11-14
+description: "Best mesh Wi-Fi for a large house in 2026, by layout: picks for wired and wireless backhaul, how many nodes you need, and named reviewers' range results."
 authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi"]
 summary: "The best mesh system for a large house depends less on the Wi-Fi generation than on whether you can run Ethernet between units. With wiring, even a budget system performs well; without it, choose a tri-band system with a strong wireless link."
@@ -25,7 +26,7 @@ faq:
 
 The best mesh system for a large house depends less on the Wi-Fi generation than on whether you can run Ethernet cable between the units. With wiring, even a budget system can perform well; without it, you need a tri-band system with a strong wireless link between units. Distance tests also show that rankings flip as you move away from the router, so a system that wins at 15 feet can lose at 90.
 
-This guide is for people with a big or multi-story house who already know a single router isn't enough. If you're not sure, [start with whether you need a router or mesh at all]({{< relref "/guides/wifi-router-vs-mesh" >}}).
+This guide is for people with a big or multi-story house who already know a single router isn't enough. If you're not sure, [start with whether you need a router or mesh at all]({{< relref "/guides/wifi-router-vs-mesh" >}}). If you would rather try a single router first, see the [best Wi-Fi router for a large house]({{< relref "/guides/best-wifi-router-for-large-house" >}}).
 
 *WiFi Weekly has not physically tested the products below. Performance figures come from the named independent reviewers, and specifications come from manufacturers.*
 

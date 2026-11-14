@@ -1,6 +1,7 @@
 ---
 title: "DOCSIS 3.0 vs 3.1 vs 4.0: Which Cable Modem Do You Need?"
 date: 2026-10-17
+lastmod: 2026-11-14
 description: "DOCSIS 3.0 vs 3.1 vs 4.0: max speeds, which modem your plan needs, and how to check your provider's approved list. 3.1 is the safe buy today."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "routers"]
@@ -14,6 +15,8 @@ takeaways:
   - "Netgear says DOCSIS 3.1 is backward compatible with DOCSIS 3.0 and works on lower-speed plans, and that some providers recommend or require a 3.1 modem."
   - "Xfinity says your own modem must work with Xfinity and support your internet speed, and points customers to its My Device Info lookup."
 faq:
+  - q: "What is the DOCSIS 3.0 max speed?"
+    a: "Netgear lists DOCSIS 3.0 at a maximum of 1 Gbps download and 200 Mbps upload. Those are maximums for the standard, not guaranteed speeds: your plan, your provider's network and your modem model set the real limit."
   - q: "Is DOCSIS 3.0 still OK?"
     a: "It can be on slower plans, but it limits your options. Netgear lists DOCSIS 3.0 at a 1 Gbps download maximum and 200 Mbps upload maximum. Netgear also says some providers may recommend or require a DOCSIS 3.1 modem, so check your provider before buying a 3.0 model."
   - q: "Do I need a DOCSIS 3.1 modem for gigabit internet?"
@@ -72,7 +75,13 @@ Netgear notes these are "maximum speeds and are not guaranteed." Your plan, your
 
 The big change in DOCSIS 4.0 is upload speed. Comcast says its DOCSIS 4.0 approach uses a technology called Full Duplex to raise upstream speeds without reducing downstream speeds.
 
-## Which one do you need?
+## What is the DOCSIS 3.0 max speed?
+
+The DOCSIS 3.0 maximum is 1 Gbps download and 200 Mbps upload, according to Netgear's support documentation. DOCSIS 3.1 raises that to 10 Gbps down and 1 Gbps up. These are ceilings for the standard, and Netgear notes they "are not guaranteed": the speed you get depends on your plan, your provider's network and the specific modem.
+
+For a buyer, that means a DOCSIS 3.0 modem has no headroom on a gigabit plan. It can still work on a slower plan if your provider keeps supporting it, so check the approved list before you buy or keep one.
+
+## Which DOCSIS version do you need?
 
 | Your situation | What to buy |
 |---|---|

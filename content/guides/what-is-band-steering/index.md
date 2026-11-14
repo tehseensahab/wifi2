@@ -1,6 +1,7 @@
 ---
 title: "Band Steering: Should It Be On or Off?"
 date: 2026-10-14
+lastmod: 2026-11-14
 description: "Should band steering be on or off? Most homes should leave it on. When turning it off helps, and how to do it on ASUS, NETGEAR, TP-Link and eero."
 authors: ["Tehseen Arbab"]
 topics: ["routers", "how-to-fixes"]
@@ -14,6 +15,10 @@ takeaways:
   - "Eero and Google Nest Wifi always use one name. Eero says there is no way to permanently separate its bands, though it can hide 5 and 6 GHz temporarily."
   - "Turning band steering off helps mainly when a 2.4 GHz-only smart device won't set up. ASUS also warns that a phone's own band-preference settings can make steering ineffective."
 faq:
+  - q: "Should band steering be on or off?"
+    a: "On, for most homes. Apple recommends one network name for all bands, and eero and Google Nest Wifi don't offer a way to split them permanently. Turn band steering off only to fix a specific problem, such as a 2.4 GHz-only smart device that fails during setup, then turn it back on."
+  - q: "What happens if I turn off band steering?"
+    a: "Each band gets its own network name and every device stays on the band you pick for it. The router no longer moves devices, so a laptop joined to the 2.4 GHz name stays there even when 5 GHz would be faster."
   - q: "What does band steering do?"
     a: "It broadcasts all of the router's bands under one network name and password, then nudges devices that support more than one band toward the band the router judges best. Older 2.4 GHz-only devices simply stay on 2.4 GHz."
   - q: "Is band steering the same as Smart Connect?"
@@ -60,7 +65,18 @@ Band steering puts your router's 2.4 GHz, 5 GHz and, on newer routers, 6 GHz ban
 
 This is an explainer based on router makers' and Apple's support documentation. It is not a hands-on test.
 
-## What band steering does
+## Should band steering be on or off?
+
+Band steering should be on in most homes. Apple recommends a single network name for all bands, and eero and Google Nest Wifi always work that way. Turn it off only while you fix one of the problems below, then turn it back on.
+
+| Your situation | On or off? | Why |
+|---|---|---|
+| Phones, laptops and TVs connect and stay connected | On | The router moves capable devices to 5 GHz or 6 GHz for you |
+| A 2.4 GHz-only smart plug or camera fails during setup | Off during setup, then back on | TP-Link suggests separating the bands for these devices |
+| One device keeps dropping or switching bands | On; check that device's own band-preference setting first | ASUS says phone band preferences can make steering ineffective |
+| You have eero or Google Nest Wifi | On (no permanent off setting) | eero can hide 5 and 6 GHz for 30 minutes during setup |
+
+## What does band steering do?
 
 Without band steering, a dual-band router broadcasts two networks, such as "Home" and "Home-5G," and you pick one on each device. With it, you see a single name.
 
@@ -73,7 +89,9 @@ The router then helps decide which band each device uses:
 
 The device still has the last word on which band it joins. Routers influence that choice. The Wi-Fi Alliance's Agile Multiband program exists to support this kind of information exchange between access points and devices, so that band and channel decisions can be made with better information.
 
-## What each brand calls it
+## Is band steering the same as Smart Connect?
+
+Yes, in practice. Netgear, ASUS and TP-Link call band steering Smart Connect, Google calls it band steering, and eero simply uses one network name for every band.
 
 | Router | Name | Can you turn it off? | Where |
 |---|---|---|---|
@@ -85,13 +103,15 @@ The device still has the last word on which band it joins. Routers influence tha
 
 Netgear says Smart Connect "might or might not be disabled by default," depending on the model. Check your router if you're not sure which mode you're in.
 
-## Why most homes should leave it on
+## Why should band steering stay on in most homes?
 
 - **Apple recommends one name.** Its router guidance says to use a single network name for all bands and warns that with different names, "devices might not connect reliably." On Wi-Fi 6E networks, Apple devices flag the network as having limited compatibility if the names differ.
 - **It helps on mesh systems.** Eero says its single network name lets devices "seamlessly roam" across its mesh.
 - **It moves capable devices off 2.4 GHz.** Microsoft's Teams network guidance recommends band steering to move dual-band devices to 5 GHz, which it says is better suited to real-time media. See [2.4 GHz vs. 5 GHz vs. 6 GHz]({{< relref "/guides/2-4-ghz-vs-5-ghz-vs-6-ghz-wifi" >}}) for the trade-offs between bands.
 
-## When turning it off can help
+## When should I turn off band steering?
+
+Turn off band steering only when a specific device has a problem that separate band names fix. There are three common cases.
 
 - **A 2.4 GHz-only device won't set up.** TP-Link suggests separating the bands when smart home devices that support only 2.4 GHz struggle to connect. On eero, hide the 5 and 6 GHz bands for 30 minutes instead. Our [2.4 GHz smart device guide]({{< relref "/guides/smart-home-device-wont-connect-2-4-ghz" >}}) has the steps for each brand.
 - **A device keeps dropping or switching bands.** ASUS says a phone's own Wi-Fi band-preference settings may make Smart Connect ineffective "or lead to frequent disconnections." Check the device's settings first.
@@ -99,13 +119,17 @@ Netgear says Smart Connect "might or might not be disabled by default," dependin
 
 Before turning band steering off for good, try the simpler fixes. ASUS recommends its default steering settings "if there are no special requirements." Update the router's firmware, and check whether the device simply has a weak signal. Our [slow Wi-Fi guide]({{< relref "/guides/how-to-fix-slow-wifi" >}}) covers how to tell.
 
-## How to turn it off, and what changes
+## What happens if I turn off band steering?
+
+When you turn off band steering, each band gets its own network name and each device stays on the band you choose. That means you manage it: a laptop on the 2.4 GHz name stays there even when 5 GHz would be faster. If you split the bands only for a setup, switch Smart Connect back on afterward.
+
+### How do I turn band steering off?
 
 - **Netgear:** sign in at routerlogin.net, open Wireless, uncheck Enable Smart Connect, then click Apply.
 - **ASUS:** on newer firmware, give each band its own network name and password. On older firmware, turn off Enable Smart Connect under Wireless, then General.
 - **TP-Link:** in tplinkwifi.net, go to Advanced, then Wireless, and switch off Smart Connect. In the Tether app, go to More, Wi-Fi Settings, then 2.4GHz & 5GHz Network.
 
-Once the bands have separate names, each device stays on the band you choose. That means you manage it: a laptop on the 2.4 GHz name stays there even when 5 GHz would be faster. If you split the bands only for a setup, switch Smart Connect back on afterward.
+eero and Google Nest Wifi have no off switch; see the table above.
 
 ## Fact-check notes
 

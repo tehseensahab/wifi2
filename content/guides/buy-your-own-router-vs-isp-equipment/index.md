@@ -1,7 +1,8 @@
 ---
-title: "Buy Your Own Router or Use Your Internet Provider's?"
+title: "Should I Buy My Own Router or Use My Internet Provider's?"
 date: 2026-10-11
-description: "Some plans now include the provider's gateway at no extra cost, and the law bars fees for equipment you supply. How to decide whether to buy your own."
+lastmod: 2026-11-14
+description: "Should you buy your own router? Some plans include the provider's gateway free, and federal law bars fees for equipment you supply. How to decide."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "routers"]
 tags: ["isp-equipment", "router-rental", "gateway", "modem", "bring-your-own-router", "fcc"]
@@ -77,7 +78,9 @@ We have not listed fee amounts for any provider. Fees vary by plan, region and d
 
 The middle option is often the easiest upgrade. You keep the provider's equipment, which is guaranteed to work with the service, and plug your own router or mesh system into it. That gets you better coverage without any compatibility check on the modem side. Having two routers in a row can cause a "double NAT," which some game consoles flag; the usual fix is to set the provider's gateway to bridge mode or use your router's access point mode. Our [bridge mode and double NAT guide]({{< relref "/guides/bridge-mode-double-nat-own-router" >}}) walks through both. Our [gaming router guide]({{< relref "/guides/do-you-need-a-gaming-router" >}}) and [WPS and UPnP guide]({{< relref "/guides/should-you-disable-wps-and-upnp" >}}) explain NAT.
 
-## What do I need to check before buying my own?
+## Can I use my own router with my internet provider?
+
+Usually yes, but check compatibility first. A router plugged in behind the provider's equipment needs no approval. A cable modem or gateway that replaces the provider's box has to be on the provider's supported list for your speed tier. Check these five things before you buy.
 
 **Compatibility.** A cable modem or gateway has to work with your provider's network and support your speed tier. Xfinity says: "Your modem must work with Xfinity and support your internet speed," and directs customers to a compatibility lookup called My Device Info. It adds that unsupported devices won't work. Check your own provider's list if you are not with Xfinity, and see our guide to [DOCSIS 3.0 vs. 3.1 vs. 4.0 modems]({{< relref "/guides/docsis-3-0-vs-3-1-vs-4-0-cable-modem" >}}). A Wi-Fi router plugged in behind the provider's equipment doesn't need this check.
 
@@ -97,7 +100,9 @@ For consumers, the FCC says: "Consumers currently using covered routers in small
 
 In practice, the rule limits which new models reach US stores, not whether you can buy a router at all. Our [Wi-Fi 8 availability report]({{< relref "/news/wifi-8-routers-us-availability" >}}) covers which makers held Conditional Approvals as of October 2, 2026.
 
-## Should I buy my own?
+## Should I buy my own router?
+
+Buy your own router if your bill shows a monthly equipment fee, if coverage is poor, or if you want full control of settings. Keep the provider's gateway if it is included in your plan price and covers your home.
 
 | Your situation | Reasonable choice | Why |
 |---|---|---|

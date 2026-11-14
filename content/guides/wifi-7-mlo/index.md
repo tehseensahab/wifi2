@@ -1,6 +1,7 @@
 ---
 title: "Wi-Fi 7 MLO Explained: On or Off? (eero, ASUS)"
 date: 2026-10-20T05:30:00Z
+lastmod: 2026-11-14
 description: "Should MLO be on or off? Wi-Fi 7 MLO links a device over more than one band. What it does, what it can break, and when to turn it on, incl. eero and ASUS."
 authors: ["Tehseen Arbab"]
 topics: ["wifi-6e-7", "how-to-fixes"]
@@ -19,6 +20,10 @@ faq:
     a: "It lets a Wi-Fi 7 device connect to a Wi-Fi 7 router over more than one band, such as 5 GHz and 6 GHz, instead of just one. Depending on the mode, the device either uses the bands at the same time or switches quickly to whichever is clearer."
   - q: "Should I turn MLO on or off?"
     a: "Turn it on if your router supports it and your main phones and laptops are Wi-Fi 7. Turn it off, or put older gear on a separate network, if devices that don't support WPA3 start failing to connect."
+  - q: "Should MLO be on or off on eero?"
+    a: "On if your main phones and laptops are Wi-Fi 7 and every eero in the network is a Wi-Fi 7 model. eero recommends turning Multi-Link Operation off when a network mixes Wi-Fi 7 and older eero units, and warns that devices without WPA3 support may have difficulty connecting while it is on."
+  - q: "Should MLO be on or off on an ASUS router?"
+    a: "On if your main devices are Wi-Fi 7. ASUS lets you create a separate MLO network, so older devices can stay on the main network untouched. ASUS warns that the GCMP-256 encryption its MLO networks use may be incompatible with some legacy devices."
   - q: "Does my iPhone support MLO?"
     a: "Apple's Wi-Fi specifications page, dated September 17, 2026, says its models with the N1 wireless chip support Wi-Fi 7 and MLO. That list starts with the iPhone 17, iPhone Air and iPhone 17 Pro and includes newer iPhones, some iPads and the latest MacBooks. The same page lists the iPhone 16 family as 802.11ax and doesn't claim MLO for it."
   - q: "Does Windows support MLO?"
@@ -108,7 +113,9 @@ It can, with limits. Some mesh systems use MLO on the link between units, not ju
 
 MLO works between your router and your devices. It can't make your internet plan faster: eero says it won't increase your ISP speed and can only help the network use the throughput your provider delivers. Independent testing has also tempered expectations. RTINGS.com summarizes its own MLO testing, in a research article last updated February 18, 2026, as revealing "shallow implementations and marketing that oversells the hardware."
 
-## Should you turn MLO on?
+## Should I turn MLO on or off?
+
+Turn MLO on if your router supports it and your main phones and laptops are Wi-Fi 7. Leave it off, or give it its own network, if older devices need to keep connecting.
 
 | Your situation | What to do |
 |---|---|
@@ -117,6 +124,22 @@ MLO works between your router and your devices. It can't make your internet plan
 | Mesh system mixing Wi-Fi 7 and older units | Leave it off; eero recommends this for mixed eero networks |
 | Devices fail to connect after turning it on | Turn it off, or turn off WPA3 for legacy devices where your router allows it |
 | You want faster internet | MLO won't change your plan's speed |
+
+## Should MLO be on or off on eero?
+
+On an eero network, turn Multi-Link Operation on only if every eero is a Wi-Fi 7 model and your main devices are Wi-Fi 7. eero's own guidance sets the limits:
+
+| eero setup | MLO on or off? | Why (per eero) |
+|---|---|---|
+| All units are eero 7, Pro 7, Max 7, PoE 7 or Outdoor 7, and your main devices are Wi-Fi 7 | On | These models support MLO with current firmware |
+| Network mixes Wi-Fi 7 eeros with older eero units | Off | eero recommends turning MLO off on mixed networks |
+| Older smart home devices or printers that lack WPA3 | Off if they stop connecting | With 6 GHz present, MLO turns on WPA3 on the MLO bands, and that affects other bands too |
+
+Switching the setting reboots the whole eero network, which eero says takes about two minutes, so don't change it in the middle of a call.
+
+## Should MLO be on or off on an ASUS router?
+
+On an ASUS router, turn MLO on if your main devices are Wi-Fi 7, and use ASUS's option to create a separate MLO network so older devices stay on the main network untouched. ASUS uses GCMP-256 encryption for MLO networks and warns it may be incompatible with some legacy devices. In an AiMesh system, ASUS says a node that doesn't support MLO won't broadcast 6 GHz while MLO is on.
 
 ## How to turn MLO on or off
 
