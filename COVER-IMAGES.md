@@ -109,6 +109,8 @@ How covers are used:
 | `content/guides/eero-truemesh/` | [Blue Cat 6 Ethernet cable plugged into a small lime-green device](https://unsplash.com/photos/white-and-blue-electric-cable-IPApn5olGLk) | Gavin Allanwood |
 | `content/guides/is-netgear-armor-worth-it/` | [Laptop screen with a Windows Security threats-found notification](https://unsplash.com/photos/the-screen-of-a-laptop-with-the-windows-security-button-highlighted-Y5PSyMm8nMk) | Ed Hardie |
 | `content/guides/device-not-connecting-to-closest-eero/` | [Silhouette of a man holding a phone in an orange-lit hallway](https://unsplash.com/photos/a-man-standing-in-a-hallway-using-a-cell-phone-3hsXEkXlfjU) | Aurelien Thomas |
+| `content/guides/unifi-express-7-vs-dream-router-7/` | [Close-up of network switch ports with aqua fiber-optic patch cables plugged into SFP modules](https://unsplash.com/photos/a-bunch-of-wires-that-are-connected-to-a-server-T-IN5o3kxyA) | Lightsaber Collection |
+| `content/guides/xfinity-pro-wifi-extender-lights/` | [Person in a dark sweater holding a smartphone with both hands in a bright room](https://unsplash.com/photos/person-holding-black-android-smartphone-wK-elt11pF0) | Jonas Leupe |
 
 ## Adding a cover for a new post
 
