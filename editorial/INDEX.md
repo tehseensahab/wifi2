@@ -12,7 +12,7 @@ One row per post. Update with every daily run.
 | guides/best-travel-router | Best Travel Routers in 2026: Picks by How You Travel | 2026-10-18 | routers, security-privacy | travel-router |
 | guides/best-wifi-router-for-large-house | Best Wi-Fi Router for a Large House in 2026: What to Buy Now | 2026-09-30 | routers, mesh-wifi |  |
 | guides/bridge-mode-double-nat-own-router | Bridge Mode and Double NAT: Own Router With an ISP Gateway | 2026-10-12 | routers, how-to-fixes | bridge-mode |
-| guides/buy-your-own-router-vs-isp-equipment | Buy Your Own Router or Use Your Internet Provider's? | 2026-10-11 | internet-plans-isps, routers | isp-equipment |
+| guides/buy-your-own-router-vs-isp-equipment | Should I Buy My Own Router or Use My Internet Provider's? | 2026-10-11 | internet-plans-isps, routers | isp-equipment |
 | guides/change-router-dns-settings | Should You Change Your Router's DNS? How and When It Helps | 2026-10-11 | how-to-fixes, security-privacy | dns |
 | guides/do-you-need-a-gaming-router | Do You Need a Gaming Router? What the Gaming Features Do | 2026-10-08 | gaming-streaming, routers | gaming-router |
 | guides/do-you-need-a-multi-gig-router | Do You Need a Multi-Gig Router? 2.5G and 10G Ports Explained | 2026-10-16 | routers, internet-plans-isps | multi-gig |
