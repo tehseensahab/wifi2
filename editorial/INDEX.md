@@ -100,3 +100,5 @@ One row per post. Update with every daily run.
 | guides/eero-truemesh | eero TrueMesh Explained: Should You Wire Your eeros? | 2026-11-12 | mesh-wifi, how-to-fixes | eero truemesh |
 | guides/is-netgear-armor-worth-it | Is NETGEAR Armor Worth It? What You Get in 2026 | 2026-11-13 | security-privacy, routers | is netgear armor worth it |
 | guides/device-not-connecting-to-closest-eero | Device Not Connecting to the Closest eero? How to Fix It | 2026-11-13 | mesh-wifi, how-to-fixes | device not connecting to closest eero |
+| guides/unifi-express-7-vs-dream-router-7 | UniFi Express 7 vs. Dream Router 7: Which Should You Buy? | 2026-11-14 | routers, wifi-6e-7 | unifi express 7 vs dream router 7 |
+| guides/xfinity-pro-wifi-extender-lights | Xfinity Pro WiFi Extender Lights: What They Mean | 2026-11-14 | how-to-fixes, internet-plans-isps | xfinity pro wifi extender lights |
