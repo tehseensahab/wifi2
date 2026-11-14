@@ -1,6 +1,7 @@
 ---
 title: "Wi-Fi Router vs. Mesh Wi-Fi: Which Do You Need?"
 date: 2026-10-02
+lastmod: 2026-11-14
 description: "A single router is enough for many homes. Here is how to tell if yours is one of them, and what to try before paying for mesh."
 authors: ["Tehseen Arbab"]
 topics: ["routers", "mesh-wifi"]
@@ -52,6 +53,18 @@ Construction matters too. Brick, concrete and metal block Wi-Fi far more than dr
 
 Tom's Guide tested several mesh kits in a multi-story home with brick walls. Its September 7, 2026 roundup shows how steeply speed falls with distance. At 15 feet, the kits it tested ranged from about 1.4 to 1.9 Gbps. At 90 feet, they ranged from 20.8 Mbps (eero Pro 7) to 150.1 Mbps (TP-Link Deco BE23). That's one home and one test laptop, so your numbers will differ, but the pattern is what matters: the far rooms are where a single unit struggles.
 
+## Is one router enough for a large house?
+
+Usually not. Tom's Guide puts the point where a regular router stops being enough at about 3,000 sq ft, and says multi-story and oddly laid-out homes don't match the coverage pattern of a single router. One router can still work in a large home that is open-plan, on one floor and built with drywall, if the router sits near the middle.
+
+| Your large house | One router or mesh? |
+|---|---|
+| One floor, open plan, router can sit centrally | Try one router first and test the far rooms |
+| Two or more floors | Mesh |
+| Brick, concrete or metal in the walls | Mesh, wired between units if you can |
+
+The square footage printed on a router's box is the maker's own figure, so treat it as a ceiling, not a promise. If mesh is the answer, our guides to the [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) and the [best Wi-Fi router for a large house]({{< relref "best-wifi-router-for-large-house" >}}) compare specific systems.
+
 ## What should I try before buying mesh?
 
 These cost nothing or very little, and any of them can fix a problem that looks like a coverage problem. Our guide to [finding and fixing Wi-Fi dead zones]({{< relref "/guides/find-and-fix-wifi-dead-zones" >}}) shows how to map weak rooms first.
@@ -92,7 +105,7 @@ Now picture a 2,400 sq ft two-story house with the router downstairs and a bedro
 
 And a 4,000 sq ft brick ranch with the router at one end is a mesh case even though it's one floor, because the walls and distance both work against you.
 
-**Large house?** See the [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) and [best Wi-Fi router for a large house]({{< relref "best-wifi-router-for-large-house" >}}) guides, or our [mesh vs router decision guide for homes over 1,800 sq ft]({{< relref "mesh-vs-router-guide" >}}).
+**Large house?** See the [best mesh Wi-Fi for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) and [best Wi-Fi router for a large house]({{< relref "best-wifi-router-for-large-house" >}}) guides.
 
 ## Bottom line
 

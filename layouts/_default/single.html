@@ -55,7 +55,7 @@
     {{- /* Deal box */ -}}
     {{- if and (eq .Section "deals") .Params.dealPrice }}
     <aside class="deal-box" aria-label="Deal details">
-      <div class="deal-price"><strong>${{ lang.FormatNumber 0 .Params.dealPrice }}</strong>{{ with .Params.listPrice }}<s>${{ lang.FormatNumber 0 . }}</s>{{ end }}</div>
+      <div class="deal-price"><strong>${{ if eq (math.Round .Params.dealPrice) (float .Params.dealPrice) }}{{ lang.FormatNumber 0 .Params.dealPrice }}{{ else }}{{ lang.FormatNumber 2 .Params.dealPrice }}{{ end }}</strong>{{ with .Params.listPrice }}<s>${{ if eq (math.Round .) (float .) }}{{ lang.FormatNumber 0 . }}{{ else }}{{ lang.FormatNumber 2 . }}{{ end }}</s>{{ end }}</div>
       <p class="deal-meta">
         {{- with .Params.retailer }}<span>At {{ . }}</span>{{ end }}
         {{- with .Params.priceChecked }}<span>Price checked {{ dateFormat "Jan 2, 2006" . }}</span>{{ end }}

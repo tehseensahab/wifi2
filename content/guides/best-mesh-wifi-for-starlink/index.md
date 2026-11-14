@@ -94,7 +94,7 @@ The limits matter. Starlink says, "We do not recommend using more than three Sta
 
 Bypass mode turns the Starlink router into a pass-through. Starlink's help text says it lets you "turn off the Starlink router and connect a third-party router directly to Starlink," and that "the Starlink router's WiFi features are completely disabled." You turn it on in the Starlink app under Settings (some versions of the app list it under the Router tab).
 
-Two cautions before you flip it:
+Our [Starlink bypass mode guide]({{< relref "/guides/starlink-bypass-mode" >}}) has the steps for each kit. Two cautions before you flip it:
 
 - **It's one-way without a reset.** "To disable bypass mode, you can perform a factory reset." DishyTech says the Gen 3 router's reset button is on the back, between the two Ethernet ports, and that Gen 2 routers are reset by power cycling them six times in a row.
 - **The Starlink app may show the router as unreachable.** DishyTech says the app will show "Router unreachable" once bypass is on. If the app also loses sight of the dish, the fix is a static route on your own router to 192.168.100.0/24 via 192.168.100.1 on its internet (WAN) port.

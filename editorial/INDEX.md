@@ -27,7 +27,6 @@ One row per post. Update with every daily run.
 | guides/how-to-fix-slow-wifi | How to Fix Slow Wi-Fi at Home: A Test-First Guide | 2026-10-03 | how-to-fixes |  |
 | guides/is-my-router-still-getting-security-updates | Is My Router Still Getting Security Updates? How to Check | 2026-10-13 | security-privacy, how-to-fixes | router-security |
 | guides/matter-thread-smart-home-explained | Matter and Thread, explained: what to buy for a smart home | 2026-09-28 | smart-home-iot, wifi-6e-7 | matter |
-| guides/mesh-vs-router-guide | Mesh system or single router? A decision guide for houses over 1,800 sq ft | 2026-09-15 | mesh-wifi, routers |  |
 | guides/mesh-wifi-wired-vs-wireless-backhaul | Wired vs. Wireless Backhaul for Mesh Wi-Fi: How to Set It Up | 2026-10-05 | mesh-wifi, how-to-fixes | mesh-wifi |
 | guides/router-hardening-checklist | Router hardening checklist: 10 settings to change in 15 minutes | 2026-09-25 | security-privacy, routers | router-security |
 | guides/router-settings-for-video-calls | Best Router Settings for Zoom and Teams Calls at Home | 2026-10-14 | gaming-streaming, how-to-fixes | video-calls |
@@ -59,11 +58,10 @@ One row per post. Update with every daily run.
 | guides/what-is-cgnat | What Is CGNAT? Why Port Forwarding Fails | 2026-10-25 | internet-plans-isps, how-to-fixes | what is cgnat |
 | news/fcc-6ghz-power-rules | FCC quietly raises outdoor power limits on 6GHz — here's what changes | 2026-09-18 | wifi-6e-7 |  |
 | news/fcc-router-conditional-approvals-status | Which router brands have FCC conditional approval? Where things stood in mid-September | 2026-10-01 | routers, wifi-6e-7 | fcc |
-| news/test-starlink-mesh-integration-news | Starlink's router now plays nicer with third-party mesh systems | 2026-09-30 | internet-plans-isps, mesh-wifi |  |
 | news/tp-link-state-lawsuits-what-owners-should-know | TP-Link Sued by Five States: What It Means If You Own One | 2026-10-12 | security-privacy, routers | tp-link |
 | news/wifi-8-routers-us-availability | Wi-Fi 8 Routers Are Here, but Not in the US: Buy or Wait? | 2026-10-03 | wifi-6e-7, routers | wifi-8 |
 | deals/eero-vs-tplink-deal | Eero Pro 6E drops to $189 for the 2-pack — is it worth buying over the newer 7? | 2026-09-12 | mesh-wifi |  |
-| deals/test-tp-link-deco-mesh-deal | TP-Link Deco X50 mesh kit drops to $149 for Prime members | 2026-09-29 | mesh-wifi |  |
+| deals/tp-link-deco-x50-price-check | TP-Link Deco X50 3-Pack: What to Check Before Buying | 2026-09-29 | mesh-wifi | deco x50 |
 | guides/how-to-set-up-port-forwarding | How to Set Up Port Forwarding on Your Router | 2026-10-26 | how-to-fixes, routers | how to set up port forwarding |
 | guides/best-router-for-5g-home-internet | Best Router for 5G Home Internet in 2026 | 2026-10-26 | routers, internet-plans-isps | best router for 5g home internet |
 | guides/best-modem-for-xfinity | Best Modem for Xfinity in 2026: Picks by Plan | 2026-10-27 | internet-plans-isps, routers | best modem for xfinity |
@@ -102,3 +100,4 @@ One row per post. Update with every daily run.
 | guides/device-not-connecting-to-closest-eero | Device Not Connecting to the Closest eero? How to Fix It | 2026-11-13 | mesh-wifi, how-to-fixes | device not connecting to closest eero |
 | guides/unifi-express-7-vs-dream-router-7 | UniFi Express 7 vs. Dream Router 7: Which Should You Buy? | 2026-11-14 | routers, wifi-6e-7 | unifi express 7 vs dream router 7 |
 | guides/xfinity-pro-wifi-extender-lights | Xfinity Pro WiFi Extender Lights: What They Mean | 2026-11-14 | how-to-fixes, internet-plans-isps | xfinity pro wifi extender lights |
+| guides/starlink-bypass-mode | Starlink Bypass Mode: How to Use Your Own Router or Mesh | 2026-11-14 | internet-plans-isps, mesh-wifi | starlink bypass mode |

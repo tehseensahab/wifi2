@@ -30,7 +30,7 @@
 - Price: ${{ lang.FormatNumber 0 . }} (US street price on the test date)
 {{- end }}
 {{- with $p.Params.dealPrice }}
-- Deal price: ${{ lang.FormatNumber 0 . }}{{ with $p.Params.retailer }} at {{ . }}{{ end }}{{ with $p.Params.priceChecked }} (checked {{ dateFormat "2006-01-02" . }}){{ end }}
+- Deal price: ${{ if eq (math.Round .) (float .) }}{{ lang.FormatNumber 0 . }}{{ else }}{{ lang.FormatNumber 2 . }}{{ end }}{{ with $p.Params.retailer }} at {{ . }}{{ end }}{{ with $p.Params.priceChecked }} (checked {{ dateFormat "2006-01-02" . }}){{ end }}
 {{- end }}
 {{- else }}{{ with $p.Params.updated }}
 - Last updated: {{ dateFormat "2006-01-02" . }}

@@ -1,4 +1,4 @@
 ---
 title: "Reviews"
-description: "Routers, mesh systems, and smart-home gear tested in real US homes, with the test date on every score."
+description: "Research-based looks at routers and mesh systems, built from manufacturer specifications. Nothing here is scored until we have physically tested it."
 ---

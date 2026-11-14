@@ -1,4 +1,4 @@
 ---
 title: "Deals"
-description: "Tracked discounts, with the date we last checked the price. We skip fake \"was\" prices."
+description: "Discounts we read on the seller's own page, with the date we checked the price."
 ---
