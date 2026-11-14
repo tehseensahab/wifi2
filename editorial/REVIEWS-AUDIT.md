@@ -10,3 +10,8 @@ Run: 2026-10-20. Scope: every page under content/reviews/. No review page was ed
 Notes
 - Both pages show a score whose front-matter comment says it is a placeholder, so any rendered score is not backed by testing.
 - The YAML comments ("# PLACEHOLDER ...") do not render on the page but are in the repo source.
+
+## Resolution (2026-11-03)
+- Both review pages and both deal pages are set to `draft: true` (and the Starlink news stub, which relied on unverified user reports). They are not built or published.
+- Reviews and Deals are hidden from nav, footer and homepage while empty.
+- Reinstate a review only with real test records (see content/how-we-test.md); otherwise rebuild it as a sourced, research-based page with no score and no tested date.

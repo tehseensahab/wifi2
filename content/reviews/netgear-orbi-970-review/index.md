@@ -26,6 +26,7 @@ specs:
   - {k: "Backhaul", v: "Dedicated 6 GHz"}
   - {k: "Street price", v: "$1,199 (3-pack)"}
 noindex: true
+draft: true
 ---
 
 The Orbi 970 is the first mesh kit we've tested that didn't visibly slow down under a 20-device stress test, including two simultaneous 4K uploads.

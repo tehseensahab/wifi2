@@ -28,6 +28,7 @@ specs:
   - {k: "Ports", v: "1x 10GbE WAN, 4x 2.5GbE LAN"}
   - {k: "Street price", v: "$399"}
 noindex: true
+draft: true
 ---
 
 Asus's RT-BE92U is the fastest router we've tested this year on a real home network, not just a lab bench. Over a 15-device household with two 4K streams, a cloud backup job, and a kid mid-raid on a console, median latency stayed under 12ms.
