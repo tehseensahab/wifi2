@@ -101,3 +101,5 @@ One row per post. Update with every daily run.
 | guides/unifi-express-7-vs-dream-router-7 | UniFi Express 7 vs. Dream Router 7: Which Should You Buy? | 2026-11-14 | routers, wifi-6e-7 | unifi express 7 vs dream router 7 |
 | guides/xfinity-pro-wifi-extender-lights | Xfinity Pro WiFi Extender Lights: What They Mean | 2026-11-14 | how-to-fixes, internet-plans-isps | xfinity pro wifi extender lights |
 | guides/starlink-bypass-mode | Starlink Bypass Mode: How to Use Your Own Router or Mesh | 2026-11-14 | internet-plans-isps, mesh-wifi | starlink bypass mode |
+| guides/xfinity-gateway-lights | Xfinity Gateway Lights: What Each Color Means | 2026-11-15 | how-to-fixes, internet-plans-isps | xfinity gateway lights |
+| guides/unifi-whole-home-wifi-vs-eero-7 | UniFi Whole Home WiFi vs. eero 7: Which Mesh to Buy? | 2026-11-15 | mesh-wifi, wifi-6e-7 | unifi whole home wifi vs eero 7 |
