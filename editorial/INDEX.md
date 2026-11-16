@@ -103,3 +103,5 @@ One row per post. Update with every daily run.
 | guides/starlink-bypass-mode | Starlink Bypass Mode: How to Use Your Own Router or Mesh | 2026-11-14 | internet-plans-isps, mesh-wifi | starlink bypass mode |
 | guides/xfinity-gateway-lights | Xfinity Gateway Lights: What Each Color Means | 2026-11-15 | how-to-fixes, internet-plans-isps | xfinity gateway lights |
 | guides/unifi-whole-home-wifi-vs-eero-7 | UniFi Whole Home WiFi vs. eero 7: Which Mesh to Buy? | 2026-11-15 | mesh-wifi, wifi-6e-7 | unifi whole home wifi vs eero 7 |
+| guides/can-cat6-handle-2-5-gbps | Can Cat 6 Handle 2.5 Gbps? Cat 5e, 6 and 6A Limits | 2026-11-16 | how-to-fixes, routers | can cat6 handle 2.5 gbps |
+| guides/netgear-ms305-vs-tp-link-tl-sg105-m2 | NETGEAR MS305 vs. TP-Link TL-SG105-M2: 2.5G Switches | 2026-11-16 | routers, how-to-fixes | netgear ms305 vs tp-link tl-sg105-m2 |

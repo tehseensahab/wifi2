@@ -1,6 +1,6 @@
 # Topic ideas (not drafted)
 
-Updated 2026-11-15. Check INDEX.md for overlap before using. Search Console was not used (excluded from daily runs). Re-run a WebSearch for every source URL before fetching: URLs copied from this file without a fresh search result trigger approval requests.
+Updated 2026-11-16 (ideas 1-3 re-checked against INDEX.md; still unused). Check INDEX.md for overlap before using. Search Console was not used (excluded from daily runs). Re-run a WebSearch for every source URL before fetching: URLs copied from this file without a fresh search result trigger approval requests.
 
 **Mon 16 Nov to Sun 22 Nov: slot 1 each day comes from `content-plan/2026-W47.md`, in order (see editorial/SEO-FOCUS.md). The ideas below are for slot 2 and for after that week.**
 
@@ -10,4 +10,4 @@ Updated 2026-11-15. Check INDEX.md for overlap before using. Search Console was 
 
 Carried over: Foreign-made router updates until 2029 (FCC OET DA-26-789A1, released 2026-07-28) is best done as a dated section in guides/is-my-router-still-getting-security-updates (owner approval needed to edit an existing post).
 
-Used 2026-11-15: "Xfinity Gateway Lights" and "UniFi Whole Home WiFi vs. eero 7". Used 2026-11-14: UniFi Express 7 vs. Dream Router 7; Xfinity Pro WiFi Extender lights. Used 2026-11-13: NETGEAR Armor; eero closest-node fix.
+Used 2026-11-16: "Can Cat 6 Handle 2.5 Gbps?" (W47 #1) and "NETGEAR MS305 vs. TP-Link TL-SG105-M2". Dropped at source check 2026-11-16: ASUS RT-BE58U vs. Archer BE550 (only third-party pages returned). Used 2026-11-15: "Xfinity Gateway Lights" and "UniFi Whole Home WiFi vs. eero 7". Used 2026-11-14: UniFi Express 7 vs. Dream Router 7; Xfinity Pro WiFi Extender lights. Used 2026-11-13: NETGEAR Armor; eero closest-node fix.

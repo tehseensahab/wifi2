@@ -112,6 +112,8 @@ How covers are used:
 | `content/guides/xfinity-pro-wifi-extender-lights/` | [Person in a dark sweater holding a smartphone with both hands in a bright room](https://unsplash.com/photos/person-holding-black-android-smartphone-wK-elt11pF0) | Jonas Leupe |
 | `content/guides/xfinity-gateway-lights/` | [Illuminated red "Internet" sign with an @ symbol on a building corner, reflected in a window](https://unsplash.com/pt-br/fotografias/sinalizacao-led-de-internet-ao-lado-do-edificio-perto-de-edificios-2m71l9fA6mg) | Leon Seibert |
 | `content/guides/unifi-whole-home-wifi-vs-eero-7/` | [White two-story suburban house on a curved street with autumn trees and overhead lines](https://unsplash.com/photos/a-white-two-story-house-sitting-on-the-side-of-a-road-sgsxKds5BPI) | Sean Boyd |
+| `content/guides/can-cat6-handle-2-5-gbps/` | [Blue Ethernet cable with an RJ45 plug resting on a network cable tester](https://unsplash.com/photos/a-close-up-of-a-network-tester-on-a-table--xITpL_gncA) | Gavin Allanwood |
+| `content/guides/netgear-ms305-vs-tp-link-tl-sg105-m2/` | [Blue and orange patch cables in front of a rack-mounted network switch (cropped to remove a company label)](https://unsplash.com/photos/a-close-up-of-a-network-switch-box-pl6My-v7gnE) | Dimitri Karastelev |
 
 ## Adding a cover for a new post
 
