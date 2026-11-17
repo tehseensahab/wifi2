@@ -105,3 +105,5 @@ One row per post. Update with every daily run.
 | guides/unifi-whole-home-wifi-vs-eero-7 | UniFi Whole Home WiFi vs. eero 7: Which Mesh to Buy? | 2026-11-15 | mesh-wifi, wifi-6e-7 | unifi whole home wifi vs eero 7 |
 | guides/can-cat6-handle-2-5-gbps | Can Cat 6 Handle 2.5 Gbps? Cat 5e, 6 and 6A Limits | 2026-11-16 | how-to-fixes, routers | can cat6 handle 2.5 gbps |
 | guides/netgear-ms305-vs-tp-link-tl-sg105-m2 | NETGEAR MS305 vs. TP-Link TL-SG105-M2: 2.5G Switches | 2026-11-16 | routers, how-to-fixes | netgear ms305 vs tp-link tl-sg105-m2 |
+| guides/good-upload-speed | What Is a Good Upload Speed? How Much You Need | 2026-11-17 | internet-plans-isps, how-to-fixes | what is a good upload speed |
+| guides/surfboard-s33-vs-s34 | ARRIS SURFboard S33 vs. S34: Which Modem to Buy? | 2026-11-17 | internet-plans-isps, routers | surfboard s33 vs s34 |

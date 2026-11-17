@@ -114,6 +114,8 @@ How covers are used:
 | `content/guides/unifi-whole-home-wifi-vs-eero-7/` | [White two-story suburban house on a curved street with autumn trees and overhead lines](https://unsplash.com/photos/a-white-two-story-house-sitting-on-the-side-of-a-road-sgsxKds5BPI) | Sean Boyd |
 | `content/guides/can-cat6-handle-2-5-gbps/` | [Blue Ethernet cable with an RJ45 plug resting on a network cable tester](https://unsplash.com/photos/a-close-up-of-a-network-tester-on-a-table--xITpL_gncA) | Gavin Allanwood |
 | `content/guides/netgear-ms305-vs-tp-link-tl-sg105-m2/` | [Blue and orange patch cables in front of a rack-mounted network switch (cropped to remove a company label)](https://unsplash.com/photos/a-close-up-of-a-network-switch-box-pl6My-v7gnE) | Dimitri Karastelev |
+| `content/guides/good-upload-speed/` | [Laptop showing a video conference grid next to a coffee mug and potted plant](https://unsplash.com/photos/laptop-video-conference-and-coffee-mug-fRGoTJFQAHM) | Compare Fibre |
+| `content/guides/surfboard-s33-vs-s34/` | [Blue, green and red Ethernet cables in patch panels in a dark network rack (cropped to landscape, branded gear above removed)](https://unsplash.com/photos/black-and-gray-electronic-device-uq5RMAZdZG4) | Quilia |
 
 ## Adding a cover for a new post
 
