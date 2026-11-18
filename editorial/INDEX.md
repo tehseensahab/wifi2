@@ -107,3 +107,5 @@ One row per post. Update with every daily run.
 | guides/netgear-ms305-vs-tp-link-tl-sg105-m2 | NETGEAR MS305 vs. TP-Link TL-SG105-M2: 2.5G Switches | 2026-11-16 | routers, how-to-fixes | netgear ms305 vs tp-link tl-sg105-m2 |
 | guides/good-upload-speed | What Is a Good Upload Speed? How Much You Need | 2026-11-17 | internet-plans-isps, how-to-fixes | what is a good upload speed |
 | guides/surfboard-s33-vs-s34 | ARRIS SURFboard S33 vs. S34: Which Modem to Buy? | 2026-11-17 | internet-plans-isps, routers | surfboard s33 vs s34 |
+| guides/5g-home-internet-vs-cable | 5G Home Internet vs. Cable: Which Is Better? | 2026-11-18 | internet-plans-isps | 5g home internet vs cable |
+| guides/is-xfinity-down | Is Xfinity Down? How to Check for an Outage | 2026-11-18 | how-to-fixes, internet-plans-isps | is xfinity down |
