@@ -109,3 +109,5 @@ One row per post. Update with every daily run.
 | guides/surfboard-s33-vs-s34 | ARRIS SURFboard S33 vs. S34: Which Modem to Buy? | 2026-11-17 | internet-plans-isps, routers | surfboard s33 vs s34 |
 | guides/5g-home-internet-vs-cable | 5G Home Internet vs. Cable: Which Is Better? | 2026-11-18 | internet-plans-isps | 5g home internet vs cable |
 | guides/is-xfinity-down | Is Xfinity Down? How to Check for an Outage | 2026-11-18 | how-to-fixes, internet-plans-isps | is xfinity down |
+| guides/asus-smart-connect-rules | ASUS Smart Connect Rules Explained: What Each Setting Does | 2026-11-19 | routers, how-to-fixes | asus smart connect rules |
+| guides/t-mobile-home-internet-plans | T-Mobile Home Internet Plans: Rely vs. Amplified vs. All-In | 2026-11-19 | internet-plans-isps | t-mobile home internet plans |
