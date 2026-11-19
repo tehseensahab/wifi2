@@ -118,6 +118,8 @@ How covers are used:
 | `content/guides/surfboard-s33-vs-s34/` | [Blue, green and red Ethernet cables in patch panels in a dark network rack (cropped to landscape, branded gear above removed)](https://unsplash.com/photos/black-and-gray-electronic-device-uq5RMAZdZG4) | Quilia |
 | `content/guides/5g-home-internet-vs-cable/` | [Top of a red and white cellular tower with white panel antennas against a deep blue sky](https://unsplash.com/photos/a-cell-phone-tower-with-a-blue-sky-in-the-background-_-PY-2WQl10) | Dena Skulskaya |
 | `content/guides/is-xfinity-down/` | [Looking up a weathered wooden utility pole at overhead cables against a clear blue sky](https://unsplash.com/photos/wooden-utility-pole-against-a-clear-blue-sky-NJxOA37xkBU) | Umanoide |
+| `content/guides/asus-smart-connect-rules/` | [A hand holding a smartphone with a blank, glowing screen in a dark room lit in teal and orange](https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-nKGlH6_PDxk) | Jakub Żerdzicki |
+| `content/guides/t-mobile-home-internet-plans/` | [Steel lattice telecom towers with microwave dishes and panel antennas fading into thick fog](https://unsplash.com/photos/a-tower-with-several-cell-phones-on-top-of-it-SsAFdirwkXc) | David Arrowsmith |
 
 ## Adding a cover for a new post
 
