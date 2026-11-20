@@ -111,3 +111,5 @@ One row per post. Update with every daily run.
 | guides/is-xfinity-down | Is Xfinity Down? How to Check for an Outage | 2026-11-18 | how-to-fixes, internet-plans-isps | is xfinity down |
 | guides/asus-smart-connect-rules | ASUS Smart Connect Rules Explained: What Each Setting Does | 2026-11-19 | routers, how-to-fixes | asus smart connect rules |
 | guides/t-mobile-home-internet-plans | T-Mobile Home Internet Plans: Rely vs. Amplified vs. All-In | 2026-11-19 | internet-plans-isps | t-mobile home internet plans |
+| guides/should-i-buy-my-own-modem | Should I Buy My Own Modem? When It Saves You Money | 2026-11-20 | internet-plans-isps, routers | should i buy my own modem |
+| guides/t-mobile-home-internet-backup | T-Mobile Home Internet Backup: How It Works and Costs | 2026-11-20 | internet-plans-isps, how-to-fixes | t-mobile home internet backup |

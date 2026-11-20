@@ -120,6 +120,8 @@ How covers are used:
 | `content/guides/is-xfinity-down/` | [Looking up a weathered wooden utility pole at overhead cables against a clear blue sky](https://unsplash.com/photos/wooden-utility-pole-against-a-clear-blue-sky-NJxOA37xkBU) | Umanoide |
 | `content/guides/asus-smart-connect-rules/` | [A hand holding a smartphone with a blank, glowing screen in a dark room lit in teal and orange](https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-nKGlH6_PDxk) | Jakub Żerdzicki |
 | `content/guides/t-mobile-home-internet-plans/` | [Steel lattice telecom towers with microwave dishes and panel antennas fading into thick fog](https://unsplash.com/photos/a-tower-with-several-cell-phones-on-top-of-it-SsAFdirwkXc) | David Arrowsmith |
+| `content/guides/should-i-buy-my-own-modem/` | [Coils of thick black cables lying tangled on a gray floor](https://unsplash.com/photos/GROaOafbSKY) | Kier in Sight Archives |
+| `content/guides/t-mobile-home-internet-backup/` | [Laptop keyboard lit only by its screen in a dark room](https://unsplash.com/photos/IsXYO-5w_1Q) | Adrian González |
 
 ## Adding a cover for a new post
 
