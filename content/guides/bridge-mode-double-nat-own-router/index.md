@@ -72,7 +72,7 @@ Eero also points out that double NAT has one upside: it lets you set up a new sy
 
 ## How do I check whether I have double NAT?
 
-Open your own router's app or admin page and find its internet (WAN) address. If it begins with **192.168.**, **10.** or anything from **172.16.** to **172.31.**, your router is getting a private address from the device in front of it, which usually means double NAT. Those three ranges are reserved for private networks by RFC 1918, the internet standard that defines them. Treat this as a strong hint rather than proof: some providers run their own network-level NAT, which can also leave your router without a public address.
+Open your own router's app or admin page and find its internet (WAN) address. If it begins with **192.168.**, **10.** or anything from **172.16.** to **172.31.**, your router is getting a private address from the device in front of it, which usually means double NAT. Those three ranges are reserved for private networks by RFC 1918, the internet standard that defines them. Treat this as a strong hint rather than proof: some providers run their own network-level NAT, which can also leave your router without a public address. If the address starts with 100.64 through 100.127, that's the likely cause; our [CGNAT guide](/guides/what-is-cgnat/) explains how to check and what you can do.
 
 On an Xbox, Xbox support says the NAT type and any "Double NAT detected" message appear under Profile & system, Settings, General, Network settings.
 

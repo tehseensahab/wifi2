@@ -109,7 +109,7 @@ The pattern is a trade. Lower frequencies carry farther and pass through walls m
 
 ## When is 2.4 GHz the right choice?
 
-The 2.4 GHz band is 83.5 MHz wide in the US. That is small. A standard Wi-Fi channel is 20 MHz wide, and network engineers have long worked with only three channels that don't overlap each other: 1, 6 and 11. In an apartment building, every neighbor's router is sharing those three channels with yours.
+The 2.4 GHz band is 83.5 MHz wide in the US. That is small. A standard Wi-Fi channel is 20 MHz wide, and network engineers have long worked with only three channels that don't overlap each other: 1, 6 and 11. In an apartment building, every neighbor's router is sharing those three channels with yours. Our guide to [changing your Wi-Fi channel](/guides/how-to-change-wifi-channel/) covers when picking one by hand helps.
 
 The band is also used by other things. Netgear's support documentation lists microwave ovens and garage door openers among the household devices on 2.4 GHz.
 
@@ -161,7 +161,7 @@ These are starting points. If a device is on the "right" band and still slow, th
 
 ## Should the bands share one network name?
 
-In most homes, yes. Apple's router guidance recommends a single network name (SSID) across all bands, and says its devices perform best on Wi-Fi 6E and Wi-Fi 7 networks when the 2.4, 5 and 6 GHz bands share one name. With one name, each device picks a band and can change as you move around.
+In most homes, yes. Apple's router guidance recommends a single network name (SSID) across all bands, and says its devices perform best on Wi-Fi 6E and Wi-Fi 7 networks when the 2.4, 5 and 6 GHz bands share one name. With one name, each device picks a band and can change as you move around. Routers that nudge devices between bands call this band steering; see [whether band steering should be on or off](/guides/what-is-band-steering/). On Wi-Fi 7, a separate feature, [MLO](/guides/wifi-7-mlo/), lets a supported device use more than one band at once.
 
 Separate names make sense in two cases:
 

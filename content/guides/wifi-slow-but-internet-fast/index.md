@@ -51,7 +51,7 @@ Older phones, laptops and smart TVs have slower Wi-Fi radios. A device that supp
 
 ### Neighbors and interference
 
-If your router's Wi-Fi settings show a long list of nearby networks, the FCC says their signals could affect your performance. In apartment buildings, that often shows up in the evening.
+If your router's Wi-Fi settings show a long list of nearby networks, the FCC says their signals could affect your performance. In apartment buildings, that often shows up in the evening. Our guide to [changing your Wi-Fi channel](/guides/how-to-change-wifi-channel/) explains when that helps and how to do it.
 
 ### Too many devices at once
 

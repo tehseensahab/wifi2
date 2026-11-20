@@ -1,7 +1,8 @@
 ---
-title: "What Is CGNAT? Why Port Forwarding Fails"
+title: "What Is CGNAT? Meaning, How to Check, and Fixes"
 date: 2026-10-25T05:00:00Z
-description: "What is CGNAT? Your ISP shares one public IPv4 address among many customers, so router port forwarding can't reach you. How to check and work around it."
+lastmod: 2026-11-20
+description: "CGNAT meaning: your ISP shares one public IPv4 address among many homes, so port forwarding fails. How to check your WAN address and work around it."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "how-to-fixes"]
 tags: ["cgnat", "nat", "port-forwarding", "ipv6", "starlink", "gaming", "double-nat"]
@@ -15,6 +16,8 @@ takeaways:
   - "The fixes are on the provider side or around it: ask for a public IPv4 address, use IPv6 with a properly configured firewall, or use a tool that connects outward and relays when needed."
   - "Double NAT inside your home (two routers of your own) is a different problem, and you can fix that one yourself."
 faq:
+  - q: "What does CGNAT mean?"
+    a: "CGNAT stands for carrier-grade NAT, also called carrier-grade network address translation. It means your internet provider runs its own NAT and shares public IPv4 addresses among many customers, so your router doesn't get a public address of its own."
   - q: "Does CGNAT slow down my internet?"
     a: "Usually not by much. The IETF's tests in RFC 7021 found only slight differences in latency and jitter, though some setups saw reduced performance with large transfers or several video streams at once. CGNAT's main effect is on connections that have to start from the internet and reach a device in your home. The IETF's tests of CGNAT setups also found some applications that failed when two customers shared the same public address."
   - q: "How do I get out of CGNAT?"
@@ -53,13 +56,24 @@ sources:
 
 CGNAT, or carrier-grade NAT, means your internet provider shares public IPv4 addresses among many customers by running a second layer of network address translation inside its own network. Your router gets a private-style address instead of a public one, so when you set up port forwarding, the open port stops at your router and nothing on the internet can reach it: the provider's NAT is still in the way. You can confirm it in a minute by checking your router's internet (WAN) address. If it's between 100.64.0.0 and 100.127.255.255, you're almost certainly behind CGNAT, and the fix has to come from your provider, from IPv6, or from a tool that works around inbound connections.
 
-## What CGNAT is, and why providers use it
+## What does CGNAT mean, and why do providers use it?
 
 There aren't enough IPv4 addresses for every home to have its own. Carrier-grade NAT is one way providers stretch them. The IETF's RFC 7021 describes the common setup, which it calls NAT444: a customer's traffic passes through two NATs, the one in the home router and a large one in the provider's network, before reaching the public internet. Many homes then appear to the internet from the same public IPv4 address.
 
 To number the link between those two NATs, the IETF reserved a block in RFC 6598, published in April 2012 as BCP 153: **100.64.0.0/10**, which runs from 100.64.0.0 to 100.127.255.255, about 4.2 million addresses. RFC 6598 says this "Shared Address Space" is "intended for use on Service Provider networks" and is separate from the private ranges people use at home, such as 192.168.x.x and 10.x.x.x.
 
-## How to tell if you're behind CGNAT
+## CGNAT vs. double NAT vs. a public IP address
+
+Three setups get confused because each changes what your router sees as its internet address. Only one of them is something you can fix yourself.
+
+| | Public IPv4 address | Double NAT (inside your home) | CGNAT (inside your provider's network) |
+|---|---|---|---|
+| Your router's WAN address | Matches the IPv4 address "what is my IP" shows | 192.168.x.x, 10.x.x.x or 172.16.x.x to 172.31.x.x | Usually 100.64.0.0 to 100.127.255.255 |
+| Where the extra NAT sits | Nowhere; your router is the only NAT | A second router or gateway of your own | Provider equipment you can't reach |
+| Port forwarding on your router | Works | Fails until the double NAT is removed | Fails over IPv4 |
+| Who can fix it | Nothing to fix | You: bridge mode, or one router instead of two | Your provider (a public IPv4 address), or work around it with IPv6 or a relay-based tool |
+
+## How do I know if I'm behind CGNAT?
 
 1. **Find your router's WAN address.** Open your router's app or web page and look at its internet, WAN or status screen. Use the main router, the one connected to your modem, fiber box or gateway.
 2. **Compare it with your public address.** On a device on your network, search "what is my IP" and note the IPv4 address shown.
@@ -70,7 +84,7 @@ To number the link between those two NATs, the IETF reserved a block in RFC 6598
 
 Check the router, not a phone or laptop. Tailscale, for example, gives devices on its private network addresses from the same 100.64.0.0/10 block, so a computer running it shows a 100.x address whatever your provider does.
 
-## What breaks behind CGNAT
+## What breaks behind CGNAT?
 
 The pattern is simple: connections your devices start outward generally have a path, while connections that must start on the internet and come in to your home don't. RFC 6598 and the test results in RFC 7021 list the kinds of things that suffered:
 
@@ -82,7 +96,7 @@ The pattern is simple: connections your devices start outward generally have a p
 
 RFC 7021's measurements date from 2010 and 2011, and many apps have since added relay servers to cope. Treat them as a map of what kind of traffic is at risk, not a current compatibility list.
 
-## How to work around CGNAT
+## How do I get around CGNAT?
 
 ### Ask your provider for a public IPv4 address
 

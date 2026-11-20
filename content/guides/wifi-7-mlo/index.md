@@ -92,6 +92,8 @@ ASUS says its routers support both, but "it will base on client devices supporte
 | Windows PC | Windows 11 version 24H2 or later, a Wi-Fi 7 adapter and a current driver. PCWorld cites Intel's driver notes saying Wi-Fi 7 features on its BE200, BE201 and BE202 cards start with 24H2. |
 | Matching network settings | PCWorld notes MLO needs the same network name and password across the bands it combines. |
 
+One shared network name is also what band steering relies on. If you're deciding on that setting too, see [band steering: on or off?](/guides/what-is-band-steering/)
+
 Not sure whether your router or devices are Wi-Fi 7 at all? Our [Wi-Fi 6E vs. Wi-Fi 7]({{< relref "/guides/wifi-6e-vs-wifi-7" >}}) guide explains what to look for on the box.
 
 ## What turning on MLO can break

@@ -10,6 +10,13 @@ Follow `content-plan/2026-W47.md` in order: article 1 on Mon 16 Nov through arti
 - Do not write a second page for "band steering on or off", "eero mlo on or off", "docsis 3.0 max speed" or "should i buy my own router": those were added to existing pages on 2026-11-14.
 - Search impressions dropped to near zero on 27 Oct and pages published since then were still unknown to Google on 13 Nov. Technical checks were clean. Do not change robots.txt, canonicals or the sitemap in a daily run; the owner is checking Manual actions and Page indexing in Search Console.
 
+## Changes on 2026-11-20 (GSC 21 Oct to 17 Nov review)
+
+- Bug fixed: topic hubs (/topics/<slug>/) were rendering the topic-tile grid with no article links, because Hugo 0.167 picked _default/taxonomy.html for term pages. Layout moved to layouts/topics/term.html. Hubs now list their articles plus a "Start here" block set by `featured:` in data/topics.yaml.
+- Retitled with lastmod 2026-11-20: guest-wifi-network-smart-home-devices, google-nest-wifi-support-status (status and firmware re-verified at Google), what-is-cgnat (+ CGNAT vs double NAT table, question H2s), how-to-change-wifi-channel (+ brand table), fiber-vs-cable-vs-5g-home-internet (now links to 5g-home-internet-vs-cable for 5G-vs-cable intent). docsis page: new "DOCSIS 3.0 vs. 3.1" section.
+- Not retitled: wifi-7-mlo and what-is-band-steering (retitled 2026-11-14; let them settle until mid-December before judging).
+- Thin legacy pages still to fix (owner approval needed): wifi-extender-placement-guide (130 words), matter-thread-smart-home-explained, fix-bufferbloat-gaming-lag, router-hardening-checklist (all sample-era, under 500 words, no fact-check table).
+
 ## What works
 - Guides = 12 of 16 clicks. Short "should X be on or off" and troubleshooting explainers rank first (band steering, MLO, WPS/UPnP, guest network).
 - FCC / news items with a primary source rank fast (fcc-6ghz-power-rules, position ~6).

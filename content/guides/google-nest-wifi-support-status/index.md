@@ -1,17 +1,18 @@
 ---
-title: "Is Google Nest Wifi Still Supported? Updates by Model"
+title: "Is Google Wifi or Nest Wifi Still Supported? Status by Model"
 date: 2026-10-22T05:00:00Z
-description: "Google Nest Wifi is still supported: Google lists Nest Wifi Pro, Nest Wifi and Google Wifi as getting critical security updates. Dates and next steps here."
+lastmod: 2026-11-20
+description: "Yes, for now: Google says Google Wifi, Nest Wifi and Nest Wifi Pro still get critical security updates. Guarantee end dates and when to replace."
 authors: ["Tehseen Arbab"]
 topics: ["mesh-wifi", "security-privacy"]
 tags: ["google-nest-wifi", "nest-wifi-pro", "google-wifi", "firmware-updates", "end-of-life", "thread", "mesh-wifi"]
-summary: "Yes, for now. As of October 22, 2026, Google's security-update table says Nest Wifi Pro, Nest Wifi and the original Google Wifi are all still receiving critical security updates. Only Nest Wifi Pro is still inside its guaranteed window, which runs until at least October 27, 2027; the older two passed their guarantee dates in 2024 and 2021."
+summary: "Yes, for now. As of November 20, 2026, Google's security-update table says Nest Wifi Pro, Nest Wifi and the original Google Wifi are all still receiving critical security updates. Only Nest Wifi Pro is still inside its guaranteed window, which runs until at least October 27, 2027; the older two passed their guarantee dates in 2024 and 2021."
 imageAlt: "Top-down view of a round white Google Wi-Fi unit with cables attached, on a brown wooden surface"
 imageCredit: "Photo: Andres Urena / [Unsplash](https://unsplash.com/photos/white-google-wifi-system-YoM7sOGo4sU)"
 takeaways:
   - "Google's security-update table lists all three of its mesh Wi-Fi products, Nest Wifi Pro, Nest Wifi and Google Wifi, as currently receiving critical security updates."
   - "Only Nest Wifi Pro is still inside Google's guaranteed window: at least October 27, 2027. Nest Wifi's guarantee date was October 28, 2024, and Google Wifi's was December 5, 2021."
-  - "Google's release-notes page lists Nest Wifi router and point firmware dated April 24, 2026, and Nest Wifi Pro firmware dated February 23, 2026. The newest Google Wifi version it lists is from September 2022."
+  - "Google's release-notes page lists Nest Wifi router and point firmware dated October 20, 2026, and Nest Wifi Pro firmware dated February 23, 2026. The newest Google Wifi version it lists is from September 2022."
   - "Nest Wifi Pro can't join an older Nest Wifi or Google Wifi mesh, so upgrading means replacing the whole system, not adding one unit."
   - "Nest Wifi Pro and Nest Wifi act as Thread border routers. If you replace them and use Thread smart home devices, make sure something else in your home fills that role."
 faq:
@@ -60,7 +61,7 @@ sources:
     date: 2024-01-17
 ---
 
-Yes, Google Nest Wifi is still supported as of October 22, 2026. Google's own security-update table lists all three of its mesh Wi-Fi products, Nest Wifi Pro, Nest Wifi and the original Google Wifi, as currently receiving critical security updates. The difference is what Google has promised. Nest Wifi Pro is guaranteed updates until at least October 27, 2027. Nest Wifi and Google Wifi are past their guarantee dates (October 28, 2024 and December 5, 2021), so they are getting updates Google is no longer committed to send, and those could stop without a fixed date.
+Yes, Google Wifi and Google Nest Wifi are still supported as of November 20, 2026. Google's own security-update table lists all three of its mesh Wi-Fi products, Nest Wifi Pro, Nest Wifi and the original Google Wifi, as currently receiving critical security updates. The difference is what Google has promised. Nest Wifi Pro is guaranteed updates until at least October 27, 2027. Nest Wifi and Google Wifi are past their guarantee dates (October 28, 2024 and December 5, 2021), so they are getting updates Google is no longer committed to send, and those could stop without a fixed date.
 
 Here is where each model stands, what the gap between "guaranteed" and "currently receiving" means for you, and what to plan for if you own one.
 
@@ -71,20 +72,20 @@ Google promises its connected home devices automatic security updates "for at le
 | Model | Wi-Fi generation | Release date (Google) | Guaranteed updates until at least | Currently receiving critical security updates (Google) | Latest firmware Google lists |
 |---|---|---|---|---|---|
 | Nest Wifi Pro | Wi-Fi 6E, tri-band | October 27, 2022 | October 27, 2027 | Yes | 3.78.518349, February 23, 2026 |
-| Nest Wifi | Wi-Fi 5, dual-band | October 28, 2019 | October 28, 2024 | Yes | Router 14150.883.859 and point 1.56.514310, both April 24, 2026 |
+| Nest Wifi | Wi-Fi 5, dual-band | October 28, 2019 | October 28, 2024 | Yes | Router 14150.883.1264 and point 1.56.539812, both October 20, 2026 |
 | Google Wifi | Wi-Fi 5, dual-band | December 5, 2016 | December 5, 2021 | Yes | 14150.376.32, September 2022 |
 
-Status checked on Google's pages on October 22, 2026. Google's table lists dates in day/month/year order; we've written them out.
+Status and firmware versions rechecked on Google's pages on November 20, 2026. Google's table lists dates in day/month/year order; we've written them out.
 
 ### Nest Wifi Pro: inside its guarantee, for about another year
 
-Nest Wifi Pro is still sold on the US Google Store, where it was listed "from $199.99" when we checked on October 22, 2026. Its guarantee runs a little over a year from today. Its most recent release, 3.78.518349, lists "mesh network performance and robustness improvements" and "stability and security vulnerability fixes."
+Nest Wifi Pro is still sold on the US Google Store, where it was listed "from $199.99" when we checked on October 22, 2026. Its guarantee runs for just under another year. Its most recent release, 3.78.518349, lists "mesh network performance and robustness improvements" and "stability and security vulnerability fixes."
 
 If you own one, nothing needs to change today. The date to remember is October 27, 2027. After that, Google may keep sending updates, as it has for the older models, but it hasn't promised to.
 
 ### Nest Wifi: past its guarantee, still getting patches
 
-The Wi-Fi 5 Nest Wifi router and point passed their five-year minimum on October 28, 2024. Google still marks them as receiving critical security updates, and its release notes back that up: both the router and the point got builds dated April 24, 2026, described as "stability and security vulnerability fixes."
+The Wi-Fi 5 Nest Wifi router and point passed their five-year minimum on October 28, 2024. Google still marks them as receiving critical security updates, and its release notes back that up: both the router and the point got builds dated October 20, 2026, described as "Enhanced mesh network resilience and DNS fallback improvements" and "Other stability and security vulnerability fixes."
 
 That's a good sign, but it's a goodwill window rather than a commitment. Plan your replacement now so you aren't rushed if updates stop.
 
@@ -120,8 +121,8 @@ Two more things to know before you buy:
 
 | Important claim | Source | Status |
 |---|---|---|
-| Google guarantees security updates for at least 5 years from first US Google Store sale; release dates, minimum dates and "currently receiving" status for Nest Wifi Pro, Nest Wifi and Google Wifi | [Google security updates table](https://support.google.com/product-documentation/answer/10231940?hl=en-GB) | Verified, October 22, 2026 |
-| Latest firmware versions and dates for each model; Nest Wifi Pro and Nest Wifi release-note wording; updates roll out over days or weeks | [Google Wifi release notes](https://support.google.com/googlehome/answer/13800967?hl=en) | Verified, October 22, 2026 |
+| Google guarantees security updates for at least 5 years from first US Google Store sale; release dates, minimum dates and "currently receiving" status for Nest Wifi Pro, Nest Wifi and Google Wifi | [Google security updates table](https://support.google.com/product-documentation/answer/10231940?hl=en-GB) | Verified, November 20, 2026 |
+| Latest firmware versions and dates for each model; Nest Wifi Pro and Nest Wifi release-note wording; updates roll out over days or weeks | [Google Wifi release notes](https://support.google.com/googlehome/answer/13800967?hl=en) | Verified, November 20, 2026 |
 | Nest Wifi Pro can't mesh with Nest Wifi or Google Wifi | [Nest Wifi Pro mesh compatibility](https://support.google.com/googlenest/answer/12353201?hl=en) | Verified |
 | Thread border router: Nest Wifi Pro and Nest Wifi yes, Google Wifi point no | [Google compare Wifi products](https://support.google.com/googlenest/answer/6300732?hl=en) | Verified |
 | Nest Wifi Pro US: AXE5400, up to 2,200 sq ft per router, from $199.99 | [Google Store US spec page](https://store.google.com/us/product/nest_wifi_pro_specs?hl=en) | Verified; price as listed October 22, 2026 |

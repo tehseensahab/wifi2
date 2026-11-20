@@ -104,7 +104,7 @@ Two limits follow. A 320 MHz channel only exists on 6 GHz, so a Wi-Fi 7 router w
 
 Before Wi-Fi 7, a device connected to one band at a time. The Wi-Fi Alliance says MLO "allows devices to transmit and receive data simultaneously over multiple links for increased throughput, reduced latency, and improved reliability."
 
-How much MLO helps depends on how the router and the device each implement it, and both must support it. We have not measured MLO ourselves, so treat the benefit as a stated design goal and not a guaranteed result.
+How much MLO helps depends on how the router and the device each implement it, and both must support it. We have not measured MLO ourselves, so treat the benefit as a stated design goal and not a guaranteed result. Our guide to [Wi-Fi 7 MLO](/guides/wifi-7-mlo/) covers whether to turn it on or off on eero and ASUS routers.
 
 ### 4K QAM
 

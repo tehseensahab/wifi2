@@ -12,6 +12,18 @@
     <p class="page-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}, newest first</p>
   </header>
   {{- $pager := .Paginate (.Pages.ByDate.Reverse) }}
+  {{- /* Optional "Start here" picks from data/topics.yaml (featured: list of page paths), first page only. */ -}}
+  {{- if and $t.featured (eq $pager.PageNumber 1) }}
+  {{- $picks := slice }}
+  {{- range $t.featured }}{{ with site.GetPage . }}{{ $picks = $picks | append . }}{{ end }}{{ end }}
+  {{- with $picks }}
+  <section class="start-here" aria-labelledby="start-here-title">
+    <div class="section-head"><h2 id="start-here-title">Start here</h2></div>
+    {{ partial "grid.html" (dict "pages" . "tag" "h3") }}
+  </section>
+  <div class="section-head"><h2>All {{ $t.name | default $.Title }} articles</h2></div>
+  {{- end }}
+  {{- end }}
   {{ partial "grid.html" (dict "pages" $pager.Pages "tag" "h2") }}
   {{ template "_internal/pagination.html" . }}
 

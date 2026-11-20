@@ -1,7 +1,8 @@
 ---
-title: "Fiber vs. cable vs. 5G home internet: which should you choose?"
+title: "Fiber vs. Cable vs. 5G Home Internet: Which to Choose?"
 date: 2026-10-01
-description: "How the three main home internet types differ on speed, reliability, and price, and how to check what you can actually get at your address."
+lastmod: 2026-11-20
+description: "Fiber vs. cable vs. 5G home internet: pick fiber if you can get it, cable next, 5G for no contracts. How they differ and how to check your address."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps"]
 tags: ["fiber", "cable", "5g-home", "isp"]
@@ -49,7 +50,7 @@ Cable is widely available and fast on download. If your household mostly streams
 
 ## When does 5G home internet make sense?
 
-5G home internet works well if fiber and cable are not available, or you want a simple plan without a long contract. Place the gateway near a window where signal is strongest, and test speeds at the times you actually use the internet. If you live in a large house, pair the gateway with a mesh system. Our [guide to choosing mesh for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) covers placement.
+5G home internet works well if fiber and cable are not available, or you want a simple plan without a long contract. If those two are your only options, our [5G home internet vs. cable comparison](/guides/5g-home-internet-vs-cable/) goes deeper on uploads, evening slowdowns and trials. Place the gateway near a window where signal is strongest, and test speeds at the times you actually use the internet. If you live in a large house, pair the gateway with a mesh system. Our [guide to choosing mesh for a large house]({{< relref "best-mesh-wifi-for-large-house" >}}) covers placement.
 
 ## How do you check what you can actually get?
 
