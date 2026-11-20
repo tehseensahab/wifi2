@@ -15,7 +15,7 @@ Follow `content-plan/2026-W47.md` in order: article 1 on Mon 16 Nov through arti
 - Bug fixed: topic hubs (/topics/<slug>/) were rendering the topic-tile grid with no article links, because Hugo 0.167 picked _default/taxonomy.html for term pages. Layout moved to layouts/topics/term.html. Hubs now list their articles plus a "Start here" block set by `featured:` in data/topics.yaml.
 - Retitled with lastmod 2026-11-20: guest-wifi-network-smart-home-devices, google-nest-wifi-support-status (status and firmware re-verified at Google), what-is-cgnat (+ CGNAT vs double NAT table, question H2s), how-to-change-wifi-channel (+ brand table), fiber-vs-cable-vs-5g-home-internet (now links to 5g-home-internet-vs-cable for 5G-vs-cable intent). docsis page: new "DOCSIS 3.0 vs. 3.1" section.
 - Not retitled: wifi-7-mlo and what-is-band-steering (retitled 2026-11-14; let them settle until mid-December before judging).
-- Thin legacy pages still to fix (owner approval needed): wifi-extender-placement-guide (130 words), matter-thread-smart-home-explained, fix-bufferbloat-gaming-lag, router-hardening-checklist (all sample-era, under 500 words, no fact-check table).
+- Thin legacy pages rewritten 2026-11-20 with primary sources and fact-check tables: wifi-extender-placement-guide (kept its URL, which ranks ~9; now follows Netgear/TP-Link 'halfway, within range' guidance), fix-bufferbloat-gaming-lag, router-hardening-checklist (NSA + FTC), matter-thread-smart-home-explained (now 'Matter vs. Thread'). Still sample-era: guides/fiber-vs-cable-vs-5g-home-internet and news/fcc-router-conditional-approvals-status.
 
 ## What works
 - Guides = 12 of 16 clicks. Short "should X be on or off" and troubleshooting explainers rank first (band steering, MLO, WPS/UPnP, guest network).
