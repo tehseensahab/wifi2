@@ -3,7 +3,7 @@
 {{- $out := dict -}}
 {{- range site.Data.topics -}}
   {{- if eq .slug $slug -}}
-    {{- $out = dict "slug" .slug "name" .name "icon" .icon "desc" .desc "url" (.url | default (printf "/topics/%s/" .slug)) -}}
+    {{- $out = dict "slug" .slug "name" .name "icon" .icon "desc" .desc "url" (.url | default (printf "/topics/%s/" .slug)) "featured" (.featured | default slice) -}}
   {{- end -}}
 {{- end -}}
 {{- return $out -}}

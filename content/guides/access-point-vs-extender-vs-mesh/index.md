@@ -73,6 +73,8 @@ This is a research-based guide built on manufacturer documentation. We haven't t
 | One room is weak, you can't wire, and budget matters most | A Wi-Fi extender, ideally one that joins your router's mesh family | Cheapest fix for a single spot |
 | You have coax or reliable electrical wiring but no Ethernet | MoCA or powerline adapters plus an access point or wired mesh node | Gives you a wired-style link without new cable runs |
 
+Shopping for a big home? Our guides to the [best mesh Wi-Fi for a large house](/guides/best-mesh-wifi-for-large-house/) and the [best Wi-Fi router for a large house](/guides/best-wifi-router-for-large-house/) cover which systems suit bigger homes and when a single router is enough.
+
 ## How each one works
 
 ### Wi-Fi extender: a wireless relay

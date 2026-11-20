@@ -4,10 +4,18 @@
   name: Routers
   icon: router
   desc: "Best picks, reviews, and setup help for home routers."
+  featured:
+    - "/guides/best-wifi-router-for-large-house"
+    - "/guides/buy-your-own-router-vs-isp-equipment"
+    - "/guides/what-is-band-steering"
 - slug: mesh-wifi
   name: Mesh WiFi
   icon: mesh
   desc: "Whole-home coverage systems, tested room by room."
+  featured:
+    - "/guides/best-mesh-wifi-for-large-house"
+    - "/guides/google-nest-wifi-support-status"
+    - "/guides/access-point-vs-extender-vs-mesh"
 - slug: wifi-6e-7
   name: WiFi 6E / WiFi 7
   icon: wifi
@@ -16,10 +24,18 @@
   name: Internet Plans & ISPs
   icon: globe
   desc: "Speeds, pricing, and fiber vs cable vs 5G home internet."
+  featured:
+    - "/guides/docsis-3-0-vs-3-1-vs-4-0-cable-modem"
+    - "/guides/how-much-internet-speed-do-i-need"
+    - "/guides/5g-home-internet-vs-cable"
+    - "/guides/what-is-cgnat"
 - slug: smart-home-iot
   name: Smart Home & IoT
   icon: home
   desc: "Devices, hubs, and what Matter and Thread mean for your network."
+  featured:
+    - "/guides/guest-wifi-network-smart-home-devices"
+    - "/guides/smart-home-device-wont-connect-2-4-ghz"
 - slug: security-privacy
   name: Security & Privacy
   icon: shield
@@ -28,10 +44,23 @@
   name: Gaming & Streaming
   icon: gamepad
   desc: "Latency, QoS, and bufferbloat, explained and fixed."
+  featured:
+    - "/guides/high-ping-on-wifi"
+    - "/guides/fix-bufferbloat-gaming-lag"
+    - "/guides/wifi-7-mlo"
+    - "/guides/what-is-cgnat"
+    - "/guides/best-wifi-router-for-large-house"
 - slug: how-to-fixes
   name: How-To & Fixes
   icon: wrench
   desc: "Troubleshooting, speed tests, and dead-zone fixes."
+  featured:
+    - "/guides/wifi-7-mlo"
+    - "/guides/what-is-band-steering"
+    - "/guides/how-to-change-wifi-channel"
+    - "/guides/should-you-enable-ipv6"
+    - "/guides/what-is-cgnat"
+    - "/guides/buy-your-own-router-vs-isp-equipment"
 - slug: deals
   name: Deals
   icon: tag

@@ -80,7 +80,7 @@ Apple recommends giving every band the same network name so devices can choose, 
 
 ### 8. Leave the channel on automatic, then check neighbors
 
-Apple recommends letting the router pick the Wi-Fi channel automatically, since it will select the best one for you. The FCC notes that if your router's Wi-Fi settings show many other networks nearby, your performance could be affected by them. In a crowded apartment building, that's often the cause of evening slowdowns.
+Apple recommends letting the router pick the Wi-Fi channel automatically, since it will select the best one for you. The FCC notes that if your router's Wi-Fi settings show many other networks nearby, your performance could be affected by them. In a crowded apartment building, that's often the cause of evening slowdowns. If you do want to pick a channel yourself, our guide to [how to change your Wi-Fi channel](/guides/how-to-change-wifi-channel/) has the steps by router brand.
 
 ### 9. Update the router's firmware
 

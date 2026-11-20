@@ -87,7 +87,7 @@ Three widely used free services, with their own published details:
 | Google Public DNS | 8.8.8.8 and 8.8.4.4 | None | Temporary logs with IP addresses deleted within 24 to 48 hours; permanent logs contain no personal information |
 | Quad9 | 9.9.9.9 and 149.112.112.112 | Blocks malware; validates DNSSEC | Says it "does not collect or record user IP addresses"; run by a Swiss foundation |
 
-All three also publish IPv6 addresses. For Cloudflare's standard service they are 2606:4700:4700::1111 and 2606:4700:4700::1001; for Google, 2001:4860:4860::8888 and 2001:4860:4860::8844.
+All three also publish IPv6 addresses. For Cloudflare's standard service they are 2606:4700:4700::1111 and 2606:4700:4700::1001; for Google, 2001:4860:4860::8888 and 2001:4860:4860::8844. Not sure whether your network uses IPv6? See our guide to [whether you should enable IPv6](/guides/should-you-enable-ipv6/).
 
 How to choose:
 

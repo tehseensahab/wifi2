@@ -110,7 +110,7 @@ For wireless units, placement matters as much as the hardware:
 - **Spacing.** Eero suggests 20 to 30 feet apart, and no more than 50 feet. Google says no more than two rooms from the router or another point.
 - **Line of sight** between units helps, according to both eero and Google.
 
-Homes with thick walls may need more units, eero says. Or connect them by cable; see [wired vs. wireless mesh backhaul]({{< relref "/guides/mesh-wifi-wired-vs-wireless-backhaul" >}}).
+Homes with thick walls may need more units, eero says. Or connect them by cable; see [wired vs. wireless mesh backhaul]({{< relref "/guides/mesh-wifi-wired-vs-wireless-backhaul" >}}). If the whole house is big rather than one room being weak, start with our [best mesh Wi-Fi for a large house](/guides/best-mesh-wifi-for-large-house/) and [best Wi-Fi router for a large house](/guides/best-wifi-router-for-large-house/) guides.
 
 ## Fact-check notes
 

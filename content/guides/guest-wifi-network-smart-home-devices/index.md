@@ -1,7 +1,8 @@
 ---
-title: "Should Smart Home Devices Go on a Guest Wi-Fi Network?"
+title: "Should Smart Home Devices Be on a Guest Network? Usually, Yes"
 date: 2026-10-06
-description: "The NSA and FBI both advise keeping smart devices apart from your laptops and phones. Here is how a guest network does that, and what it can break."
+lastmod: 2026-11-20
+description: "Yes for cameras, plugs and TVs: a guest network walls them off from your laptops and phones, as the NSA and FBI advise. What it breaks, and how to test."
 authors: ["Tehseen Arbab"]
 topics: ["smart-home-iot", "security-privacy"]
 tags: ["guest-network", "smart-home", "iot-security", "network-segmentation", "router-security"]

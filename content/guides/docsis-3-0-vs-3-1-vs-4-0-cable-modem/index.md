@@ -1,7 +1,7 @@
 ---
 title: "DOCSIS 3.0 vs 3.1 vs 4.0: Which Cable Modem Do You Need?"
 date: 2026-10-17
-lastmod: 2026-11-14
+lastmod: 2026-11-20
 description: "DOCSIS 3.0 vs 3.1 vs 4.0: max speeds, which modem your plan needs, and how to check your provider's approved list. 3.1 is the safe buy today."
 authors: ["Tehseen Arbab"]
 topics: ["internet-plans-isps", "routers"]
@@ -80,6 +80,20 @@ The big change in DOCSIS 4.0 is upload speed. Comcast says its DOCSIS 4.0 approa
 The DOCSIS 3.0 maximum is 1 Gbps download and 200 Mbps upload, according to Netgear's support documentation. DOCSIS 3.1 raises that to 10 Gbps down and 1 Gbps up. These are ceilings for the standard, and Netgear notes they "are not guaranteed": the speed you get depends on your plan, your provider's network and the specific modem.
 
 For a buyer, that means a DOCSIS 3.0 modem has no headroom on a gigabit plan. It can still work on a slower plan if your provider keeps supporting it, so check the approved list before you buy or keep one.
+
+## DOCSIS 3.0 vs. 3.1: what's the difference?
+
+DOCSIS 3.1 raises the ceiling tenfold on download and fivefold on upload, and it still works on networks and plans built for 3.0. For most people choosing between the two today, that makes 3.1 the one to buy.
+
+| | DOCSIS 3.0 | DOCSIS 3.1 |
+|---|---|---|
+| Maximum download | 1 Gbps | 10 Gbps |
+| Maximum upload | 200 Mbps | 1 Gbps |
+| Headroom on a gigabit plan | None | Yes |
+| Works on lower-speed plans | Yes, if your provider still supports 3.0 | Yes; Netgear says it is backward compatible with 3.0 |
+| Required by some providers | No | Netgear says some providers recommend or require it |
+
+Maximums are from Netgear's support documentation and are not guaranteed speeds.
 
 ## Which DOCSIS version do you need?
 

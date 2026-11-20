@@ -83,6 +83,8 @@ Two details make a difference:
 - **The clock usually starts when the model stops being sold, not when you bought it.** Netgear's three years runs from the last sale date, which can vary by country or region. A router bought near the end of its sales life may have little support left.
 - **Eero's dates are published per model.** Its table runs from March 11, 2030 for the eero Pro and eero Beacon to October 31, 2031 for most newer models, including the eero 6, eero 7 and eero Max 7 lines. Eero says that after updates end, "your eero device will still work and can still provide wifi," but without guaranteed security fixes.
 
+Google publishes a similar table for its mesh systems. Our guide to [whether Google Wifi and Nest Wifi are still supported](/guides/google-nest-wifi-support-status/) lists each model's dates.
+
 ## How do I check my router?
 
 1. **Find the model and hardware version.** It's on the label on the bottom or back. Netgear says that if no version is shown, the product is version 1. ASUS also points to the label and the box.

@@ -1,6 +1,7 @@
 ---
-title: "How to Change Your Wi-Fi Channel, and When It Helps"
+title: "How to Change Your Wi-Fi Channel: Steps by Router Brand"
 date: 2026-10-16
+lastmod: 2026-11-20
 description: "Changing the Wi-Fi channel fixes interference, not weak coverage. When to try it, which 2.4 GHz channels to use, DFS on 5 GHz, and steps by brand."
 authors: ["Tehseen Arbab"]
 topics: ["how-to-fixes", "routers"]
@@ -98,7 +99,18 @@ ASUS describes what that means at home:
 
 If your 5 GHz network drops for a minute or more at random, try excluding DFS channels from automatic selection.
 
-## How to change the channel
+## How do I change my Wi-Fi channel?
+
+Sign in to your router's app or web page, open the wireless settings for the band you want to change, and pick a channel. Where that setting lives, and whether you can set it at all, depends on the brand.
+
+| Router | Where the channel setting is | Can you pick a channel by hand? |
+|---|---|---|
+| Netgear | routerlogin.net, then Wireless, then Channel for each band | Yes |
+| ASUS | Web interface, then Wireless, then General, then Control Channel | Yes |
+| eero | No setting; eero chooses channels itself | No |
+| Google Nest Wifi and Google Wifi | Google's help pages don't describe one | Not described by Google |
+
+The steps for each brand:
 
 **Netgear:** sign in at routerlogin.net, open Wireless, scroll to the band you want, pick a channel from the Channel menu, and click Apply. Not every channel is available in every region. Netgear also suggests the WiFi Analytics tool in its Nighthawk and Orbi Android apps to find less congested channels.
 
