@@ -122,6 +122,8 @@ How covers are used:
 | `content/guides/t-mobile-home-internet-plans/` | [Steel lattice telecom towers with microwave dishes and panel antennas fading into thick fog](https://unsplash.com/photos/a-tower-with-several-cell-phones-on-top-of-it-SsAFdirwkXc) | David Arrowsmith |
 | `content/guides/should-i-buy-my-own-modem/` | [Coils of thick black cables lying tangled on a gray floor](https://unsplash.com/photos/GROaOafbSKY) | Kier in Sight Archives |
 | `content/guides/t-mobile-home-internet-backup/` | [Laptop keyboard lit only by its screen in a dark room](https://unsplash.com/photos/IsXYO-5w_1Q) | Adrian González |
+| `content/guides/wifi-7-mode-on-or-off/` | [Top half of a black iPhone on a white keyboard, lock screen showing the Wi-Fi icon](https://unsplash.com/photos/black-iphone-on-gray-computer-keyboard-vJLPDzVlz-U) | Fabian Albert |
+| `content/guides/xfinity-voice-modem/` | [White corded desk telephone with handset off the base on a red patterned carpet (cropped to landscape)](https://unsplash.com/photos/white-corded-home-telephone-GJNhPjqVAT8) | Shannon VanDenHeuvel |
 
 ## Adding a cover for a new post
 
