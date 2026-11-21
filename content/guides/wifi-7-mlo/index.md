@@ -141,7 +141,7 @@ Switching the setting reboots the whole eero network, which eero says takes abou
 
 ## Should MLO be on or off on an ASUS router?
 
-On an ASUS router, turn MLO on if your main devices are Wi-Fi 7, and use ASUS's option to create a separate MLO network so older devices stay on the main network untouched. ASUS uses GCMP-256 encryption for MLO networks and warns it may be incompatible with some legacy devices. In an AiMesh system, ASUS says a node that doesn't support MLO won't broadcast 6 GHz while MLO is on.
+On an ASUS router, turn MLO on if your main devices are Wi-Fi 7, and use ASUS's option to create a separate MLO network so older devices stay on the main network untouched. ASUS uses GCMP-256 encryption for MLO networks and warns it may be incompatible with some legacy devices. In an AiMesh system, ASUS says a node that doesn't support MLO won't broadcast 6 GHz while MLO is on. ASUS Wi-Fi 7 routers also have a separate WiFi 7 mode switch; see [Wi-Fi 7 mode: on or off?](/guides/wifi-7-mode-on-or-off/) for what it changes.
 
 ## How to turn MLO on or off
 
