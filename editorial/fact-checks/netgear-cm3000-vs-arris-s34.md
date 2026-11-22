@@ -1,0 +1,29 @@
+# Fact-check record: guides/netgear-cm3000-vs-arris-s34 (2026-11-22)
+
+Research-based comparison; neither modem tested.
+
+## Research log (claim | verbatim quote | source | date | geography | qualifications)
+- CM3000 DOCSIS | "Engineered for Today's Fastest DOCSIS 3.1 Cable Internet Speeds" | https://www.downloads.netgear.com/files/GDC/CM3000/CM3000_TS.pdf | ©2024, TS-CM3000-1 | US
+- CM3000 channels | "32 downstream and 8 upstream SC-QAM channels" ; "2 OFDM Downstream channels and 2 OFDMA Upstream channels" | same
+- CM3000 ports | "One (1) LAN 2.5Gbps Gigabit Ethernet port" ; "Two (2) LAN 1Gbps Gigabit Ethernet ports" | same
+- CM3000 speeds | "download speeds up to 2.5Gbps" ; "faster upload speeds up to 1Gbps" | same
+- CM3000 splits | "Mid-split technology is currently being offered by some ISPs in some regions." ; "High-split technology may be offered by ISPs in the near future." | same ; "CM3000 is prepared for today and tomorrow with both mid/split and high/split technology." | https://www.netgear.com/hub/technology/mid-high-split-modem-cm3000/ | Last Updated July 12th, 2026 ; KB: high-split "Used by only the most recent cable modems, including the NETGEAR CM3000." "This technology is not currently used by any ISPs but is expected to be used in the future." "Your modem and ISP must both support a frequency split for you to be able to use it." | https://kb.netgear.com/000066051/What-is-mid-high-split-technology | Last Updated 07/07/2025 (so "not currently" is as of that date) ; no MHz ranges given by NETGEAR
+- CM3000 voice/Wi-Fi | "Not compatible with cable bundled voice services" ; "This cable modem does not have a builtin wireless router or telephone capability" | data sheet
+- CM3000 ISPs | "The Nighthawk CM3000 works seamlessly with every major U.S. cable service provider." | data sheet ; product page: "such as Xfinity's 2Gbps download speeds and 200Mbps upload speeds. Not compatible with Xfinity Voice plans." comparison table Xfinity 2Gbps/200Mbps, Spectrum 1Gbps/35Mbps, Cox 1Gbps/100Mbps | https://netgear.com/home/wifi/modems/cm3000 | fetched 2026-11-22
+- CM3000 warranty | "This product comes with a limited warranty that is valid only if purchased from a NETGEAR authorized reseller." (no term stated) | data sheet
+- CM3000 price/stock | body table "$299.00"; metadata 299.99; "This item is currently out of stock. However, you can save more if you buy refurbished!" | netgear.com product page, 2026-11-22 ; Staples "$299.99", "Out of stock for delivery to" (Natick, MA store pickup available) | staples.com product_24637587, 2026-11-22 ; launch "now available in the U.S. on NETGEAR.com for $299.99." March 12, 2024 | https://www.netgear.com/hub/pressroom/mid-high-split-cable-modem-cm3000/
+- CM3000 refurbished | "$179.99" ; "Every NETGEAR refurbished product is backed by a 90-day warranty." | https://www.netgear.com/outlet/refurbished/modems/cm3000/ | 2026-11-22
+- NETGEAR certified-modem KB does not list CM3000 (lists CM1000, CM1000v2, CM1100, CM1150V, CM1200, CM2000, CM2050V, CM400...) | https://kb.netgear.com/000061843/ | Last Updated 07/07/2025
+- S34 | "DOCSIS Technology | DOCSIS 3.1" ; "One 2.5 GB and one 1 GB Ethernet Port" ; "Built-in Wi-Fi | NO" ; "Digital Voice Service Capability | NO" ; "Wired Speeds | Up to 2.5 Gbps" ; "2 downstream x 2 upstream OFDM DOCSIS 3.1 channels" ; "32 downstream x 8 upstream DOCSIS 3.0 bonded channels" ; "2 Year Limited Warranty" ; "Compatible with Cox, Spectrum, Xfinity and other major US cable internet providers" ; "Compatibility may vary by model and provider" ; "Next Generation Upload Speed Optimized" | https://www.surfboard.com/products/cable-modems/S34/ | undated
+- S34 diplexer | "Switchable Diplexer US 5-42MHz/5-85MHz; DS 108-1002MHz" ; "Bonded Channels Up to 8 SCQAM and 2 OFDMA" | https://webcdn.cox.com/content/dam/cox/residential/support/internet/print_media/Arris_S34_DataSheet.pdf | ©1995-2024
+- S34 launch | Sept. 5, 2024 dateline; $219.00 MSRP (from WebFetch summary of release; consistent with surfboard-s33-vs-s34 verified 2026-11-17) | prnewswire 302239650
+- S34 price | "$219.99" ; "In Stock" ; product name "SURFboard S34 DOCSIS 3.1 Cable Modem: ARRIS, Ethernet Ports, 2500 Mbps Speed" ; "Model name: S34" | https://www.target.com/p/surfboard-s34-mesh-docsis-3-1-cable-modem/-/A-94643663 | 2026-11-22 (online; store stock may differ)
+- Failed: bhphotovideo CM3000 1847955-REG (client_error); crutchfield S34 (client_error); abt.com S34 "no longer available", no price.
+- Analysis (ours): price gap $299.99 vs $219.99 = $80 (list prices on 2026-11-22). Extra ports: CM3000 has 3 Ethernet ports vs 2.
+
+## Independent fact-check (separate agent, 2026-11-22)
+Re-fetched: Target S34 ($219.99, In Stock, Model name S34, "Not Mesh Compatible"), NETGEAR CM3000 page (out of stock; $299.00 table; "Save $120 buying refurbished"; "Or connect the two Gigabit ports to a router with link aggregation for up to 2Gbps." with a conflicting "up to 2.5Gbps" bullet), KB 000066051 (confirmed, 07/07/2025), PR Newswire S34 ("NORCROSS, Ga., Sept. 5, 2024"; "SURFboard S34 cable modem: $219.00 MSRP" now verbatim).
+Before fixes: 28 verified / 11 qualified / 5 not verified (44 claims).
+NOT VERIFIED, fixed: "Neither maker's pages describe combining ports" (contradicted; replaced with NETGEAR link-aggregation quote, lower 2 Gbps figure); "as of NETGEAR's latest statement" (now dated July 7, 2025 KB); "depends on your provider" (removed); CM2050V voice claim in FAQ (replaced with generic voice-capable modem + internal link); "check which split" link text (now DOCSIS version only).
+QUALIFIED, applied: price wording ($299.00-$299.99 at NETGEAR, $299.99 Staples, "about $80 cheaper new", not "list price"); summary "same download rating"; "rated for speeds" not plans; mid-split "some ISPs in some regions"; buy-table 2.5 Gbps; "stated warranty term"; Staples + KB 000061843 added to sources.
+Calculations: 299.99-219.99 = 80.00 (correct).

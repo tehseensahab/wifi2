@@ -115,3 +115,5 @@ One row per post. Update with every daily run.
 | guides/t-mobile-home-internet-backup | T-Mobile Home Internet Backup: How It Works and Costs | 2026-11-20 | internet-plans-isps, how-to-fixes | t-mobile home internet backup |
 | guides/wifi-7-mode-on-or-off | Wi-Fi 7 Mode: On or Off? What the Setting Changes | 2026-11-21 | wifi-6e-7, how-to-fixes, routers | wifi 7 mode on or off |
 | guides/xfinity-voice-modem | Xfinity Voice Modem: What You Need to Use Your Own | 2026-11-21 | internet-plans-isps, routers | xfinity voice modem |
+| guides/what-docsis-is-my-modem | What DOCSIS Version Is My Modem? How to Check | 2026-11-22 | internet-plans-isps, how-to-fixes | what docsis is my modem |
+| guides/netgear-cm3000-vs-arris-s34 | NETGEAR CM3000 vs. ARRIS S34: Which Cable Modem to Buy? | 2026-11-22 | internet-plans-isps, routers | cm3000 vs s34 |
