@@ -124,6 +124,8 @@ How covers are used:
 | `content/guides/t-mobile-home-internet-backup/` | [Laptop keyboard lit only by its screen in a dark room](https://unsplash.com/photos/IsXYO-5w_1Q) | Adrian González |
 | `content/guides/wifi-7-mode-on-or-off/` | [Top half of a black iPhone on a white keyboard, lock screen showing the Wi-Fi icon](https://unsplash.com/photos/black-iphone-on-gray-computer-keyboard-vJLPDzVlz-U) | Fabian Albert |
 | `content/guides/xfinity-voice-modem/` | [White corded desk telephone with handset off the base on a red patterned carpet (cropped to landscape)](https://unsplash.com/photos/white-corded-home-telephone-GJNhPjqVAT8) | Shannon VanDenHeuvel |
+| `content/guides/what-docsis-is-my-modem/` | [Rack-mounted network units with rows of capped round RF connectors and red indicator lights (cropped to landscape)](https://unsplash.com/photos/server-rack-filled-with-network-and-electronic-equipment-UpkcO_xS5k0) | Valentin Lacoste |
+| `content/guides/netgear-cm3000-vs-arris-s34/` | [Teal Ethernet patch cables plugged into a rack-mounted switch and patch panel (cropped to landscape, logos cropped out)](https://unsplash.com/photos/a-rack-of-servers-with-wires-and-wires-attached-to-them-c-lSQecD9oI) | Yuriy Vertikov |
 
 ## Adding a cover for a new post
 
