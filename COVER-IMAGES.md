@@ -126,6 +126,8 @@ How covers are used:
 | `content/guides/xfinity-voice-modem/` | [White corded desk telephone with handset off the base on a red patterned carpet (cropped to landscape)](https://unsplash.com/photos/white-corded-home-telephone-GJNhPjqVAT8) | Shannon VanDenHeuvel |
 | `content/guides/what-docsis-is-my-modem/` | [Rack-mounted network units with rows of capped round RF connectors and red indicator lights (cropped to landscape)](https://unsplash.com/photos/server-rack-filled-with-network-and-electronic-equipment-UpkcO_xS5k0) | Valentin Lacoste |
 | `content/guides/netgear-cm3000-vs-arris-s34/` | [Teal Ethernet patch cables plugged into a rack-mounted switch and patch panel (cropped to landscape, logos cropped out)](https://unsplash.com/photos/a-rack-of-servers-with-wires-and-wires-attached-to-them-c-lSQecD9oI) | Yuriy Vertikov |
+| `content/guides/mu-mimo-on-or-off/` | [Row of people in dark coats each looking at their own smartphone](https://unsplash.com/photos/people-using-phone-while-standing-qZenO_gQ7QA) | camilo jimenez |
+| `content/guides/netgear-cm2500-vs-cm3000/` | [Close-up of many colored wires running in front of a metal panel](https://unsplash.com/photos/a-close-up-of-a-computer-ipdSwpg-1i0) | Jandira Sonnendeck |
 
 ## Adding a cover for a new post
 
