@@ -14,6 +14,8 @@ summaryLength = 30
 [params]
   description = "Router reviews, mesh WiFi guides, and home internet news for US readers. Every article is dated, sourced, and labeled as tested, research-based, or an explainer."
   tagline = "WiFi, without the guesswork."
+  # Homepage <title> (keyword-led for search). Falls back to "Title: tagline" if empty.
+  homeTitle = "WiFi Weekly: Router Reviews, Mesh WiFi & Home Internet Guides"
   contactEmail = "editorial@wifiweekly.com"
   # Google AdSense publisher ID. Loads the AdSense site-connection script in production only.
   adsensePublisherID = "ca-pub-5209287926548228"

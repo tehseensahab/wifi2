@@ -1,6 +1,6 @@
 {{- $m := partial "meta.html" . -}}
 {{- $isArticle := and .IsPage (in (slice "reviews" "news" "guides" "deals") .Section) -}}
-{{- $title := cond .IsHome (printf "%s: %s" site.Title site.Params.tagline) (printf "%s | %s" $m.title site.Title) -}}
+{{- $title := cond .IsHome (site.Params.homeTitle | default (printf "%s: %s" site.Title site.Params.tagline)) (printf "%s | %s" $m.title site.Title) -}}
 {{- $iso := "2006-01-02T15:04:05Z07:00" -}}
 {{- /* Share image: page cover, else optional site default. Always 1200x630. */ -}}
 {{- $img := "" -}}
