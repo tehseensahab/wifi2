@@ -119,3 +119,5 @@ One row per post. Update with every daily run.
 | guides/netgear-cm3000-vs-arris-s34 | NETGEAR CM3000 vs. ARRIS S34: Which Cable Modem to Buy? | 2026-11-22 | internet-plans-isps, routers | cm3000 vs s34 |
 | guides/mu-mimo-on-or-off | MU-MIMO: On or Off? What the Router Setting Does | 2026-11-23 | routers, how-to-fixes, wifi-6e-7 | mu-mimo on or off |
 | guides/netgear-cm2500-vs-cm3000 | NETGEAR CM2500 vs. CM3000: Which Cable Modem to Buy? | 2026-11-23 | internet-plans-isps, routers | cm2500 vs cm3000 |
+| guides/ofdma-on-or-off | OFDMA: On or Off? What the Wi-Fi 6 Setting Does | 2026-11-24 | routers, how-to-fixes, wifi-6e-7 | ofdma on or off |
+| guides/eero-6-plus-vs-eero-7 | eero 6+ vs. eero 7: Which Should You Buy? | 2026-11-24 | mesh-wifi, wifi-6e-7, routers | eero 6+ vs eero 7 |

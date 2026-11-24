@@ -128,6 +128,8 @@ How covers are used:
 | `content/guides/netgear-cm3000-vs-arris-s34/` | [Teal Ethernet patch cables plugged into a rack-mounted switch and patch panel (cropped to landscape, logos cropped out)](https://unsplash.com/photos/a-rack-of-servers-with-wires-and-wires-attached-to-them-c-lSQecD9oI) | Yuriy Vertikov |
 | `content/guides/mu-mimo-on-or-off/` | [Row of people in dark coats each looking at their own smartphone](https://unsplash.com/photos/people-using-phone-while-standing-qZenO_gQ7QA) | camilo jimenez |
 | `content/guides/netgear-cm2500-vs-cm3000/` | [Close-up of many colored wires running in front of a metal panel](https://unsplash.com/photos/a-close-up-of-a-computer-ipdSwpg-1i0) | Jandira Sonnendeck |
+| `content/guides/ofdma-on-or-off/` | [White smart-home devices: camera, plug, motion sensor, bulb](https://unsplash.com/photos/a-group-of-electronic-devices-sitting-on-top-of-a-table-uxYLtGRyGKQ) | Jakub Żerdzicki |
+| `content/guides/eero-6-plus-vs-eero-7/` | [Laptop and keyboard on a home office desk](https://unsplash.com/photos/modern-laptop-and-keyboard-on-a-home-office-desk-vR2kup7Uyds) | Ritupon Baishya |
 
 ## Adding a cover for a new post
 
