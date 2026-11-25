@@ -121,3 +121,5 @@ One row per post. Update with every daily run.
 | guides/netgear-cm2500-vs-cm3000 | NETGEAR CM2500 vs. CM3000: Which Cable Modem to Buy? | 2026-11-23 | internet-plans-isps, routers | cm2500 vs cm3000 |
 | guides/ofdma-on-or-off | OFDMA: On or Off? What the Wi-Fi 6 Setting Does | 2026-11-24 | routers, how-to-fixes, wifi-6e-7 | ofdma on or off |
 | guides/eero-6-plus-vs-eero-7 | eero 6+ vs. eero 7: Which Should You Buy? | 2026-11-24 | mesh-wifi, wifi-6e-7, routers | eero 6+ vs eero 7 |
+| guides/160mhz-on-or-off | 160 MHz Channel Width: On or Off? What to Know | 2026-11-25 | routers, how-to-fixes, wifi-6e-7 | 160 mhz on or off |
+| guides/orbi-370-vs-770 | Orbi 370 vs. 770: Is the Tri-Band Upgrade Worth It? | 2026-11-25 | mesh-wifi, wifi-6e-7 | orbi 370 vs 770 |
