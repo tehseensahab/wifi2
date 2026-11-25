@@ -130,6 +130,8 @@ How covers are used:
 | `content/guides/netgear-cm2500-vs-cm3000/` | [Close-up of many colored wires running in front of a metal panel](https://unsplash.com/photos/a-close-up-of-a-computer-ipdSwpg-1i0) | Jandira Sonnendeck |
 | `content/guides/ofdma-on-or-off/` | [White smart-home devices: camera, plug, motion sensor, bulb](https://unsplash.com/photos/a-group-of-electronic-devices-sitting-on-top-of-a-table-uxYLtGRyGKQ) | Jakub Żerdzicki |
 | `content/guides/eero-6-plus-vs-eero-7/` | [Laptop and keyboard on a home office desk](https://unsplash.com/photos/modern-laptop-and-keyboard-on-a-home-office-desk-vR2kup7Uyds) | Ritupon Baishya |
+| `content/guides/160mhz-on-or-off/` | [White weather radar dome on a lattice tower above a cornfield](https://unsplash.com/photos/o--lAWssg5I) | Roger Starnes Sr |
+| `content/guides/orbi-370-vs-770/` | [Upper floor of a white-painted brick house with black shutters behind tree branches](https://unsplash.com/photos/trees-near-white-2-story-house-IQRwcU0-tQA) | Elijah Boisvert |
 
 ## Adding a cover for a new post
 
