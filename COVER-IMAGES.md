@@ -132,6 +132,8 @@ How covers are used:
 | `content/guides/eero-6-plus-vs-eero-7/` | [Laptop and keyboard on a home office desk](https://unsplash.com/photos/modern-laptop-and-keyboard-on-a-home-office-desk-vR2kup7Uyds) | Ritupon Baishya |
 | `content/guides/160mhz-on-or-off/` | [White weather radar dome on a lattice tower above a cornfield](https://unsplash.com/photos/o--lAWssg5I) | Roger Starnes Sr |
 | `content/guides/orbi-370-vs-770/` | [Upper floor of a white-painted brick house with black shutters behind tree branches](https://unsplash.com/photos/trees-near-white-2-story-house-IQRwcU0-tQA) | Elijah Boisvert |
+| `content/guides/orbi-370-vs-eero-7/` | [White two-story house on a curving suburban street with a utility pole and overhead wires, autumn trees](https://unsplash.com/photos/a-white-two-story-house-sitting-on-the-side-of-a-road-sgsxKds5BPI) | Sean Boyd |
+| `content/guides/nat-type-open-moderate-strict/` | [Three Xbox wireless controllers, one black and two white, on a wooden slatted shelf](https://unsplash.com/photos/a-group-of-game-controllers-PiIlL3byFLE) | Abhinav Bhardwaj |
 
 ## Adding a cover for a new post
 
