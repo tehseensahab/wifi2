@@ -134,6 +134,8 @@ How covers are used:
 | `content/guides/orbi-370-vs-770/` | [Upper floor of a white-painted brick house with black shutters behind tree branches](https://unsplash.com/photos/trees-near-white-2-story-house-IQRwcU0-tQA) | Elijah Boisvert |
 | `content/guides/orbi-370-vs-eero-7/` | [White two-story house on a curving suburban street with a utility pole and overhead wires, autumn trees](https://unsplash.com/photos/a-white-two-story-house-sitting-on-the-side-of-a-road-sgsxKds5BPI) | Sean Boyd |
 | `content/guides/nat-type-open-moderate-strict/` | [Three Xbox wireless controllers, one black and two white, on a wooden slatted shelf](https://unsplash.com/photos/a-group-of-game-controllers-PiIlL3byFLE) | Abhinav Bhardwaj |
+| `content/guides/nintendo-switch-nat-type/` | [Close-up of a Nintendo Switch with a blue Joy-Con attached](https://unsplash.com/photos/black-nintendo-switch-esNqFltvxGE) | Enrique Vidal Flores |
+| `content/guides/asus-rt-be86u-vs-rt-be88u/` | [Yellow fiber patch cables plugged into rack-mounted network equipment](https://unsplash.com/photos/fiber-optic-cables-in-network-switch-eVWWr6nmDf8) | Kirill Sh |
 
 ## Adding a cover for a new post
 

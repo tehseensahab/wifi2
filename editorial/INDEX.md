@@ -125,3 +125,5 @@ One row per post. Update with every daily run.
 | guides/orbi-370-vs-770 | Orbi 370 vs. 770: Is the Tri-Band Upgrade Worth It? | 2026-11-25 | mesh-wifi, wifi-6e-7 | orbi 370 vs 770 |
 | guides/orbi-370-vs-eero-7 | Orbi 370 vs. eero 7: Budget Wi-Fi 7 Mesh Compared | 2026-11-26 | mesh-wifi, wifi-6e-7 | orbi 370 vs eero 7 |
 | guides/nat-type-open-moderate-strict | NAT Type Open vs. Moderate vs. Strict: What It Means | 2026-11-26 | gaming-streaming, how-to-fixes | nat type open moderate strict |
+| guides/nintendo-switch-nat-type | Nintendo Switch NAT Type: What A, B, C, D and F Mean | 2026-11-27 | gaming-streaming, how-to-fixes | nintendo switch nat type |
+| guides/asus-rt-be86u-vs-rt-be88u | ASUS RT-BE86U vs RT-BE88U: Which Wi-Fi 7 Router? | 2026-11-27 | routers, wifi-6e-7 | asus rt-be86u vs rt-be88u |
