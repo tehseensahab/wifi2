@@ -136,6 +136,8 @@ How covers are used:
 | `content/guides/nat-type-open-moderate-strict/` | [Three Xbox wireless controllers, one black and two white, on a wooden slatted shelf](https://unsplash.com/photos/a-group-of-game-controllers-PiIlL3byFLE) | Abhinav Bhardwaj |
 | `content/guides/nintendo-switch-nat-type/` | [Close-up of a Nintendo Switch with a blue Joy-Con attached](https://unsplash.com/photos/black-nintendo-switch-esNqFltvxGE) | Enrique Vidal Flores |
 | `content/guides/asus-rt-be86u-vs-rt-be88u/` | [Yellow fiber patch cables plugged into rack-mounted network equipment](https://unsplash.com/photos/fiber-optic-cables-in-network-switch-eVWWr6nmDf8) | Kirill Sh |
+| `content/guides/mid-split-vs-high-split/` | [Wooden utility pole with a transformer, street light and overhead lines against a blue sky](https://unsplash.com/photos/a-telephone-pole-with-a-sky-background-2OrOt0QyNDk) | Greg Rosenke |
+| `content/guides/asus-rt-be58u-vs-rt-be86u/` | [Rack-mounted MikroTik switch and routers with Ethernet patch cables (cropped to landscape)](https://unsplash.com/photos/Jth4utoCVNo) | Denny Bú |
 
 ## Adding a cover for a new post
 

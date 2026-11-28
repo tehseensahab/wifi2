@@ -1,0 +1,22 @@
+# Fact-check record: guides/asus-rt-be58u-vs-rt-be86u (2026-11-28)
+
+## Research log (claim | verbatim quote | source | geography | qualification)
+RT-BE58U, https://www.asus.com/ca-en/networking-iot-servers/wifi-7/all-series/rt-be58u/techspec/ (Canada, undated):
+- "BE3600 ultimate BE performance : 688+2882 Mbps" ; "WiFi 7 (802.11be) (5GHz): up to 2882 Mbps" ; "WiFi 7 (802.11be) (2.4GHz): up to 688 Mbps" ; "5GHz 2x2" ; "2.4GHz 2x2" ; Operating Frequency "5 GHz" "2.4 GHz" ; "20/40/80/160 MHz bandwidth" ; "2.0 GHz quad-core processor" ; "256 MB Flash" "1 GB RAM" ; "1x 2.5G for WAN/LAN," "1x 1G for WAN/LAN," "3 x 1G LAN," "USB 3.2 Gen 1 x 1" ; "External antenna x 4" ; "461g" ; "AiMesh, • Primary AiMesh Router, • AiMesh Node" ; "AiProtection, • Router Security Assessment, • Malicious Site Blocking, • Two-Way IPS, • Infected Device Prevention and Blocking" ; VPN "Instant Guard, VPN Client L2TP, VPN Client Open VPN, VPN Client PPTP, VPN Client WireGuard, VPN Server IPSec, VPN Server Open VPN, VPN Server PPTP, VPN Server WireGuard, VPN Fusion"
+RT-BE58U, https://www.asus.com/networking-iot-servers/wifi-7/all-series/rt-be58u/ (global):
+- "Multi-Link Operation (MLO) enables buffering-free connection by intelligently combining and switching between the 2.4 GHz and 5 GHz bands." ; "*Supported MLO modes and bands may vary by device." ; "Coverage up to 2,000 sq. ft." ; "WireGuard® (via Ethernet) Up to 300Mbps" ; "OpenVPN (via Ethernet) Up to 150Mbps" ; "ASUS Smart Home Master subnetwork management..." ; "...parental controls ..., all without subscriptions." ; "Convenient USB 4G LTE and 5G mobile tethering"
+RT-BE58U, B&H https://www.bhphotovideo.com/c/product/1859883-REG/asus_rt_be58u_wifi_7_aimesh.html (US, 2026-11-28): "In Stock" ; no router price in text ; "Up to 3570 Mb/s Throughput" ; "1x RJ45 2.5 GbE WAN", "4x RJ45 Gigabit Ethernet LAN" ; "1 GB" RAM ; "Quad-Core: Up to 2 GHz" ; "the BE3600 provides up to 2000 square feet of coverage"
+ASUS Canada eShop: "Part Number: 90IG0A70-MX1C00" and "Part Number: 90IG0910-MX1C00", both "Product Name: RT-BE58U"; spec lists differ only in beamforming lines and VPN Fusion listing. Price only in metadata (CAD 169.99), not used.
+RT-BE86U, https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-be86u/techspec (global):
+- "BE6800 ultimate BE performance : 1032+5764 Mbps" ; "5GHz 4x4" ; "2.4GHz 3x3" ; "20/40/80/160 MHz bandwidth" ; only 5 GHz and 2.4 GHz ; "2.6GHz quad-core processor" ; "256 MB Flash and 1 GB RAM" ; "1 x 10G for WAN/LAN, 1 x 2.5G for WAN/LAN, 3 x 2.5G for LAN, USB 3.2 Gen1 x1, USB 2.0 Gen1 x1" ; "External antenna x 3； Internal antenna x 1" ; "854 g" ; "AiMesh, • Primary AiMesh Router, • AiMesh Node" ; "AiProtection Pro, • Router Security Assessment, • Malicious Site Blocking, • Two-Way IPS, • Infected Device Prevention and Blocking" ; VPN list incl WireGuard client/server, VPN Fusion, Instant Guard, "Support Surfshark"
+RT-BE86U, https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-be86u (US):
+- "Support STR and EMLSR Modes" ; "Lag-free Dual-Band MLO" ; "One 2.5G LAN port is configured as a dedicated gaming port" ; "Coverage of up to 2,750 sq. ft." ; "WireGuard® (via Ethernet) Up to 300Mbps" ; "OpenVPN (via Ethernet) Up to 150Mbps" ; "convenient USB 4G LTE and 5G mobile tethering"
+Arithmetic: 688+2882=3570; 1032+5764=6796; 5764/2882=2.0.
+Prices: none published (no visible retailer price fetched).
+
+## Independent fact-check (separate subagent, 2026-11-28)
+- VERIFIED: title, description, all spec-table rows (re-fetched BE86U techspec incl. 235x90x316 mm, USB 3.2 Gen1 + USB 2.0; BE58U product page), arithmetic (3,570; 6,796; 2.0x), MLO statements, AiProtection vs Pro naming, VPN speeds, B&H in stock / no price, Canadian part numbers, FAQ 1-4.
+- QUALIFIED -> fixed: 2-2.5 Gbps gap closed in summary/lede/buy section; coverage no longer tied causally to streams; "stronger" -> "4x4"; "tri-band" -> "a Wi-Fi 7 router with a 6 GHz band"; Smart Home Master wording ("separate networks (SSIDs)"); VPN Fusion "listed on spec pages"; price sentence softened; B&H row narrowed; eShop sources added; source-region note now covers both models.
+- NOT VERIFIED -> fixed: "smaller" removed (no BE58U dimensions logged); "2.5G LAN ports run 10G devices at full speed" corrected to "up to 2.5 Gbps".
+- Note: cover photo shows MikroTik rack gear (no free unused router photo left on Unsplash); alt text names MikroTik so readers aren't misled.
+- Result: publish.

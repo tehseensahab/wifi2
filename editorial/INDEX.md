@@ -127,3 +127,5 @@ One row per post. Update with every daily run.
 | guides/nat-type-open-moderate-strict | NAT Type Open vs. Moderate vs. Strict: What It Means | 2026-11-26 | gaming-streaming, how-to-fixes | nat type open moderate strict |
 | guides/nintendo-switch-nat-type | Nintendo Switch NAT Type: What A, B, C, D and F Mean | 2026-11-27 | gaming-streaming, how-to-fixes | nintendo switch nat type |
 | guides/asus-rt-be86u-vs-rt-be88u | ASUS RT-BE86U vs RT-BE88U: Which Wi-Fi 7 Router? | 2026-11-27 | routers, wifi-6e-7 | asus rt-be86u vs rt-be88u |
+| guides/mid-split-vs-high-split | Mid-Split vs. High-Split: Cable Upload Upgrades Explained | 2026-11-28 | internet-plans-isps, how-to-fixes | mid-split vs high-split |
+| guides/asus-rt-be58u-vs-rt-be86u | ASUS RT-BE58U vs RT-BE86U: Which Wi-Fi 7 Router? | 2026-11-28 | routers, wifi-6e-7 | asus rt-be58u vs rt-be86u |
